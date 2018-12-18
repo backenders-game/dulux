@@ -56,47 +56,20 @@
             <div class="dropdown-header text-center">
               <strong>Account</strong>
             </div>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-bell"></i> Updates
-              <span class="badge badge-info">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-envelope"></i> Messages
-              <span class="badge badge-success">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-tasks"></i> Tasks
-              <span class="badge badge-danger">42</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-comments"></i> Comments
-              <span class="badge badge-warning">42</span>
-            </a>
-            <div class="dropdown-header text-center">
-              <strong>Settings</strong>
-            </div>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-user"></i> Profile
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-wrench"></i> Settings
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-file"></i> Projects
-              <span class="badge badge-primary">42</span>
-            </a>
             <div class="divider"></div>
             <a class="dropdown-item" href="{{ route('frontend.auth.logout') }}">
-                <i class="fas fa-lock"></i> @lang('navs.general.logout')
+                <i class="fas fa-lock"></i>&nbsp; @lang('navs.general.logout')
             </a>
           </div>
         </li>
     </ul>
+    <div class="d-md down-none" style="width: 25px;"></div>
+    <div class="d-lg none" style="width: 25px;"></div>
 
-    <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+<!--     <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
         <span class="navbar-toggler-icon"></span>
     </button>
     <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
         <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
 </header>
