@@ -21,6 +21,13 @@ mix.sass('resources/sass/frontend/app.scss', 'css/frontend.css')
         'resources/js/backend/app.js',
         'resources/js/backend/after.js'
     ], 'js/backend.js')
+    .scripts([
+        'node_modules/datatables.net/js/jquery.dataTables.js',
+        'node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js'
+    ], 'public/js/datatable.js')
+    .styles([
+        'node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css'
+    ], 'public/css/datatable.css')
     .extract([
         'jquery',
         'bootstrap',

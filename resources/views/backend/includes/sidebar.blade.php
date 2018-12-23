@@ -41,6 +41,15 @@
                         </li>
                     </ul>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ active_class(Active::checkUriPattern('admin/color-groups/*')) }}" href="{{ route('admin.auth.user.index') }}">
+                        <i class="nav-icon fas fa-user"></i>@lang('labels.backend.colorgroups.management')
+
+                        @if ($pending_approval > 0)
+                            <span class="badge badge-danger">{{ $pending_approval }}</span>
+                        @endif
+                    </a>
+                </li>
             @endif
 
             <li class="divider"></li>
