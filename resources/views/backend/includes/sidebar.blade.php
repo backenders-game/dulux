@@ -17,8 +17,7 @@
             @if ($logged_in_user->isAdmin())
                 <li class="nav-item nav-dropdown {{ active_class(Active::checkUriPattern('admin/auth*'), 'open') }}">
                     <a class="nav-link nav-dropdown-toggle" href="#">
-                        <i class="nav-icon fas fa-bolt"></i> @lang('menus.backend.access.title')
-
+                        <i class="nav-icon fas fa-shield-alt"></i> @lang('menus.backend.access.title')
                         @if ($pending_approval > 0)
                             <span class="badge badge-danger">{{ $pending_approval }}</span>
                         @endif
@@ -42,12 +41,13 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ active_class(Active::checkUriPattern('admin/color-groups/*')) }}" href="{{ route('admin.auth.user.index') }}">
-                        <i class="nav-icon fas fa-user"></i>@lang('labels.backend.colorgroups.management')
-
-                        @if ($pending_approval > 0)
-                            <span class="badge badge-danger">{{ $pending_approval }}</span>
-                        @endif
+                    <a class="nav-link {{ active_class(Active::checkUriPattern('admin/color-groups/*')) }}" href="{{ route('admin.color-groups.index') }}">
+                        <i class="nav-icon fas fa-palette"></i>@lang('labels.backend.colorgroups.management')
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ active_class(Active::checkUriPattern('admin/products/*')) }}" href="{{ route('admin.products.index') }}">
+                        <i class="nav-icon fas fa-paint-roller"></i>@lang('labels.backend.products.management')
                     </a>
                 </li>
             @endif

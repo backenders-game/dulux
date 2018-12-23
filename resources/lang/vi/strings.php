@@ -69,6 +69,11 @@ return [
             'index' => 'Danh sách các họ màu',
             'create' => 'Tạo họ màu mới',
             'edit' => 'Chính sửa tt họ màu'
+        ],
+        'products' => [
+            'index' => 'Danh sách sản phẩm',
+            'create' => 'Thêm sản phẩm mới',
+            'edit' => 'Chính sửa T.tin sản phẩm'
         ]
     ],
 

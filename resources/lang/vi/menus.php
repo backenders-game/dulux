@@ -49,6 +49,16 @@ return [
             'history'   => 'Lịch sử',
             'system'    => 'Hệ thống',
         ],
+        'colorgroups' => [
+            'main' => 'Q.Lý Họ các màu',
+            'all' => 'Danh sách các họ màu',
+            'create' => 'Thêm họ màu mới'
+        ],
+        'products' => [
+            'main' => 'Q.Lý sản phẩm',
+            'all' => 'Danh sách sản phẩm',
+            'create' => 'Thêm sản phẩm mới'
+        ]
     ],
 
     'language-picker' => [

@@ -10,3 +10,6 @@ Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard'
 
 Route::post('color-groups/get-for-datatable', 'ColorGroupController@getForDataTable')->name('color-groups.datatables');
 Route::resource('color-groups', 'ColorGroupController');
+
+Route::post('products/get-for-datatable', 'ProductController@getForDataTable')->name('products.datatables');
+Route::resource('products', 'ProductController');

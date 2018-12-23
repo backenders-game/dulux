@@ -21,7 +21,8 @@ class ColorGroupController extends Controller
 
     public function getForDataTable ()
     {
-        return DataTables::of(ColorGroup::query())->make(true);
+        return DataTables::of(ColorGroup::query())
+            ->addIndexColumn()->make(true);
     }
 
     /**

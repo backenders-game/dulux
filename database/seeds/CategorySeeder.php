@@ -12,11 +12,13 @@ class CategorySeeder extends Seeder
     public function run()
     {
     	Category::create([
-        	'name' => 'Sơn',
+            'name' => 'Sơn',
+            'img_path' => 'uploads/img/categories/dulux-son.jpg',
         	'type' => 0
         ]);
         Category::create([
-        	'name' => 'Các sản phẩm phụ trợ',
+            'name' => 'Sản phẩm phụ trợ',
+            'img_path' => 'uploads/img/categories/dulux_sp_phu_tro.png',
         	'type' => 0
         ]);
     }

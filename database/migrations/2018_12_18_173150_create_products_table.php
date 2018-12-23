@@ -16,6 +16,8 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 50); // ten sp
+            $table->unsignedInteger('category_id');
+            $table->string('img_path')->nullable();
             $table->string('description')->nullable(); // mo ta ngan ve sp
             $table->text('introduction')->nullable(); // gioi thieu san pham
             $table->text('user_manual')->nullable(); // huong dan su dung
@@ -25,8 +27,11 @@ class CreateProductsTable extends Migration
             $table->integer('coverage')->nullable(); // do bao phu
             $table->string('drying_time')->nullable(); // thoi gian kho
             $table->integer('num_layer')->nullable()->default(1); //  so lop
-            $table->timestamps(); 
+            $table->timestamps();
             $table->softDeletes();
+
+            $table->foreign('category_id')->references('id')->on('categories')
+                ->onDelete('cascade');
         });
     }
 

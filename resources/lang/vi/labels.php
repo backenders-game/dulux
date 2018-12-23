@@ -41,7 +41,7 @@ return [
             'roles' => [
                 'create'     => 'Tạo nhóm người dùng',
                 'edit'       => 'Chỉnh sửa nhóm',
-                'management' => 'Quản lý nhóm người dùng',
+                'management' => 'QL Nhóm người dùng',
 
                 'table' => [
                     'number_of_users' => 'Số tài khoản',
@@ -61,7 +61,7 @@ return [
                 'deactivated'         => 'Cấc tài khoản bị vô hiệu hóa',
                 'deleted'             => 'Những tài khoản đã bị xóa',
                 'edit'                => 'Chỉnh sửa tài khoản',
-                'management'          => 'Quản lý tài khoản',
+                'management'          => 'Q.Lý tài khoản',
                 'no_permissions'      => 'Không có quyền truy cập',
                 'no_roles'            => 'Không có nhóm người dùng.',
                 'permissions'         => 'Các quyền truy cập',
@@ -115,7 +115,7 @@ return [
             ],
         ],
         'colorgroups' => [
-            'management' => 'Quản lý nhóm màu',
+            'management' => 'QL các họ màu',
             'create' => 'Tạo nhóm màu',
             'table' => [
                 'no' => 'STT',
@@ -139,10 +139,17 @@ return [
             ]
         ],
         'products' => [
+            'management' => 'QL Sản phẩm',
+            'create' => 'Thêm Sản phẩm mới',
+            'edit' => 'Chỉnh sửa T.tin sản phẩm',
             'table' => [
+                'no' => 'STT',
                 'name' => 'Tên SP',
                 'properties' => 'Đặc tính',
-                'basic_info' => 'Thông tin chung'
+                'category' => 'Phân loại',
+                'basic_info' => 'Thông tin chung',
+                'created_at' => 'Ngày tạo',
+                'updated_at' => 'Ngày cập nhật'
             ]
         ]
     ],

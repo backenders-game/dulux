@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Backend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use DataTables;
+use App\Models\Product;
 
 class ProductController extends Controller
 {
@@ -14,7 +16,12 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        return view('backend.product.index');
+    }
+
+    public function getForDataTable () {
+        return DataTables::of(Product::query())
+            ->addIndexColumn()->make(true);
     }
 
     /**

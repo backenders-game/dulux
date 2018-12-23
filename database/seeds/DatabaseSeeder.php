@@ -23,6 +23,12 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call(AuthTableSeeder::class);
+        $this->call(CategorySeeder::class);
+        $this->call(ColorGroupSeeder::class);
+        $this->call(PropertySeeder::class);
+        $this->call(FinishSurfaceSeeder::class);
+        $this->call(SurfaceSeeder::class);
+        $this->call(ProjectTypeSeeder::class);
 
         Model::reguard();
     }
