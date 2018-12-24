@@ -144,6 +144,7 @@ return [
             'edit' => 'Chỉnh sửa T.tin sản phẩm',
             'table' => [
                 'no' => 'STT',
+                'image' => 'Hình SP',
                 'name' => 'Tên SP',
                 'properties' => 'Đặc tính',
                 'category' => 'Phân loại',

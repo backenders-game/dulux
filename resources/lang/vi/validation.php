@@ -185,6 +185,13 @@ return [
                     'language'                => 'Language',
                 ],
             ],
+            'products' => [
+                'name' => 'Tên SP',
+                'description' => 'Mô tả ngắn',
+                'user_manual' => 'Hướng dẫn sử dụng',
+                'construction_guide' => '',
+                'instroduction' => 'Giới thiệu sản phẩm'
+            ]
         ],
 
         'frontend' => [

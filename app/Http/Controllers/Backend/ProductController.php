@@ -6,9 +6,27 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use DataTables;
 use App\Models\Product;
-
+use App\Repositories\Backend\ProductRepository;
+use App\Repositories\Backend\CategoryRepository;
+use App\Repositories\Backend\PropertyRepository;
+use App\Repositories\Backend\ColorGroupRepository;
+use App\Repositories\Backend\ColorRepository;
 class ProductController extends Controller
 {
+    public function __construct(
+        ProductRepository $productRepository,
+        CategoryRepository $categoryRepository,
+        PropertyRepository $propertyRepository,
+        ColorGroupRepository $colorGroupRepository,
+        ColorRepository $colorRepository
+    )
+    {
+        $this->productRepository = $productRepository;
+        $this->categoryRepository = $categoryRepository;
+        $this->propertyRepository = $propertyRepository;
+        $this->colorGroupRepository = $colorGroupRepository;
+        $this->colorRepository = $colorRepository;
+    }
     /**
      * Display a listing of the resource.
      *
@@ -31,7 +49,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        $category = $this->categoryRepository->all();
+        return view('backend.product.create');
     }
 
     /**
