@@ -13,3 +13,5 @@ Route::resource('color-groups', 'ColorGroupController');
 
 Route::post('products/get-for-datatable', 'ProductController@getForDataTable')->name('products.datatables');
 Route::resource('products', 'ProductController');
+
+Route::resource('properties', 'PropertyController');

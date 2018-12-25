@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-    {{ html()->form('POST', route('admin.products.store'))->class('form form-vertical')->open() }}
+    {{ html()->form('POST', route('admin.products.store'))->class('form form-horizontal')->open() }}
         <div class="card">
             <div class="card-body">
                 <div class="row">

@@ -1,7 +1,16 @@
 <div class="form-group row">
-  {{ html()->label(__('validation.attributes.backend.products.properties'))
-      ->class('col-md-12 form-control-label')
-      ->for('properties') }}
+    <div class="row col-md-12">
+        {{ html()->label(__('validation.attributes.backend.products.properties'))
+            ->class('col-md-11 form-control-label')
+            ->for('properties') }}
+        <div class="col-md-1">
+            <button title="Thêm đặc tính mới" class="pull-right btn btn-default"
+                type="button" data-toggle="modal" data-target="#modalAdminAddProperty">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+        @include('backend.product.includes.modal_create_property')
+    </div>
 
       <div class="row col-md-12">
       @if(isset($properties))
@@ -20,7 +29,7 @@
         </div>
       @endfor
       @else
-        {{ 'Not have properties' }}
+        {{ 'Không có đặc tính nào' }}
       @endif
       </div><!--col-->
 </div><!--form-group-->
