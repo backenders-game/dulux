@@ -189,8 +189,16 @@ return [
                 'name' => 'Tên SP',
                 'description' => 'Mô tả ngắn',
                 'user_manual' => 'Hướng dẫn sử dụng',
-                'construction_guide' => '',
-                'instroduction' => 'Giới thiệu sản phẩm'
+                'construction_guide' => 'Hương dẫn thi công',
+                'introduction' => 'Giới thiệu sản phẩm',
+                'category' => "Phân loại",
+                'protection_info'=> 'Thông tin an toàn sức khỏe và môi trường',
+                'properties' => 'Đặc tính',
+                'drying_time' => 'Thời gian khô',
+                'coverage' => 'Độ bao phủ',
+                'num_layer' => 'Số lớp',
+                'finish_surface' => 'Bề mặt hoàn thiện',
+                'colors' => 'Màu sơn'
             ]
         ],
 

@@ -55,6 +55,7 @@
     }
   },
   "dependencies": {
+    "bootstrap-colorpicker": "^3.0.3",
     "datatables.net-bs4": "^1.10.19",
     "datatables.net-fixedheader-bs4": "^3.1.5",
     "datatables.net-responsive-bs4": "^2.2.3",

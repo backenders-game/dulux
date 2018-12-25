@@ -19,7 +19,7 @@
             </div><!--col-->
 
             <div class="col-sm-7">
-
+                @include('backend.product.includes.header-buttons')
             </div><!--col-->
         </div><!--row-->
 
@@ -50,14 +50,18 @@
 @endsection
 @push('after-scripts')
 {!! script(mix('js/datatable.js')) !!}
-<script>
+<script type="text/javascript">
 $(document).ready(function() {
     let url = "{{ route('admin.products.datatables') }}";
     let csrftoken = $('meta[name="csrf-token"]').attr('content');
     $('#backend_colorgroup_table').DataTable({
         serverSide: true,
         processing: true,
-        fixedHeader: true,
+        fixedHeader: {
+            header: true,
+            footer: true,
+            headerOffset: $('.app-header').outerHeight()
+        },
         pageLength: 10,
         ajax: {
             data: {

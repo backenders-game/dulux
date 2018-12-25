@@ -11,6 +11,7 @@ use App\Repositories\Backend\CategoryRepository;
 use App\Repositories\Backend\PropertyRepository;
 use App\Repositories\Backend\ColorGroupRepository;
 use App\Repositories\Backend\ColorRepository;
+use App\Repositories\Backend\FinishSurfaceRepository;
 class ProductController extends Controller
 {
     public function __construct(
@@ -18,7 +19,8 @@ class ProductController extends Controller
         CategoryRepository $categoryRepository,
         PropertyRepository $propertyRepository,
         ColorGroupRepository $colorGroupRepository,
-        ColorRepository $colorRepository
+        ColorRepository $colorRepository,
+        FinishSurfaceRepository $finishSurfaceRepository
     )
     {
         $this->productRepository = $productRepository;
@@ -26,6 +28,7 @@ class ProductController extends Controller
         $this->propertyRepository = $propertyRepository;
         $this->colorGroupRepository = $colorGroupRepository;
         $this->colorRepository = $colorRepository;
+        $this->finishSurfaceRepository = $finishSurfaceRepository;
     }
     /**
      * Display a listing of the resource.
@@ -49,8 +52,18 @@ class ProductController extends Controller
      */
     public function create()
     {
-        $category = $this->categoryRepository->all();
-        return view('backend.product.create');
+        $properties = $this->propertyRepository->all()->toArray();
+        $categories = $this->categoryRepository->all();
+        $finishSurfaces = $this->finishSurfaceRepository->all();
+        $colorGroups = $this->colorGroupRepository->all();
+        $colors = $this->colorRepository->all();
+        return view('backend.product.create', [
+            'properties' => $properties,
+            'categories' => $categories,
+            'finishSurfaces' => $finishSurfaces,
+            'colorGroups' => $colorGroups,
+            'colors' => $colors
+        ]);
     }
 
     /**

@@ -8,6 +8,7 @@ import swal from 'sweetalert2';
 import $ from 'jquery';
 import 'popper.js/dist/umd/popper'; // Required for BS4
 import 'bootstrap';
+import 'bootstrap-colorpicker';
 
 /**
  * Font Awesome >=5.1
@@ -33,7 +34,7 @@ dom.watch();
  * code may be modified to fit the specific needs of your application.
  */
 
-window.$ = window.jQuery = $;
+window.$ = window.jQuery = window.jquery = $;
 window.swal = swal;
 window._ = _; // Lodash
 

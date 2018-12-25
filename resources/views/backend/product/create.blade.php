@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-    {{ html()->form('POST', route('admin.products.store'))->class('form-horizontal')->open() }}
+    {{ html()->form('POST', route('admin.products.store'))->class('form form-vertical')->open() }}
         <div class="card">
             <div class="card-body">
                 <div class="row">
@@ -22,11 +22,12 @@
                 <hr>
 
                 <div class="row mt-4 mb-4">
-                    <div class="col">
+                    <div class="col-md-6">
                         <div class="form-group row">
-                            {{ html()->label(__('validation.attributes.backend.products.name'))->class('col-md-2 form-control-label')->for('first_name') }}
+                            {{ html()->label('<strong>' .__('validation.attributes.backend.products.name') . '</strong>')
+                                ->class('col-md-3 form-control-label')->for('name') }}
 
-                            <div class="col-md-10">
+                            <div class="col-md-9">
                                 {{ html()->text('name')
                                     ->class('form-control')
                                     ->placeholder(__('validation.attributes.backend.products.name'))
@@ -37,73 +38,144 @@
                         </div><!--form-group-->
 
                         <div class="form-group row">
-                        {{ html()->label(__('validation.attributes.backend.products.description'))->class('col-md-2 form-control-label')->for('last_name') }}
+                            {{ html()->label('<strong>' .__('validation.attributes.backend.products.category') . '</strong>')
+                                ->class('col-md-3 form-control-label')->for('category') }}
 
-                            <div class="col-md-10">
-                                {{ html()->text('description')
+                            <div class="col-md-9">
+                                <select class="form-control" name="category_id" value="">
+                                    @foreach($categories as $category)
+                                        <option value="{{ $category->id }}">{{ $category->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div><!--col-->
+                        </div><!--form-group-->
+
+                        <div class="form-group row">
+                        {{ html()->label('<strong>' .__('validation.attributes.backend.products.finish_surface') . '</strong>')
+                            ->class('col-md-3 form-control-label')
+                            ->for('finish_surface') }}
+
+                            <div class="col-md-9">
+                                <select class="form-control" name="finish_surface_id" value="">
+                                `   @foreach($finishSurfaces as $finishSurface)
+                                    <option value="{{ $finishSurface->id }}">{{ $finishSurface->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div><!--col-->
+                        </div><!--form-group-->
+
+                        <div class="form-group row">
+                        {{ html()->label('<strong>' .__('validation.attributes.backend.products.drying_time') . '</strong>')
+                            ->class('col-md-3 form-control-label')
+                            ->for('drying_time') }}
+
+                            <div class="col-md-9">
+                                {{ html()->text('drying_time')
+                                    ->class('form-control')
+                                    ->placeholder(__('validation.attributes.backend.products.drying_time'))
+                                    ->attribute('maxlength', 100) }}
+                            </div><!--col-->
+                        </div><!--form-group-->
+                        <div class="form-group row">
+                        {{ html()->label('<strong>' .__('validation.attributes.backend.products.coverage') . '</strong>')
+                            ->class('col-md-3 form-control-label')
+                            ->for('coverage') }}
+
+                            <div class="col-md-9">
+                                {{ html()->text('coverage')
+                                    ->class('form-control')
+                                    ->placeholder(__('validation.attributes.backend.products.coverage'))
+                                    ->attribute('max', 100)
+                                    ->attribute('min', 1)
+                                    ->attribute('type', 'number') }}
+                            </div><!--col-->
+                        </div><!--form-group-->
+
+                        <div class="form-group row">
+                        {{ html()->label('<strong>' . __('validation.attributes.backend.products.num_layer') . '</strong>')
+                            ->class('col-md-3 form-control-label')
+                            ->for('num_layer') }}
+
+                            <div class="col-md-9">
+                                {{ html()->text('num_layer')
+                                    ->class('form-control')
+                                    ->placeholder(__('validation.attributes.backend.products.num_layer'))
+                                    ->attribute('max', 100)
+                                    ->attribute('min', 1)
+                                    ->attribute('type', 'number') }}
+                            </div><!--col-->
+                        </div><!--form-group-->
+
+                        @include('backend.product.includes.list_properties', ['properties' => $properties])
+
+                    </div><!-- end-col-md-6 -->
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                        {{ html()->label('<strong>' .__('validation.attributes.backend.products.description') . '</strong>')
+                            ->class('col-md-12')->for('description') }}
+
+                            <div class="col-md-12">
+                                {{ html()->textarea('description')
                                     ->class('form-control')
                                     ->placeholder(__('validation.attributes.backend.products.description'))
-                                    ->attribute('maxlength', 191)
-                                    ->required() }}
+                                    ->attribute('maxlength', 200) }}
                             </div><!--col-->
                         </div><!--form-group-->
-
                         <div class="form-group row">
-                            {{ html()->label(__('validation.attributes.backend.access.users.email'))->class('col-md-2 form-control-label')->for('email') }}
+                            {{ html()->label('<strong>' .__('validation.attributes.backend.products.introduction') . '</strong>')
+                                ->class('col-md-12 form-control-label')->for('introduction') }}
 
-                            <div class="col-md-10">
-                                {{ html()->email('email')
+                            <div class="col-md-12">
+                                {{ html()->textarea('introduction')
                                     ->class('form-control')
-                                    ->placeholder(__('validation.attributes.backend.access.users.email'))
-                                    ->attribute('maxlength', 191)
-                                    ->required() }}
+                                    ->placeholder(__('validation.attributes.backend.products.introduction'))
+                                    ->attribute('maxlength', 2000)
+                                    ->attribute('rows', 5) }}
                             </div><!--col-->
                         </div><!--form-group-->
 
                         <div class="form-group row">
-                            {{ html()->label(__('validation.attributes.backend.access.users.password'))->class('col-md-2 form-control-label')->for('password') }}
+                            {{ html()->label('<strong>' . __('validation.attributes.backend.products.construction_guide') . '</strong>')
+                                ->class('col-md-12 form-control-label')->for('construction_guide') }}
 
-                            <div class="col-md-10">
-                                {{ html()->password('password')
+                            <div class="col-md-12">
+                                {{ html()->textarea('construction_guide')
                                     ->class('form-control')
-                                    ->placeholder(__('validation.attributes.backend.access.users.password'))
-                                    ->required() }}
+                                    ->placeholder(__('validation.attributes.backend.products.construction_guide'))
+                                    ->attribute('maxlength', 2000)
+                                    ->attribute('rows', 10) }}
                             </div><!--col-->
                         </div><!--form-group-->
 
                         <div class="form-group row">
-                            {{ html()->label(__('validation.attributes.backend.access.users.password_confirmation'))->class('col-md-2 form-control-label')->for('password_confirmation') }}
+                            {{ html()->label('<strong>' . __('validation.attributes.backend.products.user_manual') . '</strong>')
+                                ->class('col-md-12 form-control-label')
+                                ->for('user_manual') }}
 
-                            <div class="col-md-10">
-                                {{ html()->password('password_confirmation')
+                            <div class="col-md-12">
+                                {{ html()->textarea('user_manual')
                                     ->class('form-control')
-                                    ->placeholder(__('validation.attributes.backend.access.users.password_confirmation'))
-                                    ->required() }}
+                                    ->placeholder(__('validation.attributes.backend.products.user_manual'))
+                                    ->attribute('maxlength', 2000)
+                                    ->attribute('rows', 10) }}
                             </div><!--col-->
                         </div><!--form-group-->
 
                         <div class="form-group row">
-                            {{ html()->label(__('validation.attributes.backend.access.users.active'))->class('col-md-2 form-control-label')->for('active') }}
+                            {{ html()->label('<strong>' . __('validation.attributes.backend.products.protection_info') . '</strong>')
+                                ->class('col-md-12 form-control-label')
+                                ->for('protection_info') }}
 
-                            <div class="col-md-10">
-                                <label class="switch switch-label switch-pill switch-primary">
-                                    {{ html()->checkbox('active', true, '1')->class('switch-input') }}
-                                    <span class="switch-slider" data-checked="yes" data-unchecked="no"></span>
-                                </label>
+                            <div class="col-md-12">
+                                {{ html()->textarea('protection_info')
+                                    ->class('form-control')
+                                    ->placeholder(__('validation.attributes.backend.products.protection_info'))
+                                    ->attribute('maxlength', 2000)
+                                    ->attribute('rows', 10) }}
                             </div><!--col-->
                         </div><!--form-group-->
 
-                        <div class="form-group row">
-                            {{ html()->label(__('validation.attributes.backend.access.users.confirmed'))->class('col-md-2 form-control-label')->for('confirmed') }}
-
-                            <div class="col-md-10">
-                                <label class="switch switch-label switch-pill switch-primary">
-                                    {{ html()->checkbox('confirmed', true, '1')->class('switch-input') }}
-                                    <span class="switch-slider" data-checked="yes" data-unchecked="no"></span>
-                                </label>
-                            </div><!--col-->
-                        </div><!--form-group-->
-                    </div><!--col-->
+                    </div><!-- end-col-md-6 -->
                 </div><!--row-->
             </div><!--card-body-->
 

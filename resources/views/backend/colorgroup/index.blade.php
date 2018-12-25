@@ -56,7 +56,11 @@ $(document).ready(function() {
     $('#backend_colorgroup_table').DataTable({
         serverSide: true,
         processing: true,
-        fixedHeader: true,
+        fixedHeader: {
+            header: true,
+            footer: true,
+            headerOffset: $('.app-header').outerHeight()
+        },
         pageLength: 10,
         ajax: {
             data: {

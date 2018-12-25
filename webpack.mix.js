@@ -23,10 +23,19 @@ mix.sass('resources/sass/frontend/app.scss', 'css/frontend.css')
     ], 'js/backend.js')
     .scripts([
         'node_modules/datatables.net/js/jquery.dataTables.js',
-        'node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js'
+        'node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js',
+        'node_modules/datatables.net-fixedheader/js/dataTables.fixedHeader.js',
+        'node_modules/datatables.net-fixedheader-bs4/js/fixedHeader.bootstrap4.js'
+        // 'node_modules/datatables.net-responsive/js/dataTables.responsive.js',
+        // 'node_modules/datatables.net-responsive-bs4/js/responsive.bootstrap4.js',
+        // 'node_modules/datatables.net-scroller/js/dataTables.scroller.js',
+        // 'node_modules/datatables.net-scroller-bs4/js/scroller.bootstrap4.js'
     ], 'public/js/datatable.js')
     .styles([
-        'node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css'
+        'node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css',
+        'node_modules/datatables.net-fixedheader-bs4/css/fixedHeader.bootstrap4.css'
+        // 'node_modules/datatables.net-responsive-bs4/css/responsive.bootstrap4.css',
+        // 'node_modules/datatables.net-scroller-bs4/css/scroller.bootstrap4.css'
     ], 'public/css/datatable.css')
     .extract([
         'jquery',
