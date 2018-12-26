@@ -107,7 +107,7 @@
                         </div><!--form-group-->
 
                         @include('backend.product.includes.list_properties', ['properties' => $properties])
-
+                        @include('backend.product.includes.list_color_groups')
                     </div><!-- end-col-md-6 -->
                     <div class="col-md-6">
                         <div class="form-group row">
@@ -158,6 +158,7 @@
                                     ->placeholder(__('validation.attributes.backend.products.user_manual'))
                                     ->attribute('maxlength', 2000)
                                     ->attribute('rows', 10) }}
+                                
                             </div><!--col-->
                         </div><!--form-group-->
 
@@ -195,14 +196,40 @@
     @include('backend.product.includes.modal_create_property')
 @endsection
 @push('after-scripts')
+{{ script(asset('js/ckeditor/ckeditor.js')) }}
 <script type="text/javascript">
     $(document).ready(function () {
+        CKEDITOR.replace( 'user_manual' );
+        let csrftoken = $('meta[name="csrf-token"]').attr('content');
         $('#admin_btn_add_property').click(function () {
             let propertyName = $('#property_name_inp') ? $('#property_name_inp').val() : '';
             if (!propertyName || propertyName.length === 0) {
                 $('#property_name_error').html('Hãy nhập tên đặc tính');
             } else {
-
+                $.ajax({
+                    url: "{{ route('admin.properties.store')}}",
+                    type: 'POST',
+                    data: {
+                        name: propertyName,
+                        _token: csrftoken
+                    },
+                    success: function (response) {
+                        console.log('success ', response);
+                        $('#list_properties').append(`
+                            <div class="col-md-6">
+                                <div class="form-check checkbox">
+                                    <input name="properties[]" class="form-check-input" type="checkbox" value="${response.id}">
+                                    <label class="form-check-label" for="check1">${response.name}</label>
+                                </div>
+                            </div>
+                        `)
+                        $('#property_name_inp').val('');
+                        $('#modalAdminAddProperty').modal('hide');
+                    },
+                    error: function (error) {
+                        alert('Đã có lỗi xảy ra. Vui lòng thử lại!');
+                    }
+                });
             }
         });
     });

@@ -4,9 +4,14 @@ namespace App\Http\Controllers\Backend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Repositories\Backend\PropertyRepository;
+use Response;
 
 class PropertyController extends Controller
 {
+    public function __construct (PropertyRepository $propertyRepository) {
+        $this->propertyRepository = $propertyRepository;
+    }
     /**
      * Display a listing of the resource.
      *
@@ -35,7 +40,14 @@ class PropertyController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if ($request->ajax()) {
+            $inputs = $request->except(['_token', '_method']);
+            $property = $this->propertyRepository->create([
+                'name' => $inputs['name']
+            ]);
+
+            return Response::json($property);
+        }
     }
 
     /**
