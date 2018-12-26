@@ -152,6 +152,9 @@ return [
                 'created_at' => 'Ngày tạo',
                 'updated_at' => 'Ngày cập nhật'
             ]
+        ],
+        'properties' => [
+            'create' => 'Thêm đặc tính mới'
         ]
     ],
 

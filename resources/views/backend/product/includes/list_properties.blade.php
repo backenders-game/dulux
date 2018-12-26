@@ -9,7 +9,6 @@
                 <i class="fas fa-plus"></i>
             </button>
         </div>
-        @include('backend.product.includes.modal_create_property')
     </div>
 
       <div class="row col-md-12">

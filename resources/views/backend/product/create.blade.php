@@ -192,4 +192,19 @@
             </div><!--card-footer-->
         </div><!--card-->
     {{ html()->form()->close() }}
+    @include('backend.product.includes.modal_create_property')
 @endsection
+@push('after-scripts')
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#admin_btn_add_property').click(function () {
+            let propertyName = $('#property_name_inp') ? $('#property_name_inp').val() : '';
+            if (!propertyName || propertyName.length === 0) {
+                $('#property_name_error').html('Hãy nhập tên đặc tính');
+            } else {
+
+            }
+        });
+    });
+</script>
+@endpush

@@ -199,6 +199,9 @@ return [
                 'num_layer' => 'Số lớp',
                 'finish_surface' => 'Bề mặt hoàn thiện',
                 'colors' => 'Màu sơn'
+            ],
+            'properties' => [
+                'name' => 'Tên đặc tính'
             ]
         ],
 
