@@ -53,7 +53,7 @@ class ProductController extends Controller
     public function create()
     {
         $properties = $this->propertyRepository->all()->toArray();
-        $categories = $this->categoryRepository->all();
+        $categories = $this->categoryRepository->where('type', 0)->get();
         $finishSurfaces = $this->finishSurfaceRepository->all();
         $colorGroups = $this->colorGroupRepository->all();
         $colors = $this->colorRepository->all();

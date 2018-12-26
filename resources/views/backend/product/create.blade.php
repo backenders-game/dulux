@@ -7,7 +7,8 @@
 @endsection
 
 @section('content')
-    {{ html()->form('POST', route('admin.products.store'))->class('form form-horizontal')->open() }}
+    {{ html()->form('POST', route('admin.products.store')
+        )->class('form form-horizontal')->attribute('enctype', 'multipart/form-data')->open() }}
         <div class="card">
             <div class="card-body">
                 <div class="row">
@@ -106,13 +107,28 @@
                             </div><!--col-->
                         </div><!--form-group-->
 
-                        @include('backend.product.includes.list_properties', ['properties' => $properties])
-                        @include('backend.product.includes.list_color_groups')
                     </div><!-- end-col-md-6 -->
                     <div class="col-md-6">
                         <div class="form-group row">
-                        {{ html()->label('<strong>' .__('validation.attributes.backend.products.description') . '</strong>')
-                            ->class('col-md-12')->for('description') }}
+                        {{ html()->label('<strong>' .__('validation.attributes.backend.products.image') . '</strong>')
+                            ->class('col-md-12')->for('img_path') }}
+
+                            <div class="col-md-12">
+                                {{ html()->file('img_path')
+                                    ->id('img_path_inp')
+                                    ->class('form-control') }}
+                            </div><!--col-->
+                            <div class="col-md-12" style="text-align:center; height: 16em; margin-top: 1em;">
+                                <img style="width: 45%; max-height: 100%;" id="admin_img_product_preview" src="" alt="Ảnh sản phẩm" />
+                            </div>
+                        </div><!--form-group-->
+
+                    </div><!-- end-col-md-6 -->
+                    <div class="col-md-12">
+                        @include('backend.product.includes.list_properties', ['properties' => $properties])
+                        <div class="form-group row">
+                            {{ html()->label('<strong>' .__('validation.attributes.backend.products.description') . '</strong>')
+                                ->class('col-md-12')->for('description') }}
 
                             <div class="col-md-12">
                                 {{ html()->textarea('description')
@@ -121,6 +137,7 @@
                                     ->attribute('maxlength', 200) }}
                             </div><!--col-->
                         </div><!--form-group-->
+
                         <div class="form-group row">
                             {{ html()->label('<strong>' .__('validation.attributes.backend.products.introduction') . '</strong>')
                                 ->class('col-md-12 form-control-label')->for('introduction') }}
@@ -158,7 +175,7 @@
                                     ->placeholder(__('validation.attributes.backend.products.user_manual'))
                                     ->attribute('maxlength', 2000)
                                     ->attribute('rows', 10) }}
-                                
+
                             </div><!--col-->
                         </div><!--form-group-->
 
@@ -175,8 +192,10 @@
                                     ->attribute('rows', 10) }}
                             </div><!--col-->
                         </div><!--form-group-->
-
-                    </div><!-- end-col-md-6 -->
+                    </div><!-- end-col-12 -->
+                    <div class="col-md-12">
+                        @include('backend.product.includes.list_color_groups', ['colors' => $colors, 'colorGroups' => $colorGroups])
+                    </div><!-- end-col-12 -->
                 </div><!--row-->
             </div><!--card-body-->
 
@@ -198,9 +217,23 @@
 @push('after-scripts')
 {{ script(asset('js/ckeditor/ckeditor.js')) }}
 <script type="text/javascript">
+    function readLocalImgURL(input, imgId) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                $('#' + imgId).attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
     $(document).ready(function () {
         CKEDITOR.replace( 'user_manual' );
         let csrftoken = $('meta[name="csrf-token"]').attr('content');
+        $('#img_path_inp').on('change', function (e) {
+            readLocalImgURL(this, 'admin_img_product_preview');
+        })
         $('#admin_btn_add_property').click(function () {
             let propertyName = $('#property_name_inp') ? $('#property_name_inp').val() : '';
             if (!propertyName || propertyName.length === 0) {

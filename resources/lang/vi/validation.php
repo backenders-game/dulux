@@ -198,7 +198,8 @@ return [
                 'coverage' => 'Độ bao phủ',
                 'num_layer' => 'Số lớp',
                 'finish_surface' => 'Bề mặt hoàn thiện',
-                'colors' => 'Màu sơn'
+                'colors' => 'Màu sơn',
+                'image' => 'Ảnh sản phẩm',
             ],
             'properties' => [
                 'name' => 'Tên đặc tính'
