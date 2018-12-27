@@ -74,8 +74,12 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $inputs = $request->all();
-        dd($inputs);
+        try {
+            $inputs = $request->all();
+            dd($inputs);
+        } catch ($err) {
+
+        }
     }
 
     /**

@@ -7,4 +7,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class ColorGroup extends Model
 {
     use SoftDeletes;
+
+    protected $fillable = [
+        'name',
+        'basic_color',
+    ];
 }
