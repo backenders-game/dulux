@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Backend;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\Backend\ProductRequest;
 use App\Http\Controllers\Controller;
 use DataTables;
 use App\Models\Product;
+use Illuminate\Support\Facades\Storage;
 use App\Repositories\Backend\ProductRepository;
 use App\Repositories\Backend\CategoryRepository;
 use App\Repositories\Backend\PropertyRepository;
@@ -76,8 +78,12 @@ class ProductController extends Controller
     {
         try {
             $inputs = $request->all();
-            dd($inputs);
-        } catch ($err) {
+            if ($request->hasFile('img_path')) {
+                dd('has file');
+            } else {
+                dd('not have file');
+            }
+        } catch (\Error $err) {
 
         }
     }
