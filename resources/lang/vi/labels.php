@@ -127,6 +127,7 @@ return [
             ]
         ],
         'colors' => [
+            'create' => 'Thêm màu mới',
             'table' => [
                 'name' => 'Tên màu',
                 'color' => 'Hiển thị'

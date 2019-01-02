@@ -89,7 +89,7 @@ $(document).ready(function() {
         fnRowCallback: function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
             var index = iDisplayIndexFull +1;
             $('td:eq(0)',nRow).html(index);
-            $('td:eq(1)', nRow).html('<img style="width: 70px; height: 80px;" src="' + '{{asset("/storage") }}' + aData.img_path  + '">');
+            $('td:eq(1)', nRow).html('<img style="width: 70px; height: 80px;" src="' + '{{asset("/storage") }}/' + aData.img_path  + '">');
             $('td:eq(3)', nRow).html(`<ul style="padding-left: 5px !important;">
                 <li>Bề mặt hoàn thiện: </li>
                 <li>Độ bao phủ: ${aData.coverage} m2/L</li>

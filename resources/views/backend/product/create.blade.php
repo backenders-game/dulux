@@ -213,6 +213,7 @@
         </div><!--card-->
     {{ html()->form()->close() }}
     @include('backend.product.includes.modal_create_property')
+    @include('backend.product.includes.modal_create_color')
 @endsection
 @push('after-scripts')
 {{ script(asset('js/ckeditor/ckeditor.js')) }}
@@ -231,9 +232,11 @@
     $(document).ready(function () {
         CKEDITOR.replace( 'user_manual' );
         let csrftoken = $('meta[name="csrf-token"]').attr('content');
+        // =================== Display preview Image =======================================
         $('#img_path_inp').on('change', function (e) {
             readLocalImgURL(this, 'admin_img_product_preview');
-        })
+        });
+        // ===================================== Add Property ==============================
         $('#admin_btn_add_property').click(function () {
             let propertyName = $('#property_name_inp') ? $('#property_name_inp').val() : '';
             if (!propertyName || propertyName.length === 0) {
@@ -265,6 +268,52 @@
                 });
             }
         });
+
+        // ======================== Add Color ===================================
+        $('#admin_btn_add_color').click(function (e){
+            e.preventDefault();
+            let valueArray = $('#admin_form_add_color').serializeArray();
+            let values = {};
+            let regArrayField = /\[\]$/
+            valueArray.forEach((field) => {
+                let fieldName = field.name;
+                if (regArrayField.test(fieldName)) {
+                    fieldName = fieldName.replace(regArrayField, '');
+                    if (!values.hasOwnProperty(fieldName)) {
+                        values[fieldName] = [field.value];
+                    } else {
+                        values[fieldName].push(field.value);
+                    }
+                } else {
+                    values[fieldName] = field.value;
+                }
+            });
+            console.log('value', values);
+            let submitColorData = {
+                _token: csrftoken,
+                name: values.color_name || '',
+                color: values.color_color || '',
+                color_group_id: values.color_colorgroupid || 0,
+                is_deep_color: values.color_is_deep_color || 0,
+                mixed_by_computer: values.color_mixed_by_computer || 0,
+                surfaces: values.color_surfaces || [],
+                projectTypes: values.color_projecttypes || []
+            }
+
+            $.ajax({
+                url: "{{ route('admin.colors.store')}}",
+                type: 'POST',
+                data: submitColorData,
+                success: function(data) {
+                    console.log('add color successfully', data);
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            })
+        });
+
+
     });
 </script>
 @endpush

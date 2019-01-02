@@ -15,3 +15,4 @@ Route::post('products/get-for-datatable', 'ProductController@getForDataTable')->
 Route::resource('products', 'ProductController');
 
 Route::resource('properties', 'PropertyController');
+Route::resource('colors', 'ColorController');

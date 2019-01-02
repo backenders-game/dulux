@@ -203,6 +203,15 @@ return [
             ],
             'properties' => [
                 'name' => 'Tên đặc tính'
+            ],
+            'colors' => [
+                'name' => 'Tên màu',
+                'color' => 'Mã màu',
+                'is_deep_color' => 'Màu trầm',
+                'mixed_by_computer' => 'Màu trộn bởi máy tính',
+                'color_surfaces' => 'Bề mặt cần sơn',
+                'color_projecttypes' => 'Nơi cần sơn',
+                'colorgroup' => 'Họ màu',
             ]
         ],
 

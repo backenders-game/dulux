@@ -14,6 +14,9 @@ use App\Repositories\Backend\PropertyRepository;
 use App\Repositories\Backend\ColorGroupRepository;
 use App\Repositories\Backend\ColorRepository;
 use App\Repositories\Backend\FinishSurfaceRepository;
+use App\Repositories\Backend\SurfaceRepository;
+use App\Repositories\Backend\ProjectTypeRepository;
+
 class ProductController extends Controller
 {
     public function __construct(
@@ -22,7 +25,9 @@ class ProductController extends Controller
         PropertyRepository $propertyRepository,
         ColorGroupRepository $colorGroupRepository,
         ColorRepository $colorRepository,
-        FinishSurfaceRepository $finishSurfaceRepository
+        FinishSurfaceRepository $finishSurfaceRepository,
+        SurfaceRepository $surfaceRepository,
+        ProjectTypeRepository $projectTypeRepository
     )
     {
         $this->productRepository = $productRepository;
@@ -31,6 +36,8 @@ class ProductController extends Controller
         $this->colorGroupRepository = $colorGroupRepository;
         $this->colorRepository = $colorRepository;
         $this->finishSurfaceRepository = $finishSurfaceRepository;
+        $this->surfaceRepository = $surfaceRepository;
+        $this->projectTypeRepository = $projectTypeRepository;
     }
     /**
      * Display a listing of the resource.
@@ -58,13 +65,17 @@ class ProductController extends Controller
         $categories = $this->categoryRepository->where('type', 0)->get();
         $finishSurfaces = $this->finishSurfaceRepository->all();
         $colorGroups = $this->colorGroupRepository->all();
+        $surfaces = $this->surfaceRepository->all();
+        $projectTypes = $this->projectTypeRepository->all();
         $colors = $this->colorRepository->all();
         return view('backend.product.create', [
             'properties' => $properties,
             'categories' => $categories,
             'finishSurfaces' => $finishSurfaces,
             'colorGroups' => $colorGroups,
-            'colors' => $colors
+            'colors' => $colors,
+            'surfaces' => $surfaces,
+            'projectTypes' => $projectTypes
         ]);
     }
 
@@ -74,17 +85,40 @@ class ProductController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ProductRequest $request)
     {
         try {
             $inputs = $request->all();
+            $productData = [
+                'name' => $inputs['name'],
+                'img_path' => null,
+                'category_id' => $inputs['category_id'],
+                'description' => $inputs['description'],
+                'finish_surface_id' => $inputs['finish_surface_id'],
+                'drying_time' => $inputs['drying_time'],
+                'coverage' => $inputs['coverage'],
+                'num_layer' => $inputs['num_layer'],
+                'user_manual' => $inputs['user_manual'],
+                'introduction' => $inputs['introduction'],
+                'construction_guide' => $inputs['construction_guide'],
+                'protection_info' => $inputs['protection_info']
+            ];
             if ($request->hasFile('img_path')) {
-                dd('has file');
-            } else {
-                dd('not have file');
+                $imgPath = $request->file('img_path')->store('uploads/img/products');
+                if ($imgPath) {
+                    $productData['img_path'] = $imgPath;
+                }
             }
-        } catch (\Error $err) {
+            $product = $this->productRepository->create($productData);
+            if ($product) {
+                $product->properties()->sync($inputs['properties']);
+                // $products->colors()->sync($inputs['colors']);
+            }
 
+            return redirect()->route('admin.products.index');
+        } catch (\Exception $e) {
+            var_dump($e);
+            return redirect()->back();
         }
     }
 

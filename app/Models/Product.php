@@ -20,4 +20,12 @@ class Product extends Model
         'protection_info',
         'introduction',
     ];
+
+    public function properties () {
+        return $this->belongsToMany('App\Models\Property', 'product_properties', 'product_id', 'property_id');
+    }
+
+    public function colors () {
+        return $this->belongsToMany('App\Models\Color', 'product_colors', 'product_id', 'color_id');
+    }
 }

@@ -1,8 +1,7 @@
 <div class="form-group row">
     <div class="row col-md-12">
         {{ html()->label(__('validation.attributes.backend.products.properties'))
-            ->class('col-md-11 form-control-label')
-            ->for('properties') }}
+            ->class('col-md-11 form-control-label') }}
         <div class="col-md-1 pull-right">
             <button title="Thêm đặc tính mới" class="btn btn-default"
                 type="button" data-toggle="modal" data-target="#modalAdminAddProperty">
@@ -16,8 +15,11 @@
         @for($i = 0; $i < count($properties); $i++)
         <div class="col-md-3">
           <div class="form-check checkbox">
-            <input name="properties[]" class="form-check-input" type="checkbox" value="{{ $properties[$i]['id'] }}">
-            <label class="form-check-label" for="check1">{{ $properties[$i]['name'] }}</label>
+            <label class="form-check-label" for="checkbox_prop_{{$properties[$i]['id']}}">
+                <input id="checkbox_prop_{{$properties[$i]['id']}}" name="properties[]" class="form-check-input"
+                    type="checkbox" value="{{ $properties[$i]['id'] }}">
+                    {{ $properties[$i]['name'] }}
+            </label>
           </div>
         </div>
         @endfor

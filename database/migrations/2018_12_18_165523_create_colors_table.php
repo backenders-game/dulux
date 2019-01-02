@@ -18,6 +18,7 @@ class CreateColorsTable extends Migration
             $table->string('name', 30);
             $table->string('color', 20);
             $table->unsignedInteger('color_group_id');
+            $table->tinyInteger('is_popular')->nullable()->default(0);
             $table->tinyInteger('mixed_by_computer')->nullable()->default(0);
             $table->tinyInteger('is_deep_color')->nullable()->default(0);
             $table->timestamps();
