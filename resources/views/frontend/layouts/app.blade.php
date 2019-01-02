@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage | Dulux</title>
   @include('frontend.includes.partials.fontendCss')
+  @yield('cssPage')
 </head>
 <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2 node-type-panopoly-landing-page panopoly-landing-page region-content i18n-vi fl-vi front fl-avndlx" >
   <!-- 1.Header -->
@@ -16,6 +17,7 @@
   @include('frontend.includes.footer')
   <!-- JS at footer start-->
   @include('frontend.includes.partials.fontendJS')
+  @yield('jsPage')
   <!-- Core footer JS END-->
 </body>
 </html>

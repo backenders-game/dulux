@@ -1,8 +1,14 @@
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/advagg_css1.css') }}" />
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/fonts_googleapis.css') }}" />
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/advagg_css2.css') }}" />
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/advagg_css3.css') }}" />
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/advagg_css4.css') }}" />
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/advagg_css5.css') }}" />
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/advagg_css6.css') }}" />
-<link rel="stylesheet" href="{{ URL::asset('css/frontend/advagg_css7.css') }}" />
+<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__LS73L6Mz0k0xLcQFoebNUa0lfGrtuhZ7qp2Zch9Z1Yw__FLeU_hfb4JXR-bXmQKc7A2Sd4SooIczvFtU59A-gLuU__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__BUKp1YBkiJCiTzrHIrRo6368Wj_UdH1gGLNe8fVvkOo__1TLAuKAa8WpvOLIVsaqUJ3C9fAG0bfQMThvr2o0jbw4__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__Dzaf0U5ip5vc9JqcEko9Xu6OGopccClFn6T14epBOhg__d-hSiSUl7KMhpkIqy1lRJl3NgbGB9iJLz7hqcWAHRiY__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__kYRNzFNl5MS_zcCiEclweNIx86XfVjECP3DI6mZA7jY__Sd68VNOVENDwzRktmw7HEgutFscDJ6dykYL9uQ4-nI4__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__VQbnJCr9ZUrtXUE2H8HPvCoJcRiVMDANLejqyAVpM0I__2uJ91tDQBoQZaWq7J73M-LNK8zVTE29F9ep0QvAqbzo__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__aD3_gSmd5qRTY-WWrYHU87zl4PZUZDXoJLzJOWg9HSI__nhmRN7kiSHUfoKZw3CGJcdKgizAi7XejBBhN9xlHrXI__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
+<style type="text/css" media="all">
+/* <![CDATA[ */
+#sliding-popup.sliding-popup-bottom,#sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#0779BF;}#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,.eu-cookie-compliance-more-button,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#ffffff !important;}.eu-cookie-withdraw-tab{border-color:#ffffff;}
+
+/* ]]> */
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__VFWvYqJ794YCTf-V46giCLDnoJXJL9Ij79JoK8AtiNI__cc3X63d7_sHVfHiwuocz1yVxsajcbPDtDoN-LimboUo__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
