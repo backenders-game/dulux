@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\Backend\ProductRequest;
 use App\Http\Controllers\Controller;
 use DataTables;
+use DB;
 use App\Models\Product;
 use Illuminate\Support\Facades\Storage;
 use App\Repositories\Backend\ProductRepository;
@@ -89,6 +90,7 @@ class ProductController extends Controller
     {
         try {
             $inputs = $request->all();
+            DB::beginTransaction();
             $productData = [
                 'name' => $inputs['name'],
                 'img_path' => null,
@@ -114,10 +116,10 @@ class ProductController extends Controller
                 $product->properties()->sync($inputs['properties']);
                 // $products->colors()->sync($inputs['colors']);
             }
-
+            DB::commit();
             return redirect()->route('admin.products.index');
         } catch (\Exception $e) {
-            var_dump($e);
+            DB::rollBack();
             return redirect()->back();
         }
     }
@@ -141,7 +143,40 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        //
+        try {
+            $product = $this->productRepository->where('id', $id)->with('properties', 'colors')
+                ->first();
+            if ($product) {
+                $productProperties = [];
+                // foreach($product->properties as $prop) {
+                //     $categoriesproductProperties[] = $prop->id;
+                // }
+                $properties = $this->propertyRepository->all()->toArray();
+                $categories = $this->categoryRepository->where('type', 0)->get();
+                $finishSurfaces = $this->finishSurfaceRepository->all();
+                $colorGroups = $this->colorGroupRepository->all();
+                $surfaces = $this->surfaceRepository->all();
+                $projectTypes = $this->projectTypeRepository->all();
+                $colors = $this->colorRepository->all();
+                return view('backend.product.edit', [
+                    'properties' => $properties,
+                    'categories' => $categories,
+                    'finishSurfaces' => $finishSurfaces,
+                    'colorGroups' => $colorGroups,
+                    'colors' => $colors,
+                    'surfaces' => $surfaces,
+                    'projectTypes' => $projectTypes,
+                    'product' => $product,
+                    'productProperties' => $productProperties
+                ]);
+            } else {
+                dd('NOT found');
+                // abort(404);
+            }
+
+        } catch (\Exception $e) {
+            dd($e);
+        }
     }
 
     /**

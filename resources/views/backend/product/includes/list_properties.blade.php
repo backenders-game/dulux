@@ -17,7 +17,9 @@
           <div class="form-check checkbox">
             <label class="form-check-label" for="checkbox_prop_{{$properties[$i]['id']}}">
                 <input id="checkbox_prop_{{$properties[$i]['id']}}" name="properties[]" class="form-check-input"
-                    type="checkbox" value="{{ $properties[$i]['id'] }}">
+                    type="checkbox" value="{{ $properties[$i]['id'] }}"
+
+                    >
                     {{ $properties[$i]['name'] }}
             </label>
           </div>

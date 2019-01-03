@@ -14,10 +14,8 @@ class CreateColorProjecttypesTable extends Migration
     public function up()
     {
         Schema::create('color_projecttypes', function (Blueprint $table) {
-            $table->increments('id');
             $table->unsignedInteger('color_id');
             $table->unsignedInteger('project_type_id');
-            $table->timestamps();
 
             $table->foreign('color_id')->references('id')->on('colors')
                 ->onDelete('cascade');

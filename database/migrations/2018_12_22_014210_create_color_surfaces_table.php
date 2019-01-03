@@ -14,10 +14,8 @@ class CreateColorSurfacesTable extends Migration
     public function up()
     {
         Schema::create('color_surfaces', function (Blueprint $table) {
-            $table->increments('id');
             $table->unsignedInteger('color_id');
             $table->unsignedInteger('surface_id');
-            $table->timestamps();
 
             $table->foreign('color_id')->references('id')->on('colors')
                 ->onDelete('cascade');

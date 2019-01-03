@@ -17,6 +17,12 @@ Breadcrumbs::for('admin.products.index', function ($trail) {
 Breadcrumbs::for('admin.products.create', function ($trail) {
     $trail->push(__('strings.backend.products.create'), route('admin.products.create'));
 });
+Breadcrumbs::for('admin.products.edit', function ($trail, $id) {
+    $trail->push(__('strings.backend.products.edit'), route('admin.products.edit', $id));
+});
+Breadcrumbs::for('admin.products.update', function ($trail, $id) {
+    $trail->push(__('strings.backend.products.update'), route('admin.products.update', $id));
+});
 
 require __DIR__.'/auth.php';
 require __DIR__.'/log-viewer.php';
