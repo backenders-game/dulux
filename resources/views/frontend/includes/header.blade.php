@@ -27,17 +27,17 @@
                 </div>
               </div>
               <div class="brand-logo focus-outline">
-                <a class="brand-logo__link" href="https://www.dulux.vn/vi" title="Trở về trang chủ" tabindex="2">
+                <a class="brand-logo__link" href="{{route('frontend.home')}}" title="Trở về trang chủ" tabindex="2">
                 <img class="brand-logo__img focus-outline" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/logos/avndlx/logo_2x.png" alt="">
                 </a>
               </div>
               <nav class="main-nav">
                 <ul class="menu nav navbar-nav">
-                  <li class="first leaf header__main-nav-item"><a href="/vi/mau-sac-bang-mau" title="Tìm màu sắc" class="m-color header__main-nav-link clear-filter" tabindex="3">Tìm màu sắc</a></li>
-                  <li class="leaf header__main-nav-item"><a href="/vi/san-pham" title="Chọn sản phẩm" class="m-products header__main-nav-link clear-filter" tabindex="4">Chọn sản phẩm</a></li>
-                  <li class="leaf header__main-nav-item"><a href="/vi/y-tuong" title="Ý tưởng" class="m-inspiration header__main-nav-link clear-filter" tabindex="5">Ý tưởng</a></li>
-                  <li class="leaf header__main-nav-item"><a href="/vi/meo-va-loi-khuyen-trang-tri-nha" title="Trợ giúp từ Chuyên gia" class="m-tips header__main-nav-link clear-filter" tabindex="6">Trợ giúp từ chuyên gia</a></li>
-                  <li class="leaf header__main-nav-item hide-in-sitemap hide-in-sitemap m-store-item"><a href="/vi/storefinder" title="Find a store" class="m-store header__main-nav-link clear-filter" tabindex="7">Tìm một cửa hàng</a></li>
+                  <li class="first leaf header__main-nav-item"><a href="{{route('frontend.mau_sac_bang_mau')}}" title="Tìm màu sắc" class="m-color header__main-nav-link clear-filter" tabindex="3">Tìm màu sắc</a></li>
+                  <li class="leaf header__main-nav-item"><a href="{{route('frontend.san_pham')}}" title="Chọn sản phẩm" class="m-products header__main-nav-link clear-filter" tabindex="4">Chọn sản phẩm</a></li>
+                  <li class="leaf header__main-nav-item"><a href="{{route('frontend.y_tuong')}}" title="Ý tưởng" class="m-inspiration header__main-nav-link clear-filter" tabindex="5">Ý tưởng</a></li>
+                  <li class="leaf header__main-nav-item"><a href="{{route('frontend.loi_khuyen')}}" title="Trợ giúp từ Chuyên gia" class="m-tips header__main-nav-link clear-filter" tabindex="6">Trợ giúp từ chuyên gia</a></li>
+                  <li class="leaf header__main-nav-item hide-in-sitemap hide-in-sitemap m-store-item"><a href="{{route('frontend.storefinder')}}" title="Find a store" class="m-store header__main-nav-link clear-filter" tabindex="7">Tìm một cửa hàng</a></li>
                   <li class="last leaf  hide-in-sitemap hide-in-sitemap m-scrapbook-item header__main-nav-item"><a href="/vi/so-tay" title="Ghi chú của Tôi" class="m-scrapbook visible-xs-block hide-in-sitemap hide-in-sitemap header__main-nav-link clear-filter">Ghi chú của tôi</a></li>
                 </ul>
               </nav>

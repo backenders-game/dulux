@@ -1,4 +1,4 @@
-@extends('frontend.layouts.app')
+@extends('frontend.layouts.frontend')
 
 @section('title', app_name() . ' | ' . __('navs.general.home'))
 @section('cssPage')
