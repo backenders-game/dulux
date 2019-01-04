@@ -23,7 +23,7 @@
                 <hr>
 
                 <div class="row mt-4 mb-4">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' .__('validation.attributes.backend.products.name') . '</strong>')
                                 ->class('col-md-3 form-control-label')->for('name') }}
@@ -108,7 +108,7 @@
                         </div><!--form-group-->
 
                     </div><!-- end-col-md-6 -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="form-group row">
                         {{ html()->label('<strong>' .__('validation.attributes.backend.products.image') . '</strong>')
                             ->class('col-md-12')->for('img_path') }}
@@ -124,8 +124,10 @@
                         </div><!--form-group-->
 
                     </div><!-- end-col-md-6 -->
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-sm-12">
                         @include('backend.product.includes.list_properties', ['properties' => $properties])
+                    </div>
+                    <div class="col-md-6 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' .__('validation.attributes.backend.products.description') . '</strong>')
                                 ->class('col-md-12')->for('description') }}
@@ -134,7 +136,8 @@
                                 {{ html()->textarea('description')
                                     ->class('form-control')
                                     ->placeholder(__('validation.attributes.backend.products.description'))
-                                    ->attribute('maxlength', 200) }}
+                                    ->attribute('maxlength', 200)
+                                    ->attribute('rows', 2) }}
                             </div><!--col-->
                         </div><!--form-group-->
 
@@ -150,7 +153,8 @@
                                     ->attribute('rows', 5) }}
                             </div><!--col-->
                         </div><!--form-group-->
-
+                    </div>
+                    <div class="col-md-6 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' . __('validation.attributes.backend.products.construction_guide') . '</strong>')
                                 ->class('col-md-12 form-control-label')->for('construction_guide') }}
@@ -160,10 +164,11 @@
                                     ->class('form-control')
                                     ->placeholder(__('validation.attributes.backend.products.construction_guide'))
                                     ->attribute('maxlength', 2000)
-                                    ->attribute('rows', 10) }}
+                                    ->attribute('rows', 11) }}
                             </div><!--col-->
                         </div><!--form-group-->
-
+                    </div>
+                    <div class="col-md-7 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' . __('validation.attributes.backend.products.user_manual') . '</strong>')
                                 ->class('col-md-12 form-control-label')
@@ -178,7 +183,8 @@
 
                             </div><!--col-->
                         </div><!--form-group-->
-
+                    </div>
+                    <div class="col-md-5 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' . __('validation.attributes.backend.products.protection_info') . '</strong>')
                                 ->class('col-md-12 form-control-label')
@@ -189,13 +195,18 @@
                                     ->class('form-control')
                                     ->placeholder(__('validation.attributes.backend.products.protection_info'))
                                     ->attribute('maxlength', 2000)
-                                    ->attribute('rows', 10) }}
+                                    ->attribute('rows', 15) }}
                             </div><!--col-->
                         </div><!--form-group-->
                     </div><!-- end-col-12 -->
                     <div class="col-md-12">
-                        @include('backend.product.includes.list_color_groups', ['colors' => $colors, 'colorGroups' => $colorGroups])
+
                     </div><!-- end-col-12 -->
+
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <button type="button" data-toggle="modal" data-target="#modalAdminSelectColor"
+                            class="btn btn-primary" id="btn_choose_color">Chọn màu</button>
+                    </div>
                 </div><!--row-->
             </div><!--card-body-->
 
@@ -214,6 +225,7 @@
     {{ html()->form()->close() }}
     @include('backend.product.includes.modal_create_property')
     @include('backend.product.includes.modal_create_color')
+    @include('backend.product.includes.modal_select_color')
 @endsection
 @push('after-scripts')
 {{ script(asset('js/ckeditor/ckeditor.js')) }}
@@ -312,7 +324,16 @@
                 }
             })
         });
-
+        // ====================================== Select Color ===========================
+        $('.color-item').on('change', function (e) {
+            $(this).find('svg').toggleClass('fa-check');
+            let dataIcon = $(this).find('svg').data('icon');
+            if (!dataIcon) {
+                $(this).find('svg').attr('data-icon', 'ckeck');
+            } else {
+                $(this).find('svg').attr('data-icon', null)
+            }
+        });
 
     });
 </script>

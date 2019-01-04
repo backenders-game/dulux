@@ -41,7 +41,7 @@ return [
     'general' => [
         'cancel' => 'Hủy',
         'continue' => 'Tiếp tục',
-
+        'choose_and_continue' => 'Chọn và tiếp tục',
         'crud' => [
             'create' => 'Tạo mới',
             'delete' => 'Xóa',

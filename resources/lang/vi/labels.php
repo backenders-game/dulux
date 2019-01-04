@@ -128,6 +128,7 @@ return [
         ],
         'colors' => [
             'create' => 'Thêm màu mới',
+            'chooser_grid' => 'Bảng chọn màu',
             'table' => [
                 'name' => 'Tên màu',
                 'color' => 'Hiển thị'

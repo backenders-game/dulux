@@ -34,8 +34,8 @@
 
                     <div class="col-md-9">
                         {{ html()->text('color_color')
-                            ->class('form-control')
                             ->id('color_color_inp')
+                            ->type('color')
                             ->placeholder(__('validation.attributes.backend.colors.color'))
                             ->attribute('maxlength', 501)
                             ->required() }}
