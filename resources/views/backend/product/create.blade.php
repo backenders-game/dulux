@@ -199,11 +199,12 @@
                             </div><!--col-->
                         </div><!--form-group-->
                     </div><!-- end-col-12 -->
-                    <div class="col-md-12">
-
-                    </div><!-- end-col-12 -->
+                    <div class="col-md-12 col-sm-12">
+                        <h4 id="num_selected_colors"></h4>
+                    </div>
 
                     <div class="col-md-12 d-flex justify-content-center">
+                        <input id="list_selected_colors" name="colors" type="hidden" value="" />
                         <button type="button" data-toggle="modal" data-target="#modalAdminSelectColor"
                             class="btn btn-primary" id="btn_choose_color">Chọn màu</button>
                     </div>
@@ -248,6 +249,29 @@
         $('#img_path_inp').on('change', function (e) {
             readLocalImgURL(this, 'admin_img_product_preview');
         });
+        var selectedColors = [];
+        $('.color-item:checked').each((idx, item) => {
+            let selectedValue = $(item).val();
+            console.log('item', selectedValue);
+            if (!selectedColors.includes(selectedValue)) {
+                selectedColors.push(selectedValue);
+            }
+        });
+
+        if (selectedColors.length) {
+            $('#num_selected_colors').html('Có ' + selectedColors.length + ' màu đã được chọn.')
+        } else {
+            $('#num_selected_colors').html('Không có màu nào được chọn');
+        }
+        let selectedColorGroup = $('#select_colorgroup').val();
+        if (selectedColorGroup) {
+            let sltcolorGroupGrid = $('.color_group_grid_' + selectedColorGroup);
+            if (sltcolorGroupGrid) {
+                $(sltcolorGroupGrid).removeClass('d-none');
+            }
+        }
+
+        $('#list_selected_colors').val(selectedColors.toString());
         // ===================================== Add Property ==============================
         $('#admin_btn_add_property').click(function () {
             let propertyName = $('#property_name_inp') ? $('#property_name_inp').val() : '';
@@ -325,16 +349,38 @@
             })
         });
         // ====================================== Select Color ===========================
-        $('.color-item').on('change', function (e) {
-            $(this).find('svg').toggleClass('fa-check');
-            let dataIcon = $(this).find('svg').data('icon');
-            if (!dataIcon) {
-                $(this).find('svg').attr('data-icon', 'ckeck');
-            } else {
-                $(this).find('svg').attr('data-icon', null)
+        // Chọn select box nhóm màu.
+        $('#select_colorgroup').on('change', function (e) {
+            let selectedGroupId = e.target.value;
+            $('.color_group_grid').addClass('d-none');
+            if (selectedGroupId) {
+                let colorGroupGrid = $('.color_group_grid_' + selectedGroupId);
+                if (colorGroupGrid) {
+                    $(colorGroupGrid).removeClass('d-none');
+                }
             }
         });
-
+        $('.color-item').on('change', function (e) {
+            let isChecked = $(this).is(':checked');
+            if (isChecked) {
+                let checkValue = $(this).val();
+                if (!selectedColors.includes(checkValue)) {
+                    selectedColors.push(checkValue);
+                }
+            } else {
+                let uncheckValue = $(this).val();
+                if (selectedColors.includes(uncheckValue)) {
+                    let index = selectedColors.indexOf(uncheckValue);
+                    selectedColors.splice(index, 1);
+                }
+            }
+            $('#list_selected_colors').val(selectedColors.toString());
+            if (selectedColors.length) {
+                $('#num_selected_colors').html('Có ' + selectedColors.length + ' màu đã được chọn.')
+            } else {
+                $('#num_selected_colors').html('Không có màu nào được chọn');
+            }
+        });
     });
 </script>
 @endpush

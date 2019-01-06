@@ -21,7 +21,7 @@ use App\Http\Controllers\Frontend\User\DashboardController;
 Route::get('contact', [ContactController::class, 'index'])->name('contact');
 Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/mau-sac-bang-mau', [FindColorController::class, 'index'])->name('mau_sac_bang_mau');
 Route::get('/san-pham', [ProductController::class, 'index'])->name('san_pham');
 Route::get('/y-tuong', [IdeaController::class, 'index'])->name('y_tuong');
