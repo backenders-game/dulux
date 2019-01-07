@@ -2150,7 +2150,7 @@ class ColorWhiteSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2160,7 +2160,7 @@ class ColorWhiteSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2170,7 +2170,7 @@ class ColorWhiteSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2190,7 +2190,7 @@ class ColorWhiteSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2200,7 +2200,7 @@ class ColorWhiteSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
         ];

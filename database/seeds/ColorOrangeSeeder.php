@@ -3848,8 +3848,9 @@ class ColorOrangeSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "75056",
@@ -3878,7 +3879,7 @@ class ColorOrangeSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [

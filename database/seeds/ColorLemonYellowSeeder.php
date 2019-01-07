@@ -2067,8 +2067,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 2,],
-                'projectTypes' => [
-        ],
+                'projectTypes' => []
             ],
         ];
 

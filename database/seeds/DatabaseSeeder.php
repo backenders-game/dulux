@@ -29,7 +29,18 @@ class DatabaseSeeder extends Seeder
         $this->call(FinishSurfaceSeeder::class);
         $this->call(SurfaceSeeder::class);
         $this->call(ProjectTypeSeeder::class);
-
+        // $this->call(ColorWhiteSeeder::class);
+        // $this->call(ColorRedSeeder::class);
+        // $this->call(ColorOrangeSeeder::class);
+        // $this->call(ColorGoldenSeeder::class);
+        // $this->call(ColorYellowSeeder::class);
+        // $this->call(ColorLemonYellowSeeder::class);
+        // $this->call(ColorGreenSeeder::class);
+        // $this->call(ColorTealGreenSeeder::class);
+        // $this->call(ColorBlueSeeder::class);
+        // $this->call(ColorVioletBlueSeeder::class);
+        // $this->call(ColorNaturalSeeder::class);
+        // $this->call(ColorLandSeeder::class);
         Model::reguard();
     }
 }
