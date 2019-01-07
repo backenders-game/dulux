@@ -1,0 +1,286 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div>
+      <h4>Du lieu color</h4><p id="num_colors"></p>
+      <textarea name="displaycolors" id="display_data" cols="70" rows="50"></textarea>
+    </div>
+    <div id="colors">
+      <div id="normal_colors">
+        <div id="nor_mixedbycomputer" style="display: none;">
+
+        </div>
+      </div>
+      <div id="deep_colors">
+        <div id="deep_mixedbycomputer" style="display: none;">
+
+        </div>
+      </div>
+      <div id="color_available" style="display: none;">
+
+      </div>
+      <div class="color_popular" style="display: none;">
+
+      </div>
+    </div>
+    <div id="color_surfaces" style="display: none;">
+      <div id="tran_nha">
+
+      </div>
+      <div id="tuong">
+
+      </div>
+    </div>
+    <div id="color_projects" style="display: none;">
+      <div id="hanh_lang">
+
+      </div>
+
+      <div id="nha_bep">
+
+      </div>
+
+      <div id="nha_van_phong">
+
+      </div>
+
+      <div id="phong_khach">
+
+      </div>
+
+      <div id="phong_ngu">
+
+      </div>
+
+      <div id="phong_tre_em">
+
+      </div>
+
+      <div id="phong_tam">
+
+      </div>
+
+      <div id="phong_an">
+
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+  </script>
+  <script type="text/javascript">
+    function convertToPHPArray (input, format = {name: 'string'}, tab = '') {
+      let startTag = '[';
+      let endTag = ']';
+      let result = '';
+      if (Array.isArray(input)) {
+          result += startTag;
+          tab += '    ';
+          let eleType = 'object';
+          for (let inp of input) {
+            if (typeof inp === 'object' && !Array.isArray(inp)) {
+              eleType = 'object'
+              result += '\n';
+            } else {
+              eleType = 'other'
+            }
+              result += (eleType === 'object' ? tab : '') + convertToPHPArray(inp, format, tab) + ',';
+          }
+          result +=  (eleType === 'object' ? '\n' : '') + endTag; 
+      } else if (!Array.isArray(input) && typeof input === 'object') {
+          result += startTag + '\n';
+          let newTab = tab + '    ';
+          let fieldFormats = Object.keys(format);
+          for (let key of Object.keys(input)) {
+              if (fieldFormats.includes(key)) {
+                if (format[key] == 'string') {
+                  input[key] = '' + input[key];
+                }
+              }
+              result += `${newTab}'${key}' => ` + convertToPHPArray(input[key], format, newTab) + ",";
+              if (typeof input === 'object' && !Array.isArray(input)) {
+                result += '\n';
+              }
+          }
+          result += tab + endTag;
+
+      } else if (typeof input === 'string') {
+          result = ` "${input}"`;
+      } else if (typeof input === 'number') {
+          result = ' ' + input
+      } else if (typeof input === 'boolean') {
+          result = ' ' +String(input)
+      } else {
+          result = ' null';
+      }
+      return result;
+    }
+
+    function removeFromArray (arr, value) {
+      let index = arr.indexOf(value);
+      if (index !== -1) {
+        arr.splice(index, 1);
+      }
+
+      return arr;
+    }
+
+    var surfaces = {
+      tran_nha: 1,
+      tuong: 2
+    };
+    var projects = {
+      hanh_lang: 1,
+      nha_bep: 2,
+      nha_van_phong: 3,
+      phong_khach: 4,
+      phong_ngu: 5,
+      phong_tre_em: 6,
+      phong_tam: 7,
+      phong_an: 8
+    };
+    $(document).ready(function () {
+      var colors = [];
+      var popularColors = [];
+      var surfaceColors = {
+        tran_nha: [],
+        tuong: []
+      };
+      var projectColors = {
+        hanh_lang: [],
+        nha_bep: [],
+        nha_van_phong: [],
+        phong_khach: [],
+        phong_ngu: [],
+        phong_tre_em: [],
+        phong_tam: [],
+        phong_an: []
+      }
+      $('#color_popular').find('.color-box-child')
+        .each((idx, item) => {
+          let name = $(item).data('title');
+          if (!popularColors.includes(name)) {
+            popularColors.push(name);
+          }
+        });
+      for (let surface of Object.keys(surfaces)) {
+        $('#' + surface).find('.color-box-child')
+          .each((idx, item) => {
+            let name = $(item).data('title');
+            surfaceColors[surface].push(name);
+          });
+      }
+
+      for (let project of Object.keys(projects)) {
+        $('#' + project).find('.color-box-child')
+          .each((idx, item) => {
+            let name = $(item).data('title');
+            projectColors[project].push(name);
+          });
+      }
+      console.log(surfaceColors);
+
+      $('#nor_mixedbycomputer').find('.color-box-child')
+        .each((idx, item) => {
+          let name = $(item).data('title');
+          let color = $(item).data('id');
+          let colorDt = {
+            name: name,
+            color: '#' + color,
+            color_group_id: 1,
+            mixed_by_computer: 1,
+            is_popular: 0,
+            is_deep_color: 0,
+            surfaces: [],
+            projectTypes: []
+          };
+
+          for (let surfaceName in surfaceColors) {
+            // console.log('surface name', surfaceName);
+            let surfaceColor = surfaceColors[surfaceName];
+            let surfaceId = surfaces[surfaceName];
+            if (surfaceColor.length == 0 || surfaceColor.includes(name)) {
+              colorDt.surfaces.push(surfaceId);
+            }
+          }
+
+          for (let projectName in projectColors) {
+            let projectId = projects[projectName];
+            let projectColor = projectColors[projectName];
+            if (projectColor.length == 0 || projectColor.includes(name)) {
+              colorDt.projectTypes.push(projectId);
+            }
+          }
+          
+          colors.push(colorDt);
+        });
+      $('#deep_mixedbycomputer').find('.color-box-child')
+        .each((idx, item) => {
+          let name = $(item).data('title');
+          let color = $(item).data('id');
+          let colorDt = {
+            name: name,
+            color: '#' + color,
+            color_group_id: 1,
+            mixed_by_computer: 1,
+            is_popular: popularColors.includes(name) ? 1 : 0,
+            is_deep_color: 1,
+            surfaces: [],
+            projectTypes: []
+          };
+          for (let surfaceName in surfaceColors) {
+            let surfaceColor = surfaceColors[surfaceName];
+            let surfaceId = surfaces[surfaceName];
+            if (surfaceColor.length == 0 || surfaceColor.includes(name)) {
+              colorDt.surfaces.push(surfaceId);
+            }
+          }
+          for (let projectName in projectColors) {
+            let projectId = projects[projectName];
+            let projectColor = projectColors[projectName];
+            if (projectColor.length == 0 || projectColor.includes(name)) {
+              colorDt.projectTypes.push(projectId);
+            }
+          }
+          
+          colors.push(colorDt);
+        });
+      $('#color_available').find('.color-box-child')
+        .each((idx, item) => {
+          let name = $(item).data('title');
+          let color = $(item).data('id');
+          let colorDt = {
+            name: name,
+            color: '#' + color,
+            color_group_id: 1,
+            mixed_by_computer: 0,
+            is_popular: popularColors.includes(name) ? 1 : 0,
+            is_deep_color: 0,
+            surfaces: [],
+            projectTypes: []
+          };
+          for (let surfaceName in surfaceColors) {
+            let surfaceColor = surfaceColors[surfaceName];
+            let surfaceId = surfaces[surfaceName];
+            if (surfaceColor.length == 0 || surfaceColor.includes(name)) {
+              colorDt.surfaces.push(surfaceId);
+            }
+          }
+          for (let projectName in projectColors) {
+            let projectId = projects[projectName];
+            let projectColor = projectColors[projectName];
+            if (projectColor.length == 0 || projectColor.includes(name)) {
+              colorDt.projectTypes.push(projectId);
+            }
+          }
+          
+          colors.push(colorDt);
+        });
+      let text = convertToPHPArray(colors);
+      $('#display_data').html(text);
+      $('#num_colors').html(colors.length + ' Màu');
+    });
+  </script>
+</html>
