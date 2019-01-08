@@ -8,7 +8,7 @@ use App\Repositories\Frontend\ColorGroupRepository;
 use App\Repositories\Frontend\SurfaceRepository;
 use App\Repositories\Frontend\ProjectTypeRepository;
 use App\Repositories\Frontend\FinishSurfaceRepository;
-/* 
+/*
 +)Tìm màu sắc
 */
 class FindColorController extends Controller
@@ -20,7 +20,7 @@ class FindColorController extends Controller
         ProjectTypeRepository $projectTypeRepository,
         SurfaceRepository $surfaceRepository,
         FinishSurfaceRepository $finishSurfaceRepository
-    ) 
+    )
     {
         $this->colorRepository = $colorRepository;
         $this->colorGroupRepository = $colorGroupRepository;
@@ -35,15 +35,16 @@ class FindColorController extends Controller
      */
     public function index()
     {
-        $colorGroups = $this->colorGroupRepository->all();
+        $colorGroups = $this->colorGroupRepository->all()->toArray();
+        // dd($colorGroups);
         $surfaces = $this->surfaceRepository->all();
         $projectTypes = $this->projectTypeRepository->all();
         $finishSurfaces = $this->finishSurfaceRepository->all();
-        return view('frontend.timmausac', [
+        return view('frontend.find_color.timmausac', [
             'surfaces' => $surfaces,
             'projectTypes' => $projectTypes,
             'finishSurfaces' => $finishSurfaces,
-            'colorGroups' => $colorGroups 
+            'colorGroups' => $colorGroups
         ]);
     }
 
