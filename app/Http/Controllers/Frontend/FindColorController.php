@@ -3,11 +3,31 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Repositories\Frontend\ColorRepository;
+use App\Repositories\Frontend\ColorGroupRepository;
+use App\Repositories\Frontend\SurfaceRepository;
+use App\Repositories\Frontend\ProjectTypeRepository;
+use App\Repositories\Frontend\FinishSurfaceRepository;
 /* 
 +)Tìm màu sắc
 */
 class FindColorController extends Controller
 {
+
+    public function __construct (
+        ColorRepository $colorRepository,
+        ColorGroupRepository $colorGroupRepository,
+        ProjectTypeRepository $projectTypeRepository,
+        SurfaceRepository $surfaceRepository,
+        FinishSurfaceRepository $finishSurfaceRepository
+    ) 
+    {
+        $this->colorRepository = $colorRepository;
+        $this->colorGroupRepository = $colorGroupRepository;
+        $this->surfaceRepository = $surfaceRepository;
+        $this->projectTypeRepository = $projectTypeRepository;
+        $this->finishSurfaceRepository = $finishSurfaceRepository;
+    }
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +35,16 @@ class FindColorController extends Controller
      */
     public function index()
     {
-        return view('frontend.timmausac');
+        $colorGroups = $this->colorGroupRepository->all();
+        $surfaces = $this->surfaceRepository->all();
+        $projectTypes = $this->projectTypeRepository->all();
+        $finishSurfaces = $this->finishSurfaceRepository->all();
+        return view('frontend.timmausac', [
+            'surfaces' => $surfaces,
+            'projectTypes' => $projectTypes,
+            'finishSurfaces' => $finishSurfaces,
+            'colorGroups' => $colorGroups 
+        ]);
     }
 
     /**
