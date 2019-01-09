@@ -6,8 +6,8 @@
   <title>Homepage | Dulux</title>
   @yield('cssPage')
 </head>
-<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2 node-type-panopoly-landing-page panopoly-landing-page region-content i18n-vi fl-vi front fl-avndlx" >
-  <!-- 1.Header -->
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-3 node-type-panopoly-landing-page panopoly-landing-page products-overview region-content i18n-vi fl-vi fl-san-pham fl-avndlx jquery-once-1-processed flSearchClick-processed eu-cookie-compliance-processed" style="">
+<!-- 1.Header -->
   @include('frontend.includes.header')
   <!-- 1.End header -->
   <!-- 2.Main content -->
