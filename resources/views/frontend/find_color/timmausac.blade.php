@@ -8,6 +8,8 @@
 
 /* ]]> */
 </style>
+@include('frontend.find_color.includes.findColorCss')
+
 @endsection
 @section('content')
 <div class="zone-filter">

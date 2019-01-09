@@ -2,6 +2,16 @@
 
 @section('title', app_name() . ' | ' . __('navs.general.home'))
 
+@section('cssPage')
+<style type="text/css" media="all">
+/* <![CDATA[ */
+#sliding-popup.sliding-popup-bottom,#sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#0779BF;}#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,.eu-cookie-compliance-more-button,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#ffffff !important;}.eu-cookie-withdraw-tab{border-color:#ffffff;}
+
+/* ]]> */
+</style>
+@include('frontend.find_color.includes.findColorCss')
+
+@endsection
 @section('content')
 <div class="zone-filter" >
     <div class="hdr-mx container-filter">
