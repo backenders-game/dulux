@@ -5,12 +5,15 @@
     <body>
         <div id="listCss">
             <div id="all_css">
-                <textarea name="" id="display_all_css" cols="90" rows="30"></textarea>
+                <textarea name="" id="display_all_css" cols="200" rows="30"></textarea>
             </div>
             <div>
-                <textarea name="" id="display_home" cols="90" rows="10"></textarea>
-                <textarea name="" id="display_find_color" cols="90" rows="10"></textarea>
-                <textarea name="" id="display_category" cols="90" rows="10"></textarea>
+                <p>Trang chu</p><br>
+                <textarea name="" id="display_home" cols="200" rows="10"></textarea>
+                <p>Tim mau sac</p><br>
+                <textarea name="" id="display_find_color" cols="200" rows="10"></textarea>
+                <p>Category</p><br>
+                <textarea name="" id="display_category" cols="200" rows="10"></textarea>
             </div>
         </div>
         <div id="home">
@@ -41,13 +44,26 @@
             <a class="link_css" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__AuE0zpjILclZVFocL-ZM_YXQWNoEoAVRINeuje2TfMs__sJjd_Hk7JHvFHc9oGZN1umGSO06armIXgPwfzwRjp9o__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css"></a>
         </div>
     </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
+    <script type="text/javascript" src="./jquery.js">
+    </script>
     <script type="text/javascript">
         function displayListCssLink (links) {
             let text = '';
+            let idx = 1;
             for (let link of links) {
-                text += link + '\n';
+                text += 'duluxCss' + idx + ': ' + link + '\n';
+                idx++;
+            }
+
+            return text;
+        }
+        function displayPageCssMappingAll (listCss, allCss) {
+            let text = '';
+            for (let item of listCss) {
+                let idx = allCss.indexOf(item);
+                if (idx != -1) {
+                    text += 'duluxCss' + (idx + 1) + ": " + item + '\n';
+                }
             }
 
             return text;
@@ -61,16 +77,20 @@
             };
             for (let page in pageCss) {
                 $('#' + page).find('.link_css').each((idx, link) => {
-                    let href = $(link).href;
+                    let href = $(link).attr('href');
                     if(!listAllCss.includes(href)) {
                         listAllCss.push(href);
                     }
                     pageCss[page].push(href);
-                })
-                let text = displayListCssLink(pageCss[page]);
-                $('#display_' + page).html(text);
+                });
             }
-
+            let text = displayListCssLink(listAllCss);
+            
+            $('#display_all_css').html(text);
+            for(let page in pageCss) {
+                let pageCssText = displayPageCssMappingAll(pageCss[page], listAllCss);
+                $('#display_' + page).html(pageCssText);
+            }
         })
     </script>
 
