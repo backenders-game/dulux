@@ -381,6 +381,37 @@
                 $('#num_selected_colors').html('Không có màu nào được chọn');
             }
         });
+        // ================================= tìm
+        $('#color_search_inp').on('keyup', function(e) {
+            if(e.keyCode == 13 || e.which == 13) {
+                e.preventDefault();
+            } else {
+                let keyword = $(this).val();
+                let selectedColorGroupId = $('#select_colorgroup').val();
+                console.log('groupID', selectedColorGroupId);
+                if (typeof keyword === 'string' && keyword.trim() !== '') {
+                    keyword = keyword.toLowerCase();
+                    $('.color_group_grid_' + selectedColorGroupId)
+                            .find('.color-box-item').each((idx, item) => {
+                                let colorName = $(item).data('id');
+
+                                if(!colorName || colorName.toLowerCase().indexOf(keyword) == -1) {
+                                    $(item).addClass('d-none');
+                                } else {
+                                    console.log(colorName.toLowerCase().indexOf(keyword))
+                                    $(item).removeClass('d-none');
+                                }
+                            });
+                } else {
+                    if(selectedColorGroupId) {
+                        $('.color_group_grid_' + selectedColorGroupId)
+                            .find('.color-box-item').each(function (idx, item) {
+                                $(item).removeClass('d-none');
+                            });
+                    }
+                }
+            }
+        })
     });
 </script>
 @endpush

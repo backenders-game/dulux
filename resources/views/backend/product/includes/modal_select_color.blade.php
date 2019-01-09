@@ -9,24 +9,32 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="form-group col-md-12">
-                    <label for="colorGroup" class="form-control-label">Nhóm màu:</label>
-                    <select class="form-control" name="colorGroup" id="select_colorgroup">
-                        <option value="">Chọn nhóm màu</option>
-                        @foreach($colorGroups as $colorGroup)
-                        <option value="{{$colorGroup->id}}">
-                        {{$colorGroup->name}}
-                        </option>
-                        @endforeach
-                    </select>
+                <div class="col-md-12 row">
+                    <div class="form-group col-md-6">
+                        <label for="colorGroup" class="form-control-label">Nhóm màu:</label>
+                        <select class="form-control" name="colorGroup" id="select_colorgroup">
+                            <option value="">Chọn nhóm màu</option>
+                            @foreach($colorGroups as $colorGroup)
+                            <option value="{{$colorGroup->id}}">
+                            {{$colorGroup->name}}
+                            </option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="color_search_inp" class="form-control-label">
+                        Tìm kiếm:</label>
+                        <input type="text" id="color_search_inp" class="form-control" placeholder="Tên màu...">
+
+                    </div>
                 </div>
                 @foreach($colorGroups as $colorGroup)
                 <div class="row col-md-12 color_group_grid color_group_grid_{{$colorGroup->id}} d-none" colorgroupid="{{$colorGroup->id}}">
                     <div class="col-md-12 row">
                         @foreach($colors as $color)
                         @if ($color->color_group_id == $colorGroup->id && !$color->is_deep_color)
-                            <div style=" height: 4rem !important; background: {{$color->color}};"
-                                class="col-md-3 col-xs-6">
+                            <div style="border: 1px solid #fff !important; height: 4rem !important; background: {{$color->color}};"
+                                class="col-md-3 col-xs-6 color-box-item">
                                 <label class="form-control-label" for="color_item_{{$color->id}}">
                                     <input class="color-item" id="color_item_{{$color->id}}" type="checkbox"
                                         value="{{$color->id}}" />
@@ -42,8 +50,9 @@
                     <div class="col-md-12 row">
                         @foreach($colors as $color)
                         @if ($color->color_group_id == $colorGroup->id && $color->is_deep_color)
-                            <div style=" height: 4rem !important; background: {{$color->color}};"
-                                class="col-md-3 col-xs-6">
+                            <div style="border: 1px solid #fff !important; height: 4rem !important; background: {{$color->color}};"
+                                data-id="{{$color->name}}"
+                                class="col-md-3 col-xs-6 color-box-item" >
                                 <label class="form-control-label" for="color_item_{{$color->id}}">
                                     <input id="color_item_{{$color->id}}" type="checkbox"
                                         class="color-item" value="{{$color->id}}" />

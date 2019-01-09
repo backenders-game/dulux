@@ -2,7 +2,23 @@
 
 @section('title', app_name() . ' | ' . __('navs.general.home'))
 @section('cssPage')
-<link type="text/css" rel="stylesheet" href="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_css/css__AuE0zpjILclZVFocL-ZM_YXQWNoEoAVRINeuje2TfMs__sJjd_Hk7JHvFHc9oGZN1umGSO06armIXgPwfzwRjp9o__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.css" media="all" />
+
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss8.css')}}" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" media="all" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss9.css')}}" media="all" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss3.css')}}" media="all" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss10.css')}}" media="all" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss11.css')}}" media="all" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss6.css')}}" media="all" />
+<style type="text/css" media="all">
+/* <![CDATA[ */
+#sliding-popup.sliding-popup-bottom,#sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#0779BF;}#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,.eu-cookie-compliance-more-button,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#ffffff !important;}.eu-cookie-withdraw-tab{border-color:#ffffff;}
+
+/* ]]> */
+</style>
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss12.css')}}" media="all" />
+
+
 @endsection
 @section('content')
 <div id="zone-content" class="zone-content focus-outline">
@@ -34,9 +50,11 @@
                                             <div class="col-md-12 col-sm-12 col-xs-12 no-padding no-margin">
                                               <div class="row-2">
                                                 <img alt="Product Overview" class="img-responsive center-block" src="https://26142aa8525275a5e77e-a5f2420f98275e911de8525ef724fa69.ssl.cf3.rackcdn.com/prod-overview-product-desktop_th.jpg">
-                                                <div class="text-holder">
-                                                  <h1><span style="font-size:36px;">SÁNG TẠO KHÔNG GIAN SỐNG&nbsp;</span></h1>
-                                                  <h1><span style="font-size:36px;">ĐẬM PHONG CÁCH RIÊNG&nbsp;</span></h1>
+                                                <div class="text-holder focus-outline">
+                                                  <h1 class="focus-outline">
+                                                      <span class="focus-outline" style="font-size:36px;">SÁNG TẠO KHÔNG GIAN SỐNG&nbsp;</span></h1>
+                                                  <h1 class="focus-outline">
+                                                      <span class="focus-outline" style="font-size:36px;">ĐẬM PHONG CÁCH RIÊNG&nbsp;</span></h1>
                                                   <p class="fs16">Hãy sáng tạo không gian sống đẳng cấp với sự kết hợp tinh tế</p>
                                                   <p class="fs16">và sáng tạo vô tận từ những gam màu sắc nét cùng hiệu ứng đặc biệt từ Ambiance&nbsp;</p>
                                                   <a href="https://www.dulux.vn/vi/articles/ambiance" tabindex="24">Xem thêm</a>
