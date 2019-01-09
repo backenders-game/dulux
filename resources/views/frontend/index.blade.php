@@ -1,7 +1,9 @@
 @extends('frontend.layouts.frontend')
 
 @section('title', app_name() . ' | ' . __('navs.general.home'))
-
+@section('cssPage')
+@include('frontend.includes.partials.fontendCss')
+@endsection
 @section('content')
 <div class="zone-filter" >
     <div class="hdr-mx container-filter">
@@ -64,7 +66,7 @@
                                   <div class="entry-point">
                                     <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/key-entry.jpg')"></div>
                                     <div class="entry-content fl-equi-height">
-                                      Màu Dulux của Năm 2019                    
+                                      Màu Dulux của Năm 2019
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
                                           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
@@ -79,7 +81,7 @@
                                   <div class="entry-point">
                                     <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/image-entrypoint-xl2x_1.png')"></div>
                                     <div class="entry-content fl-equi-height">
-                                      Trợ giúp về mẹo & bí quyết                    
+                                      Trợ giúp về mẹo & bí quyết
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
                                           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
@@ -94,7 +96,7 @@
                                   <div class="entry-point">
                                     <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/entrypoint_img_products2x.png')"></div>
                                     <div class="entry-content fl-equi-height">
-                                      Chọn sản phẩm phù hợp để sơn                    
+                                      Chọn sản phẩm phù hợp để sơn
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
                                           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
@@ -109,7 +111,7 @@
                                   <div class="entry-point">
                                     <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/image-entrypoint-xl2x.png')"></div>
                                     <div class="entry-content fl-equi-height">
-                                      Tìm điểm bán gần bạn                    
+                                      Tìm điểm bán gần bạn
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
                                           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
@@ -164,7 +166,7 @@
                           <div class="panel-separator"></div>
                           <div class="panel-pane pane-node"  >
                             <h2 class="pane-title">
-                              Thấm Tường – Chủ Quan Lúc Đầu - Hệ Lụy Dài Lâu    
+                              Thấm Tường – Chủ Quan Lúc Đầu - Hệ Lụy Dài Lâu
                             </h2>
                             <div class="pane-content">
                               <div   about="/vi/y-tuong/th%E1%BA%A5m-t%C6%B0%E1%BB%9Dng-%E2%80%93-ch%E1%BB%A7-quan-l%C3%BAc-%C4%91%E1%BA%A7u-h%E1%BB%87-l%E1%BB%A5y-d%C3%A0i-l%C3%A2u" typeof="sioc:Item foaf:Document" class="article_left_image image-flip-lyout ds-2col node node-article view-mode-article_left_image clearfix">
@@ -234,7 +236,7 @@
                           <div class="panel-separator"></div>
                           <div class="panel-pane pane-node"  >
                             <h2 class="pane-title">
-                              Dulux Ambiance - Sáng tạo không gian sống đậm phong cách riêng    
+                              Dulux Ambiance - Sáng tạo không gian sống đậm phong cách riêng
                             </h2>
                             <div class="pane-content">
                               <div   about="/vi/y-tuong/ambiance" typeof="sioc:Item foaf:Document" class="article_right_image image-flip-lyout ds-2col node node-article view-mode-article_right_image clearfix">
@@ -310,7 +312,7 @@
                           <div class="panel-separator"></div>
                           <div class="panel-pane pane-node"  >
                             <h2 class="pane-title">
-                              Dịch vụ Phối màu nhà online    
+                              Dịch vụ Phối màu nhà online
                             </h2>
                             <div class="pane-content">
                               <div   about="/vi/y-tuong/dich-vu-phoi-mau" typeof="sioc:Item foaf:Document" class="article_right_image image-flip-lyout ds-2col node node-article view-mode-article_right_image clearfix">
@@ -346,7 +348,7 @@
                           <div class="panel-separator"></div>
                           <div class="panel-pane pane-node"  >
                             <h2 class="pane-title">
-                              Bạn muốn trở thành Nhà Thầu Chuyên Nghiệp Dulux?    
+                              Bạn muốn trở thành Nhà Thầu Chuyên Nghiệp Dulux?
                             </h2>
                             <div class="pane-content">
                               <div   about="/vi/y-tuong/bn-ang-mun-tr-thanh-nha-thu-chuyen-nghip-dulux" typeof="sioc:Item foaf:Document" class="article_left_image image-flip-lyout ds-2col node node-article view-mode-article_left_image clearfix">
@@ -415,7 +417,7 @@
                           <div class="panel-separator"></div>
                           <div class="panel-pane pane-node"  >
                             <h2 class="pane-title">
-                              Let’s Colour Promoblock    
+                              Let’s Colour Promoblock
                             </h2>
                             <div class="pane-content">
                               <div class="flex-campaign">
