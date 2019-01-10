@@ -151,56 +151,35 @@
                     <div class="title-section">
                       <h2 class="text-center">Bộ lọc</h2>
                       <svg class="icon icon-close right">
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close"></use>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close">
+                        <symbol viewBox="0 0 32 19.91" id="icon-collapse-arrow" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 2"><path d="M31.17.62a2.46 2.46 0 0 0-3.48.2L16 14 4.3.83A2.46 2.46 0 1 0 .62 4.1L14 19.09a2.46 2.46 0 0 0 1.84.83h.38a2.46 2.46 0 0 0 1.78-.83l13.35-15a2.46 2.46 0 0 0-.18-3.47z" data-name="Layer 1"></path></g></symbol>
+                        </use>
                       </svg>
                     </div>
                     <div class="clp-wrap collapse-wrap accordeon">
-                      <div id="form-color-room-type" class="form-color-room-type form-collapse collapse-area">
+                      <div id="form-color-room-type" class="form-color-room-type form-collapse collapse-area focus-outline visible">
                         <div class="collapse-trigger accordeon-collapse-trigger-processed">
                           Nơi cần sơn<span class="count-label input-counter">0</span>
                           <svg class="icon icon-collapse-arrow right">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-collapse-arrow"></use>
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-collapse-arrow">
+                                <symbol viewBox="0 0 32 19.91" id="icon-collapse-arrow" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 2"><path d="M31.17.62a2.46 2.46 0 0 0-3.48.2L16 14 4.3.83A2.46 2.46 0 1 0 .62 4.1L14 19.09a2.46 2.46 0 0 0 1.84.83h.38a2.46 2.46 0 0 0 1.78-.83l13.35-15a2.46 2.46 0 0 0-.18-3.47z" data-name="Layer 1"></path></g></symbol>
+                            </use>
                           </svg>
                         </div>
-                        <div class="collapse-content amountCount" style="display: none;">
+                        <div class="collapse-content amountCount" style="display: block;">
                           <div class="form-type-radios form-item-color-room-type form-item form-group append-outline-processed">
                             <div id="edit-color-room-type--2" class="form-radios color-room-type">
                               <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Tất cả các" type="radio" id="edit-color-room-type-all--2" name="color_room_type" value="All" checked="checked" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="53">  <label class="option" for="edit-color-room-type-all--2">Tất cả các </label>
+                                <input data-label="Tất cả các phòng" type="radio" value="0" id="edit-color-room-type-all--2" name="color_room_type" value="All" checked="checked" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="53">  <label class="option" for="edit-color-room-type-all--2">Tất cả các </label>
                                 <span class="radio-outline"></span>
                               </div>
+                              @foreach($projectTypes as $projectType)
                               <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Hành lang" type="radio" id="edit-color-room-type-hnh-lang--2" name="color_room_type" value="Hành lang" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="54">  <label class="option" for="edit-color-room-type-hnh-lang--2">Hành lang </label>
+                                <input data-label="{{$projectType->name}}" type="radio" value="{{$projectType->id}}" id="edit-color-room-type-{{$projectType->id}}--2" name="color_room_type" value="Hành lang" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="54">  <label class="option" for="edit-color-room-type-hnh-lang--2">Hành lang </label>
                                 <span class="radio-outline"></span>
                               </div>
-                              <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Nhà bếp" type="radio" id="edit-color-room-type-nh-bp--2" name="color_room_type" value="Nhà bếp" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="55">  <label class="option" for="edit-color-room-type-nh-bp--2">Nhà bếp </label>
-                                <span class="radio-outline"></span>
-                              </div>
-                              <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Nhà văn phòng" type="radio" id="edit-color-room-type-nh-vn-phng--2" name="color_room_type" value="Nhà văn phòng" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="56">  <label class="option" for="edit-color-room-type-nh-vn-phng--2">Nhà văn phòng </label>
-                                <span class="radio-outline"></span>
-                              </div>
-                              <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Phòng khách" type="radio" id="edit-color-room-type-phng-khch--2" name="color_room_type" value="Phòng khách" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="57">  <label class="option" for="edit-color-room-type-phng-khch--2">Phòng khách </label>
-                                <span class="radio-outline"></span>
-                              </div>
-                              <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Phòng ngủ" type="radio" id="edit-color-room-type-phng-ng--2" name="color_room_type" value="Phòng ngủ" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="58">  <label class="option" for="edit-color-room-type-phng-ng--2">Phòng ngủ </label>
-                                <span class="radio-outline"></span>
-                              </div>
-                              <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Phòng trẻ em" type="radio" id="edit-color-room-type-phng-tr-em--2" name="color_room_type" value="Phòng trẻ em" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="59">  <label class="option" for="edit-color-room-type-phng-tr-em--2">Phòng trẻ em </label>
-                                <span class="radio-outline"></span>
-                              </div>
-                              <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Phòng tắm" type="radio" id="edit-color-room-type-phng-tm--2" name="color_room_type" value="Phòng tắm" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="60">  <label class="option" for="edit-color-room-type-phng-tm--2">Phòng tắm </label>
-                                <span class="radio-outline"></span>
-                              </div>
-                              <div class="form-type-radio form-item-color-room-type form-item radio append-outline-processed">
-                                <input data-label="Phòng ăn" type="radio" id="edit-color-room-type-phng-n--2" name="color_room_type" value="Phòng ăn" class="form-radio ajax-processed CLPLocationChange-processed" tabindex="61">  <label class="option" for="edit-color-room-type-phng-n--2">Phòng ăn </label>
-                                <span class="radio-outline"></span>
-                              </div>
+                              @endforeach
                             </div>
                           </div>
                           <a href="#" class="more-less btn-show-more margin-bottom-l" tabindex="62">Show more [+]</a>

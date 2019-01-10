@@ -35,16 +35,13 @@ class FindColorController extends Controller
      */
     public function index()
     {
-        $colorGroups = $this->colorGroupRepository->all()->toArray();
-        // dd($colorGroups);
         $surfaces = $this->surfaceRepository->all();
         $projectTypes = $this->projectTypeRepository->all();
         $finishSurfaces = $this->finishSurfaceRepository->all();
         return view('frontend.find_color.timmausac', [
             'surfaces' => $surfaces,
             'projectTypes' => $projectTypes,
-            'finishSurfaces' => $finishSurfaces,
-            'colorGroups' => $colorGroups
+            'finishSurfaces' => $finishSurfaces
         ]);
     }
 
