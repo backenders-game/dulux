@@ -2,7 +2,7 @@
 
 @section('title', app_name() . ' | ' . __('navs.general.home'))
 @section('cssPage')
-  @include('frontend.find_color.includes.findColorCss')
+  @include('frontend.includes.css.findColorCss')
 @endsection
 @section('content')
 <div id="zone-content" class="zone-content">

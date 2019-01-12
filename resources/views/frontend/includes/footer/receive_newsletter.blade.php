@@ -42,7 +42,7 @@
                   </ul>
                   <div>
                     <button class="btn btn-primary btn-full-width btn btn-default form-submit" id="edit-submit" name="op" value="Đăng ký" type="submit">Đăng ký</button>
-                    <input type="hidden" name="form_build_id" value="form-OEQhbSVLQnKIGCD_wXYq5ZTC22lCZNVpc2G4yx0MUlk" />
+                    <input type="hidden" name="form_build_id" value="form-DB5Z2SQeI18jKBuqYw9t-mzeE7jKcrpESTrD-oL8yBE" />
                     <input type="hidden" name="form_id" value="newsletter_subscription_form" />
                     <p>Để biết thêm thông tin về cách chúng tôi sử dụng dữ liệu cá nhân của bạn, hãy đọc <a href="/vi/chinh-sach-bao-mat" target="_blank">Tuyên bố về Quyền riêng tư.</a>.</p>
                   </div>

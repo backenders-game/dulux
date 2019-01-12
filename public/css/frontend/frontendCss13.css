@@ -2869,849 +2869,6 @@
   
   /*})'"*/
   
-  .front .region-content .pane-title {
-    display: none;
-  }
-  
-  .front .pane-bean-color-question-block .pane-content,
-  .front .pane-platform-flex-camp-builder-home-page-multiple-blocks .pane-content {
-    padding: 0;
-  }
-  
-  .front #hue-selector {
-    margin-top: 40px;
-  }
-  
-  .pane-bean-picture-it-block .pane-content,
-  .pane-bean-office-colours-red .pane-content,
-  .pane-bean-office-colours-yellow .pane-content {
-    padding: 10px 20px;
-  }
-  
-  .front .panels-ipe-portlet-wrapper,
-  .front .panel-pane {
-    clear: both;
-  }
-  
-  .front .pane-content {
-    padding: 10px 10px;
-  }
-  
-  .panopoly-landing-page .pane-content .image-flip-lyout {
-    margin: 20px 0;
-    background: #fff none repeat scroll 0 0;
-    border-radius: 3px;
-  }
-  
-  .img-right-block,
-  .img-left-block {
-    background: #fff none repeat scroll 0 0;
-  }
-  
-  .image-right,
-  .image-left {
-    padding: 0;
-  }
-  
-  .image-right img {
-    border-radius: 0 3px 3px 0;
-    max-height: 391px;
-    width: auto;
-    height: auto;
-    float: right;
-  }
-  
-  .image-left img {
-    border-radius: 3px 0 0 3px;
-    height: auto;
-    max-height: 391px;
-    width: auto;
-    float: left;
-  }
-  
-  .image-flip-lyout .field-name-node-link a,
-  .btn-grn-br-crvd,
-  .btn-grn-br-crvd:hover {
-    background-color: #fff;
-    border: 2px solid #2fc48d;
-    border-radius: 0 10px;
-    color: #666;
-    float: left;
-    font-size: 16px;
-    font-weight: bold;
-    height: 100%;
-    margin-bottom: 0;
-    min-width: 123px;
-    padding: 6px 6px 8px 6px;
-    text-align: center;
-  }
-  
-  .image-flip-lyout .content-left,
-  .image-flip-lyout .content-right {
-    padding: 30px 35px;
-  }
-  
-  .ds-2col img {
-    height: auto;
-    max-height: 391px;
-    width: auto;
-    max-width: 100%;
-  }
-  
-  .box-c-image {
-    background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/content-box-c-mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 390px;
-    border-radius: 0 3px 3px 0;
-    background-position: 50%;
-  }
-  
-  .white-block {
-    color: #333;
-    padding: 30px 20px 0 25px;
-  }
-  
-  .image-flip-lyout .field-name-field-teaser {
-    color: #666;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: left;
-  }
-  
-  .image-flip-lyout .field-name-title-field {
-    color: #333;
-    font-size: 28px;
-    line-height: 36px;
-  }
-  
-  .text-block {
-    margin-top: 0;
-  }
-  
-  .text-block-right {
-    margin-top: 0;
-    margin-bottom: 25px;
-  }
-  
-  .text-block-right p {
-    color: #666;
-    text-align: left;
-    font-size: 13px;
-    margin-top: 10px;
-  }
-  
-  .text-block p {
-    color: #666;
-    text-align: left;
-    font-size: 13px;
-    margin-top: 10px;
-    line-height: 25px;
-  }
-  
-  .front .text-block-right p,
-  .front .text-block p {
-    font-size: 16px;
-  }
-  
-  .front .panel-panel-inner .panel-pane:not(:first-child) {
-    max-width: 1360px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .front .panel-panel-inner .panel-pane.pane-platform-flex-camp-builder-home-page-multiple-blocks {
-    max-width: 100%;
-  }
-  
-  @media (min-width:768px) {
-    .pane-content .field-name-title-field {
-      display: block;
-    }
-    .box-c-image {
-      background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/content-box-c.jpg);
-    }
-    .front .pane-content {
-      padding: 10px 20px;
-    }
-    .text-block-right p,
-    .text-block p {
-      font-size: 16px;
-    }
-  }
-  
-  .front .container-fluid .field-items>.even>.first-item {
-    margin: 0 0 10px 0;
-    max-width: 100%;
-    padding: 0 10px;
-  }
-  
-  .front .container-fluid .field-items>.even>.first-item-slider {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1360px;
-  }
-  
-  .front .container-fluid .field-items .col-lg-12,
-  .yellow-block .text-block-right {
-    padding: 0;
-  }
-  
-  .front .color-quest-first-block>li {
-    cursor: pointer;
-  }
-  
-  .front .color-quest-first-block>li>a {
-    display: block;
-    min-height: 50px;
-    margin-top: -15px;
-    min-width: 107px;
-    padding-top: 15px;
-  }
-  
-  .front .color-quest-first-block>li a:hover {
-    background: #2fc48d;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .field-name-field-bean-body-text .first-item {
-    padding: 0;
-  }
-  
-  .first-item {
-    display: block;
-    height: 505px;
-  }
-  
-  .image-flip-lyout .field-name-title-field div,
-  .image-flip-lyout .field-name-title-field h2 {
-    color: #333;
-    font-size: 28px;
-    line-height: 36px;
-  }
-  
-  .color-quest-first-block {
-    text-align: center;
-  }
-  
-  .color-quest-first-block>ul {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .color-quest-first-block>ul li {
-    margin-top: 26px;
-    padding: 9px 0;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .question-module {
-    margin-bottom: 10px;
-  }
-  
-  .question-module .fl-question-title {
-    margin-top: 0;
-    line-height: 54px;
-    font-size: 30px;
-    padding-top: 62px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .question-module ul {
-    width: 100%;
-    text-align: center;
-    padding: 0;
-  }
-  
-  .question-module li a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #666;
-    background: #fff none no-repeat scroll 0 0;
-    border-radius: 4px;
-    display: inline-block;
-    margin: -15px 14px -4px 14px;
-    padding: 15px;
-  }
-  
-  .fl-cq-btn {
-    display: block;
-    background: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    margin: 10px 0 10px 0;
-  }
-  
-  .fl-cq-btn:hover {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .fl-cq-btn-white {
-    background: #fff;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .fl-cq-btn-restart-color {
-    margin-top: 30px;
-    text-decoration: underline;
-    color: #fff;
-    display: block;
-    font-size: 16px;
-  }
-  
-  .fl-cq-btn-restart-color:hover {
-    color: #fff;
-  }
-  
-  @media (min-width:768px) {
-    .question-module {
-      margin-bottom: 0;
-    }
-    .question-module .fl-question-title {
-      margin-top: 0;
-      line-height: 54px;
-      padding-top: 125px;
-      font-size: 38px;
-    }
-    .color-quest-first-block>ul li {
-      margin-top: 0;
-      padding: 0;
-    }
-  }
-  
-  .color-quest-first-block .scroll-down-icon {
-    top: calc(100vh - 400px);
-  }
-  
-  .scroll-down-icon {
-    position: relative;
-    top: 173px;
-    display: none;
-    visibility: hidden;
-  }
-  
-  @media (min-width:768px) {
-    .scroll-down-icon {
-      display: block;
-    }
-  }
-  
-  .front .second-itemright {
-    border-radius: 0 3px 3px 0;
-  }
-  
-  .front .second-itemright p {
-    padding-top: 0;
-  }
-  
-  .second-item {
-    height: 390px;
-    margin: 20px 7px;
-    box-shadow: 1px 0 5px 1px rgba(246, 244, 244, 0.71);
-  }
-  
-  .second-item .second-itemright p {
-    text-align: justify;
-    padding-top: 15px;
-  }
-  
-  .second-itemleft {
-    background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/home-img_office.jpg);
-    background-position: 28% 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    max-width: 100%;
-    display: block;
-  }
-  
-  .second-itemright {
-    background-color: #fee86e;
-    padding: 10px 36px;
-    height: 100%;
-  }
-  
-  .pane-bean .second-itemright {
-    height: auto;
-  }
-  
-  @media (min-width:768px) {
-    .front .second-itemleft,
-    .front .second-itemleft-js {
-      border-radius: 3px 0 0 3px;
-    }
-    .second-itemleft {
-      background-position: 0;
-    }
-  }
-  
-  .front .text-block {
-    padding: 5px 15px;
-  }
-  
-  .front .third-itemleft {
-    min-height: 200px;
-    background: #ECE5DF;
-  }
-  
-  .front .third-item .third-itemleft {
-    padding-bottom: 30px;
-  }
-  
-  .front .third-itemright {
-    background: none;
-    padding: 0;
-    height: auto;
-    text-indent: 0;
-    max-width: 100%;
-    overflow: hidden;
-  }
-  
-  .front .third-itemright img {
-    max-width: 100%;
-    visibility: hidden;
-  }
-  
-  .node-type-color .third-item,
-  .front .third-item {
-    background: none;
-  }
-  
-  .node-type-color .text-block,
-  .white-block,
-  .yellow-block,
-  .text-block-right {
-    padding: 5px 15px;
-  }
-  
-  .node-type-color .third-item {
-    min-height: 350px;
-    border: none;
-    border-radius: 3px;
-    background: none;
-    height: auto;
-  }
-  
-  .node-type-color .third-itemright img {
-    max-width: 100%;
-  }
-  
-  .node-type-color .third-itemright,
-  .front .third-itemright {
-    background: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/home-img-live.jpg);
-    background-repeat: no-repeat;
-    background-position: 87% -3%;
-    background-size: cover;
-    border-radius: 0 0 3px 3px;
-    max-height: 300px;
-    font-size: 0;
-    overflow: hidden;
-    height: auto;
-  }
-  
-  .front .third-item {
-    min-height: 350px;
-    border: 1px #DDD solid;
-    border-radius: 3px;
-    background: -webkit-linear-gradient(left, #CEC7C2, #E0D8D3);
-    background: -moz-linear-gradient(left, #CEC7C2, #E0D8D3);
-    background: -webkit-gradient(linear, left, #CEC7C2, #E0D8D3);
-    background: -o-linear-gradient(left, #CEC7C2, #E0D8D3);
-    background: -ms-linear-gradient(left, #CEC7C2, #E0D8D3);
-    background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/home-img-live.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-    background-size: cover;
-    height: auto;
-  }
-  
-  .front .text-block-right h2,
-  .front .text-block h2 {
-    margin-top: 0;
-    font-size: 28px;
-    line-height: 36px;
-  }
-  
-  .node-type-color .third-itemleft {
-    min-height: 250px;
-    background: transparent;
-    border-radius: 3px 3px 0 0;
-  }
-  
-  .third-item {
-    margin: 20px 7px;
-    height: 350px;
-    border: 1px #DDD solid;
-    border-radius: 3px;
-    box-shadow: 1px 0 5px 1px rgba(246, 244, 244, 0.71);
-  }
-  
-  .third-itemright {
-    background-position: right center;
-    display: block;
-    max-width: 100%;
-  }
-  
-  .third-itemleft {
-    background: linear-gradient(left, #CEC7C2, #E0D8D3);
-    height: 100%;
-    background-position: right center;
-    display: block;
-    max-width: 100%;
-  }
-  
-  .store-links {
-    text-align: center;
-    display: block;
-  }
-  
-  .store-links img {
-    max-width: 46%;
-    height: auto;
-    display: inline-block;
-  }
-  
-  .store-links:nth-child(1) img {
-    max-width: 200px;
-    height: auto;
-    display: inline-block;
-  }
-  
-  .store-links a:first-child {
-    margin-right: 3%;
-  }
-  
-  @media (min-width:768px) {
-    .front .third-item {
-      background-size: 100% 84%;
-      margin-bottom: -60px;
-    }
-    .front .third-item .text-block {
-      margin-top: 0;
-    }
-    .front .third-itemright img {
-      visibility: hidden;
-    }
-    .front .text-block {
-      padding: 15px 25px;
-    }
-    .front .third-itemleft {
-      border-radius: 3px 0 0 3px;
-      background: transparent;
-    }
-    .front .third-itemright {
-      background-repeat: no-repeat;
-      background-position: 87% -3%;
-      background-size: cover;
-      border-radius: 0 0 3px 3px;
-      max-height: 300px;
-      text-indent: -99em;
-      overflow: hidden;
-      height: 0;
-    }
-    .front .text-block-right h2,
-    .front .text-block h2 {
-      line-height: 24px;
-      margin-top: 5px;
-      width: auto;
-      font-size: 24px;
-    }
-    .text-block p {
-      margin-left: 0;
-      width: auto;
-      text-align: justify;
-      line-height: 21px;
-    }
-    .store-links {
-      text-align: left;
-      padding-top: 0;
-    }
-    .store-links img:first-child {
-      margin-right: 0;
-      width: auto;
-    }
-    .third-itemleft {
-      height: auto;
-    }
-    .front .third-itemright {
-      display: block;
-      background-position: right center;
-      background-repeat: no-repeat;
-      background: transparent;
-      text-indent: -99em;
-    }
-    .third-item {
-      margin: 0 7px;
-    }
-    .node-type-color .third-itemright {
-      background: none;
-      padding: 0;
-      height: auto;
-      text-indent: 0;
-      background-position: right center;
-      display: block;
-      max-width: 100%;
-    }
-  }
-  
-  @media (min-width:992px) {
-    .front .third-item {
-      background-size: cover;
-      margin-bottom: 0;
-    }
-    .front .text-block-right h2,
-    .front .text-block h2 {
-      font-size: 28px;
-      line-height: 36px;
-      margin-top: 0;
-      width: 100%;
-    }
-    .store-links {
-      padding-top: 15px;
-    }
-    .store-links img:first-child {
-      width: auto;
-    }
-    .front .text-block {
-      padding: 15px 40px;
-    }
-    .text-block p {
-      width: 80%;
-      text-align: justify;
-      line-height: 25px;
-    }
-  }
-  
-  @media (min-width:1200px) {
-    .text-block p {
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  @media only screen and (min-device-width :375px) and (max-device-width :667px) and (orientation :landscape) {
-    .color-quest-first-block>ul li {
-      margin-top: 2px;
-    }
-  }
-  
-  
-  /*})'"*/
-  
-  .color-swatch {
-    margin-bottom: 0;
-    padding: 15px 10px;
-  }
-  
-  .color-box-child,
-  .color-box-child-noeffect {
-    border: 1px solid #fff;
-    float: left;
-    position: relative;
-  }
-  
-  .color-header-wrap .icon-scrap-book,
-  .color-swatch .icon-scrap-book,
-  .color-box-child .icon-scrap-book {
-    float: right;
-    position: absolute;
-    right: 15px;
-    height: 100%;
-    max-height: 40px;
-    top: 15px;
-    width: 22px;
-    z-index: 2;
-  }
-  
-  .color-box-child {
-    color: #fff;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    height: 120px;
-  }
-  
-  .color-node-box .color-image {
-    border-radius: 3px 3px 0 0;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .node-type-color .color-image img {
-    width: 100%;
-    height: auto;
-    cursor: default;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .color-node-box>.color-swatch+div .color-swatch {
-    border-radius: 0 0 3px 3px;
-    padding-bottom: 0;
-  }
-  
-  .row-swatch-info .color-image img {
-    visibility: hidden;
-  }
-  
-  .rowInfo .toggle-option,
-  .color-node-box .toggle-option {
-    cursor: pointer;
-    background: #fff;
-    padding: 5px 15px;
-    border-radius: 15px;
-    line-height: 18px;
-    height: 28px;
-    display: block;
-    padding-left: 30px;
-    position: relative;
-    float: left;
-    width: auto;
-  }
-  
-  .color-preview-option a {
-    color: #333;
-  }
-  
-  .row-preview-info .toggle-option {
-    padding-left: 10px;
-    display: block;
-    padding-right: 38px;
-  }
-  
-  .row-preview-info .toggle-option:before {
-    display: none;
-  }
-  
-  .row-preview-info .toggle-option:after {
-    margin-left: 10px;
-  }
-  
-  .rowInfo .toggle-option label {
-    font-size: 12px;
-    cursor: pointer;
-  }
-  
-  .rowInfo .toggle-option:before,
-  .color-node-box .toggle-option:before {
-    left: 5px;
-  }
-  
-  .node-type-color .field-label {
-    display: none;
-  }
-  
-  .colors-listing-box .colors .color-box-child {
-    height: 100%;
-    padding-top: 60%;
-    position: relative;
-    width: 100%;
-  }
-  
-  .color-box-child.selected {
-    border-radius: 3px;
-    cursor: pointer;
-    transform: scale(1.1);
-    z-index: 1;
-    box-shadow: 0 0 15px 0 rgba(186, 186, 186, 0.5);
-    border: none;
-  }
-  
-  .cnme.color-text {
-    display: none;
-    text-align: left;
-    line-height: 12px;
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  
-  p.cnme {
-    margin: auto;
-    vertical-align: bottom;
-    width: 100%;
-    opacity: 0.6;
-  }
-  
-  @media (min-width:768px) {
-    .color-swatch {
-      padding: 0;
-    }
-    .color-node-box>.color-swatch+div {
-      min-height: 300px;
-    }
-    .color-node-box>.color-swatch+div .color-swatch {
-      border-radius: 0 3px 3px 0;
-      height: 100%;
-    }
-    .row-swatch-info .color-image,
-    .row-preview-info .color-image {
-      height: 400px;
-    }
-    .row-swatch-info .color-image img,
-    .row-preview-info .color-image img {
-      visibility: visible;
-      width: auto;
-      max-height: 100%;
-      margin-top: 1px;
-    }
-    .colors-listing-box .colors .color-box-child {
-      padding-top: 50%;
-    }
-    .scrap-book-color.hidden-xs.color-text {
-      margin-top: -13px;
-      margin-right: -13px;
-    }
-    .node-type-color .field-label {
-      display: block;
-    }
-    .node-type-color .mail-share {
-      width: 100%;
-    }
-    .cnme.color-text {
-      display: block;
-      text-align: center;
-      position: absolute;
-      bottom: 15px;
-      line-height: 20px;
-      padding: 10px;
-      overflow: hidden;
-      max-height: 100%;
-    }
-  }
-  
-  @media (min-width:992px) {
-    .color-swatch {
-      padding: 15px 10px;
-    }
-    .scrap-book-color.hidden-xs.color-text {
-      margin-top: 0;
-      margin-right: 0;
-    }
-  }
-  
-  @media only screen and (min-device-width :768px) and (max-device-width :1024px) {
-    .colors-listing-box .colors .color-box-child {
-      padding-top: 63%;
-    }
-    .color-box-child .cnme.color-text {
-      font-size: 12px;
-    }
-  }
-  
-  
-  /*})'"*/
-  
   .tab-content {
     clear: both;
   }
@@ -4860,6 +4017,650 @@
     }
     form.flourish-colors-listing {
       overflow: hidden;
+    }
+  }
+  
+  
+  /*})'"*/
+  
+  @media only screen and (min-width:768px) {
+    .view-inspiration-articles .field-content .col-sm-4:nth-child(3n+1) {
+      padding-right: 15px;
+      clear: both;
+    }
+    .view-inspiration-articles .field-content .chk:nth-child(3n+2) {
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+    }
+    .view-inspiration-articles .field-content .col-sm-4:nth-child(3n) {
+      padding-left: 15px;
+      padding-right: 0;
+    }
+  }
+  
+  
+  /*})'"*/
+  
+  .page-header {
+    border-bottom: medium none;
+    font-size: 24px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+  }
+  
+  .region.region-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .page-colour-inspiration h1.page-header,
+  .page-colour-inspiration h1.view-page-header {
+    border: none;
+    font-size: 30px;
+    padding-bottom: 9px;
+    padding-top: 0px;
+  }
+  
+  .page-tips-and-advice .region.region-content {
+    width: 100%;
+  }
+  
+  .page-colour-inspiration .page-header {
+    display: none;
+  }
+  
+  .view-tips-and-advice .field-content .col-md-4 .rowss>img,
+  .view-tips-and-advice .field-content .col-md-4 .rowss a>img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .page-colour-inspiration .articles-count {
+    display: none;
+  }
+  
+  @media (min-width:768px) {
+    .page-tips-and-advice .page-header {
+      border-bottom: medium none;
+      margin: 35px 0 15px 0;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+    .page-tips-and-advice .region.region-content {
+      width: 101%;
+    }
+  }
+  
+  .first-block {
+    background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/decorating-advice.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 100%;
+    border-radius: 3px;
+    height: 396px;
+  }
+  
+  .fl-pt .first-block {
+    background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/decorating-advice_pt.png);
+  }
+  
+  .text-div p:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .text-div {
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 4%;
+    text-align: center;
+    bottom: 5%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .text-div h2 {
+    display: block;
+    font-size: 32px;
+    margin: 0 0 10px;
+    color: #fff;
+  }
+  
+  .text-div p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+  }
+  
+  .text-div p:last-child {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media (min-width:768px) {
+    .first-block {
+      border-radius: 3px;
+      height: 520px;
+      margin-left: -1px;
+      margin-top: 0;
+      width: 97.6%;
+      margin-bottom: 20px;
+    }
+    .text-div {
+      color: #fff;
+      font-size: 15px;
+      line-height: 19px;
+      padding: 0 4%;
+      vertical-align: bottom;
+      width: 65%;
+      text-align: left;
+    }
+    .text-div p:last-child {
+      width: 135%;
+      text-align: left;
+    }
+    .page-header {
+      padding-bottom: 12px;
+    }
+  }
+  
+  .page-tips-and-advice .main-container.container {
+    padding: 0 2%;
+    width: 100%;
+  }
+  
+  .page-tips-and-advice .field-content .col-md-8 {
+    padding: 0 0;
+  }
+  
+  .view-tips-and-advice .field-content .col-md-4 .rowss {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #f2f0f0;
+  }
+  
+  .page-tips-and-advice .field-content .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .page-tips-and-advice .views-row .col-md-4 {
+    margin: 20px 0;
+  }
+  
+  @media (min-width:768px) {
+    .page-tips-and-advice .main-container.container {
+      padding-right: 15px;
+      padding-left: 15px;
+      width: 100%;
+    }
+    .page-tips-and-advice .field-content .col-md-4 {
+      padding: 0 20px 0 0;
+      margin: 0 0 20px 0;
+      text-align: center;
+    }
+    .view-tips-and-advice .field-content .col-md-4 .rowss {
+      min-height: 396px;
+    }
+    .view-tips-and-advice .rowss>img,
+    .view-tips-and-advice .rowss a>img {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  .view-tips-and-advice .field-content .col-md-4 .rowss>.s-hdlne {
+    background-color: #fff;
+    float: left;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 0 5px #f2f0f0;
+  }
+  
+  .view-tips-and-advice .views-row-1 .field-content .col-md-4 .rowss>.s-hdlne {
+    box-shadow: none;
+  }
+  
+  .view-inspiration-articles .s-hdlne>a {
+    color: #333;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    height: 85px;
+    vertical-align: middle;
+    line-height: 20px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    padding: 15px 19px 0 15px;
+    width: 100%;
+  }
+  
+  .s-hdlne>a .chevron.right:before {
+    top: 7px;
+  }
+  
+  .s-hdlne>a {
+    color: #333;
+    float: left;
+    font-size: 24px;
+    text-align: left;
+    height: auto;
+    vertical-align: middle;
+    padding: 25px 15px 25px 15px;
+    width: 100%;
+  }
+  
+  .field-name-body .para-h {
+    padding: 10px 0 5px 0;
+    font-size: 20px;
+  }
+  
+  @media (min-width:768px) {
+    .col-md-4 .rowss {
+      background: #fff none repeat scroll 0 0;
+      margin: 18px 0;
+      border-radius: 3px;
+      box-shadow: 0 0 5px #f2f0f0;
+    }
+    .col-md-4 .rowss>img,
+    .col-md-4 .rowss a>img {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      height: auto;
+      max-width: 100%;
+    }
+    .col-md-4 .rowss>.s-hdlne {
+      height: auto;
+      text-align: center;
+    }
+    .field-name-body .para-h {
+      padding: 10px 0 5px 0;
+      font-size: 24px;
+    }
+  }
+  
+  @media (min-width:992px) {
+    .first-block {
+      margin-bottom: 0;
+    }
+  }
+  
+  .room-type-landing-page .main-container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .room-type-landing-page .pager {
+    padding-bottom: 3.5rem !important;
+    padding-top: 3rem !important;
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
+  .view-seo-roomtype-gallery .pager li>a {
+    box-shadow: inset 0 0 0 3px #666666;
+    border-radius: 5px;
+    border: none;
+    color: #666666;
+    z-index: 100;
+    font-size: 1.6rem;
+    font-family: 'open_sans_semibold';
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 10px 24px;
+    min-width: 143px;
+  }
+  
+  .view-seo-roomtype-gallery .pager li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #00A78E;
+    color: #00A78E;
+  }
+  
+  .room-type-landing-page .colour-tester .colour-tester__content .colour-tester__title {
+    font-size: 14px;
+  }
+  
+  .room-type-landing-page .flex-modal .modal-article .article-block p {
+    color: #333;
+  }
+  
+  #room-type-color-hue>select {
+    width: 100%;
+  }
+  
+  
+  /*})'"*/
+  
+  .custom-pagination span,
+  .custom-pagination li a {
+    color: #2fc48d;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .pagination .ajax-progress-throbber {
+    display: none;
+  }
+  
+  .pagination li.active a {
+    background-color: #2fc48d !important;
+    border-color: #2fc48d;
+    color: #fff;
+  }
+  
+  .pagination li a {
+    color: #2fc48d;
+  }
+  
+  .pagination>li>a:focus,
+  .pagination>li>a:hover {
+    color: #ffffff;
+    background-color: #2fc48d;
+    border-color: #2fc48d;
+    border-radius: 4px;
+  }
+  
+  .pagination .pagination-prev a:hover,
+  .pagination .pagination-next a:hover {
+    background-color: transparent;
+  }
+  
+  .pagination .last a {
+    background-color: #fff;
+    border: 2px solid #2fc48d;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 150px;
+    padding: 9px;
+    margin-top: 15px;
+    border-radius: 4px;
+  }
+  
+  .pagination li.active a {
+    background-color: #2fc48d !important;
+    border-color: #2fc48d;
+  }
+  
+  .pagination li {
+    display: none;
+  }
+  
+  .pagination li:last-child {
+    display: block;
+  }
+  
+  .page-products-listing ul.pagination {
+    width: 100%;
+    border-top: none;
+    padding-top: 18px;
+  }
+  
+  .page-products-listing ul.pagination li {
+    display: inline-block;
+    width: 48px;
+  }
+  
+  .page-products-listing ul.pagination li a {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    min-width: 1px;
+  }
+  
+  .page-products-listing .pagination>.disabled>a,
+  .page-products-listing .pagination>.disabled>a:focus,
+  .page-products-listing .pagination>.disabled>a:hover,
+  .page-products-listing .pagination>.disabled>span,
+  .page-products-listing .pagination>.disabled>span:focus,
+  .page-products-listing .pagination>.disabled>span:hover {
+    color: #777;
+    cursor: auto;
+    background-color: transparent;
+    border-color: #ddd;
+  }
+  
+  .page-products-listing ul.pagination>li>a,
+  .page-products-listing ul.pagination>li>span {
+    padding: 10px 12px 8px 12px;
+    border: none;
+    background: transparent;
+  }
+  
+  .page-products-listing ul.pagination li.prev a,
+  .page-products-listing ul.pagination li.next a {
+    background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/header/sprite-icons.png);
+    text-indent: -999em;
+  }
+  
+  .page-products-listing ul.pagination li.prev,
+  .page-products-listing ul.pagination li.next {
+    width: 20px;
+  }
+  
+  .page-products-listing ul.pagination li.next a {
+    background-position: -590px -22px;
+  }
+  
+  .page-products-listing ul.pagination li.prev a {
+    background-position: -562px -22px;
+    overflow: hidden;
+    width: 15px;
+  }
+  
+  .page-products-listing ul.pagination li.next a:hover,
+  .page-products-listing ul.pagination li.prev a:hover,
+  .page-products-listing ul.pagination li.next a:focus,
+  .page-products-listing ul.pagination li.prev a:focus {
+    background-color: transparent !important;
+  }
+  
+  .page-products-listing ul.pagination>li>a:hover {
+    background-color: #2fc48d;
+  }
+  
+  .page-products-listing ul.pagination li:last-child {
+    display: inline-block;
+  }
+  
+  .page-products-listing .pagination>li>a:focus {
+    background-color: transparent !important;
+    color: #2fc48d !important;
+  }
+  
+  @media (min-width:768px) {
+    .pagination {
+      width: 100%;
+      border-top: 1px solid #e7e7e7;
+      padding-top: 18px;
+    }
+    .page-tips-and-advice .pagination {
+      margin: 2% auto;
+    }
+    .pagination li {
+      display: inline-block;
+      width: 48px;
+    }
+    .pagination li a {
+      width: 40px;
+      height: 40px;
+      margin: auto;
+      border: none;
+      border-radius: 4px;
+    }
+    .pagination>.disabled>a,
+    .pagination>.disabled>a:focus,
+    .pagination>.disabled>a:hover,
+    .pagination>.disabled>span,
+    .pagination>.disabled>span:focus,
+    .pagination>.disabled>span:hover {
+      color: #777;
+      cursor: auto;
+      background-color: transparent;
+      border-color: #ddd;
+    }
+    .pagination>li>a,
+    .pagination>li>span {
+      padding: 10px 12px 8px 12px;
+      border: none;
+      background: transparent;
+    }
+    .pagination .prev a,
+    .pagination .next a {
+      background-image: url(https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/header/sprite-icons.png);
+      text-indent: -999em;
+      line-height: 26px;
+    }
+    .pagination .prev,
+    .pagination .next {
+      width: 20px;
+    }
+    .pagination .next a {
+      background-position: -590px -22px;
+    }
+    .pagination .prev a {
+      background-position: -562px -22px;
+      overflow: hidden;
+      width: 15px;
+    }
+    .pagination .next a:hover,
+    .pagination .prev a:hover,
+    .pagination .next a:focus,
+    .pagination .prev a:focus {
+      background-color: transparent !important;
+    }
+    .pagination .pager-ellipsis span {
+      color: #2fc48d;
+    }
+    .pagination li:last-child {
+      display: inline-block;
+    }
+    .pagination .last a {
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+      color: #2fc48d;
+      font-size: 16px;
+      font-weight: normal;
+      min-width: 40px;
+      padding: 9px;
+      margin-top: 0;
+    }
+  }
+  
+  
+  /*})'"*/
+  
+  .view-tips-and-advice .field-content .col-md-4 .rowss {
+    background: #fff none repeat scroll 0 0;
+    margin: 11px 0;
+    min-height: 396px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #f2f0f0;
+  }
+  
+  .view-tips-and-advice .field-content .col-md-4 .rowss>img,
+  .view-tips-and-advice .field-content .col-md-4 .rowss a>img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .view-tips-and-advice .field-content .col-md-4 .rowss>.s-hdlne {
+    height: 85px;
+    text-align: center;
+  }
+  
+  .view-tips-and-advice .field-content .col-md-8 .rowss {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    margin: 1% 0;
+    min-height: 400px;
+  }
+  
+  .view-tips-and-advice .field-content .col-md-8 .rowss>img {
+    min-height: 300px;
+    width: 100%;
+  }
+  
+  .view-inspiration-articles .field-content .col-md-8 .rowss>.s-hdlne,
+  .view-tips-and-advice .field-content .col-md-8 .rowss>.s-hdlne {
+    text-align: center;
+  }
+  
+  .view-inspiration-articles .field-content .rowss {
+    background: #fff none repeat scroll 0 0;
+    height: auto;
+    border-radius: 3px;
+    position: relative;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    overflow: auto;
+  }
+  
+  .view-inspiration-articles .field-content .col-md-4 {
+    padding: 0 0 20px 0;
+  }
+  
+  .view-inspiration-articles .field-content .rowss img {
+    max-width: 100%;
+    border-radius: 3px 3px 0 0;
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+  }
+  
+  .view-inspiration-articles .field-content .rowss>a {
+    display: block;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  
+  .view-inspiration-articles .field-content .rowss .s-hdlne {
+    background-color: #fff;
+    float: left;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+  }
+  
+  .view-inspiration-articles .pagination {
+    border: none;
+    margin: 0px;
+  }
+  
+  .view-inspiration-articles .rowss .color-badging {
+    height: 7px;
+    margin-top: -1px;
+  }
+  
+  .view-inspiration-articles .rowss .color-badging .badging {
+    height: 7px;
+  }
+  
+  @media (min-width:768px) {
+    .view-inspiration-articles .field-content .rowss:hover {
+      box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
     }
   }
   

@@ -3,7 +3,7 @@
 @section('title', app_name() . ' | ' . __('navs.general.home'))
 
 @section('cssPage')
-@include('frontend.find_color.includes.IdeaCss')
+@include('frontend.includes.css.IdeaCss')
 @endsection
 
 @section('content')

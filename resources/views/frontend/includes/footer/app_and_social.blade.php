@@ -1,17 +1,19 @@
 <div class="v2-footer-section v2-footer-call-to-actions">
   <div class="container">
     <div class="row">
+      <!--    Payments section start     -->
+      <!--    Payments section end     -->
+      <!--    visualizer section start     -->
       <div class="col-xs-12 col-md-6 v2-footer-menu__column v2-footer-menu__column--visualizer">
         <div class="v2-footer__heading">
           <span class="v2-footer__header">Khám phá Dulux Visualizer</span>
         </div>
         <div class="app-buttons">
-          <a class="button  button--clean hide-on-android   " href="https://itunes.apple.com/vn/app/dulux-visualizer-vn/id862447000?mt=8" target="_self" tabindex="41">
-          <img alt="download from apple app store" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/app-store-btn.jpg" title="Download from Apple App Store">
-          </a>
-          <a class="button  button--clean hide-on-ios   " href="https://play.google.com/store/apps/details?id=com.akzonobel.cooper.vn.dulux" target="_self" tabindex="42">
-          <img alt="Get it on Google Play" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/google-store-btn.jpg">
-          </a>
+          <!-- <span class="store-links" style="text-align: left;">
+            <a href="https://itunes.apple.com/vn/app/dulux-visualizer-vn/id862447000?mt=8">
+              <img alt="download from apple app store" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/app-store-btn.jpg" style="width: 100px;position: absolute;margin-top: 230px;margin-left: 175px;" title="Download from Apple App Store" /></a> <a href="https://play.google.com/store/apps/details?id=com.akzonobel.cooper.vn.dulux" title="Get it on Google Play">
+              <img alt="Get it on Google Play" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/google-store-btn.jpg" style="width: 100px;position: absolute;margin-top: 230px;margin-left: 20px;" /></a> 
+            </span> -->
         </div>
       </div>
       <!--    visualizer section end     -->
