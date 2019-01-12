@@ -45,6 +45,10 @@ class FindColorController extends Controller
         ]);
     }
 
+    public function findColor (Request $request) {
+
+    }
+
     /**
      * Show the form for creating a new resource.
      *
