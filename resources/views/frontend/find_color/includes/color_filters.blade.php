@@ -59,7 +59,7 @@
         <div class="form-type-checkbox form-item-color-surface-usage-Trần-nhà form-item checkbox append-outline-processed">
             <input data-label="{{$surface->name}}" type="checkbox"
             id="edit-color-surface-usage-{{$surface->id}}--2" name="color_surface_usage[{{$surface->id}}]"
-            value="Trần nhà" class="form-checkbox CLPSurfaceChange-processed"
+            value="{{$surface->id}}" class="color-surface form-checkbox CLPSurfaceChange-processed"
             tabindex="64">
             <label class="option" for="edit-color-surface-usage-{{$surface->id}}--2">{{$surface->name}}</label>
             <span class="checkbox-outline"></span>

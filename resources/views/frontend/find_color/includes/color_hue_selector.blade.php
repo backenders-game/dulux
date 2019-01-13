@@ -1,6 +1,6 @@
 <div id="hue-selector" class="colors-hue-selectors clearfix">
 <div class="no-gutter col-xs-2">
-    <div class="cid-white  selected product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="29">
+    <div data-id="1" class="cid-white  selected product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="29">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -9,7 +9,7 @@
         </span>
     </div>
     </div>
-    <div class="cid-red  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="31">
+    <div data-id="2" class="cid-red  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="31">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -20,7 +20,7 @@
     </div>
 </div>
 <div class="no-gutter col-xs-2">
-    <div class="cid-orange  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="33">
+    <div data-id="3" class="cid-orange  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="33">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -29,7 +29,7 @@
         </span>
     </div>
     </div>
-    <div class="cid-gold  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="35">
+    <div data-id="4" class="cid-gold  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="35">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -40,7 +40,7 @@
     </div>
 </div>
 <div class="no-gutter col-xs-2">
-    <div class="cid-yellow  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="37">
+    <div data-id="5" class="cid-yellow  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="37">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -49,7 +49,7 @@
         </span>
     </div>
     </div>
-    <div class="cid-lime  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="39">
+    <div data-id="6" class="cid-lime  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="39">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -60,7 +60,7 @@
     </div>
 </div>
 <div class="no-gutter col-xs-2">
-    <div class="cid-green  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="41">
+    <div data-id="7" class="cid-green  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="41">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -69,7 +69,7 @@
         </span>
     </div>
     </div>
-    <div class="cid-teal  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="43">
+    <div data-id="8" class="cid-teal  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="43">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -80,7 +80,7 @@
     </div>
 </div>
 <div class="no-gutter col-xs-2">
-    <div class="cid-blue  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="45">
+    <div data-id="9" class="cid-blue  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="45">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -89,7 +89,7 @@
         </span>
     </div>
     </div>
-    <div class="cid-violet  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="47">
+    <div data-id="10" class="cid-violet  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="47">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -100,7 +100,7 @@
     </div>
 </div>
 <div class="no-gutter col-xs-2">
-    <div class="cid-cool neutral  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="49">
+    <div data-id="11" class="cid-cool neutral  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="49">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
@@ -109,7 +109,7 @@
         </span>
     </div>
     </div>
-    <div class="cid-warm neutral  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="51">
+    <div data-id="12" class="cid-warm neutral  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="51">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>

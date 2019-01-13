@@ -185,10 +185,14 @@
 <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/bootstrap3.js')}}"></script>
 <script type="text/javascript">
+var csrftoken = $('meta[name="csrf-token"]').attr('content');
+var selectedColorGroupId = 0;
 var selectedProjectType = 0;
 var selectedFinish = 0;
 var selectedSurfaces = [];
+
 $(document).ready(function() {
+    // Chuyển trang thái số filter projecttypes.
     $('.form-item-color-room-type').each(function (idx, item) {
         if ($(item).is(':checked')) {
             $('.counter-projecttype').addClass('visible');
@@ -213,6 +217,19 @@ $(document).ready(function() {
         $(this).toggleClass('visible');
         $('.filter-surfaces').toggleClass('hidden');
     });
+    $('.color-surface').on('click', function (e) {
+        let surfaceId = $(this).val();
+        if ($(this).is(':checked')) {
+            if (!selectedSurfaces.includes(surfaceId)) {
+                selectedSurfaces.push(surfaceId);
+            }
+        } else {
+            if (selectedSurfaces.includes(surfaceId)) {
+                let idx = selectedSurfaces.indexOf(surfaceId)
+                selectedSurfaces.splice(idx, 1);
+            }
+        }
+    });
 
     // ẩn hiện select filter bề mặt hoàn thiện.
     $('#form-color-finish').on('click', function (e) {
@@ -220,20 +237,49 @@ $(document).ready(function() {
         $('.filter-finish-surfaces').toggleClass('hidden');
     });
     // Chọn loại phòng cần sơn.
-    $('.form-item-color-room-type').on('click', function(e) {
-        $('.counter-projecttype').addClass('visible');
+    $('.color-projecttype').click(function(e) {
+        selectedProjectType = $(this).val();
+        findColor({
+            group_id: selectedColorGroupId,
+            finish_id: selectedFinish,
+            project_id: selectedProjectType,
+            surfaces_id: selectedSurfaces
+        }, function () {
+            $('#form-color-room-type').toggleClass('visible');
+            $('.filter-projecttypes').toggleClass('hidden');
+            $('.counter-projecttype').addClass('visible');
+        });
     });
 
     // Chọn loại bề mặt hoàn thiện.
     $('.form-color-finish-item').on('click', function (e) {
         $('.counter-finish-surfaces').addClass('visible');
+        selectedFinish = $(this).val();
+        findColor({
+            group_id: selectedColorGroupId,
+            finish_id: selectedFinish,
+            project_id: selectedProjectType,
+            surfaces_id: selectedSurfaces
+        }, function () {
+            $(this).toggleClass('visible');
+            $('.filter-finish-surfaces').toggleClass('hidden');
+        });
     });
     // Thay đổi nhóm màu.
     $('.colors-hue-selector').on('click', function(e) {
         $('.colors-hue-selector').each(function (idx, item) {
             $(item).removeClass('selected');
         });
-        $(this).addClass('selected');
+        selectedColorGroupId = $(this).data('id');
+        let selectedEle = this;
+        findColor({
+            group_id: selectedColorGroupId,
+            finish_id: selectedFinish,
+            project_id: selectedProjectType,
+            surfaces_id: selectedSurfaces
+        }, function () {
+            $(selectedEle).addClass('selected');
+        });
     });
 
     // Chuyen tab mau pha san & mau tron bang may tinh.
@@ -242,29 +288,51 @@ $(document).ready(function() {
             $(item).removeClass('active');
         });
         if ($(this).hasClass('colors-ready-to-mix')) {
-            console.log('tron mau')
-            $('#hue-container').removeClass('hidden');
-            $('#hue-collection').addClass('hidden');
+            findColor({
+                group_id: selectedColorGroupId,
+                finish_id: selectedFinish,
+                project_id: selectedProjectType,
+                surfaces_id: selectedSurfaces
+            }, function () {
+                $('#hue-container').removeClass('hidden');
+                $('#hue-collection').addClass('hidden');
+            })
         }
         if ($(this).hasClass('colors-ready-to-buy')) {
-            console.log('co san');
-            $('#hue-collection').removeClass('hidden');
-            $('#hue-container').addClass('hidden')
+            findColor({
+                group_id: selectedColorGroupId,
+                finish_id: selectedFinish,
+                project_id: selectedProjectType,
+                surfaces_id: selectedSurfaces
+            }, function () {
+                $('#hue-collection').removeClass('hidden');
+                $('#hue-container').addClass('hidden');
+            });
         }
         $(this).addClass('active');
     })
 });
 
-function findColor (url, data) {
+function findColor (filters, afterSuccess = null, afterError = null) {
+    let url = "{{route('frontend.find_color')}}";
     $.ajax({
         url: url,
-        type: 'GET',
-        data: data,
+        type: 'POST',
+        data: {
+            _token: csrftoken,
+            filters: filters
+        },
         success: function (result) {
-
+            console.log('success', result)
+            if (typeof afterSuccess === 'function') {
+                afterSuccess();
+            }
         },
         error: function (err) {
-
+            console.log(err);
+            if (typeof afterError === 'function') {
+                afterError();
+            }
         }
     })
 }

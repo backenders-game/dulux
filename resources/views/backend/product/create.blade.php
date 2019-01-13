@@ -252,7 +252,6 @@
         var selectedColors = [];
         $('.color-item:checked').each((idx, item) => {
             let selectedValue = $(item).val();
-            console.log('item', selectedValue);
             if (!selectedColors.includes(selectedValue)) {
                 selectedColors.push(selectedValue);
             }
@@ -286,7 +285,6 @@
                         _token: csrftoken
                     },
                     success: function (response) {
-                        console.log('success ', response);
                         $('#list_properties').append(`
                             <div class="col-md-6">
                                 <div class="form-check checkbox">
@@ -324,7 +322,7 @@
                     values[fieldName] = field.value;
                 }
             });
-            console.log('value', values);
+
             let submitColorData = {
                 _token: csrftoken,
                 name: values.color_name || '',
@@ -388,7 +386,6 @@
             } else {
                 let keyword = $(this).val();
                 let selectedColorGroupId = $('#select_colorgroup').val();
-                console.log('groupID', selectedColorGroupId);
                 if (typeof keyword === 'string' && keyword.trim() !== '') {
                     keyword = keyword.toLowerCase();
                     $('.color_group_grid_' + selectedColorGroupId)
@@ -411,7 +408,7 @@
                     }
                 }
             }
-        })
+        });
     });
 </script>
 @endpush
