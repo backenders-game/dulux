@@ -4,10 +4,8 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-/* 
-+)Sản phẩm
-*/
-class ProductController extends Controller
+
+class DetailProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +14,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('frontend.product.category_product');
+        return view('frontend.product.detail_product');
     }
 
     /**

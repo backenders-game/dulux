@@ -6,7 +6,7 @@
   @include('frontend.includes.css.homeCss')
 @endsection
 @section('content')
-<div id="zone-content" class="zone-content">
+<div id="zone-content" class="zone-content home_dulux">
   <div class="main-container container">
     <!-- /#page-header -->
     <div class="row">
@@ -52,10 +52,8 @@
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/key-entry.jpg')"></div>
                                   <div class="entry-content fl-equi-height" style="height: 82px;">
                                     Màu Dulux của Năm 2019                    
-                                    <button class="bttn squared right" tabindex="30">
-                                      <svg class="icon icon-arrow-right right">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                                      </svg>
+                                    <button class="home_list_item bttn squared right" tabindex="30">
+                                      <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
                                   </div>
                                 </div>
@@ -67,10 +65,8 @@
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/image-entrypoint-xl2x_1.png')"></div>
                                   <div class="entry-content fl-equi-height" style="height: 82px;">
                                     Trợ giúp về mẹo &amp; bí quyết                    
-                                    <button class="bttn squared right" tabindex="32">
-                                      <svg class="icon icon-arrow-right right">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                                      </svg>
+                                    <button class="home_list_item bttn squared right" tabindex="30">
+                                      <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
                                   </div>
                                 </div>
@@ -82,10 +78,8 @@
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/entrypoint_img_products2x.png')"></div>
                                   <div class="entry-content fl-equi-height" style="height: 82px;">
                                     Chọn sản phẩm phù hợp để sơn                    
-                                    <button class="bttn squared right" tabindex="34">
-                                      <svg class="icon icon-arrow-right right">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                                      </svg>
+                                    <button class="home_list_item bttn squared right" tabindex="30">
+                                      <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
                                   </div>
                                 </div>
@@ -97,10 +91,8 @@
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/image-entrypoint-xl2x.png')"></div>
                                   <div class="entry-content fl-equi-height" style="height: 82px;">
                                     Tìm điểm bán gần bạn                    
-                                    <button class="bttn squared right" tabindex="36">
-                                      <svg class="icon icon-arrow-right right">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                                      </svg>
+                                    <button class="home_list_item bttn squared right" tabindex="30">
+                                      <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
                                   </div>
                                 </div>

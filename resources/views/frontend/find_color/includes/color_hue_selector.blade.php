@@ -5,7 +5,7 @@
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
         </svg>
-        <span><button class="use-ajax-submit solr-color-box-button btn btn-default form-submit ajax-processed colorHue-processed flourish_google_tag_manager-processed" style="opacity:0" title="Họ màu trắng" id="edit-palette-white--2" name="color" value="white" type="button" tabindex="30">white</button>
+        <span><i class='fas fa-check' style="padding-top: 24px;color: #b7b0b0;"></i><button class="use-ajax-submit solr-color-box-button btn btn-default form-submit ajax-processed colorHue-processed flourish_google_tag_manager-processed" style="opacity:0" title="Họ màu trắng" id="edit-palette-white--2" name="color" value="white" type="button" tabindex="30">white</button>
         </span>
     </div>
     </div>

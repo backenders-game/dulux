@@ -16,7 +16,7 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <head>
-    <!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="smartbanner:button-url-apple" content="https://itunes.apple.com/vn/app/dulux-visualizer-vn/id862447000?mt=8" />
@@ -43,14 +43,15 @@
     <meta name="twitter:title" content="Homepage" />
     <meta property="article:published_time" content="2016-07-14T09:23:31+00:00" />
     <meta property="article:modified_time" content="2019-01-08T02:52:13+00:00" />
-    <meta itemprop="name" content="Homepage" /> -->
+    <meta itemprop="name" content="Homepage" />
     <title>Homepage | Dulux</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     @yield('cssPage')
   </head>
   <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2 node-type-panopoly-landing-page panopoly-landing-page region-content i18n-vi fl-vi front fl-avndlx page-node-3 node-type-panopoly-landing-page panopoly-landing-page products-overview region-content i18n-vi fl-vi fl-san-pham fl-avndlx" >
     
-    <!-- <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6DGC7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K6DGC7');</script> -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6DGC7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K6DGC7');</script>
     <!-- 1.header -->
     @include('frontend.includes.header')
     <!-- 1.End header -->

@@ -10,7 +10,6 @@
     <!-- /#page-header -->
     <div class="row">
       <section class="col-sm-12">
-        <!--   -->
         <a id="main-content"></a>
         <h1 class="page-header">Nội thất</h1>
         <div class="region region-content">
@@ -71,7 +70,7 @@
                                           <div class="row no-margin no-padding">
                                             <div class="row-3">
                                               <div class="cstm-col-md-4 flourishProducts-processed" style="height: 239px;">
-                                                <div class="img-holder "><a href="/vi/san-pham/son-phu" title="Sơn" tabindex="26"><img alt="" class="img-responsive center-block" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/son.png"></a></div>
+                                                <div class="img-holder "><a href="/vi/san-pham/son-phu" {{route('frontend.danh_sach_san_pham')}} title="Sơn" tabindex="26"><img alt="" class="img-responsive center-block" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/son.png"></a></div>
                                                 <div class="text-holder">
                                                   <p class="text-center fs24"><a href="/vi/san-pham/son-phu" title="Sơn" tabindex="27">Sơn</a></p>
                                                 </div>

@@ -12,35 +12,23 @@
           <div class="accordion__content">
             <ul class="v2-footer-menu__list v2-footer-menu__list--column">
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/ve-flourish">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Giới thiệu về AkzoNobel</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Giới thiệu về AkzoNobel</span> 
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/lien-he">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Liên hệ với chúng tôi</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Liên hệ với chúng tôi</span> 
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/storefinder">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Tìm cửa hàng</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Tìm cửa hàng</span> 
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/html-so-do-trang">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Sơ đồ trang</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Sơ đồ trang</span> 
                 </a>
               </li>
             </ul>
@@ -58,43 +46,29 @@
           <div class="accordion__content">
             <ul class="v2-footer-menu__list v2-footer-menu__list--column">
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/mau-sac-bang-mau">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Tìm màu sắc</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.mau_sac_bang_mau')}}">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Tìm màu sắc</span> 
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/san-pham">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Chọn sản phẩm</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.san_pham')}}">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Chọn sản phẩm</span> 
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/y-tuong">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Ý tưởng</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.y_tuong')}}">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Ý tưởng<</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/meo-va-loi-khuyen-trang-tri-nha">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Trợ giúp từ chuyên gia</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.loi_khuyen')}}">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Trợ giúp từ chuyên gia</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/dulux-mau-cua-nam-2018">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Màu Dulux của năm</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Màu Dulux của năm</span>
+
                 </a>
               </li>
             </ul>
@@ -112,11 +86,9 @@
           <div class="accordion__content">
             <ul class="v2-footer-menu__list v2-footer-menu__list--column">
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="https://www.dulux.vn/vi/kh-nng-truy-cp-thong-tin">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Khả năng Truy cập</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Khả năng Truy cập</span>
+
                 </a>
               </li>
             </ul>
@@ -134,11 +106,8 @@
           <div class="accordion__content">
             <ul class="v2-footer-menu__list v2-footer-menu__list--column">
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="http://dulux.com.vn/">
-                  <svg class="icon icon--xsmall icon--fill" title="">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
-                  </svg>
-                  <span>Dulux.com.vn</span>
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.home')}}">
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Dulux.com.vn</span>
                 </a>
               </li>
             </ul>

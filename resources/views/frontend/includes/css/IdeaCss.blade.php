@@ -1,4 +1,5 @@
 <link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss12.css')}}" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" media="all" />
 <link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss2.css')}}" media="all" />
 <link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss3.css')}}" media="all" />
 <link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss4.css')}}" media="all" />

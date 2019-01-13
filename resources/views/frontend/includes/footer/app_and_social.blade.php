@@ -9,11 +9,12 @@
           <span class="v2-footer__header">Khám phá Dulux Visualizer</span>
         </div>
         <div class="app-buttons">
-          <!-- <span class="store-links" style="text-align: left;">
-            <a href="https://itunes.apple.com/vn/app/dulux-visualizer-vn/id862447000?mt=8">
-              <img alt="download from apple app store" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/app-store-btn.jpg" style="width: 100px;position: absolute;margin-top: 230px;margin-left: 175px;" title="Download from Apple App Store" /></a> <a href="https://play.google.com/store/apps/details?id=com.akzonobel.cooper.vn.dulux" title="Get it on Google Play">
-              <img alt="Get it on Google Play" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/google-store-btn.jpg" style="width: 100px;position: absolute;margin-top: 230px;margin-left: 20px;" /></a> 
-            </span> -->
+        <a href="https://play.google.com/store/apps/details?id=com.akzonobel.cooper.vn.dulux" title="Get it on Google Play">
+          <img src="{{asset('img/frontend/icons/logo_apple.png')}}" alt="" height="44" width="154">
+        </a>
+        <a href="https://itunes.apple.com/vn/app/dulux-visualizer-vn/id862447000?mt=8">
+            <img src="{{asset('img/frontend/icons/logo_google.png')}}" alt="" height="44" width="154">
+        </a> 
         </div>
       </div>
       <!--    visualizer section end     -->

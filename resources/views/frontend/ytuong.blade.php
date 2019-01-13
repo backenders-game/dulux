@@ -11,7 +11,7 @@
   <div class="main-container container">
     <!-- /#page-header -->
     <div class="row">
-      <section class="col-sm-12">
+      <section class="col-sm-12" class="paddingAll" style="padding-left: 15px;padding-right: 15px;">
         <!--   -->
         <a id="main-content"></a>
         <h1 class="page-header">Ý tưởng</h1>
