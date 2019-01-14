@@ -25,6 +25,7 @@ Route::post('contact/send', [ContactController::class, 'send'])->name('contact.s
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/mau-sac-bang-mau', [FindColorController::class, 'index'])->name('mau_sac_bang_mau');
+Route::post('/find-color', [FindColorController::class, 'findColor'])->name('find_color');
 Route::get('/y-tuong', [IdeaController::class, 'index'])->name('y_tuong');
 Route::get('/meo-va-loi-khuyen-trang-tri-nha', [HelpProfessionals::class, 'index'])->name('loi_khuyen');
 Route::get('/storefinder', [FindStoreController::class, 'index'])->name('storefinder');

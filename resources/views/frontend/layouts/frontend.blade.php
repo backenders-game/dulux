@@ -43,6 +43,7 @@
     <meta name="twitter:title" content="Homepage" />
     <meta property="article:published_time" content="2016-07-14T09:23:31+00:00" />
     <meta property="article:modified_time" content="2019-01-08T02:52:13+00:00" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta itemprop="name" content="Homepage" />
     <title>Homepage | Dulux</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">

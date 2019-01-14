@@ -51,7 +51,6 @@ class FindColorController extends Controller
 
     public function findColor (Request $request) {
         try {
-
             if ($request->ajax()) {
                 $inputs = $request->all();
                 $colors = [];
@@ -61,8 +60,8 @@ class FindColorController extends Controller
                 $projectTypeId = isset($inputs['filters']['project_id']) ? $inputs['filters']['project_id'] : 0;
                 $isMixedByComp = isset($inputs['filters']['is_mixed_by_comp']) ? inputs['filters']['is_mixed_by_comp'] : 1;
                 $isPopular = isset($inputs['filters']['is_popular']) ? $inputs['filters']['is_popular'] : 1;
-                $query = Color::query();
-                $colors = $query->leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
+
+                $query = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
                     ->leftJoin('color_surfaces', 'color_surfaces.color_id', '=', 'colors.id')
                     ->leftJoin('product_colors', 'product_colors.color_id', '=', 'colors.id')
                     ->leftJoin('products', 'products.id', '=', 'product_colors.product_id')
@@ -73,9 +72,15 @@ class FindColorController extends Controller
                         $q->where('colors.mixed_by_computer', 1);
                     }, function ($q) {
                         $q->where('colors.mixed_by_computer', 0);
-                    })->groupBy(DB::raw('colors.id, colors.name'))->select(DB::raw('colors.*'))
+                    })
+                    ->when($isPopular, function ($q) {
+                        $q->where('colors.is_popular', 1);
+                    })
+                    ->when($finishSurfaceId != 0 && $finishSurfaceId != null, function ($q) use($finishSurfaceId) {
+                        $q->where('products.finish_surface_id', $finishSurfaceId);
+                    })
+                    ->select(DB::raw('colors.*'))->distinct()
                     ->get();
-
 
                 return Response::json(['message' => 'OK', 'data' => [
                     'colors' => $colors,

@@ -1044,7 +1044,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'color' =>  "#ECEADA",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1094,7 +1094,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'color' =>  "#E8EBDA",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1184,7 +1184,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'color' =>  "#E4E1C7",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1304,7 +1304,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'color' =>  "#D9DCB8",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1514,7 +1514,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'color' =>  "#BBB786",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1873,7 +1873,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'color' =>  "#7E7F3A",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1979,7 +1979,7 @@ class ColorLemonYellowSeeder extends Seeder
                 'color' =>  "#636040",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -2067,7 +2067,8 @@ class ColorLemonYellowSeeder extends Seeder
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 2,],
-                'projectTypes' => []
+                'projectTypes' => [
+        ],
             ],
         ];
 
