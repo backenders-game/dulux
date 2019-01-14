@@ -185,6 +185,10 @@
 <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/bootstrap3.js')}}"></script>
 <script type="text/javascript">
+var surfaces = @isset($surfaces) {!! json_encode($surfaces, JSON_HEX_TAG) !!} @else [] @endisset;
+var projectTypes = @isset($projectTypes) {!! json_encode($projectTypes, JSON_HEX_TAG) !!} @else [] @endisset;
+var colorGroups = @isset($colorGroups) {!! json_encode($colorGroups, JSON_HEX_TAG) !!}  @else [] @endisset;
+var finishSurfaces = @isset($finishSurfaces) {!! json_encode($finishSurfaces, JSON_HEX_TAG) !!} @else [] @endisset;
 var csrftoken = $('meta[name="csrf-token"]').attr('content');
 var selectedColorGroupId = 0;
 var selectedProjectType = 0;
@@ -267,9 +271,6 @@ $(document).ready(function() {
     });
     // Thay đổi nhóm màu.
     $('.colors-hue-selector').on('click', function(e) {
-        $('.colors-hue-selector').each(function (idx, item) {
-            $(item).removeClass('selected');
-        });
         selectedColorGroupId = $(this).data('id');
         let selectedEle = this;
         findColor({
@@ -277,7 +278,17 @@ $(document).ready(function() {
             finish_id: selectedFinish,
             project_id: selectedProjectType,
             surfaces_id: selectedSurfaces
-        }, function () {
+        }, function (result) {
+            displayPopularColorList(result.colors);
+            $('.colors-hue-selector').each(function (idx, item) {
+                if ($(item).hasClass('selected')) {
+                    $(item).find('div .hue_span_selector').each(function (ix, spanItem) {
+                        $(spanItem).find('i').remove();
+                    });
+                    $(item).removeClass('selected');
+                }
+            });
+            $(selectedEle).find('div .hue_span_selector').prepend('<i class="fas fa-check" style="padding-top: 24px;color: #b7b0b0;"></i>');
             $(selectedEle).addClass('selected');
         });
     });
@@ -285,7 +296,9 @@ $(document).ready(function() {
     // Chuyen tab mau pha san & mau tron bang may tinh.
     $('.color-mixed-by-computer').on('click', function (e) {
         $('.color-mixed-by-computer').each(function (idx, item) {
-            $(item).removeClass('active');
+            if ($(item).hasClass('active')) {
+                $(item).removeClass('active');
+            }
         });
         if ($(this).hasClass('colors-ready-to-mix')) {
             findColor({
@@ -293,7 +306,8 @@ $(document).ready(function() {
                 finish_id: selectedFinish,
                 project_id: selectedProjectType,
                 surfaces_id: selectedSurfaces
-            }, function () {
+            }, function (result) {
+                let colorHtml = renderColorBoxChild(result.colors);
                 $('#hue-container').removeClass('hidden');
                 $('#hue-collection').addClass('hidden');
             })
@@ -323,9 +337,8 @@ function findColor (filters, afterSuccess = null, afterError = null) {
             filters: filters
         },
         success: function (result) {
-            console.log('success', result)
             if (typeof afterSuccess === 'function') {
-                afterSuccess();
+                afterSuccess(result);
             }
         },
         error: function (err) {
@@ -335,6 +348,52 @@ function findColor (filters, afterSuccess = null, afterError = null) {
             }
         }
     })
+}
+// Hiển thị bảng màu pha bằng máy tính.
+function displayPopularColorList (colors) {
+    console.log('colors', colors);
+    let colorGrpId = colors[0].color_group_id;
+    let colorGrp = colorGroups.filter(function (grp) {
+        if (grp.id == colorGrpId) return grp;
+    });
+    colorGrp = colorGrp.length ? colorGrp[0] : null;
+    if (colorGrp) {
+
+    }
+    let normalColors = colors.filter(function (color) {
+        if (color.is_deep_color == 0) return color;
+    });
+    console.log('normal colors', normalColors);
+    let deepColors = colors.filter(function (color) {
+        if (color.is_deep_color != 0) return color;
+    });
+    let normalColorHtml = renderColorBoxChild(normalColors);
+    let deepColorHtml = renderColorBoxChild(deepColors);
+    // Màu thường.
+    $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
+        $(box).remove();
+    });
+    $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
+    // Maù trầm
+    $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
+        $(box).remove();
+    });
+    $('#popular-colors-list .solr-muted-color-list').append(normalColorHtml);
+}
+function renderColorBoxChild (colors) {
+    let html = '';
+    for (let i = 0; i < colors.length; i++) {
+        html += '<div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">'
+                    + '<a class="color-box-child  color-box-child-' + colors[i].id + ' colorBox-processed flourish_google_tag_manager-processed" '
+                    + 'style="background:'+ colors[i].color + '" data-title="' + colors[i].name + '" data-id="F4F0E4" '
+                    + 'data-colorid="'+ colors[i].id + '" alt="' + colors[i].name + '" tabindex="85">'
+                        + '<p class="cnme color-text" data-rgb="' + colors[i].color.replace('#', '') +'" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">'
+                        + colors[i].name
+                        + '</p>'
+                    + '</a>'
+              + '</div>'
+    }
+    return html;
 }
 </script>
 @endsection

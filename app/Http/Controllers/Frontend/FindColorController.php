@@ -9,6 +9,7 @@ use App\Repositories\Frontend\SurfaceRepository;
 use App\Repositories\Frontend\ProjectTypeRepository;
 use App\Repositories\Frontend\FinishSurfaceRepository;
 use App\Models\Color;
+use Session;
 use DB;
 /*
 +)Tìm màu sắc
@@ -40,12 +41,30 @@ class FindColorController extends Controller
         $surfaces = $this->surfaceRepository->all();
         $projectTypes = $this->projectTypeRepository->all();
         $finishSurfaces = $this->finishSurfaceRepository->all();
+        $colorGroups = $this->colorGroupRepository->all();
         $isMixedByComp = 1;
+        $projectId = 0;
+        $groupId = 0;
+        $finishId = 0;
+        $surfaceIds = [];
+        if (Session::has('color_group_id')) {
+            $groupId = session('color_group_id', 0);
+        }
+        if (Session::has('color_finish_id')) {
+            $finishId = session('color_finish_id', 0);
+        }
+        if (Session::has('color_surface_ids')) {
+            $surfaceIds = session('color_surface_ids', []);
+        }
+        if (Session::has('color_project_id')) {
+            $projectId = session('color_project_id', 0);
+        }
 
         return view('frontend.find_color.timmausac', [
             'surfaces' => $surfaces,
             'projectTypes' => $projectTypes,
-            'finishSurfaces' => $finishSurfaces
+            'finishSurfaces' => $finishSurfaces,
+            'colorGroups' => $colorGroups->toArray()
         ]);
     }
 
@@ -53,45 +72,76 @@ class FindColorController extends Controller
         try {
             if ($request->ajax()) {
                 $inputs = $request->all();
-                $colors = [];
+                if ($inputs['filters']) {
+                    $this->saveFilters($inputs['filters']);
+                }
                 $groupId = isset($inputs['filters']['group_id']) ? $inputs['filters']['group_id'] : 0;
                 $finishSurfaceId = isset($inputs['filters']['finish_id']) ? $inputs['filters']['finish_id'] : 0;
                 $surfaceIds = isset($inputs['filters']['surfaces_id']) ? $inputs['filters']['surfaces_id'] : 0;
                 $projectTypeId = isset($inputs['filters']['project_id']) ? $inputs['filters']['project_id'] : 0;
+
                 $isMixedByComp = isset($inputs['filters']['is_mixed_by_comp']) ? inputs['filters']['is_mixed_by_comp'] : 1;
                 $isPopular = isset($inputs['filters']['is_popular']) ? $inputs['filters']['is_popular'] : 1;
 
-                $query = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
+                $colors = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
                     ->leftJoin('color_surfaces', 'color_surfaces.color_id', '=', 'colors.id')
                     ->leftJoin('product_colors', 'product_colors.color_id', '=', 'colors.id')
                     ->leftJoin('products', 'products.id', '=', 'product_colors.product_id')
                     ->when($groupId != 0 && $groupId != null, function ($q) use ($groupId) {
                         $q->where('colors.color_group_id', $groupId);
                     })
+                    ->when($projectTypeId != 0 && $projectTypeId != null,
+                        function ($q) use ($projectTypeId) {
+                        $q->where('color_projecttypes.projecttype_id', $projectTypeId);
+                    })
+                    ->when($finishSurfaceId != 0 && $finishSurfaceId != null, function ($q) use($finishSurfaceId) {
+                        $q->where('products.finish_surface_id', $finishSurfaceId);
+                    })
                     ->when($isMixedByComp, function ($q) {
                         $q->where('colors.mixed_by_computer', 1);
                     }, function ($q) {
                         $q->where('colors.mixed_by_computer', 0);
                     })
-                    ->when($isPopular, function ($q) {
+                    ->when($isPopular && $isMixedByComp, function ($q) {
                         $q->where('colors.is_popular', 1);
-                    })
-                    ->when($finishSurfaceId != 0 && $finishSurfaceId != null, function ($q) use($finishSurfaceId) {
-                        $q->where('products.finish_surface_id', $finishSurfaceId);
-                    })
-                    ->select(DB::raw('colors.*'))->distinct()
-                    ->get();
+                    })->select(DB::raw('colors.*'))->distinct()->get();
 
-                return Response::json(['message' => 'OK', 'data' => [
+                return Response::json([
                     'colors' => $colors,
                     'group_id' => $groupId,
+                    'project_id' => $projectTypeId,
+                    'surfaces_id' => $surfaceIds,
+                    'finish_id' => $finishSurfaceId,
                     'mixed_by_Comp' => $isMixedByComp,
                     'is_popular' => $isPopular
-                ]]);
+                ]);
             }
         } catch (\Exception $e) {
             dd($e);
         }
+    }
+
+    private function saveFilters ($filters) {
+        if (isset($filters['group_id']) && $filters['group_id'] != null)  {
+            session(['color_group_id' => $filters['group_id']]);
+        }
+        if (isset($filters['project_id']) && $filters['project_id'] != null) {
+            session(['color_project_id' => $filters['project_id']]);
+        }
+        if (isset($filters['finish_id']) && $filters['finish_id'] != null) {
+            session(['color_finish_id' => $filters['finish_id']]);
+        }
+        if (isset($filters['surfaces_id']) && $filters['surfaces_id'] != undefined && $filters['surfaces_id'] != null && $filters['surfaces_id'] != []) {
+            session(['color_surface_ids' => $filters['surfaces_id']]);
+        }
+    }
+
+    public function clearFilters (Request $request) {
+        $request->session()->forget([
+            'color_project_id',
+            'color_finish_id',
+            'color_surface_ids'
+        ]);
     }
 
     /**

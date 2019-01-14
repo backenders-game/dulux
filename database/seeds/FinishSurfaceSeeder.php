@@ -12,9 +12,6 @@ class FinishSurfaceSeeder extends Seeder
     public function run()
     {
         FinishSurface::create([
-        	'name' => 'NA'
-        ]);
-        FinishSurface::create([
         	'name' => 'Bề mặt Mờ'
         ]);
         FinishSurface::create([
