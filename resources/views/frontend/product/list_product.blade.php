@@ -2,7 +2,9 @@
 
 @section('title', app_name() . ' | ' . __('navs.general.home'))
 @section('cssPage')
+<!-- @include('frontend.includes.css.listProductCss') -->
 @include('frontend.includes.css.listProductCss')
+
 @endsection
 @section('content')
 <div id="zone-content" class="zone-content">
@@ -69,10 +71,9 @@
                               </div>
                               <div class="form-collapse collapse-area visible" style="order:;-webkit-order:;">
                                 <div class="collapse-trigger general-collapse-trigger-processed">
-                                  Project Type                <span class="count-label input-counter">0</span>
-                                  <svg class="icon icon-collapse-arrow right">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-collapse-arrow"></use>
-                                  </svg>
+                                  Project Type                
+                                  <img class="icon_collapse_arrow" src="https://img.icons8.com/ios/50/000000/collapse-arrow.png">
+                                  <span class="count-label input-counter">0</span>
                                 </div>
                                 <div class="collapse-content amountCount" style="display: block;">
                                   <div class="form-type-radios form-item-product-room-type form-item form-group append-outline-processed">
@@ -114,9 +115,8 @@
                               <div class="form-collapse collapse-area visible" style="order:;-webkit-order:;">
                                 <div class="collapse-trigger general-collapse-trigger-processed">
                                   Bề mặt cần sơn                <span class="count-label input-counter">0</span>
-                                  <svg class="icon icon-collapse-arrow right">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-collapse-arrow"></use>
-                                  </svg>
+                                  <img class="icon_collapse_arrow" src="https://img.icons8.com/ios/50/000000/collapse-arrow.png">
+
                                 </div>
                                 <div class="collapse-content amountCount" style="display: block;">
                                   <div class="form-type-checkboxes form-item-product-surface-usage form-item form-group append-outline-processed">
@@ -134,9 +134,8 @@
                               <div class="form-collapse collapse-area visible" style="order:;-webkit-order:;">
                                 <div class="collapse-trigger general-collapse-trigger-processed">
                                   Bề mặt hoàn thiện                <span class="count-label input-counter">0</span>
-                                  <svg class="icon icon-collapse-arrow right">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-collapse-arrow"></use>
-                                  </svg>
+                                  <img class="icon_collapse_arrow" src="https://img.icons8.com/ios/50/000000/collapse-arrow.png">
+
                                 </div>
                                 <div class="collapse-content amountCount" style="display: block;">
                                   <div class="form-type-radios form-item-product-finish form-item form-group append-outline-processed">
@@ -193,65 +192,16 @@
                             <div class="onedomain-component">
                               <div class="row">
                                 <div class="view view-product-listing-solr view-id-product_listing_solr view-display-id-page_6 view-product-Listing view-dom-id-b2e9d994009973b89b4cf4157c435860">
-                                  <div class="view-header">
-                                    <p class="h1 fl-prod-page-header">4 Products found</p>
-                                  </div>
+                                
                                   <div class="view-content">
                                     <div class="row vr-margin-top-7">
-                                      <div class="col-xs-12 col-md-4">
-                                        <div class="product-card-container">
-                                          <section class="product-card js-product-card">
-                                            <div class="product-card__underlay"></div>
-                                            <span id="65614" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="f613d792-50de-4828-a1c7-a2d0011995dd" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
-                                              <span class="icon-heart-empty">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-favourite-empty"></use>
-                                                </svg>
-                                              </span>
-                                              <span class="icon-heart-filled">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-heart-fill"></use>
-                                                </svg>
-                                              </span>
-                                            </span>
-                                            <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham')}}" title="Bột trét cao cấp Dulux" tabindex="52">
-                                              <article class="product-card__content">
-                                                <p class="product-card__title js-product-card-title" style="height: 48px;">Bột trét cao cấp Dulux</p>
-                                                <div class="product-card__image-wrapper">
-                                                  <div class="product-card__image">
-                                                    <img src="https://31fc8ad09e49483b220c-ba33b5880d166b057491bd70be456089.ssl.cf3.rackcdn.com/bt-tret-cao-cp-dulux_m.png">
-                                                  </div>
-                                                </div>
-                                                <ul class="icon-list product-card__features">
-                                                </ul>
-                                                <button type="button" class="button  button--grey button--square" tabindex="53">
-                                                  <span class="button-text-label">
-                                                    <svg class="icon icon--medium icon--fill" title="">
-                                                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right">
-                                                      </use>
-                                                    </svg>
-                                                  </span>
-                                                </button>
-                                              </article>
-                                            </a>
-                                          </section>
-                                        </div>
-                                      </div>
+                                   
                                       <div class="col-xs-12 col-md-4">
                                         <div class="product-card-container">
                                           <section class="product-card js-product-card">
                                             <div class="product-card__underlay"></div>
                                             <span id="65622" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="9ca1c08e-b004-4ef7-9726-a2d001199474" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
-                                              <span class="icon-heart-empty">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-favourite-empty"></use>
-                                                </svg>
-                                              </span>
-                                              <span class="icon-heart-filled">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-heart-fill"></use>
-                                                </svg>
-                                              </span>
+                                            <i class='far fa-heart' style='font-size:20px'></i>
                                             </span>
                                             <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham')}}" title="Dulux Weathershield Sơn lót chống kiềm" tabindex="54">
                                               <article class="product-card__content">
@@ -263,32 +213,17 @@
                                                 </div>
                                                 <ul class="icon-list product-card__features">
                                                   <li>
-                                                    <span>
-                                                      <svg class="icon icon--small " alt="" title="" fill="#2fc48d">
-                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-checkmark"></use>
-                                                      </svg>
-                                                    </span>
-                                                    <span>
+                                                  <i class="fas fa-check check_list_product"></i>
                                                     Độ bám dính cao
-                                                    </span>
                                                   </li>
                                                   <li>
-                                                    <span>
-                                                      <svg class="icon icon--small " alt="" title="" fill="#2fc48d">
-                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-checkmark"></use>
-                                                      </svg>
-                                                    </span>
-                                                    <span>
+                                                  <i class="fas fa-check check_list_product"></i>
                                                     Giữ màu sắc bền lâu cho lớp sơn phủ
-                                                    </span>
                                                   </li>
                                                 </ul>
                                                 <button type="button" class="button  button--grey button--square" tabindex="55">
                                                   <span class="button-text-label">
-                                                    <svg class="icon icon--medium icon--fill" title="">
-                                                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right">
-                                                      </use>
-                                                    </svg>
+                                                  <i class="fas fa-arrow-right focus-outline" style="font-size:15px;"></i>
                                                   </span>
                                                 </button>
                                               </article>
@@ -301,16 +236,7 @@
                                           <section class="product-card js-product-card">
                                             <div class="product-card__underlay"></div>
                                             <span id="65626" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="81f899b9-5b9a-485c-a611-a2d001199251" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
-                                              <span class="icon-heart-empty">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-favourite-empty"></use>
-                                                </svg>
-                                              </span>
-                                              <span class="icon-heart-filled">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-heart-fill"></use>
-                                                </svg>
-                                              </span>
+                                            <i class='far fa-heart' style='font-size:20px'></i>
                                             </span>
                                             <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham')}}" title="Sơn Lót Nội Thất Cao Cấp Dulux" tabindex="56">
                                               <article class="product-card__content">
@@ -322,22 +248,14 @@
                                                 </div>
                                                 <ul class="icon-list product-card__features">
                                                   <li>
-                                                    <span>
-                                                      <svg class="icon icon--small " alt="" title="" fill="#2fc48d">
-                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-checkmark"></use>
-                                                      </svg>
-                                                    </span>
-                                                    <span>
+                                                  <i class="fas fa-check check_list_product"></i>
+
                                                     Bảo vệ cả trong lẫn ngoài
-                                                    </span>
                                                   </li>
                                                 </ul>
                                                 <button type="button" class="button  button--grey button--square" tabindex="57">
                                                   <span class="button-text-label">
-                                                    <svg class="icon icon--medium icon--fill" title="">
-                                                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right">
-                                                      </use>
-                                                    </svg>
+                                                  <i class="fas fa-arrow-right focus-outline" style="font-size:15px;"></i>
                                                   </span>
                                                 </button>
                                               </article>
@@ -350,16 +268,7 @@
                                           <section class="product-card js-product-card">
                                             <div class="product-card__underlay"></div>
                                             <span id="97503" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="9e8eebbd-1cd2-4a55-8eb1-a2d001199896" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
-                                              <span class="icon-heart-empty">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-favourite-empty"></use>
-                                                </svg>
-                                              </span>
-                                              <span class="icon-heart-filled">
-                                                <svg class="icon  icon--fill" alt="" title="">
-                                                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-heart-fill"></use>
-                                                </svg>
-                                              </span>
+                                            <i class='far fa-heart' style='font-size:20px'></i>
                                             </span>
                                             <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham')}}" title="Maxilite Sơn Lót Chống Rỉ" tabindex="58">
                                               <article class="product-card__content">
@@ -371,22 +280,14 @@
                                                 </div>
                                                 <ul class="icon-list product-card__features">
                                                   <li>
-                                                    <span>
-                                                      <svg class="icon icon--small " alt="" title="" fill="#2fc48d">
-                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-checkmark"></use>
-                                                      </svg>
-                                                    </span>
-                                                    <span>
+                                                  <i class="fas fa-check check_list_product"></i>
+
                                                     Độ bám dính cao
-                                                    </span>
                                                   </li>
                                                 </ul>
                                                 <button type="button" class="button  button--grey button--square" tabindex="59">
                                                   <span class="button-text-label">
-                                                    <svg class="icon icon--medium icon--fill" title="">
-                                                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right">
-                                                      </use>
-                                                    </svg>
+                                                  <i class="fas fa-arrow-right focus-outline" style="font-size:15px;"></i>
                                                   </span>
                                                 </button>
                                               </article>
