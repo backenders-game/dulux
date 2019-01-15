@@ -125,7 +125,13 @@
                   </div>
                   <div class="container colors-listing-box" id="color-box-container">
                     <div id="hue-container" class="col-md-12 colors clearfix fl-overflow-visible">
-                      <p class="h1"><span class="main-color-tab">Màu sắc phổ biến (25)</span><span class="link-gray pull-right hidden-xs sub-color-tab main"><button data-link="all" class="use-ajax btn btn-default form-submit ajax-processed flourish_google_tag_manager-processed" style="opacity:4" id="edit-show-colors-link--2" name="show_colors_link" value="Xem tất cả các màu  (212)" type="button" tabindex="84">Xem tất cả các màu  (212)</button>
+                      <p class="h1"><span class="main-color-tab">Màu sắc phổ biến (25)</span>
+                      <span class="link-gray pull-right hidden-xs sub-color-tab main">
+                      <button data-link="all"
+                        class="use-ajax btn btn-default form-submit ajax-processed flourish_google_tag_manager-processed"
+                        style="opacity:4" id="edit-show-colors-link--2" name="show_colors_link"
+                        value="Xem tất cả các màu  (212)" type="button" tabindex="84">Xem tất cả các màu  (212)
+                      </button>
                         </span>
                       </p>
                       <div id="popular-colors-list">
@@ -235,6 +241,25 @@ $(document).ready(function() {
         }
     });
 
+    $('#edit-color-surface-usage-confirm--2').on('click', function (e) {
+        e.preventDefault();
+        findColor({
+            group_id: selectedColorGroupId,
+            finish_id: selectedFinish,
+            project_id: selectedProjectType,
+            surfaces_id: selectedSurfaces,
+            is_mixed_by_comp: 1,
+            is_popular: 1
+        }, function (result) {
+            displayPopularColorList(result.colors, result.num_all_colors);
+            $('#hue-container').removeClass('hidden');
+            $('#hue-collection').addClass('hidden');
+            $('.colors-ready-to-mix').addClass('active');
+            $('.colors-ready-to-buy').removeClass('active');
+        });
+    })
+
+
     // ẩn hiện select filter bề mặt hoàn thiện.
     $('#form-color-finish').on('click', function (e) {
         $(this).toggleClass('visible');
@@ -247,11 +272,18 @@ $(document).ready(function() {
             group_id: selectedColorGroupId,
             finish_id: selectedFinish,
             project_id: selectedProjectType,
-            surfaces_id: selectedSurfaces
-        }, function () {
+            surfaces_id: selectedSurfaces,
+            is_mixed_by_comp: 1,
+            is_popular: 1
+        }, function (result) {
+            displayPopularColorList(result.colors, result.num_all_colors);
             $('#form-color-room-type').toggleClass('visible');
             $('.filter-projecttypes').toggleClass('hidden');
             $('.counter-projecttype').addClass('visible');
+            $('#hue-container').removeClass('hidden');
+            $('#hue-collection').addClass('hidden');
+            $('.colors-ready-to-mix').addClass('active');
+            $('.colors-ready-to-buy').removeClass('active');
         });
     });
 
@@ -264,9 +296,14 @@ $(document).ready(function() {
             finish_id: selectedFinish,
             project_id: selectedProjectType,
             surfaces_id: selectedSurfaces
-        }, function () {
+        }, function (result) {
+            displayPopularColorList(result.colors, result.num_all_colors);
             $(this).toggleClass('visible');
             $('.filter-finish-surfaces').toggleClass('hidden');
+            $('#hue-container').removeClass('hidden');
+            $('#hue-collection').addClass('hidden');
+            $('.colors-ready-to-mix').addClass('active');
+            $('.colors-ready-to-buy').removeClass('active');
         });
     });
     // Thay đổi nhóm màu.
@@ -277,9 +314,11 @@ $(document).ready(function() {
             group_id: selectedColorGroupId,
             finish_id: selectedFinish,
             project_id: selectedProjectType,
-            surfaces_id: selectedSurfaces
+            surfaces_id: selectedSurfaces,
+            is_mixed_by_comp: 1,
+            is_popular: 1
         }, function (result) {
-            displayPopularColorList(result.colors);
+            displayPopularColorList(result.colors, result.num_all_colors);
             $('.colors-hue-selector').each(function (idx, item) {
                 if ($(item).hasClass('selected')) {
                     $(item).find('div .hue_span_selector').each(function (ix, spanItem) {
@@ -290,6 +329,10 @@ $(document).ready(function() {
             });
             $(selectedEle).find('div .hue_span_selector').prepend('<i class="fas fa-check" style="padding-top: 24px;color: #b7b0b0;"></i>');
             $(selectedEle).addClass('selected');
+            $('#hue-container').removeClass('hidden');
+            $('#hue-collection').addClass('hidden');
+            $('.colors-ready-to-mix').addClass('active');
+            $('.colors-ready-to-buy').removeClass('active');
         });
     });
 
@@ -305,9 +348,11 @@ $(document).ready(function() {
                 group_id: selectedColorGroupId,
                 finish_id: selectedFinish,
                 project_id: selectedProjectType,
-                surfaces_id: selectedSurfaces
+                surfaces_id: selectedSurfaces,
+                is_mixed_by_comp: 1,
+                is_popular: 1
             }, function (result) {
-                let colorHtml = renderColorBoxChild(result.colors);
+                displayPopularColorList(result.colors, result.num_all_colors);
                 $('#hue-container').removeClass('hidden');
                 $('#hue-collection').addClass('hidden');
             })
@@ -317,14 +362,16 @@ $(document).ready(function() {
                 group_id: selectedColorGroupId,
                 finish_id: selectedFinish,
                 project_id: selectedProjectType,
-                surfaces_id: selectedSurfaces
-            }, function () {
+                surfaces_id: selectedSurfaces,
+                is_mixed_by_comp: 0
+            }, function (result) {
+                displayReadyToBuyColors(result.colors);
                 $('#hue-collection').removeClass('hidden');
                 $('#hue-container').addClass('hidden');
             });
         }
         $(this).addClass('active');
-    })
+    });
 });
 
 function findColor (filters, afterSuccess = null, afterError = null) {
@@ -337,6 +384,7 @@ function findColor (filters, afterSuccess = null, afterError = null) {
             filters: filters
         },
         success: function (result) {
+            console.log('is_mixed', result)
             if (typeof afterSuccess === 'function') {
                 afterSuccess(result);
             }
@@ -350,55 +398,73 @@ function findColor (filters, afterSuccess = null, afterError = null) {
     })
 }
 // Hiển thị bảng màu pha bằng máy tính.
-function displayPopularColorList (colors) {
-    console.log('colors', colors);
-    let colorGrpId = colors[0].color_group_id;
+function displayPopularColorList (colors, numAllColors) {
     let colorGrp = colorGroups.filter(function (grp) {
-        if (grp.id == colorGrpId) return grp;
+        if (grp.id == selectedColorGroupId) return grp;
     });
     colorGrp = colorGrp.length ? colorGrp[0] : null;
-    if (colorGrp) {
-        console.log('color group', colorGrp);
-    }
-    let colorDeep = colors.map((clr) => {
-        return clr.is_deep_color;
-    });
-    console.log('colorDeep', colorDeep);
+
     let normalColors = [];
     let deepColors = [];
 
-    normalColors = colors.filter(function (color) {
-        if (color.is_deep_color) return color;
+    colors.forEach(function (color) {
+        if (color.is_deep_color) {
+            deepColors.push(color);
+        } else {
+            normalColors.push(color);
+        }
     });
 
-    $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
-        $(box).remove();
-    });
-    $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
-        $(box).remove();
-    });
-    console.log('normal colors', normalColors);
-    console.log('deep_color', deepColors);
+    setTimeout(function () {}, 200);
     let normalColorHtml = renderColorBoxChild(normalColors);
     let deepColorHtml = renderColorBoxChild(deepColors);
-    console.log('deep_html', deepColorHtml);
-    // Màu thường.
-    $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
-    // Maù trầm
-    $('#popular-colors-list .solr-muted-color-list').append(normalColorHtml);
+
+    if (colorGrp) {
+        $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
+            $(box).remove();
+        });
+        $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
+            $(box).remove();
+        });
+        // Hiển thị title màu thường.
+        $('.solr-pure-color-name .color-type').html(colorGrp.name);
+        // Hiển thị title màu trầm.
+        $('.solr-muted-color-name .color-type').html(colorGrp.name.replace('Họ màu ', '') + ' Trầm');
+        // Hiển thị button list tất cả màu trong kết quả tìm được.
+        $('#edit-show-colors-link--2').val('Xem tất cả các maù (' + numAllColors + ')' )
+            .html('Xem tất cả các maù (' + numAllColors + ')' );
+        // Hiển thị số lượng màu phổ biến
+        $('.main-color-tab').html('Màu sắc phổ biến ' + '(' + colors.length + ')');
+        // Màu thường.
+        $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
+        // Maù trầm
+        $('#popular-colors-list .solr-muted-color-list').append(deepColorHtml);
+    }
 }
+
+function displayReadyToBuyColors (colors) {
+    $('.solr-readymix-color-list').find('.rowBox').each(function (idx, item) {
+        $(item).remove();
+    });
+    let colorHtml = renderColorBoxChild(colors);
+    $('.solr-readymix-color-list').html(colorHtml);
+
+}
+
 function renderColorBoxChild (colors) {
     let html = '';
-    for (let i = 0; i < colors.length; i++) {
-        html += '<div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">'
-                    + '<a class="color-box-child  color-box-child-' + colors[i].id + ' colorBox-processed flourish_google_tag_manager-processed" '
-                    + 'style="background:'+ colors[i].color + '" data-title="' + colors[i].name + '" data-id="F4F0E4" '
-                    + 'data-colorid="'+ colors[i].id + '" alt="' + colors[i].name + '" tabindex="85">'
-                        + '<p class="cnme color-text" data-rgb="' + colors[i].color.replace('#', '') +'" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">'
-                        + colors[i].name
-                        + '</p>'
-                    + '</a>'
-              + '</div>'
+    if (Array.isArray(colors)) {
+        for (let i = 0; i < colors.length; i++) {
+            html += '<div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">'
+                        + '<a class="color-box-child  color-box-child-' + colors[i].id + ' colorBox-processed flourish_google_tag_manager-processed" '
+                        + 'style="background:'+ colors[i].color + '" data-title="' + colors[i].name + '" data-id="F4F0E4" '
+                        + 'data-colorid="'+ colors[i].id + '" alt="' + colors[i].name + '" tabindex="85">'
+                            + '<p class="cnme color-text" data-rgb="' + colors[i].color.replace('#', '') +'" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">'
+                            + colors[i].name
+                            + '</p>'
+                        + '</a>'
+                + '</div>'
+        }
     }
     return html;
 }

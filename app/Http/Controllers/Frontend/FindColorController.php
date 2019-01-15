@@ -80,8 +80,8 @@ class FindColorController extends Controller
                 $surfaceIds = isset($inputs['filters']['surfaces_id']) ? $inputs['filters']['surfaces_id'] : 0;
                 $projectTypeId = isset($inputs['filters']['project_id']) ? $inputs['filters']['project_id'] : 0;
 
-                $isMixedByComp = isset($inputs['filters']['is_mixed_by_comp']) ? inputs['filters']['is_mixed_by_comp'] : 1;
-                $isPopular = isset($inputs['filters']['is_popular']) ? $inputs['filters']['is_popular'] : 1;
+                $isMixedByComp = isset($inputs['filters']['is_mixed_by_comp']) ? $inputs['filters']['is_mixed_by_comp'] : 1;
+                $isPopular = isset($inputs['filters']['is_popular']) ? $inputs['filters']['is_popular'] : null;
 
                 $colors = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
                     ->leftJoin('color_surfaces', 'color_surfaces.color_id', '=', 'colors.id')
@@ -92,7 +92,7 @@ class FindColorController extends Controller
                     })
                     ->when($projectTypeId != 0 && $projectTypeId != null,
                         function ($q) use ($projectTypeId) {
-                        $q->where('color_projecttypes.projecttype_id', $projectTypeId);
+                        $q->where('color_projecttypes.project_type_id', $projectTypeId);
                     })
                     ->when($finishSurfaceId != 0 && $finishSurfaceId != null, function ($q) use($finishSurfaceId) {
                         $q->where('products.finish_surface_id', $finishSurfaceId);
@@ -104,10 +104,33 @@ class FindColorController extends Controller
                     })
                     ->when($isPopular && $isMixedByComp, function ($q) {
                         $q->where('colors.is_popular', 1);
+                    }, function ($q) {
+                        $q->where('colors.is_popular', 0);
                     })->select(DB::raw('colors.*'))->distinct()->get();
+
+                $counter = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
+                    ->leftJoin('color_surfaces', 'color_surfaces.color_id', '=', 'colors.id')
+                    ->leftJoin('product_colors', 'product_colors.color_id', '=', 'colors.id')
+                    ->leftJoin('products', 'products.id', '=', 'product_colors.product_id')
+                    ->when($groupId != 0 && $groupId != null, function ($q) use ($groupId) {
+                        $q->where('colors.color_group_id', $groupId);
+                    })
+                    ->when($projectTypeId != 0 && $projectTypeId != null,
+                        function ($q) use ($projectTypeId) {
+                        $q->where('color_projecttypes.project_type_id', $projectTypeId);
+                    })
+                    ->when($finishSurfaceId != 0 && $finishSurfaceId != null, function ($q) use($finishSurfaceId) {
+                        $q->where('products.finish_surface_id', $finishSurfaceId);
+                    })
+                    ->when($isMixedByComp, function ($q) {
+                        $q->where('colors.mixed_by_computer', 1);
+                    }, function ($q) {
+                        $q->where('colors.mixed_by_computer', 0);
+                    })->select(DB::raw('colors.*'))->distinct()->count(DB::raw('colors.id'));
 
                 return Response::json([
                     'colors' => $colors,
+                    'num_all_colors' => $counter,
                     'group_id' => $groupId,
                     'project_id' => $projectTypeId,
                     'surfaces_id' => $surfaceIds,
@@ -131,7 +154,7 @@ class FindColorController extends Controller
         if (isset($filters['finish_id']) && $filters['finish_id'] != null) {
             session(['color_finish_id' => $filters['finish_id']]);
         }
-        if (isset($filters['surfaces_id']) && $filters['surfaces_id'] != undefined && $filters['surfaces_id'] != null && $filters['surfaces_id'] != []) {
+        if (isset($filters['surfaces_id']) && $filters['surfaces_id'] != null && $filters['surfaces_id'] != []) {
             session(['color_surface_ids' => $filters['surfaces_id']]);
         }
     }
