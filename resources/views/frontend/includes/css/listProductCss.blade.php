@@ -21,4 +21,4 @@
         margin-right: 10px;
     }
 </style>
-<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss11.css')}}" media="all" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss12.css')}}" media="all" />
