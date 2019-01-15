@@ -5,6 +5,7 @@
   <body>
     <div>
       <h4>Du lieu color</h4><p id="num_colors"></p>
+      <h4>Popular Color</h4><p id="num_popular_color"></p>
       <textarea name="displaycolors" id="display_data" cols="50" rows="50"></textarea>
     </div>
     <div id="colors">
@@ -165,7 +166,7 @@
       }
       $('.color_popular').find('.color-box-child')
         .each((idx, item) => {
-          let name = $(item).data('title');
+          let name = "" + $(item).data('title');
           if (!popularColors.includes(name)) {
             popularColors.push(name);
           }
@@ -173,7 +174,7 @@
       for (let surface of Object.keys(surfaces)) {
         $('#' + surface).find('.color-box-child')
           .each((idx, item) => {
-            let name = $(item).data('title');
+            let name = "" + $(item).data('title');
             surfaceColors[surface].push(name);
           });
       }
@@ -181,22 +182,23 @@
       for (let project of Object.keys(projects)) {
         $('#' + project).find('.color-box-child')
           .each((idx, item) => {
-            let name = $(item).data('title');
+            let name = "" + $(item).data('title');
             projectColors[project].push(name);
           });
       }
       console.log(surfaceColors);
+      $('#num_popular_color').html(popularColors.length + ' mau');
 
       $('#nor_mixedbycomputer').find('.color-box-child')
         .each((idx, item) => {
-          let name = $(item).data('title');
+          let name = "" + $(item).data('title');
           let color = $(item).data('id');
           let colorDt = {
             name: name,
             color: '#' + color,
             color_group_id: 1,
             mixed_by_computer: 1,
-            is_popular: 0,
+            is_popular: popularColors.includes(name) ? 1 : 0,
             is_deep_color: 0,
             surfaces: [],
             projectTypes: []
@@ -223,7 +225,7 @@
         });
       $('#deep_mixedbycomputer').find('.color-box-child')
         .each((idx, item) => {
-          let name = $(item).data('title');
+          let name = "" + $(item).data('title');
           let color = $(item).data('id');
           let colorDt = {
             name: name,
@@ -254,7 +256,7 @@
         });
       $('#color_available').find('.color-box-child')
         .each((idx, item) => {
-          let name = $(item).data('title');
+          let name = "" + $(item).data('title');
           let color = $(item).data('id');
           let colorDt = {
             name: name,

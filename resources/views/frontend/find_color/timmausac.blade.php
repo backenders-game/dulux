@@ -344,7 +344,7 @@ function findColor (filters, afterSuccess = null, afterError = null) {
         error: function (err) {
             console.log(err);
             if (typeof afterError === 'function') {
-                afterError();
+                afterError(err);
             }
         }
     })
@@ -358,26 +358,33 @@ function displayPopularColorList (colors) {
     });
     colorGrp = colorGrp.length ? colorGrp[0] : null;
     if (colorGrp) {
-
+        console.log('color group', colorGrp);
     }
-    let normalColors = colors.filter(function (color) {
-        if (color.is_deep_color == 0) return color;
+    let colorDeep = colors.map((clr) => {
+        return clr.is_deep_color;
     });
-    console.log('normal colors', normalColors);
-    let deepColors = colors.filter(function (color) {
-        if (color.is_deep_color != 0) return color;
+    console.log('colorDeep', colorDeep);
+    let normalColors = [];
+    let deepColors = [];
+
+    normalColors = colors.filter(function (color) {
+        if (color.is_deep_color) return color;
     });
-    let normalColorHtml = renderColorBoxChild(normalColors);
-    let deepColorHtml = renderColorBoxChild(deepColors);
-    // Màu thường.
+
     $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
         $(box).remove();
     });
-    $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
-    // Maù trầm
     $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
         $(box).remove();
     });
+    console.log('normal colors', normalColors);
+    console.log('deep_color', deepColors);
+    let normalColorHtml = renderColorBoxChild(normalColors);
+    let deepColorHtml = renderColorBoxChild(deepColors);
+    console.log('deep_html', deepColorHtml);
+    // Màu thường.
+    $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
+    // Maù trầm
     $('#popular-colors-list .solr-muted-color-list').append(normalColorHtml);
 }
 function renderColorBoxChild (colors) {
