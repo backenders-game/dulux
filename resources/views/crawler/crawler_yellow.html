@@ -181,14 +181,14 @@
         .each((idx, item) => {
           let name = $(item).data('title');
           if (!popularColors.includes(name)) {
-            popularColors.push(name);
+            popularColors.push("" + name);
           }
         });
       for (let surface of Object.keys(surfaces)) {
         $('#' + surface).find('.color-box-child')
           .each((idx, item) => {
             let name = $(item).data('title');
-            surfaceColors[surface].push(name);
+            surfaceColors[surface].push("" + name);
           });
       }
 
@@ -196,7 +196,7 @@
         $('#' + project).find('.color-box-child')
           .each((idx, item) => {
             let name = $(item).data('title');
-            projectColors[project].push(name);
+            projectColors[project].push("" + name);
           });
       }
       console.log(surfaceColors);
@@ -206,11 +206,11 @@
           let name = $(item).data('title');
           let color = $(item).data('id');
           let colorDt = {
-            name: name,
+            name: "" + name,
             color: '#' + color,
             color_group_id: 1,
             mixed_by_computer: 1,
-            is_popular: 0,
+            is_popular: popularColors.includes(name) ? 1 : 0,
             is_deep_color: 0,
             surfaces: [],
             projectTypes: []
@@ -240,7 +240,7 @@
           let name = $(item).data('title');
           let color = $(item).data('id');
           let colorDt = {
-            name: name,
+            name: "" + name,
             color: '#' + color,
             color_group_id: 1,
             mixed_by_computer: 1,
@@ -271,7 +271,7 @@
           let name = $(item).data('title');
           let color = $(item).data('id');
           colors.push({
-            name: name,
+            name: "" + name,
             color: '#' + color,
             color_group_id: 1,
             mixed_by_computer: 0,

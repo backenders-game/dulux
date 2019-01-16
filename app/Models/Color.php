@@ -13,7 +13,8 @@ class Color extends Model
         'color',
         'color_group_id',
         'is_deep_color',
-        'mixed_by_computer'
+        'mixed_by_computer',
+        'is_popular'
     ];
 
     public function surfaces()

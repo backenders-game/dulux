@@ -48,7 +48,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#D8DCE0",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -88,7 +88,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#D3E5E9",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -120,8 +120,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Lavender Morning",
@@ -258,7 +259,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#C6CFDE",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -288,7 +289,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#C3E1E9",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -328,7 +329,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#C2D0DF",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -450,7 +451,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -470,7 +471,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -480,7 +481,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -490,7 +491,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -498,7 +499,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#B4DFE8",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -510,7 +511,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -520,7 +521,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -530,7 +531,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -540,8 +541,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Lily Blue",
@@ -550,7 +552,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -560,7 +562,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -590,7 +592,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -618,7 +620,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#B0D3DB",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -640,7 +642,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -650,7 +652,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -660,7 +662,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -670,7 +672,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -680,7 +682,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -700,7 +702,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -710,7 +712,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -720,7 +722,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -730,7 +732,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -740,7 +742,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -750,7 +752,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -760,7 +762,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -770,7 +772,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -780,7 +782,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -790,7 +792,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -800,7 +802,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -808,9 +810,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#91B5D8",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 8,],
             ],
             [
@@ -830,7 +832,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -840,7 +842,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -850,7 +852,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -860,7 +862,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -880,7 +882,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -890,7 +892,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -898,7 +900,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#85CCDE",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -910,7 +912,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -920,7 +922,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -930,7 +932,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -940,7 +942,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -950,8 +952,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "48BG 54/244",
@@ -960,7 +963,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -970,7 +973,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -980,7 +983,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -990,7 +993,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1000,7 +1003,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1010,7 +1013,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1040,7 +1043,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1048,9 +1051,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#6D8DBE",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 8,],
             ],
             [
@@ -1060,7 +1063,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1070,7 +1073,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1090,7 +1093,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1100,7 +1103,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1110,7 +1113,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1120,7 +1123,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1130,7 +1133,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1140,7 +1143,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1150,7 +1153,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1160,7 +1163,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1170,7 +1173,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1180,7 +1183,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1190,7 +1193,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1210,7 +1213,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1220,7 +1223,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1230,7 +1233,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1250,7 +1253,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1260,7 +1263,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1280,7 +1283,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1308,7 +1311,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#3BACD5",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1320,7 +1323,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1330,7 +1333,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1340,7 +1343,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1350,7 +1353,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1402,7 +1405,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1412,7 +1415,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1503,7 +1506,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1513,7 +1516,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1562,9 +1565,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#024A7F",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1574,7 +1577,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1584,7 +1587,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1594,7 +1597,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1604,7 +1607,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1643,9 +1646,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#008FB5",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -1674,9 +1677,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#0087BD",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -1799,9 +1802,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#006B9B",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -1914,9 +1917,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#004E76",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -1927,7 +1930,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1937,7 +1940,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1947,7 +1950,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1967,7 +1970,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1977,7 +1980,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1987,7 +1990,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -1997,7 +2000,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2007,7 +2010,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2017,7 +2020,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2027,7 +2030,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2037,7 +2040,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2047,7 +2050,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2057,7 +2060,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2067,7 +2070,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2077,7 +2080,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2087,7 +2090,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2097,7 +2100,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2117,7 +2120,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2127,7 +2130,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2137,7 +2140,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2147,7 +2150,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2157,7 +2160,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2167,7 +2170,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2177,7 +2180,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2187,7 +2190,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2197,7 +2200,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2207,7 +2210,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2217,7 +2220,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2227,7 +2230,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2237,7 +2240,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2257,7 +2260,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2267,7 +2270,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2277,7 +2280,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2287,7 +2290,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2297,8 +2300,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "10BB 65/094",
@@ -2307,7 +2311,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2317,7 +2321,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2327,7 +2331,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2337,7 +2341,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2347,7 +2351,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2357,7 +2361,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2367,7 +2371,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2377,7 +2381,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2387,7 +2391,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2397,8 +2401,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "30BB 54/072",
@@ -2407,7 +2412,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2417,7 +2422,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2427,7 +2432,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2437,7 +2442,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2457,7 +2462,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2467,7 +2472,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2477,7 +2482,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2487,7 +2492,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2497,7 +2502,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2507,7 +2512,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2517,7 +2522,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2527,7 +2532,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2537,7 +2542,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2547,7 +2552,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2557,7 +2562,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2567,8 +2572,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "30BB 46/086",
@@ -2577,7 +2583,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2587,7 +2593,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2597,7 +2603,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2607,7 +2613,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2627,8 +2633,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Purple Clash",
@@ -2637,7 +2644,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2647,8 +2654,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Electric Sky",
@@ -2657,7 +2665,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2667,7 +2675,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2677,7 +2685,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2697,7 +2705,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2707,7 +2715,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2717,7 +2725,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2727,7 +2735,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2737,7 +2745,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2747,7 +2755,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2757,7 +2765,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2767,7 +2775,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2777,7 +2785,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2787,7 +2795,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2797,7 +2805,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2807,7 +2815,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2817,7 +2825,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2827,7 +2835,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2837,7 +2845,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2857,7 +2865,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2867,7 +2875,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2877,7 +2885,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2887,7 +2895,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2897,7 +2905,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2907,7 +2915,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2917,7 +2925,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2927,7 +2935,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2937,7 +2945,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2947,7 +2955,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2957,7 +2965,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2977,7 +2985,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -2987,7 +2995,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3018,7 +3026,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3028,7 +3036,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3038,7 +3046,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3048,7 +3056,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3111,7 +3119,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3121,7 +3129,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3288,7 +3296,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 8,],
             ],
             [
@@ -3329,7 +3337,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -3445,7 +3453,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3453,9 +3461,9 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#3A5E67",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3485,7 +3493,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -3538,7 +3546,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -3692,7 +3700,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 2,],
+                'surfaces' => [ 1, 2,],
                 'projectTypes' => [
         ],
             ],
@@ -3923,8 +3931,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "50BB 72/045",
@@ -3933,7 +3942,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3943,15 +3952,16 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "69BG 77/076",
                 'color' =>  "#D3E5E9",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  0,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -3963,8 +3973,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70BB 65/066",
@@ -3973,7 +3984,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -3981,7 +3992,7 @@ class ColorBlueSeeder extends Seeder
                 'color' =>  "#C8CFD9",
                 'color_group_id' =>  1,
                 'mixed_by_computer' =>  0,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -3993,8 +4004,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "50BG 74/130",
@@ -4013,8 +4025,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "21216",
@@ -4023,8 +4036,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "71804",
@@ -4033,8 +4047,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "71761",
@@ -4043,8 +4058,9 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "50BG 44/094",
@@ -4053,7 +4069,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
@@ -4063,7 +4079,7 @@ class ColorBlueSeeder extends Seeder
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
+                'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
             ],
             [
