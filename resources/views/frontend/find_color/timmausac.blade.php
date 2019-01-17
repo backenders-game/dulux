@@ -39,46 +39,13 @@
                   <div class="filter-section bar-desktop visible">
                     <div class="bar-title">Bộ lọc của tôi</div>
                     <div id="filter-selections" class="filter-labels">
-                        <a class="remove reset-filter reset-color-filter-room-type" id="Hành lang" data-tid="Hành lang data-field=" selected_room_type "=" "
-                            data-fname="Hành lang ">
-                            <div id="selected_room_type "
-                                class="fl-color-selections label ">
-                                <span class="fltr-selection " id="Hành lang " data-tid="Hành lang ">
-                                Hành lang
-                                <svg class="icon ">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 ">
-                                    </use>
-                                </svg>
-                                </span>
-                            </div>
-                        </a>
-                        <a class="remove reset-filter reset-color-filter-surface " id="Trần nhà " data-tid="Trần nhà " data-field="selected_surface " data-fname="Trần nhà ">
-                            <div id="selected_surface " class="fl-color-selections label ">
-                                <span class="fltr-selection " id="Trần nhà " data-tid="Trần nhà ">
-                                Trần nhà
-                                <svg class="icon ">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 "></use>
-                                </svg>
-                                </span>
-                            </div>
-                        </a>
-                        <a class="remove reset-filter reset-color-filter-finish " id="Bề Mặt Mờ " data-tid="Bề Mặt Mờ data-field=" selected_finish"="" data-fname="Bề Mặt Mờ">
-                            <div id="selected_finish" class="fl-color-selections label">
-                                <span class="fltr-selection" id="Bề Mặt Mờ" data-tid="Bề Mặt Mờ">
-                                Bề Mặt Mờ
-                                <svg class="icon">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2"></use>
-                                </svg>
-                                </span>
-                            </div>
-                        </a>
                     </div>
                     <a href="#" class="filter-reset inline-text-link primary btn-clear" tabindex="75" style="display: none;">Khởi tạo lại bộ lọc</a>
                   </div>
                   <div class="results-bar">
-                    <a href="#" class="filter-reset inline-text-link primary btn-clear" tabindex="76" 
+                    <a href="#" class="filter-reset inline-text-link primary btn-clear" tabindex="76"
                         style="display: none;">Khởi tạo lại bộ lọc</a>
-                    <button id="filter_results_btn" class="bttn primary bttn-auto-width pull-right" 
+                    <button id="filter_results_btn" class="bttn primary bttn-auto-width pull-right"
                         tabindex="77"> @isset($colors) {{count($colors)}} @else 0 @endisset Kết quả</button>
                   </div>
                   <section class="filtering">
@@ -145,7 +112,7 @@
                           @foreach($colors as $color)
                           @if(!$color->is_deep_color)
                           <div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">
-                            <a class="color-box-child  color-box-child-{{$color->id}} colorBox-processed flourish_google_tag_manager-processed" 
+                            <a class="color-box-child  color-box-child-{{$color->id}} colorBox-processed flourish_google_tag_manager-processed"
                                 style="background:{{$color->color}}" data-title="{{$color->name}}" data-id="{{str_replace('#', '', $color->color)}}" data-colorid="{{$color->id}}" alt="{{$color->name}}" tabindex="85">
                               <p class="cnme color-text" data-rgb="{{str_replace('#', '', $color->color)}}" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">{{$color->name}}</p>
                             </a>
@@ -162,7 +129,7 @@
                           @foreach($colors as $color)
                           @if($color->is_deep_color)
                           <div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">
-                            <a class="color-box-child  color-box-child-{{$color->id}} colorBox-processed flourish_google_tag_manager-processed" 
+                            <a class="color-box-child  color-box-child-{{$color->id}} colorBox-processed flourish_google_tag_manager-processed"
                                 style="background:{{$color->color}}" data-title="{{$color->name}}" data-id="{{str_replace('#', '', $color->color)}}" data-colorid="{{$color->id}}" alt="{{$color->name}}" tabindex="85">
                               <p class="cnme color-text" data-rgb="{{str_replace('#', '', $color->color)}}" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">{{$color->name}}</p>
                             </a>
@@ -237,12 +204,20 @@ $(document).ready(function() {
         $(this).toggleClass('visible');
         $('.filter-projecttypes').toggleClass('hidden');
     });
-
+    const outsideClickListener = (event) => {
+    if (!$(event.target).closest(selector).length) {
+      if ($(selector).is(':visible')) {
+        $(selector).hide()
+        removeClickListener()
+      }
+    }
+  }
     // Ẩn hiện selector bề mặt cần sơn.
     $('#form-color-surface-usage').on('click', function (e) {
         $(this).toggleClass('visible');
         $('.filter-surfaces').toggleClass('hidden');
     });
+
     $('.color-surface').on('click', function (e) {
         let surfaceId = $(this).val();
         if ($(this).is(':checked')) {
@@ -267,6 +242,7 @@ $(document).ready(function() {
             is_mixed_by_comp: 1,
             is_popular: 1
         }, function (result) {
+            console.log('click confirm button');
             displayPopularColorList(result.colors, result.num_all_colors);
             $('#hue-container').removeClass('hidden');
             $('#hue-collection').addClass('hidden');
@@ -311,7 +287,9 @@ $(document).ready(function() {
             group_id: selectedColorGroupId,
             finish_id: selectedFinish,
             project_id: selectedProjectType,
-            surfaces_id: selectedSurfaces
+            surfaces_id: selectedSurfaces,
+            is_mixed_by_comp: 1,
+            is_popular: 1
         }, function (result) {
             displayPopularColorList(result.colors, result.num_all_colors);
             $(this).toggleClass('visible');
@@ -400,7 +378,6 @@ function findColor (filters, afterSuccess = null, afterError = null) {
             filters: filters
         },
         success: function (result) {
-            console.log('is_mixed', result)
             if (typeof afterSuccess === 'function') {
                 afterSuccess(result);
             }
@@ -431,11 +408,12 @@ function displayPopularColorList (colors, numAllColors) {
         }
     });
 
-    setTimeout(function () {}, 200);
     let normalColorHtml = renderColorBoxChild(normalColors);
     let deepColorHtml = renderColorBoxChild(deepColors);
 
     if (colorGrp) {
+        let filterLabelHtml = renderFilterElem();
+        $('.filter-labels').html(filterLabelHtml);
         $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
             $(box).remove();
         });
@@ -455,6 +433,7 @@ function displayPopularColorList (colors, numAllColors) {
         $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
         // Maù trầm
         $('#popular-colors-list .solr-muted-color-list').append(deepColorHtml);
+
     }
 }
 
@@ -479,10 +458,74 @@ function renderColorBoxChild (colors) {
                             + colors[i].name
                             + '</p>'
                         + '</a>'
-                + '</div>'
+                + '</div>';
         }
     }
     return html;
+}
+
+function renderFilterElem () {
+    let filterLabelHtml = '';
+    if (selectedProjectType !== 0) {
+        projectTypes.map(function (selctProjType) {
+            if (selctProjType.id == selectedProjectType) {
+                filterLabelHtml += '<a class="remove reset-filter reset-color-filter-room-type" '
+                    + 'id="Hành lang" data-tid="'+ selctProjType.name + '" data-field=" selected_room_type "'
+                    + 'data-fname="' + selctProjType.name + ' ">'
+                    + '<div id="selected_room_type "'
+                    + 'class="fl-color-selections label ">'
+                    +    '<span class="fltr-selection " id="' + selctProjType.name + ' " data-tid="' + selctProjType.name + '">'
+                    +     selctProjType.name
+                        +    '<svg class="icon ">'
+                        +        '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 ">'
+                        +        '</use>'
+                        +    '</svg>'
+                    +    '</span>'
+                +   '</div>'
+                + '</a>';
+            }
+        });
+    }
+    if (selectedSurfaces.length > 0) {
+        for (let surface of surfaces) {
+            if (selectedSurfaces.includes("" + surface.id)) {
+                filterLabelHtml += '<a class="remove reset-filter reset-color-filter-surface " id="'+ surface.name + ' " data-tid="' + surface.name
+                + ' " data-field="selected_surface " data-fname="' + surface.name + ' ">'
+                        +    '<div id="selected_surface " class="fl-color-selections label ">'
+                        +        '<span class="fltr-selection " id="'+ surface.name + ' " data-tid="' + surface.name + ' ">'
+                                + surface.name
+                                + '<svg class="icon ">'
+                                +    '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 "></use>'
+                                + '</svg>'
+                        + '</span>'
+                        +'</div>'
+                    + '</a>';
+            }
+        }
+    }
+    if (selectedFinish) {
+        console.log('selected finish', selectedFinish);
+        for (let finish of finishSurfaces) {
+            console.log(finish);
+            if (selectedFinish == finish.id) {
+                filterLabelHtml += '<a class="remove reset-filter reset-color-filter-finish " id="'
+                            + finish.name + ' " data-tid="' + finish.name + '" data-field="" selected_finish"="" data-fname="'+ finish.name + '">'
+                            +        '<div id="selected_finish" class="fl-color-selections label">'
+                            +           '<span class="fltr-selection" id="' + finish.name + '"'
+                            +                'data-tid="' + finish.name + '">'
+                            +            finish.name
+                            +            '<svg class="icon">'
+                            +                '<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2"></use>'
+                            +        '</svg>'
+                            +        '</span>'
+                            +      '</div>'
+                            +    '</a>';
+
+            }
+        }
+    }
+    console.log('filter label ', filterLabelHtml);
+    return filterLabelHtml;
 }
 </script>
 @endsection
