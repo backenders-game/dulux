@@ -5,7 +5,7 @@
 @include('frontend.includes.css.categoryProductCss')
 @endsection
 @section('content')
-<div id="zone-content" class="zone-content">
+<div id="zone-content" class="zone-content product_dulux_responsive">
   <div class="main-container container">
     <!-- /#page-header -->
     <div class="row">
