@@ -48,74 +48,23 @@ class FindColorController extends Controller
         $finishId = 0;
         $surfaceIds = [];
         if (Session::has('color_group_id')) {
-            $groupId = session('color_group_id', 1);
+            $groupId = session('color_group_id', 0);
         }
         if (Session::has('color_finish_id')) {
-            $finishSurfaceId = session('color_finish_id', 0);
+            $finishId = session('color_finish_id', 0);
         }
         if (Session::has('color_surface_ids')) {
             $surfaceIds = session('color_surface_ids', []);
         }
         if (Session::has('color_project_id')) {
-            $projectTypeId = session('color_project_id', 0);
+            $projectId = session('color_project_id', 0);
         }
-        $isPopular = 1;
-        $isMixedByComp = 1;
-        $selectedClrGrp = $this->colorGroupRepository->where('id', $groupId)->first();
-        $colors = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
-            ->leftJoin('color_surfaces', 'color_surfaces.color_id', '=', 'colors.id')
-            ->leftJoin('product_colors', 'product_colors.color_id', '=', 'colors.id')
-            ->leftJoin('products', 'products.id', '=', 'product_colors.product_id')
-            ->when($groupId != 0 && $groupId != null, function ($q) use ($groupId) {
-                $q->where('colors.color_group_id', $groupId);
-            })
-            ->when($projectTypeId != 0 && $projectTypeId != null,
-                function ($q) use ($projectTypeId) {
-                $q->where('color_projecttypes.project_type_id', $projectTypeId);
-            })
-            ->when($finishSurfaceId != 0 && $finishSurfaceId != null, function ($q) use($finishSurfaceId) {
-                $q->where('products.finish_surface_id', $finishSurfaceId);
-            })
-            ->when($isMixedByComp, function ($q) {
-                $q->where('colors.mixed_by_computer', 1);
-            }, function ($q) {
-                $q->where('colors.mixed_by_computer', 0);
-            })
-            ->when($isPopular && $isMixedByComp, function ($q) {
-                $q->where('colors.is_popular', 1);
-            }, function ($q) {
-                $q->where('colors.is_popular', 0);
-            })->select(DB::raw('colors.*'))->distinct()->get();
-
-        $counter = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
-            ->leftJoin('color_surfaces', 'color_surfaces.color_id', '=', 'colors.id')
-            ->leftJoin('product_colors', 'product_colors.color_id', '=', 'colors.id')
-            ->leftJoin('products', 'products.id', '=', 'product_colors.product_id')
-            ->when($groupId != 0 && $groupId != null, function ($q) use ($groupId) {
-                $q->where('colors.color_group_id', $groupId);
-            })
-            ->when($projectTypeId != 0 && $projectTypeId != null,
-                function ($q) use ($projectTypeId) {
-                $q->where('color_projecttypes.project_type_id', $projectTypeId);
-            })
-            ->when($finishSurfaceId != 0 && $finishSurfaceId != null, function ($q) use($finishSurfaceId) {
-                $q->where('products.finish_surface_id', $finishSurfaceId);
-            })
-            ->when($isMixedByComp, function ($q) {
-                $q->where('colors.mixed_by_computer', 1);
-            }, function ($q) {
-                $q->where('colors.mixed_by_computer', 0);
-            })->select(DB::raw('colors.*'))->distinct()->count(DB::raw('colors.id'));
-        
 
         return view('frontend.find_color.timmausac', [
             'surfaces' => $surfaces,
             'projectTypes' => $projectTypes,
             'finishSurfaces' => $finishSurfaces,
-            'colorGroups' => $colorGroups->toArray(),
-            'colors' => $colors,
-            'num_all_colors' => $counter,
-            'selectedColorGrp' => $selectedClrGrp
+            'colorGroups' => $colorGroups->toArray()
         ]);
     }
 
