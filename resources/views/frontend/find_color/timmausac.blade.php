@@ -139,21 +139,39 @@
                           <div class="solr-pure-color-name">
                             <h2 class="color-type">Họ màu trắng</h2>
                           </div>
+                          @isset($colors)
+                          @foreach($colors as $color)
+                          @if(!$color->is_deep_color)
                           <div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">
-                            <a class="color-box-child  color-box-child-1166298 colorBox-processed flourish_google_tag_manager-processed" style="background:#F4F0E4" data-title="61YY 89/040" data-id="F4F0E4" data-colorid="1166298" alt="61YY 89/040" tabindex="85">
-                              <p class="cnme color-text" data-rgb="F4F0E4" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">61YY 89/040</p>
+                            <a class="color-box-child  color-box-child-{{$color->id}} colorBox-processed flourish_google_tag_manager-processed" 
+                                style="background:{{$color->color}}" data-title="{{$color->name}}" data-id="{{$color->color}}" data-colorid="{{$color->id}}" 
+                                alt="{{$color->name}}" tabindex="85">
+                              <p class="cnme color-text" data-rgb="{{str_replace('#', '', $color->color)}}" 
+                                  style="color: rgb(102,102,102); stroke: rgb(102,102,102)">{{$color->name}}</p>
                             </a>
                           </div>
+                          @endif
+                          @endforeach
+                          @endisset
                         </div>
                         <div class="solr-muted-color-list">
                           <div class="solr-muted-color-name">
                             <h2 class="color-type muted_clrs">Trắng trầm</h2>
                           </div>
+                          @isset($colors)
+                          @foreach($colors as $color)
+                          @if($color->is_deep_color)
                           <div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">
-                            <a class="color-box-child  color-box-child-1166302 colorBox-processed flourish_google_tag_manager-processed" style="background:#EFE8DF" data-title="20YY 83/038" data-id="EFE8DF" data-colorid="1166302" alt="20YY 83/038" tabindex="97">
-                              <p class="cnme color-text" data-rgb="EFE8DF" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">20YY 83/038</p>
+                            <a class="color-box-child  color-box-child-{{$color->id}} colorBox-processed flourish_google_tag_manager-processed" 
+                                style="background:{{$color->color}}" data-title="{{$color->name}}" data-id="{{$color->color}}" data-colorid="{{$color->id}}" 
+                                alt="{{$color->name}}" tabindex="85">
+                              <p class="cnme color-text" data-rgb="{{str_replace('#', '', $color->color)}}" 
+                                  style="color: rgb(102,102,102); stroke: rgb(102,102,102)">{{$color->name}}</p>
                             </a>
                           </div>
+                          @endif
+                          @endforeach
+                          @endisset
                         </div>
                       </div>
                       <div class="color-lister-bottom-new colors-listing-box-bottom">
