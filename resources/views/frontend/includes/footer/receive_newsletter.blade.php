@@ -1,4 +1,4 @@
-<footer id="zone-footer" class="footer flex-campaign">
+<footer id="zone-footer" class="footer flex-campaign footer_receive_newsletter_dulux">
   <div class="footer-inner">
     <div class="region region-footer">
       <div class="region region-footer">
@@ -8,9 +8,7 @@
               <a class="closebutton" href="#">close</a>
               <div class="center-block">
                 <div class="subscribecontent subscribeinvite center-block">
-                  <svg class="icon icon-newsletter" alt="Nhận bản tin của chúng tôi" title="Nhận bản tin của chúng tôi">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/assets/toolkit/images/svg/newsletter.svg#Page-1"></use>
-                  </svg>
+                  <img src="{{asset('img/frontend/icons/newsletter.svg')}}" alt="">
                   <h3 class="h2 text-center margin-bottom-xs">Nhận bản tin của chúng tôi</h3>
                   <div class="text-center center-block margin-bottom-m">
                     Khám phá xu hướng trang trí và các ý tưởng trong bản tin hàng tháng mới của chúng tôi    

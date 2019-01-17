@@ -57,7 +57,7 @@
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
                 <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.y_tuong')}}">
-                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Ý tưởng<</span>
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Ý tưởng</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
