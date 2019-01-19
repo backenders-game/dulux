@@ -46,7 +46,7 @@
                                       <div class="color-quest-first-block question-module">
                                         <h1 class="fl-question-title">Chào mừng bạn đến với thế giới sắc màu</h1>
                                         <!-- <h2>Do you have a specific colour in mind?</h2> -->
-                                        <div class="scroll-down-icon"><a href="#topContent"><img alt="scroll down" src="/profiles/flourish/themes/custom/flourish_rem/images/scroll-down-icon.png" /></a></div>
+                                        <div class="scroll-down-icon"><a href="#topContent"><img alt="scroll down" src="" /></a></div>
                                         <ul>
                                           <li><a class="flQuestion-processed" href="#" id="color_yes" title="Tôi đang nghĩ đến một vài màu sắc">Tôi đang nghĩ đến một vài màu sắc</a></li>
                                           <li><a href="#" id="color_no" title="Tôi không chắc nên bắt đầu từ đâu">Tôi không chắc nên bắt đầu từ đâu</a></li>
@@ -69,7 +69,7 @@
                                       Màu Dulux của Năm 2019
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
-                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
+                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                                         </svg>
                                       </button>
                                     </div>
@@ -84,7 +84,7 @@
                                       Trợ giúp về mẹo & bí quyết
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
-                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
+                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                                         </svg>
                                       </button>
                                     </div>
@@ -99,7 +99,7 @@
                                       Chọn sản phẩm phù hợp để sơn
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
-                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
+                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                                         </svg>
                                       </button>
                                     </div>
@@ -114,7 +114,7 @@
                                       Tìm điểm bán gần bạn
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
-                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
+                                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                                         </svg>
                                       </button>
                                     </div>

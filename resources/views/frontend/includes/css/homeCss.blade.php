@@ -14,8 +14,22 @@
 .home_dulux .home_list_item .fa-arrow-right{
     color:#00A78E !important; 
 }
-.h1,.h3 {
-  font-family: "colour-sans", "open_sans_regular", Helvetica, Arial, sans-serif !important;
+.wrapper_header_dulux{
+    padding-top: 0px;
+}
+.wrapper_header_dulux h1{
+    font-size:34px !important;
+}
+.button_header_dulux{
+    margin-top: 20px;
+}
+.button_header_dulux li a{
+    font-weight: bold !important;
+    font-size:14px  !important;
+}
+.post_hot{
+    height: auto !important;
+    font-size:13px !important;
 }
 </style>
 <link type="text/css" rel="stylesheet" href="{{asset('css/frontend/frontendCss7.css')}}" media="all" />

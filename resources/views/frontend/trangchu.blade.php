@@ -24,14 +24,14 @@
                         <div class="panel-pane pane-block pane-bean-color-question-block pane-bean">
                           <div class="pane-content">
                             <div class="first-item hero-image hero-large" style="background-image:url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/stalen.jpg');">
-                              <div class="field field-name-field-bean-body-text field-type-text-with-summary field-label-hidden">
+                              <div class="wrapper_header_dulux field field-name-field-bean-body-text field-type-text-with-summary field-label-hidden">
                                 <div class="field-items">
                                   <div class="field-item even">
                                     <div class="color-quest-first-block question-module">
                                       <h1 class="fl-question-title">Chào mừng bạn đến với thế giới sắc màu</h1>
                                       <!-- <h2>Do you have a specific colour in mind?</h2> -->
-                                      <div class="scroll-down-icon"><a href="#topContent" tabindex="25"><img alt="scroll down" src="/profiles/flourish/themes/custom/flourish_rem/images/scroll-down-icon.png"></a></div>
-                                      <ul>
+                                      <div class="scroll-down-icon"><a href="#topContent" tabindex="25"><img alt="scroll down" src=""></a></div>
+                                      <ul class="button_header_dulux">
                                         <li><a class="flQuestion-processed" href="#" id="color_yes" title="Tôi đang nghĩ đến một vài màu sắc" tabindex="26">Tôi đang nghĩ đến một vài màu sắc</a></li>
                                         <li><a href="#" id="color_no" title="Tôi không chắc nên bắt đầu từ đâu" tabindex="27">Tôi không chắc nên bắt đầu từ đâu</a></li>
                                       </ul>
@@ -50,7 +50,7 @@
                               <div class="col-xs-6 col-md-3 vr-margin-bottom-5">
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/key-entry.jpg')"></div>
-                                  <div class="entry-content fl-equi-height" style="height: 82px;">
+                                  <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
                                     Màu Dulux của Năm 2019                    
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>
@@ -63,7 +63,7 @@
                               <div class="col-xs-6 col-md-3 vr-margin-bottom-5">
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/image-entrypoint-xl2x_1.png')"></div>
-                                  <div class="entry-content fl-equi-height" style="height: 82px;">
+                                  <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
                                     Trợ giúp về mẹo &amp; bí quyết                    
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>
@@ -76,7 +76,7 @@
                               <div class="col-xs-6 col-md-3 vr-margin-bottom-5">
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/entrypoint_img_products2x.png')"></div>
-                                  <div class="entry-content fl-equi-height" style="height: 82px;">
+                                  <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
                                     Chọn sản phẩm phù hợp để sơn                    
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>
@@ -89,7 +89,7 @@
                               <div class="col-xs-6 col-md-3 vr-margin-bottom-5">
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/image-entrypoint-xl2x.png')"></div>
-                                  <div class="entry-content fl-equi-height" style="height: 82px;">
+                                  <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
                                     Tìm điểm bán gần bạn                    
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>

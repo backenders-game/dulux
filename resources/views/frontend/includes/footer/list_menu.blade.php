@@ -6,7 +6,7 @@
           <div class="v2-footer-menu__heading accordion__heading js-toggle-accordion" data-ta-selector-group="#footer-accordion-0" data-ta-selector-parent="#footer-accordion">
             <span class="v2-footer__header v2-footer-menu__header">Dulux</span>
             <svg class="icon icon--small icon--fill" title="Toggle Accordion">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-chevron-down"></use>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
             </svg>
           </div>
           <div class="accordion__content">
@@ -40,7 +40,7 @@
           <div class="v2-footer-menu__heading accordion__heading js-toggle-accordion" data-ta-selector-group="#footer-accordion-1" data-ta-selector-parent="#footer-accordion">
             <span class="v2-footer__header v2-footer-menu__header">Danh mục phổ biến</span>
             <svg class="icon icon--small icon--fill" title="Toggle Accordion">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-chevron-down"></use>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
             </svg>
           </div>
           <div class="accordion__content">
@@ -80,7 +80,7 @@
           <div class="v2-footer-menu__heading accordion__heading js-toggle-accordion" data-ta-selector-group="#footer-accordion-2" data-ta-selector-parent="#footer-accordion">
             <span class="v2-footer__header v2-footer-menu__header">Truy cập</span>
             <svg class="icon icon--small icon--fill" title="Toggle Accordion">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-chevron-down"></use>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
             </svg>
           </div>
           <div class="accordion__content">
@@ -100,7 +100,7 @@
           <div class="v2-footer-menu__heading accordion__heading js-toggle-accordion" data-ta-selector-group="#footer-accordion-3" data-ta-selector-parent="#footer-accordion">
             <span class="v2-footer__header v2-footer-menu__header">Các trang khác của Dulux</span>
             <svg class="icon icon--small icon--fill" title="Toggle Accordion">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-chevron-down"></use>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
             </svg>
           </div>
           <div class="accordion__content">

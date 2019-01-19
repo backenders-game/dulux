@@ -29,7 +29,7 @@
                         <div class="clearfix">
                           <a class="swatch-close vr-margin-top-4 right close-color" data-close="#swatch-bar" tabindex="29">
                             <svg class="icon icon-close">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                           </a>
                         </div>
@@ -38,7 +38,7 @@
                           <a class="inline-text-link pick-a-colour change-color" tabindex="30">
                             Thay đổi màu này    
                             <svg class="icon icon-arrow-right ">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-arrow-right"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                           </a>
                         </div>
@@ -51,7 +51,7 @@
                             <div class="title-section hidden-sm-up">
                               <h2 class="text-center">Bộ lọc</h2>
                               <svg class="icon icon-close right">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close"></use>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                               </svg>
                             </div>
                             <div class="title-section hidden-sm-down">
@@ -63,7 +63,7 @@
                                 <div class="collapse-trigger general-collapse-trigger-processed">
                                   Nơi cần sơn                <span class="count-label input-counter">0</span>
                                   <svg class="icon icon-collapse-arrow right">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-collapse-arrow"></use>
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                                   </svg>
                                 </div>
                                 <div class="collapse-content amountCount" style="display: block;">
@@ -192,7 +192,7 @@
                                   <div class="icon-plus-text ipt-icon-settings right ">
                                     Bộ lọc 
                                     <svg class="icon icon-settings ">
-                                      <use xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-settings"></use>
+                                      <use xlink:href=""></use>
                                     </svg>
                                   </div>
                                   <span class="count-label totalInputCount">0</span> 

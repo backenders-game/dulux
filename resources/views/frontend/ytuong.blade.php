@@ -32,7 +32,7 @@
                         <div class="color-box-inner text-center">
                           <div class="icon-crossmark"></div>
                           <svg class="icon icon-checkmark">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                           </svg>
                           <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="All" data-label="Tất cả các" data-filter-type="colorFamily" data-filter-name="all" data-has-combination="YES" disabled="disabled" id="edit-palette-all" name="article_color_family" value="all" type="button" tabindex="29">all</button>
                           </span>
@@ -43,7 +43,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu trắng" data-label="Họ màu trắng" data-filter-type="colorFamily" data-filter-name="white" data-has-combination="YES" id="edit-palette-white" name="article_color_family" value="37" type="button" tabindex="31">37</button>
                             </span>
@@ -53,7 +53,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu đỏ" data-label="Họ màu đỏ" data-filter-type="colorFamily" data-filter-name="red" data-has-combination="YES" id="edit-palette-red" name="article_color_family" value="24" type="button" tabindex="33">24</button>
                             </span>
@@ -65,7 +65,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu cam" data-label="Họ màu cam" data-filter-type="colorFamily" data-filter-name="orange" data-has-combination="YES" id="edit-palette-orange" name="article_color_family" value="27" type="button" tabindex="35">27</button>
                             </span>
@@ -75,7 +75,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu vàng kim" data-label="Họ màu vàng kim" data-filter-type="colorFamily" data-filter-name="gold" data-has-combination="YES" id="edit-palette-gold" name="article_color_family" value="22" type="button" tabindex="37">22</button>
                             </span>
@@ -87,7 +87,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu vàng" data-label="Họ màu vàng" data-filter-type="colorFamily" data-filter-name="yellow" data-has-combination="YES" id="edit-palette-yellow" name="article_color_family" value="48" type="button" tabindex="39">48</button>
                             </span>
@@ -97,7 +97,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu vàng chanh" data-label="Họ màu vàng chanh" data-filter-type="colorFamily" data-filter-name="lime" data-has-combination="YES" id="edit-palette-lime" name="article_color_family" value="26" type="button" tabindex="41">26</button>
                             </span>
@@ -109,7 +109,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu xanh lá" data-label="Họ màu xanh lá" data-filter-type="colorFamily" data-filter-name="green" data-has-combination="YES" id="edit-palette-green" name="article_color_family" value="52" type="button" tabindex="43">52</button>
                             </span>
@@ -119,7 +119,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu xanh mòng két" data-label="Họ màu xanh mòng két" data-filter-type="colorFamily" data-filter-name="teal" data-has-combination="YES" id="edit-palette-teal" name="article_color_family" value="29" type="button" tabindex="45">29</button>
                             </span>
@@ -131,7 +131,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu xanh dương" data-label="Họ màu xanh dương" data-filter-type="colorFamily" data-filter-name="blue" data-has-combination="YES" id="edit-palette-blue" name="article_color_family" value="36" type="button" tabindex="47">36</button>
                             </span>
@@ -141,7 +141,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu tím" data-label="Họ màu tím" data-filter-type="colorFamily" data-filter-name="violet" data-has-combination="YES" id="edit-palette-violet" name="article_color_family" value="31" type="button" tabindex="49">31</button>
                             </span>
@@ -153,7 +153,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu thiên nhiên" data-label="Họ màu thiên nhiên" data-filter-type="colorFamily" data-filter-name="cool+neutral" data-has-combination="YES" id="edit-palette-cool-neutral" name="article_color_family" value="44" type="button" tabindex="51">44</button>
                             </span>
@@ -163,7 +163,7 @@
                           <div class="color-box-inner text-center">
                             <div class="icon-crossmark"></div>
                             <svg class="icon icon-checkmark">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-checkmark"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                             <span><button class="solr-color-box-button article-filter-section btn btn-default form-submit colorBoxBtn-processed flourish_google_tag_manager-processed" title="Họ màu vàng đất" data-label="Họ màu vàng đất" data-filter-type="colorFamily" data-filter-name="warm+neutral" data-has-combination="YES" id="edit-palette-warm-neutral" name="article_color_family" value="23" type="button" tabindex="53">23</button>
                             </span>
@@ -175,7 +175,7 @@
                       <div class="title-section">
                         <h2 class="text-center">Bộ lọc</h2>
                         <svg class="icon icon-close right">
-                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close"></use>
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                         </svg>
                       </div>
                       <div class="clp-wrap collapse-wrap accordeon">
@@ -183,7 +183,7 @@
                           <div class="collapse-trigger accordeon-collapse-trigger-processed">
                             Nơi cần sơn          <span class="count-label input-counter">0</span>
                             <svg class="icon icon-collapse-arrow right">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-collapse-arrow"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                           </div>
                           <div class="collapse-content amountCount" style="display: none;">
@@ -277,7 +277,7 @@
                             <div class="icon-plus-text ipt-icon-settings right">
                               Bộ lọc            
                               <svg class="icon icon-settings ">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-settings"></use>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                               </svg>
                             </div>
                             <span class="count-label totalInputCount">0</span>

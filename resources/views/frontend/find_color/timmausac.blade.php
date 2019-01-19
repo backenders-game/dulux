@@ -65,7 +65,7 @@
                           <div class="icon-plus-text ipt-icon-settings right">
                             Bộ lọc
                             <svg class="icon icon-settings">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-settings"></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
                           </div>
                           <span class="count-label totalInputCount">0</span>
@@ -477,7 +477,7 @@ function renderFilterElem () {
                     +    '<span class="fltr-selection " id="' + selctProjType.name + ' " data-tid="' + selctProjType.name + '">'
                     +     selctProjType.name
                         +    '<svg class="icon ">'
-                        +        '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 ">'
+                        +        '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="">'
                         +        '</use>'
                         +    '</svg>'
                     +    '</span>'
@@ -495,7 +495,7 @@ function renderFilterElem () {
                         +        '<span class="fltr-selection " id="'+ surface.name + ' " data-tid="' + surface.name + ' ">'
                                 + surface.name
                                 + '<svg class="icon ">'
-                                +    '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 "></use>'
+                                +    '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href=""></use>'
                                 + '</svg>'
                         + '</span>'
                         +'</div>'
@@ -515,7 +515,7 @@ function renderFilterElem () {
                             +                'data-tid="' + finish.name + '">'
                             +            finish.name
                             +            '<svg class="icon">'
-                            +                '<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2"></use>'
+                            +                '<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>'
                             +        '</svg>'
                             +        '</span>'
                             +      '</div>'

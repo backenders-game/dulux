@@ -9,14 +9,6 @@ jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{
 //--><!]]>
 </script>
 
-   <!--[if IE]>
-    <script>
-    svg4everybody();
-    </script>
-    <script src="/profiles/flourish/themes/custom/flourish_rem/js/api/svg4everybody.min.js"></script>
-  <![endif]-->
-  <!-- JS at footer END-->
-
   <!-- Core footer JS start-->
   <script type="text/javascript" src="https://www.dulux.vn/sites/www.dulux.vn/files/advagg_js/js__nJrLtco-VP7irl57QEWiTm_3MMANEP8PTDENCPUEa2A___iRmncfN2es8ophAzf-wIirniNwP18C00PoJnosMi28__IY9epI-mj_jUyCKMTKnYycFqUe7k0NLtv13O2_s2fYI.js"></script>
 <script type="text/javascript">

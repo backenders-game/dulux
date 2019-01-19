@@ -8,7 +8,7 @@
             <div class="brand-bar__logo">
               <a href="https://www.akzonobel.com" class="link-icon link-icon-akzo">
                 <svg class="icon icon-akzo">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-akzo"></use>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                 </svg>
               </a>
             </div>
@@ -51,34 +51,34 @@
               <ul class="secondary-nav__nav">
                 <li>
                   <svg class="icon icon-search icon--medium js-navigation-search-open ">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-search"></use>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                   </svg>
                 </li>
                 <li>
                   <a href="/vi/danh-sach-mua-hang" data-counter="" class="bubble-counter" title="shopping-list icon">
                     <svg class="icon icon-shoppinglist ">
-                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-shoppinglist"></use>
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                     </svg>
                   </a>
                 </li>
                 <li class="my-account__nav type-small js-header-menu-my-account">
                   <svg class="icon icon-user-login loggedIn-content hide">
-                    <use xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-user-login"></use>
+                    <use xlink:href=""></use>
                   </svg>
                   <span class="my-account__span loggedIn-content hide">Tài khoản của Tôi</span>
                   <svg class="icon icon-user loggedOut-content">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-user"></use>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                   </svg>
                   <span class="my-account__span loggedOut-content">Đăng nhập</span>
                   <!-- My account nav logged in content start -->
                   <div class="account-section loggedIn-content hide">
                     <svg class="icon icon-close ">
-                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close"></use>
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                     </svg>
                     <div class="account-section__details account-section__loggedin">
                       <a href="/vi/my-account">
                         <svg class="icon icon-user">
-                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-user"></use>
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                         </svg>
                         <h2 class="h5">Tài khoản của Tôi</h2>
                         <span class="type-small user-mail"></span>
@@ -88,7 +88,7 @@
                       <li>
                         <a href="/vi/so-tay" title="Ghi chú của tôi">
                           <svg class="icon icon-favourite-empty ">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-favourite-empty"></use>
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                           </svg>
                           Ghi chú của tôi
                         </a>
@@ -96,7 +96,7 @@
                       <li>
                         <a href="/user/sm-logout">
                           <svg class="icon icon-log-out">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-log-out"></use>
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                           </svg>
                           Đăng xuất
                         </a>
@@ -106,7 +106,7 @@
                   <!-- My account nav logged out content -->
                   <div class="account-section loggedOut-content">
                     <svg class="icon icon-close ">
-                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close"></use>
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                     </svg>
                     <div class="account-section__details">
                       <a href="/user/login" class="account-section__login">
@@ -118,7 +118,7 @@
                       <li>
                         <a href="/vi/so-tay" title="Ghi chú của tôi">
                           <svg class="icon icon-favourite-empty ">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-favourite-empty"></use>
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                           </svg>
                           Ghi chú của tôi
                         </a>
@@ -131,7 +131,7 @@
             <div class="search-bar">
               <div class="search-bar__start animation-loaded">
                 <svg class="icon icon-search icon--medium icon-search ">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-search"></use>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                 </svg>
                 <form  id="flsearch_header" method="" class="search-bar__form">
                   <input type="search" id="nav-search" class="fl-search-text typeahead" placeholder="Search for…">
@@ -143,7 +143,7 @@
                 <a href="" class="inline-text-link clear-search js-header-clear-search">Clear</a>
                 <span class="vertical-divider"></span>
                 <svg class="icon icon-close icon--medium js-navigation-search-close ">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-close"></use>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                 </svg>
               </div>
               <div class="search-bar_results">
