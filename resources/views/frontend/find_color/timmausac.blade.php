@@ -11,6 +11,10 @@
     .colors-content {
         margin-top: 2.14em !important;
     }
+    .solr-muted-color-name {
+        margin-top: 8rem !important;
+        margin-bottom: 2rem !important;
+    }
   </style>
 @endsection
 @section('content')
@@ -41,11 +45,13 @@
                     <div id="filter-selections" class="filter-labels">
 
                     </div>
-                    <a href="#" class="filter-reset inline-text-link primary btn-clear" tabindex="75" style="display: none;">Khởi tạo lại bộ lọc</a>
+                    <a href="#" class="filter-reset inline-text-link primary btn-clear" tabindex="75">
+                    Khởi tạo lại bộ lọc
+                    </a>
                   </div>
                   <div class="results-bar">
                     <a href="#" class="filter-reset inline-text-link primary btn-clear" tabindex="76"
-                        style="display: none;">Khởi tạo lại bộ lọc</a>
+                    >Khởi tạo lại bộ lọc</a>
                     <button id="filter_results_btn" class="bttn primary bttn-auto-width pull-right"
                         tabindex="77"> @isset($colors) {{count($colors)}} @else 0 @endisset Kết quả</button>
                   </div>
@@ -66,7 +72,7 @@
                           <div class="icon-plus-text ipt-icon-settings right">
                             Bộ lọc
                             <svg class="icon icon-settings">
-                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/svgsprite/sprite.svg#icon-settings"></use>
                             </svg>
                           </div>
                           <span class="count-label totalInputCount">0</span>
@@ -95,19 +101,19 @@
                   </div>
                   <div class="container colors-listing-box" id="color-box-container">
                     <div id="hue-container" class="col-md-12 colors clearfix fl-overflow-visible">
-                      <p class="h1"><span class="main-color-tab">Màu sắc phổ biến (@isset($colors) {{count($colors)}} @else 0 @endisset)</span>
+                      <p class="h1"><span class="main-color-tab">Màu sắc phổ biến (@isset($colors){{count($colors)}}@else 0 @endisset)</span>
                       <span class="link-gray pull-right hidden-xs sub-color-tab main">
                       <button data-link="all"
                         class="use-ajax btn btn-default form-submit ajax-processed flourish_google_tag_manager-processed"
-                        style="opacity:4" id="edit-show-colors-link--2" name="show_colors_link"
-                        value="Xem tất cả các màu  (212)" type="button" tabindex="84">Xem tất cả các màu  ({{$numCounter}})
+                        style="opacity:4" id="edit-show-colors-link" name="show_colors_link"
+                        value="Xem tất cả các màu ({{$numCounter}})" type="button" tabindex="84">Xem tất cả các màu  ({{$numCounter}})
                       </button>
                         </span>
                       </p>
                       <div id="popular-colors-list">
                         <div class="solr-pure-color-list">
                           <div class="solr-pure-color-name">
-                            <h2 class="color-type">Họ màu trắng</h2>
+                            <h2 class="color-type">{{$selectedClrGrp->name}}</h2>
                           </div>
                           @isset($colors)
                           @foreach($colors as $color)
@@ -124,7 +130,11 @@
                         </div>
                         <div class="solr-muted-color-list">
                           <div class="solr-muted-color-name">
-                            <h2 class="color-type muted_clrs">@isset($selectedClrGrp) {{str_replace('Họ màu ', '', $selectedClrGrp->name)}} @endisset trầm</h2>
+                            <h2 class="color-type muted_clrs">
+                            @isset($selectedClrGrp)
+                                {{str_replace('Họ màu ', '', $selectedClrGrp->name)}}
+                                @endisset trầm
+                            </h2>
                           </div>
                           @isset($colors)
                           @foreach($colors as $color)
@@ -142,7 +152,10 @@
                       </div>
                       <div class="color-lister-bottom-new colors-listing-box-bottom">
                         <h2>Tôi không thể tìm thấy màu sắc mong muốn</h2>
-                        <button data-link="all" class="btn-normal-curve sub-color-tab use-ajax btn btn-default form-submit ajax-processed flourish_google_tag_manager-processed" style="opacity:4" id="edit-show-right-colors--2" name="show_right_colors" value="Xem tất cả các màu  (212)" type="button" tabindex="110">Xem tất cả các màu  (212)</button>
+                        <button data-link="all"
+                            class="btn-normal-curve sub-color-tab use-ajax btn btn-default form-submit ajax-processed flourish_google_tag_manager-processed"
+                            style="opacity:4" id="edit-show-right-colors--2" name="show_right_colors"
+                            value="Xem tất cả các màu @isset($numCounter){{$numCounter}}@endisset" type="button" tabindex="110">Xem tất cả các màu  (@isset($numCounter){{$numCounter}}@endisset)</button>
                       </div>
                     </div>
                     <!-- Mau pha san -->
@@ -423,6 +436,105 @@ $(document).ready(function() {
         }
         $(this).addClass('active');
     });
+
+    $('#edit-show-colors-link').on('click', function (e) {
+        e.preventDefault();
+        let type = $(this).data('link');
+        if (type === 'all') {
+            findColor({
+                group_id: selectedColorGroupId,
+                finish_id: selectedFinish,
+                project_id: selectedProjectType,
+                surfaces_id: selectedSurfaces,
+                is_mixed_by_comp: 1,
+                get_all: 1
+            }, function (result) {
+                $('#edit-show-colors-link').data('link', 'popular');
+                displayAllColorList(result.colors, result.num_all_colors);
+                $('#hue-container').removeClass('hidden');
+                $('#hue-collection').addClass('hidden');
+            });
+        } else {
+            findColor({
+                group_id: selectedColorGroupId,
+                finish_id: selectedFinish,
+                project_id: selectedProjectType,
+                surfaces_id: selectedSurfaces,
+                is_mixed_by_comp: 1,
+                is_popular: 1
+            }, function (result) {
+                displayPopularColorList(result.colors, result.num_all_colors);
+                $('#hue-container').removeClass('hidden');
+                $('#hue-collection').addClass('hidden');
+            })
+        }
+    });
+    $('.btn-normal-curve').on('click', function (e) {
+        e.preventDefault();
+        let type = $(this).data('link');
+        if (type === 'all') {
+            findColor({
+                group_id: selectedColorGroupId,
+                finish_id: selectedFinish,
+                project_id: selectedProjectType,
+                surfaces_id: selectedSurfaces,
+                is_mixed_by_comp: 1,
+                get_all: 1
+            }, function (result) {
+                $('.btn-normal-curve').data('link', 'popular');
+                displayAllColorList(result.colors, result.num_all_colors);
+                $('#hue-container').removeClass('hidden');
+                $('#hue-collection').addClass('hidden');
+            });
+        } else {
+            findColor({
+                group_id: selectedColorGroupId,
+                finish_id: selectedFinish,
+                project_id: selectedProjectType,
+                surfaces_id: selectedSurfaces,
+                is_mixed_by_comp: 1,
+                is_popular: 1
+            }, function (result) {
+                displayPopularColorList(result.colors, result.num_all_colors);
+                $('#hue-container').removeClass('hidden');
+                $('#hue-collection').addClass('hidden');
+            })
+        }
+    });
+    $('.btn-clear').on('click', function (e) {
+        e.preventDefault();
+        clearFilters();
+        findColor({
+            group_id: selectedColorGroupId,
+            finish_id: selectedFinish,
+            project_id: selectedProjectType,
+            surfaces_id: selectedSurfaces,
+            is_mixed_by_comp: 1,
+            is_popular: 1
+        }, function (result) {
+            displayPopularColorList(result.colors, result.num_all_colors);
+            $('#hue-container').removeClass('hidden');
+            $('#hue-collection').addClass('hidden');
+            $('.colors-ready-to-mix').addClass('active');
+            $('.colors-ready-to-buy').removeClass('active');
+        });
+    });
+
+    $(document).on('click', '.rowBox', function (e) {
+        if (!$(this).next().hasClass('rowInfo')) {
+            $('.rowInfo').remove();
+            let linkEle = $(this).find('.color-box-child');
+            $(this).addClass('focus-outline');
+            let colorid = $(linkEle[0]).data('colorid');
+            let colorcode = $(linkEle[0]).data('id');
+            let colortitle = $(linkEle[0]).data('title');
+            let detailHtml = showDetailColorBox(colorid, colortitle, colorcode);
+            $(this).after(detailHtml);
+            setTimeout(function () {
+                $('.rowInfo').slideDown(2000);
+            }, 800);
+        }
+    });
 });
 
 function findColor (filters, afterSuccess = null, afterError = null) {
@@ -445,7 +557,7 @@ function findColor (filters, afterSuccess = null, afterError = null) {
                 afterError(err);
             }
         }
-    })
+    });
 }
 // toggle Filter Section
 function toggleFilterSection () {
@@ -453,6 +565,83 @@ function toggleFilterSection () {
         $('.filter-section').addClass('visible');
     } else {
         $('.filter-section').removeClass('visible');
+    }
+}
+
+function clearFilters () {
+    selectedFinish = 0;
+    selectedProjectType = 0;
+    selectedSurfaces = [];
+    toggleFilterSection();
+    $('.color-projecttype').each(function (idx, item) {
+        if ($(item).is(':checked')) {
+            $(item).prop('checked', false);
+        }
+    });
+    $('.counter-projecttype').removeClass('visible');
+
+    // Kiểm tra số lượng counter
+    $('.form-color-finish-item').each(function (idx, item) {
+        if ($(item).is(':checked')) {
+            $(item).prop('checked', false);
+        }
+    });
+    $('.counter-finish-surfaces').removeClass('visible');
+    // Hiển thị so luong bề mặt cần sơn.
+    $('.form-color-surface-item').each(function (idx, item) {
+        if ($(item).is(':checked')) {
+            $(item).prop('checked', false);
+        }
+    });
+    $('.counter-label-surfaces').removeClass('visible');
+}
+
+function displayAllColorList (colors, numAllColors) {
+    let colorGrp = colorGroups.filter(function (grp) {
+        if (grp.id == selectedColorGroupId) return grp;
+    });
+    colorGrp = colorGrp.length ? colorGrp[0] : null;
+
+    let normalColors = [];
+    let deepColors = [];
+    let numPopular = 0;
+
+    colors.forEach(function (color) {
+        if (color.is_popular == 1) {
+            numPopular++;
+        }
+        if (color.is_deep_color) {
+            deepColors.push(color);
+        } else {
+            normalColors.push(color);
+        }
+    });
+
+    let normalColorHtml = renderColorBoxChild(normalColors);
+    let deepColorHtml = renderColorBoxChild(deepColors);
+    if (colorGrp) {
+        $('.filter-labels').removeClass('visible');
+        $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
+            $(box).remove();
+        });
+        $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
+            $(box).remove();
+        });
+        // Hiển thị title màu thường.
+        $('.solr-pure-color-name .color-type').html(colorGrp.name);
+        // Hiển thị title màu trầm.
+        $('.solr-muted-color-name .color-type').html(colorGrp.name.replace('Họ màu ', '') + ' Trầm');
+        // Hiển thị button list tất cả màu trong kết quả tìm được.
+        $('#edit-show-colors-link').val('Xem tất cả các maù (' + numAllColors + ')' )
+            .html('Xem các màu phổ biến (' + numPopular + ')' );
+        $('.btn-normal-curve').val('Xem tất cả các maù (' + numAllColors + ')' )
+            .html('Xem các màu phổ biến (' + numPopular + ')' );
+        // Hiển thị số lượng màu phổ biến
+        $('.main-color-tab').html('Tất cả các màu (' + colors.length + ')');
+        // Màu thường.
+        $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
+        // Maù trầm
+        $('#popular-colors-list .solr-muted-color-list').append(deepColorHtml);
     }
 }
 // Hiển thị bảng màu pha bằng máy tính.
@@ -489,9 +678,16 @@ function displayPopularColorList (colors, numAllColors) {
         $('.solr-pure-color-name .color-type').html(colorGrp.name);
         // Hiển thị title màu trầm.
         $('.solr-muted-color-name .color-type').html(colorGrp.name.replace('Họ màu ', '') + ' Trầm');
+
         // Hiển thị button list tất cả màu trong kết quả tìm được.
-        $('#edit-show-colors-link--2').val('Xem tất cả các maù (' + numAllColors + ')' )
+        $('#edit-show-colors-link').val('Xem tất cả các maù (' + numAllColors + ')' )
             .html('Xem tất cả các maù (' + numAllColors + ')' );
+        $('#edit-show-colors-link').data('link', 'all');
+
+        $('.btn-normal-curve').val('Xem tất cả các maù (' + numAllColors + ')' )
+            .html('Xem tất cả các maù (' + numAllColors + ')' );
+        $('.btn-normal-curve').data('link', 'all');
+
         // Hiển thị số lượng màu phổ biến
         $('.main-color-tab').html('Màu sắc phổ biến ' + '(' + colors.length + ')');
         // Màu thường.
@@ -515,15 +711,16 @@ function renderColorBoxChild (colors) {
     let html = '';
     if (Array.isArray(colors)) {
         for (let i = 0; i < colors.length; i++) {
+            let textColor = genTextColor(colors[i].color);
             html += '<div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">'
-                        + '<a class="color-box-child  color-box-child-' + colors[i].id + ' colorBox-processed flourish_google_tag_manager-processed" '
-                        + 'style="background:'+ colors[i].color + '" data-title="' + colors[i].name + '" data-id="F4F0E4" '
-                        + 'data-colorid="'+ colors[i].id + '" alt="' + colors[i].name + '" tabindex="85">'
-                            + '<p class="cnme color-text" data-rgb="' + colors[i].color.replace('#', '') +'" style="color: rgb(102,102,102); stroke: rgb(102,102,102)">'
-                            + colors[i].name
-                            + '</p>'
-                        + '</a>'
-                + '</div>';
+            + '<a class="color-box-child  color-box-child-' + colors[i].id + ' colorBox-processed flourish_google_tag_manager-processed" '
+            + 'style="background:'+ colors[i].color + '" data-title="' + colors[i].name + '" data-id="F4F0E4" '
+            + 'data-colorid="'+ colors[i].id + '" alt="' + colors[i].name + '" tabindex="85">'
+            + '<p class="cnme color-text" data-rgb="' + colors[i].color.replace('#', '') +'" style="color: '+ textColor + '; stroke: '+ textColor + ';">'
+            + colors[i].name
+            + '</p>'
+            + '</a>'
+            + '</div>';
         }
     }
     return html;
@@ -535,17 +732,17 @@ function renderFilterElem () {
         projectTypes.map(function (selctProjType) {
             if (selctProjType.id == selectedProjectType) {
                 filterLabelHtml += '<a class="remove reset-filter reset-color-filter-room-type" '
-                    + 'id="Hành lang" data-tid="'+ selctProjType.name + '" data-field=" selected_room_type "'
-                    + 'data-fname="' + selctProjType.name + ' ">'
-                    + '<div id="selected_room_type "'
-                    + 'class="fl-color-selections label ">'
-                    +    '<span class="fltr-selection " id="' + selctProjType.name + ' " data-tid="' + selctProjType.name + '">'
-                    +     selctProjType.name
-                        +    '<svg class="icon ">'
-                        +        '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="">'
-                        +        '</use>'
-                        +    '</svg>'
-                    +    '</span>'
+                + 'id="Hành lang" data-tid="'+ selctProjType.name + '" data-field=" selected_room_type "'
+                + 'data-fname="' + selctProjType.name + ' ">'
+                + '<div id="selected_room_type "'
+                + 'class="fl-color-selections label ">'
+                +    '<span class="fltr-selection " id="' + selctProjType.name + ' " data-tid="' + selctProjType.name + '">'
+                +     selctProjType.name
+                +    '<svg class="icon ">'
+                +        '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 ">'
+                +        '</use>'
+                +    '</svg>'
+                +    '</span>'
                 +   '</div>'
                 + '</a>';
             }
@@ -556,15 +753,15 @@ function renderFilterElem () {
             if (selectedSurfaces.includes("" + surface.id)) {
                 filterLabelHtml += '<a class="remove reset-filter reset-color-filter-surface " id="'+ surface.name + ' " data-tid="' + surface.name
                 + ' " data-field="selected_surface " data-fname="' + surface.name + ' ">'
-                        +    '<div id="selected_surface " class="fl-color-selections label ">'
-                        +        '<span class="fltr-selection " id="'+ surface.name + ' " data-tid="' + surface.name + ' ">'
-                                + surface.name
-                                + '<svg class="icon ">'
-                                +    '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href=""></use>'
-                                + '</svg>'
-                        + '</span>'
-                        +'</div>'
-                    + '</a>';
+                +    '<div id="selected_surface " class="fl-color-selections label ">'
+                +        '<span class="fltr-selection " id="'+ surface.name + ' " data-tid="' + surface.name + ' ">'
+                + surface.name
+                + '<svg class="icon ">'
+                +    '<use xmlns:xlink="http://www.w3.org/1999/xlink " xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2 "></use>'
+                + '</svg>'
+                + '</span>'
+                +'</div>'
+                + '</a>';
             }
         }
     }
@@ -574,23 +771,90 @@ function renderFilterElem () {
             console.log(finish);
             if (selectedFinish == finish.id) {
                 filterLabelHtml += '<a class="remove reset-filter reset-color-filter-finish " id="'
-                            + finish.name + ' " data-tid="' + finish.name + '" data-field="" selected_finish"="" data-fname="'+ finish.name + '">'
-                            +        '<div id="selected_finish" class="fl-color-selections label">'
-                            +           '<span class="fltr-selection" id="' + finish.name + '"'
-                            +                'data-tid="' + finish.name + '">'
-                            +            finish.name
-                            +            '<svg class="icon">'
-                            +                '<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>'
-                            +        '</svg>'
-                            +        '</span>'
-                            +      '</div>'
-                            +    '</a>';
-
+                + finish.name + ' " data-tid="' + finish.name + '" data-field="" selected_finish"="" data-fname="'+ finish.name + '">'
+                +        '<div id="selected_finish" class="fl-color-selections label">'
+                +           '<span class="fltr-selection" id="' + finish.name + '"'
+                +                'data-tid="' + finish.name + '">'
+                +            finish.name
+                +            '<svg class="icon">'
+                +                '<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/profiles/flourish/themes/custom/flourish_rem/images/svg/defs/icons-symbol-defs.svg#icon-close-2"></use>'
+                +        '</svg>'
+                +        '</span>'
+                +      '</div>'
+                +    '</a>';
             }
         }
     }
 
     return filterLabelHtml;
+}
+
+function showDetailColorBox (colorId, colorName, colorCode) {
+    console.log('colorcode', colorCode);
+    colorCode = '' + colorCode;
+    let textColor = genTextColor(colorCode);
+    console.log('text Color', textColor);
+    let detail = '<div class="rowInfo row-swatch-info fl-color-expend-box" style="display: none;">'
+    +  '<div class="color-header-wrap">'
+    +    '<h2 class="color-title visible-xs col-xs-8" data-rgb="' + colorCode + '">'
+    +      colorName
+    +      '</h2>'
+    +    '<div class="pull-right color-options col-xs-4 col-sm-12">'
+    +      '<div class="scrap-book-color scrap-book-add-color icon-scrap-book visible-xs color-text fl-mobile-scrapbook-icon " '
+    +        'scrap-color-' + colorId + '="" data-type="color" data-colorid="' + colorId + '" data-rgb="'+ colorCode + '" '
+    +            'style="color: rgb(102,102,102)">'
+    +      '</div>'
+    +      '<div class="color-detail-close" data-colorname="' + colorName + '" data-glcolorid="' + colorId + '">'
+    +      '</div>'
+    +    '</div>'
+    +  '</div>'
+    +  '<div class="fl-color-swatch-wrap" style="background-color:#' + colorCode + '">'
+    +    '<div class="color-image equi-height col-xs-12 col-sm-8 col-md-8 col-lg-8" style="background-color: #' + colorCode + '; height: 400px;">'
+    +    '</div>'
+    +    '<div class="color-swatch equi-height col-xs-12 col-sm-4 col-md-4 col-lg-4" '
+    +        'style="background-color: #' + colorCode + '; height: 400px;">'
+    +      '<div class="reset-filter" data-field="field_room_type_tid" type="radio">X</div>'
+    +      '<div class="color-swatch-top hidden-xs">'
+    +        '<h2 class="color-text" data-rgb="' + colorCode + '" style="color: ' + textColor + ';">'
+    +          colorName + '</h2>'
+    +      '</div>'
+    +      '<div class="color-swatch-bottom">'
+    +        '<div id="colourInfo" class="col-xs-6 pull-right">'
+    +        '</div>'
+    +        '<div id="findColour">'
+    +          '<a href="#" class="rounded-link button-a">'
+    +          'Tôi muốn tìm sản phẩm có màu này'
+    +          '</a>'
+    +        '</div>'
+    +      '</div>'
+    +    '</div>'
+    +  '</div>'
+    +'</div>';
+
+    return detail;
+}
+
+function genTextColor (colorCode) {
+    if (colorCode.indexOf('#') !== -1) {
+        colorCode = colorCode.replace('#', '');
+    }
+    let bigEndian = ['9', 'A', 'B', 'C', 'D', 'E', 'F'];
+    let numBigEndian = 0;
+    let index0 = bigEndian.includes(colorCode[0]);
+    let index2 = bigEndian.includes(colorCode[2]);
+    let index4 = bigEndian.includes(colorCode[4]);
+    if (index0) {
+        numBigEndian++;
+    }
+    if (index2) {
+        numBigEndian++;
+    }
+    if (index4) numBigEndian++;
+    if (numBigEndian >= 2) {
+        return 'rgb(102, 102, 102)';
+    } else {
+        return 'rgb(255, 255, 255)';
+    }
 }
 </script>
 @endsection

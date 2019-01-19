@@ -15,12 +15,18 @@
             </span>
         </div>
     </div>
-    <div data-id="2" class="cid-red  product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="31">
+    <div data-id="2" class="cid-red @isset($selectedClrGrp) @if($selectedClrGrp->id == 2) selected @endif @endisset product-available color-box colors-hue-selector col-sm-6 col-xs-12 hue-selected-processed" tabindex="31">
     <div class="color-box-inner text-center">
         <svg class="icon icon-checkmark">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
         </svg>
-        <span class="hue_span_selector"><button class="use-ajax-submit solr-color-box-button btn btn-default form-submit ajax-processed colorHue-processed flourish_google_tag_manager-processed" style="opacity:0" title="Họ màu đỏ" id="edit-palette-red--2" name="color" value="red" type="button" tabindex="32">red</button>
+        <span class="hue_span_selector">
+            @isset($selectedClrGrp)
+            @if($selectedClrGrp->id == 2)
+            <i class="fas fa-check" style="padding-top: 24px;color: #b7b0b0;"></i>
+            @endif
+            @endisset
+            <button class="use-ajax-submit solr-color-box-button btn btn-default form-submit ajax-processed colorHue-processed flourish_google_tag_manager-processed" style="opacity:0" title="Họ màu đỏ" id="edit-palette-red--2" name="color" value="red" type="button" tabindex="32">red</button>
         </span>
     </div>
     </div>

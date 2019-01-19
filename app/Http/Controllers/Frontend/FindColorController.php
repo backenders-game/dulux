@@ -143,7 +143,7 @@ class FindColorController extends Controller
                 $finishSurfaceId = isset($inputs['filters']['finish_id']) ? $inputs['filters']['finish_id'] : 0;
                 $surfaceIds = isset($inputs['filters']['surfaces_id']) ? $inputs['filters']['surfaces_id'] : 0;
                 $projectTypeId = isset($inputs['filters']['project_id']) ? $inputs['filters']['project_id'] : 0;
-
+                $getAll = isset($inputs['filters']['get_all']) ? $inputs['filters']['get_all'] : 0;
                 $isMixedByComp = isset($inputs['filters']['is_mixed_by_comp']) ? $inputs['filters']['is_mixed_by_comp'] : 1;
                 $isPopular = isset($inputs['filters']['is_popular']) ? $inputs['filters']['is_popular'] : null;
 
@@ -169,10 +169,18 @@ class FindColorController extends Controller
                     }, function ($q) {
                         $q->where('colors.mixed_by_computer', 0);
                     })
-                    ->when($isPopular && $isMixedByComp, function ($q) {
-                        $q->where('colors.is_popular', 1);
-                    }, function ($q) {
-                        $q->where('colors.is_popular', 0);
+                    ->when($isPopular && $isMixedByComp, function ($q) use($getAll) {
+                        if ($getAll) {
+                            $q->whereIn('colors.is_popular', [0, 1]);
+                        } else {
+                            $q->where('colors.is_popular', 1);
+                        }
+                    }, function ($q) use ($getAll) {
+                        if ($getAll) {
+                            $q->whereIn('colors.is_popular', [0, 1]);
+                        } else {
+                            $q->where('colors.is_popular', 0);
+                        }
                     })->select(DB::raw('colors.*'))->distinct()->get();
 
                 $counter = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
