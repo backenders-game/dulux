@@ -39,6 +39,7 @@
                   <div class="filter-section bar-desktop visible">
                     <div class="bar-title">Bộ lọc của tôi</div>
                     <div id="filter-selections" class="filter-labels">
+
                     </div>
                     <a href="#" class="filter-reset inline-text-link primary btn-clear" tabindex="75" style="display: none;">Khởi tạo lại bộ lọc</a>
                   </div>
@@ -179,39 +180,64 @@ var projectTypes = @isset($projectTypes) {!! json_encode($projectTypes, JSON_HEX
 var colorGroups = @isset($colorGroups) {!! json_encode($colorGroups, JSON_HEX_TAG) !!}  @else [] @endisset;
 var finishSurfaces = @isset($finishSurfaces) {!! json_encode($finishSurfaces, JSON_HEX_TAG) !!} @else [] @endisset;
 var csrftoken = $('meta[name="csrf-token"]').attr('content');
-var selectedColorGroupId = 0;
-var selectedProjectType = 0;
-var selectedFinish = 0;
+var selectedColorGroupId = {{session('color_group_id', 0)}};
+var selectedProjectType = {{$projectTypeId}};
+var selectedFinish = {{session('color_finish_id', 0)}};
 var selectedSurfaces = [];
 
 $(document).ready(function() {
+    let filterLabelHTML = renderFilterElem();
+    $('.filter-labels').html(filterLabelHTML);
+    // An hien filter section label
+    toggleFilterSection();
     // Chuyển trang thái số filter projecttypes.
-    $('.form-item-color-room-type').each(function (idx, item) {
+    $('.color-projecttype').each(function (idx, item) {
         if ($(item).is(':checked')) {
-            $('.counter-projecttype').addClass('visible');
+            let room = $(item).val();
+            room = parseInt(room);
+            console.log('room type ', typeof room);
+            if (room !== 0) {
+                $('.counter-projecttype').addClass('visible');
+            }
         }
     });
 
     // Kiểm tra số lượng counter
     $('.form-color-finish-item').each(function (idx, item) {
         if ($(item).is(':checked')) {
-            $('.counter-finish-surfaces').addClass('visible');
+            let val = $(item).val();
+            val = parseInt(val);
+            if(val !== 0) {
+                $('.counter-finish-surfaces').addClass('visible');
+            }
         }
     });
+    // Hiển thị so luong bề mặt cần sơn.
+    let numSurfaces = 0;
+    $('.form-color-surface-item').each(function (idx, item) {
+        if ($(item).is(':checked')) {
+            numSurfaces++;
+        }
+    });
+    if (numSurfaces > 0) {
+        $('.counter-label-surfaces').html(numSurfaces).addClass('visible');
+    } else {
+        $('.counter-label-surfaces').removeClass('visible');
+    }
 
     // Ẩn hiện selector phòng cần sơn.
     $('#form-color-room-type').on('click', function(e) {
         $(this).toggleClass('visible');
         $('.filter-projecttypes').toggleClass('hidden');
     });
-    const outsideClickListener = (event) => {
-    if (!$(event.target).closest(selector).length) {
-      if ($(selector).is(':visible')) {
-        $(selector).hide()
-        removeClickListener()
-      }
-    }
-  }
+//     const outsideClickListener = (event) => {
+//     if (!$(event.target).closest(selector).length) {
+//       if ($(selector).is(':visible')) {
+//         $(selector).hide()
+//         removeClickListener()
+//       }
+//     }
+//   }
     // Ẩn hiện selector bề mặt cần sơn.
     $('#form-color-surface-usage').on('click', function (e) {
         $(this).toggleClass('visible');
@@ -224,12 +250,26 @@ $(document).ready(function() {
             if (!selectedSurfaces.includes(surfaceId)) {
                 selectedSurfaces.push(surfaceId);
             }
+            if (selectedSurfaces.length > 0) {
+                $('.counter-label-surfaces').html(selectedSurfaces.length);
+                $('.counter-label-surfaces').addClass('visible');
+            } else {
+                $('.counter-label-surfaces').removeClass('visible');
+            }
         } else {
             if (selectedSurfaces.includes(surfaceId)) {
                 let idx = selectedSurfaces.indexOf(surfaceId)
                 selectedSurfaces.splice(idx, 1);
             }
+
+            if (selectedSurfaces.length > 0) {
+                $('.counter-label-surfaces').html(selectedSurfaces.length);
+                $('.counter-label-surfaces').addClass('visible');
+            } else {
+                $('.counter-label-surfaces').removeClass('visible');
+            }
         }
+        toggleFilterSection();
     });
 
     $('#edit-color-surface-usage-confirm--2').on('click', function (e) {
@@ -242,8 +282,13 @@ $(document).ready(function() {
             is_mixed_by_comp: 1,
             is_popular: 1
         }, function (result) {
-            console.log('click confirm button');
             displayPopularColorList(result.colors, result.num_all_colors);
+            if (selectedSurfaces.length > 0) {
+                $('.counter-label-surfaces').html(selectedSurfaces.length);
+                $('.counter-label-surfaces').addClass('visible');
+            } else {
+                $('.counter-label-surfaces').removeClass('visible');
+            }
             $('#hue-container').removeClass('hidden');
             $('#hue-collection').addClass('hidden');
             $('.colors-ready-to-mix').addClass('active');
@@ -260,6 +305,7 @@ $(document).ready(function() {
     // Chọn loại phòng cần sơn.
     $('.color-projecttype').click(function(e) {
         selectedProjectType = $(this).val();
+        selectedProjectType = parseInt(selectedProjectType);
         findColor({
             group_id: selectedColorGroupId,
             finish_id: selectedFinish,
@@ -271,7 +317,12 @@ $(document).ready(function() {
             displayPopularColorList(result.colors, result.num_all_colors);
             $('#form-color-room-type').toggleClass('visible');
             $('.filter-projecttypes').toggleClass('hidden');
-            $('.counter-projecttype').addClass('visible');
+            if(selectedProjectType == 0) {
+                $('.counter-projecttype').removeClass('visible');
+            } else {
+                $('.counter-projecttype').addClass('visible');
+            }
+            toggleFilterSection();
             $('#hue-container').removeClass('hidden');
             $('#hue-collection').addClass('hidden');
             $('.colors-ready-to-mix').addClass('active');
@@ -281,8 +332,8 @@ $(document).ready(function() {
 
     // Chọn loại bề mặt hoàn thiện.
     $('.form-color-finish-item').on('click', function (e) {
-        $('.counter-finish-surfaces').addClass('visible');
         selectedFinish = $(this).val();
+        selectedFinish = parseInt(selectedFinish);
         findColor({
             group_id: selectedColorGroupId,
             finish_id: selectedFinish,
@@ -292,7 +343,13 @@ $(document).ready(function() {
             is_popular: 1
         }, function (result) {
             displayPopularColorList(result.colors, result.num_all_colors);
-            $(this).toggleClass('visible');
+            if (selectedFinish == 0) {
+                $('.counter-finish-surfaces').removeClass('visible');
+            } else {
+                $('.counter-finish-surfaces').addClass('visible');
+            }
+            toggleFilterSection();
+            $('#form-color-finish').toggleClass('visible');
             $('.filter-finish-surfaces').toggleClass('hidden');
             $('#hue-container').removeClass('hidden');
             $('#hue-collection').addClass('hidden');
@@ -389,6 +446,14 @@ function findColor (filters, afterSuccess = null, afterError = null) {
             }
         }
     })
+}
+// toggle Filter Section
+function toggleFilterSection () {
+    if (selectedProjectType !== 0 || selectedFinish !== 0 || selectedSurfaces.length > 0) {
+        $('.filter-section').addClass('visible');
+    } else {
+        $('.filter-section').removeClass('visible');
+    }
 }
 // Hiển thị bảng màu pha bằng máy tính.
 function displayPopularColorList (colors, numAllColors) {
@@ -524,7 +589,7 @@ function renderFilterElem () {
             }
         }
     }
-    console.log('filter label ', filterLabelHtml);
+
     return filterLabelHtml;
 }
 </script>

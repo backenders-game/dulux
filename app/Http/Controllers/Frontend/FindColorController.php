@@ -46,23 +46,24 @@ class FindColorController extends Controller
             $colorGroups = $this->colorGroupRepository->all();
             $isMixedByComp = 1;
             $projectTypeId = 0;
-            $groupId = 0;
+            $groupId = 1;
             $finishSurfaceId = 0;
             $surfaceIds = [];
-            if (Session::has('color_group_id')) {
-                $groupId = session('color_group_id', 0);
+            if (session()->has('color_group_id')) {
+                $groupId = session('color_group_id', 1);
             }
-            if (Session::has('color_finish_id')) {
+            if (session()->has('color_finish_id')) {
                 $finishSurfaceId = session('color_finish_id', 0);
             }
-            if (Session::has('color_surface_ids')) {
+            if (session()->has('color_surface_ids')) {
                 $surfaceIds = session('color_surface_ids', []);
             }
-            if (Session::has('color_project_id')) {
+            if (session()->has('color_project_id')) {
                 $projectTypeId = session('color_project_id', 0);
             }
             $isMixedByComp = 1;
             $isPopular = 1;
+
             $selectedClrGrp = ColorGroup::where('id', $groupId)->first();
 
             $colors = Color::leftJoin('color_projecttypes', 'color_projecttypes.color_id', '=', 'colors.id')
@@ -124,6 +125,7 @@ class FindColorController extends Controller
                 'colors' => $colors,
                 'numCounter' => $counter,
                 'selectedClrGrp' => $selectedClrGrp,
+                'projectTypeId' => $projectTypeId,
             ]);
         } catch (\Exception $e) {
             dd($e);
@@ -214,13 +216,13 @@ class FindColorController extends Controller
 
     private function saveFilters ($filters) {
         if (isset($filters['group_id']) && $filters['group_id'] != null)  {
-            session(['color_group_id' => $filters['group_id']]);
+            session(['color_group_id' => intval($filters['group_id'])]);
         }
         if (isset($filters['project_id']) && $filters['project_id'] != null) {
-            session(['color_project_id' => $filters['project_id']]);
+            session(['color_project_id' => intval($filters['project_id'])]);
         }
         if (isset($filters['finish_id']) && $filters['finish_id'] != null) {
-            session(['color_finish_id' => $filters['finish_id']]);
+            session(['color_finish_id' => intval($filters['finish_id'])]);
         }
         if (isset($filters['surfaces_id']) && $filters['surfaces_id'] != null && $filters['surfaces_id'] != []) {
             session(['color_surface_ids' => $filters['surfaces_id']]);

@@ -48,7 +48,7 @@
     </div>
     <div id="form-color-surface-usage" class="form-color-surface-usage form-collapse collapse-area">
     <div class="collapse-trigger accordeon-collapse-trigger-processed">
-        Bề mặt cần sơn<span class="count-label input-counter">0</span>
+        Bề mặt cần sơn<span class="count-label counter-label-surfaces input-counter">0</span>
         <svg class="icon icon-collapse-arrow right">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
         </svg>
@@ -59,7 +59,7 @@
         <div class="form-type-checkbox form-item-color-surface-usage-Trần-nhà form-item checkbox append-outline-processed">
             <input data-label="{{$surface->name}}" type="checkbox"
             id="edit-color-surface-usage-{{$surface->id}}--2" name="color_surface_usage[{{$surface->id}}]"
-            value="{{$surface->id}}" class="color-surface form-checkbox CLPSurfaceChange-processed"
+            value="{{$surface->id}}" class="form-color-surface-item color-surface form-checkbox CLPSurfaceChange-processed"
             tabindex="64">
             <label class="option" for="edit-color-surface-usage-{{$surface->id}}--2">{{$surface->name}}</label>
             <span class="checkbox-outline"></span>
