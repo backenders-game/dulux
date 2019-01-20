@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-/* 
+use App\Models\Category;
+use App\Models\Product;
+/*
 +)Sản phẩm
 */
 class ProductController extends Controller
@@ -16,7 +18,10 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('frontend.product.category_product');
+        $categories = Category::get();
+        return view('frontend.product.category_product', [
+            'categories' => $categories
+        ]);
     }
 
     /**
@@ -48,7 +53,10 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        //
+        $product = Product::where('id', $id)->with(['properties', 'finishSurface'])->first();
+        return view('frontend.product.detail_product', [
+            'product' => $product
+        ]);
     }
 
     /**

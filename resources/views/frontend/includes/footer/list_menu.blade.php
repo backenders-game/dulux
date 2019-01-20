@@ -13,22 +13,22 @@
             <ul class="v2-footer-menu__list v2-footer-menu__list--column">
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
                 <a class="v2-footer-menu__item__inner" tabindex="55" href="">
-                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Giới thiệu về AkzoNobel</span> 
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Giới thiệu về AkzoNobel</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
                 <a class="v2-footer-menu__item__inner" tabindex="55" href="">
-                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Liên hệ với chúng tôi</span> 
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Liên hệ với chúng tôi</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
                 <a class="v2-footer-menu__item__inner" tabindex="55" href="">
-                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Tìm cửa hàng</span> 
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Tìm cửa hàng</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
                 <a class="v2-footer-menu__item__inner" tabindex="55" href="">
-                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Sơ đồ trang</span> 
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Sơ đồ trang</span>
                 </a>
               </li>
             </ul>
@@ -47,12 +47,12 @@
             <ul class="v2-footer-menu__list v2-footer-menu__list--column">
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
                 <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.mau_sac_bang_mau')}}">
-                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Tìm màu sắc</span> 
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Tìm màu sắc</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
                 <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.san_pham')}}">
-                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Chọn sản phẩm</span> 
+                  <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Chọn sản phẩm</span>
                 </a>
               </li>
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
@@ -106,7 +106,7 @@
           <div class="accordion__content">
             <ul class="v2-footer-menu__list v2-footer-menu__list--column">
               <li class="v2-footer-menu__item v2-footer-menu__item--label">
-                <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.home')}}">
+                <a class="v2-footer-menu__item__inner" tabindex="55" href="{{route('frontend.index')}}">
                   <i class='fas fa-arrow-right' style='font-size:10px'></i><span style="padding-left:8px">Dulux.com.vn</span>
                 </a>
               </li>

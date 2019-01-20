@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div>
+        <textarea name="" id="showProductColor" cols="80" rows="50"></textarea>
+    </div>
+    <div class="product_colors">
+
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+        let colorNames = [];
+        $('.product_colors').find('.color-box-child').each(function (idx, item) {
+            let name  = $(item).data('title');
+            name = '' + name;
+            if (!colorNames.includes(name)) {
+                colorNames.push(name);
+            }
+        });
+        $('#showProductColor').html(colorNames.toString());
+    });
+  </script>
+</html>

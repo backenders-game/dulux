@@ -16,7 +16,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Butter Mint",
                 'color' =>  "#F7EAB3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -26,7 +26,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "66YY 83/272",
                 'color' =>  "#F7EAB3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -36,7 +36,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 83/300",
                 'color' =>  "#F7E9AD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -46,7 +46,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "66YY 77/407",
                 'color' =>  "#F4E392",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -56,7 +56,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Glimmer",
                 'color' =>  "#F4E291",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -66,7 +66,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 79/407",
                 'color' =>  "#F4E291",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -76,7 +76,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Fern Touch",
                 'color' =>  "#F3F2DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -86,9 +86,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "84YY 87/135",
                 'color' =>  "#F2EDD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -96,7 +96,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Marvelous Mint",
                 'color' =>  "#F1EFCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -106,7 +106,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "86YY 85/174",
                 'color' =>  "#F0EBC7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -116,7 +116,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Silk Cream",
                 'color' =>  "#EFEBD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -126,7 +126,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Forest Touch",
                 'color' =>  "#EEEDD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -136,7 +136,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 78/248",
                 'color' =>  "#EEE1B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -146,7 +146,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Spring Blossom",
                 'color' =>  "#EDECCD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -156,7 +156,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 83/143",
                 'color' =>  "#EDECCD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -166,9 +166,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 83/107",
                 'color' =>  "#EDE9D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -176,9 +176,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 83/179",
                 'color' =>  "#EDE9C5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -186,7 +186,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Candle Glow",
                 'color' =>  "#EDDDA2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -196,7 +196,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 73/288",
                 'color' =>  "#EDDDA2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -206,7 +206,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Eggshell Touch",
                 'color' =>  "#ECF1E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -216,7 +216,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Cobra Bite",
                 'color' =>  "#ECD96A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -226,7 +226,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Spotlight",
                 'color' =>  "#ECD461",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -236,7 +236,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "65YY 68/572",
                 'color' =>  "#ECD461",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -247,9 +247,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "88YY 81/230",
                 'color' =>  "#EBE9BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -257,7 +257,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Mellow Grasshopper",
                 'color' =>  "#EAF0D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -267,7 +267,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "New Dew",
                 'color' =>  "#EAEBBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -277,7 +277,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Cardamom Hint",
                 'color' =>  "#EAE7C1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -287,7 +287,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Tea Paradise",
                 'color' =>  "#E8EAD0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -297,7 +297,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Lime Twist",
                 'color' =>  "#E8E5AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -307,7 +307,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "89YY 78/269",
                 'color' =>  "#E8E5AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -317,7 +317,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Lemon Grass",
                 'color' =>  "#E8E3A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -327,7 +327,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "86YY 77/295",
                 'color' =>  "#E8E3A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -337,7 +337,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Sunkissed Lawn",
                 'color' =>  "#E8E38C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -347,9 +347,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 66/510",
                 'color' =>  "#E8D36D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -357,7 +357,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 83/125",
                 'color' =>  "#E7E9CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -367,9 +367,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "30GY 83/064",
                 'color' =>  "#E6EADD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -377,9 +377,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 83/150",
                 'color' =>  "#E6EACB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -387,7 +387,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 78/334",
                 'color' =>  "#E6E7A3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -397,7 +397,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "June Bud",
                 'color' =>  "#E6E7A3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -407,7 +407,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Romaine Lettuce",
                 'color' =>  "#E4E184",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -417,7 +417,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Farm Life",
                 'color' =>  "#E1DBAE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -427,7 +427,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "88YY 71/380",
                 'color' =>  "#E0DD90",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -437,7 +437,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Grecian Green",
                 'color' =>  "#E0DD90",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -447,7 +447,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Misty Meadows",
                 'color' =>  "#DFEBC1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -457,9 +457,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 79/231",
                 'color' =>  "#DFE6B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -467,7 +467,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 61/561",
                 'color' =>  "#DFCB5A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -478,7 +478,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Garden Haven",
                 'color' =>  "#DEECAA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -488,7 +488,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Primavera",
                 'color' =>  "#DDDA87",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -498,7 +498,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 69/419",
                 'color' =>  "#DDDA87",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -508,7 +508,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 59/485",
                 'color' =>  "#D9C869",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -518,9 +518,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "88YY 66/447",
                 'color' =>  "#D8D87C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -528,7 +528,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "66YY 56/707",
                 'color' =>  "#D8C52B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -539,7 +539,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Spring Creation",
                 'color' =>  "#D7DC88",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -549,9 +549,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 74/325",
                 'color' =>  "#D6E0A0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -559,7 +559,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 55/613",
                 'color' =>  "#D4C346",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -570,7 +570,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Vertigo",
                 'color' =>  "#D2D36F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -580,7 +580,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "89YY 62/494",
                 'color' =>  "#D2D36F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -590,7 +590,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 53/638",
                 'color' =>  "#CFBF3B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -601,7 +601,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Leaping Lizards",
                 'color' =>  "#CFBF3B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -611,7 +611,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 61/504",
                 'color' =>  "#CED06A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -621,7 +621,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 52/532",
                 'color' =>  "#CEBE53",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -632,7 +632,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Fantasy Garden",
                 'color' =>  "#CCC45A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -642,7 +642,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Scorched Grass",
                 'color' =>  "#CCBC37",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -652,7 +652,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 48/700",
                 'color' =>  "#CBBA1F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -663,7 +663,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 58/424",
                 'color' =>  "#C9CC75",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -673,7 +673,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Limelight",
                 'color' =>  "#C9CC75",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -683,7 +683,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 58/424",
                 'color' =>  "#C9CC75",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -693,9 +693,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 55/560",
                 'color' =>  "#C7CA56",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -704,7 +704,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Lime Jelly",
                 'color' =>  "#C6C13B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -714,7 +714,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Magnificent Melon",
                 'color' =>  "#C5CF5A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -724,7 +724,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "72YY 47/743",
                 'color' =>  "#C3B623",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -735,9 +735,9 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 61/449",
                 'color' =>  "#BDD176",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -745,7 +745,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Parrot Plumage",
                 'color' =>  "#BCB928",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -755,7 +755,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "92YY 51/593",
                 'color' =>  "#BAC348",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -766,7 +766,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Celery Stalk",
                 'color' =>  "#BAC348",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -776,7 +776,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Lush Lime",
                 'color' =>  "#B9C546",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -786,7 +786,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 48/650",
                 'color' =>  "#B9BE35",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -797,7 +797,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "English Apple",
                 'color' =>  "#B9BB58",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -807,7 +807,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 48/500",
                 'color' =>  "#B9BB58",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -818,7 +818,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 39/613",
                 'color' =>  "#B5A728",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -829,7 +829,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 39/613",
                 'color' =>  "#B5A728",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -840,7 +840,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Energetic Eden",
                 'color' =>  "#B3A236",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -850,7 +850,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Mojito Madness",
                 'color' =>  "#AFBB34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -860,7 +860,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Zesty Zucchini",
                 'color' =>  "#ACA90C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -870,7 +870,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Tennis Lawn",
                 'color' =>  "#A4A93A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -880,7 +880,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Midgetgolf Green",
                 'color' =>  "#A2CA48",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -890,7 +890,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Natures Soul",
                 'color' =>  "#A2AF1D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -900,7 +900,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Palm Sensation",
                 'color' =>  "#9A8B30",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -910,7 +910,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Irish Acres",
                 'color' =>  "#98B33E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -920,7 +920,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 41/600",
                 'color' =>  "#98B33E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -931,7 +931,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Otters Dam",
                 'color' =>  "#908B2C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -941,7 +941,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 33/525",
                 'color' =>  "#8CA23B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -952,7 +952,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Leprechaun Leap",
                 'color' =>  "#888C29",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -962,7 +962,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Lovely Lime",
                 'color' =>  "#86AD3D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -972,7 +972,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Sacred Grove",
                 'color' =>  "#7D8234",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -982,7 +982,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Wicked Witch",
                 'color' =>  "#749639",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -992,7 +992,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Glowing Moon",
                 'color' =>  "#F6F1DE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1002,7 +1002,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "December Moon",
                 'color' =>  "#F2E8C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1012,7 +1012,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 83/150",
                 'color' =>  "#F2E8C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1022,7 +1022,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Eggshell Sheen",
                 'color' =>  "#F0F0E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1032,7 +1032,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "83YY 85/056",
                 'color' =>  "#ECEBDC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1042,7 +1042,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 83/071",
                 'color' =>  "#ECEADA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1052,7 +1052,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 77/207",
                 'color' =>  "#ECE1B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1062,7 +1062,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "60YY 77/180",
                 'color' =>  "#ECDFBB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1072,7 +1072,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "77YY 83/073",
                 'color' =>  "#EBE8D6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1082,7 +1082,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Watery Willow",
                 'color' =>  "#E9EAD7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1092,7 +1092,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 83/075",
                 'color' =>  "#E8EBDA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1102,7 +1102,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 83/050",
                 'color' =>  "#E8E9DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1112,7 +1112,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Mountain Mist",
                 'color' =>  "#E8E9DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1122,7 +1122,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "60YY 72/225",
                 'color' =>  "#E8D8AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1132,7 +1132,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Honey Frost",
                 'color' =>  "#E8D8AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1142,7 +1142,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 83/100",
                 'color' =>  "#E7E7D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1152,7 +1152,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Springwater",
                 'color' =>  "#E7E7D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1162,7 +1162,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 75/124",
                 'color' =>  "#E6DEC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1172,7 +1172,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Chardonnay White",
                 'color' =>  "#E6DEC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1182,7 +1182,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 75/120",
                 'color' =>  "#E4E1C7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1192,7 +1192,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Grashopper",
                 'color' =>  "#E2E3D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1202,7 +1202,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Modern Meditation",
                 'color' =>  "#E2D8AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1212,7 +1212,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 70/209",
                 'color' =>  "#E2D8AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1222,7 +1222,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 72/225",
                 'color' =>  "#E1DBAE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1232,7 +1232,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "60YY 67/251",
                 'color' =>  "#E0D19E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1242,7 +1242,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Khaki Fantasy",
                 'color' =>  "#DEDCC1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1252,7 +1252,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Spring Willow",
                 'color' =>  "#DED29C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1262,7 +1262,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 66/265",
                 'color' =>  "#DED29C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1272,7 +1272,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 74/087",
                 'color' =>  "#DCDECD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1282,7 +1282,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Willow Wood",
                 'color' =>  "#DCCE8D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1292,7 +1292,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 63/326",
                 'color' =>  "#DCCE8D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1302,7 +1302,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 71/180",
                 'color' =>  "#D9DCB8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1312,7 +1312,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Habitat",
                 'color' =>  "#D9D2B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1322,7 +1322,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 66/130",
                 'color' =>  "#D9D2B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1332,7 +1332,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Sea Drops",
                 'color' =>  "#D7D4BB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1342,7 +1342,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 67/117",
                 'color' =>  "#D7D4BB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1352,7 +1352,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Juicy Pear",
                 'color' =>  "#D5D6B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1362,7 +1362,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 62/264",
                 'color' =>  "#D0CD98",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1372,7 +1372,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Cabbage Patch",
                 'color' =>  "#D0CD98",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1382,7 +1382,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 59/140",
                 'color' =>  "#D0C9AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1392,7 +1392,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Lichen Green",
                 'color' =>  "#CDC387",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1402,7 +1402,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 55/299",
                 'color' =>  "#CDC387",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1412,7 +1412,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 50/383",
                 'color' =>  "#C9B96D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1422,7 +1422,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Shakespeare",
                 'color' =>  "#C9B96D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1432,7 +1432,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "50YY 49/191",
                 'color' =>  "#C4B591",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1442,7 +1442,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Winter's Silence",
                 'color' =>  "#C4B591",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1452,7 +1452,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "60YY 45/382",
                 'color' =>  "#C3AF64",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1462,7 +1462,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Cabbage Crush",
                 'color' =>  "#C2C28F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1472,7 +1472,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Woodland Mystery",
                 'color' =>  "#C1BEA2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1482,7 +1482,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 52/138",
                 'color' =>  "#C1BEA2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1492,7 +1492,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Woodland Mystery",
                 'color' =>  "#C1BEA2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1502,7 +1502,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Mountain Hike",
                 'color' =>  "#BEC198",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1512,7 +1512,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 48/255",
                 'color' =>  "#BBB786",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1522,7 +1522,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 46/160",
                 'color' =>  "#B8B192",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1532,7 +1532,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Thyme",
                 'color' =>  "#B8B192",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1542,7 +1542,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 54/238",
                 'color' =>  "#B7C292",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1552,7 +1552,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Shy Blossom",
                 'color' =>  "#B7C292",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1562,7 +1562,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Edamame Green",
                 'color' =>  "#B7A44B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1572,7 +1572,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Chrome Primrose",
                 'color' =>  "#B0993F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1582,7 +1582,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "60YY 34/461",
                 'color' =>  "#B0993F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1593,7 +1593,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 37/366",
                 'color' =>  "#AFA159",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1604,7 +1604,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 37/296",
                 'color' =>  "#AEA26B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1614,7 +1614,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Dalmuir Mews",
                 'color' =>  "#AEA26B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1624,7 +1624,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Pine Sensation",
                 'color' =>  "#A4A967",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1634,7 +1634,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 34/180",
                 'color' =>  "#A49B7A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1644,7 +1644,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Artichoke Leaf",
                 'color' =>  "#A49B7A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1654,7 +1654,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Precious Jasper",
                 'color' =>  "#A3AC74",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1664,7 +1664,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 40/296",
                 'color' =>  "#A3AC74",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1674,7 +1674,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Pacific Pines",
                 'color' =>  "#A29F7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1684,7 +1684,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Pacific Pines",
                 'color' =>  "#A29F7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1694,7 +1694,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 35/169",
                 'color' =>  "#A29F7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1704,7 +1704,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 35/304",
                 'color' =>  "#A09E64",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1715,7 +1715,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Napa Valley",
                 'color' =>  "#A09E64",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1725,7 +1725,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Carolina",
                 'color' =>  "#9F8B33",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1735,7 +1735,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "60YY 28/443",
                 'color' =>  "#9F8B33",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1746,7 +1746,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 36/096",
                 'color' =>  "#9DA18F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1756,7 +1756,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Avocado Salad",
                 'color' =>  "#978953",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1766,7 +1766,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Hanging Garden",
                 'color' =>  "#968A3B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1776,7 +1776,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 30/104",
                 'color' =>  "#929480",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1786,7 +1786,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 24/438",
                 'color' =>  "#91832F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1797,7 +1797,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 29/464",
                 'color' =>  "#8D9138",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1808,7 +1808,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Green Lounge",
                 'color' =>  "#8D8964",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1818,7 +1818,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "45YY 19/400",
                 'color' =>  "#8D7326",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1829,7 +1829,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Highland Dash",
                 'color' =>  "#8A8B54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1839,7 +1839,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 21/335",
                 'color' =>  "#867B3D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1850,7 +1850,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Crested Moss",
                 'color' =>  "#867B3D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1860,7 +1860,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 22/200",
                 'color' =>  "#817D59",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1871,7 +1871,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 21/371",
                 'color' =>  "#7E7F3A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1882,7 +1882,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 18/350",
                 'color' =>  "#7E7535",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1893,7 +1893,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 24/356",
                 'color' =>  "#7B8746",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1904,7 +1904,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 21/119",
                 'color' =>  "#7A7D67",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1915,7 +1915,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Fantastic Foliage",
                 'color' =>  "#787336",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1925,7 +1925,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Calypso Green",
                 'color' =>  "#72813A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1935,7 +1935,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 21/375",
                 'color' =>  "#72813A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1946,7 +1946,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Tree Love",
                 'color' =>  "#6F6845",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1956,7 +1956,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 15/279",
                 'color' =>  "#6C6B3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1967,7 +1967,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Ludlow Falls",
                 'color' =>  "#6C6B3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1977,7 +1977,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "90YY 13/177",
                 'color' =>  "#636040",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1988,7 +1988,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Plantation Green",
                 'color' =>  "#636040",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1999,7 +1999,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "70YY 12/167",
                 'color' =>  "#615B3C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2010,7 +2010,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Camouflage Sensation",
                 'color' =>  "#5D5D32",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2020,7 +2020,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "10GY 12/225",
                 'color' =>  "#596138",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2031,7 +2031,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Hawthorne Green",
                 'color' =>  "#53594C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2041,7 +2041,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "30GY 11/076",
                 'color' =>  "#53594C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2052,7 +2052,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "Deep Waters",
                 'color' =>  "#465439",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2062,7 +2062,7 @@ class ColorLemonYellowSeeder extends Seeder
             [
                 'name' =>  "30GY 09/171",
                 'color' =>  "#465439",
-                'color_group_id' =>  1,
+                'color_group_id' =>  6,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,

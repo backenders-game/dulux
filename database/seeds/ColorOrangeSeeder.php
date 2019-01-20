@@ -16,7 +16,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Tuscanny Villa",
                 'color' =>  "#FFBE7A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -26,7 +26,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Lovely Papaya",
                 'color' =>  "#FFBB93",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -36,7 +36,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Energize It",
                 'color' =>  "#FFAE62",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -46,7 +46,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "02YY 55/518",
                 'color' =>  "#FFAE62",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -56,7 +56,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Crystallised Ginger",
                 'color' =>  "#FED6AB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -66,9 +66,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "36YY 66/349",
                 'color' =>  "#FEC68D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -76,7 +76,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Phenomenal Peach",
                 'color' =>  "#FBCAAA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -86,7 +86,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Syrup Hint",
                 'color' =>  "#FAE7D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -96,7 +96,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Patio Orange",
                 'color' =>  "#FAE0C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -106,7 +106,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Terracotta Teas",
                 'color' =>  "#FABC90",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -116,7 +116,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "10YY 78/188",
                 'color' =>  "#F9DBBD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -126,7 +126,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peach Powder",
                 'color' =>  "#F9DBBD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -136,17 +136,18 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "76418",
                 'color' =>  "#F9D2A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "05YY 72/254",
                 'color' =>  "#F9D1AA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -156,7 +157,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Orange Blossom",
                 'color' =>  "#F9D1AA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -166,7 +167,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "98YR 65/333",
                 'color' =>  "#F9C292",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -176,7 +177,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Baby Power",
                 'color' =>  "#F8E8DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -186,7 +187,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Powerfull Peach",
                 'color' =>  "#F8D7C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -196,9 +197,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "06YY 75/218",
                 'color' =>  "#F8D6B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -206,7 +207,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "46YR 69/173",
                 'color' =>  "#F8CEC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -216,7 +217,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peach Passion",
                 'color' =>  "#F8CEC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -226,17 +227,18 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "27088",
                 'color' =>  "#F8C9A6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Vital Peach",
                 'color' =>  "#F8A476",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -246,7 +248,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Seashell Pink",
                 'color' =>  "#F7E2D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -256,7 +258,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "82YR 81/106",
                 'color' =>  "#F7E2D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -266,7 +268,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Flamingo Tint",
                 'color' =>  "#F7ACA1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -276,7 +278,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peach Medley",
                 'color' =>  "#F6B99D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -286,7 +288,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "61YR 60/282",
                 'color' =>  "#F6B99D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -296,7 +298,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Delicious Melba",
                 'color' =>  "#F6B180",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -306,7 +308,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "48YR 50/372",
                 'color' =>  "#F6A58B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -316,9 +318,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "20YY 78/146",
                 'color' =>  "#F5DFC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -326,7 +328,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "32YR 78/106",
                 'color' =>  "#F5DCD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -336,7 +338,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "57YR 77/102",
                 'color' =>  "#F5DCD0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -346,9 +348,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "86YR 49/493",
                 'color' =>  "#F5A265",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -357,7 +359,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Lush Morning",
                 'color' =>  "#F4E8DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -367,9 +369,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "10YY 83/071",
                 'color' =>  "#F4E8DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -377,7 +379,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "99YR 85/075",
                 'color' =>  "#F4E6DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -387,7 +389,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Adorable Peach",
                 'color' =>  "#F4E6DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -397,9 +399,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 83/070",
                 'color' =>  "#F4E5D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -407,7 +409,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Early Dawn",
                 'color' =>  "#F4E5D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -417,7 +419,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 83/080",
                 'color' =>  "#F4E5D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -427,9 +429,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "10YY 83/100",
                 'color' =>  "#F4E4D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -437,7 +439,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Powdery Pink",
                 'color' =>  "#F4D9D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -447,7 +449,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pink Chamagne",
                 'color' =>  "#F4D8CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -457,7 +459,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 72/159",
                 'color' =>  "#F4D4BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -467,7 +469,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Baby Playtime",
                 'color' =>  "#F4D1C1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -477,7 +479,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "23YR 66/193",
                 'color' =>  "#F4C4BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -487,7 +489,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Orange Cantaloupe",
                 'color' =>  "#F4AC71",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -497,7 +499,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 54/440",
                 'color' =>  "#F4AC71",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -507,7 +509,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peachy Punch",
                 'color' =>  "#F4A481",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -517,7 +519,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 87/019",
                 'color' =>  "#F3EDE8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -527,7 +529,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "99YR 83/059",
                 'color' =>  "#F3E6D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -537,7 +539,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Angel's Whisper",
                 'color' =>  "#F3E6D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -547,17 +549,18 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "74041",
                 'color' =>  "#F3D9CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "60YR 76/105",
                 'color' =>  "#F3D9CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -567,9 +570,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 72/159",
                 'color' =>  "#F3D4BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -577,7 +580,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Orange Cider",
                 'color' =>  "#F3CCB0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -587,7 +590,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 65/196",
                 'color' =>  "#F3C7B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -597,7 +600,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sensational Salmon",
                 'color' =>  "#F3C0A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -607,7 +610,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Cheerful Coral",
                 'color' =>  "#F39578",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -617,7 +620,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "42YR 43/439",
                 'color' =>  "#F39578",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -627,7 +630,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Exotic Mandarin",
                 'color' =>  "#F37C4B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -637,7 +640,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 83/060",
                 'color' =>  "#F2E2D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -647,7 +650,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Alabaster Pink",
                 'color' =>  "#F2E2D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -657,7 +660,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pinky Peach",
                 'color' =>  "#F2D4C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -667,7 +670,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 70/151",
                 'color' =>  "#F2CEBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -677,7 +680,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Dawnlight",
                 'color' =>  "#F2CEBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -687,9 +690,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 57/293",
                 'color' =>  "#F2B895",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -697,7 +700,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "21YR 57/250",
                 'color' =>  "#F2B4A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -707,7 +710,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "10YY 72/172",
                 'color' =>  "#F1D6BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -717,7 +720,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peachlight",
                 'color' =>  "#F1D6BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -727,7 +730,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sienna Sensation",
                 'color' =>  "#F1BCA9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -737,7 +740,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 59/261",
                 'color' =>  "#F1BCA4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -747,7 +750,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "58YR 53/342",
                 'color' =>  "#F1A888",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -757,7 +760,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Tangerine Fizz",
                 'color' =>  "#F19754",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -767,7 +770,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "83YR 44/540",
                 'color' =>  "#F19754",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -778,7 +781,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Tango Tussle",
                 'color' =>  "#F17831",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -788,7 +791,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sugar Blush",
                 'color' =>  "#F0E5DE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -798,7 +801,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 83/040",
                 'color' =>  "#F0E5DE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -808,9 +811,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 65/185",
                 'color' =>  "#F0C8B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -818,7 +821,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Apricot",
                 'color' =>  "#F0BC94",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -828,7 +831,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 57/293",
                 'color' =>  "#F0BC94",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -838,7 +841,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 54/287",
                 'color' =>  "#F0B195",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -848,7 +851,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "56YR 48/398",
                 'color' =>  "#F09D7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -858,7 +861,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "78YR 39/593",
                 'color' =>  "#F08948",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -869,7 +872,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Desert Orange",
                 'color' =>  "#F08948",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -879,7 +882,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 83/035",
                 'color' =>  "#EFE7E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -889,7 +892,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pink Essence",
                 'color' =>  "#EFE7E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -899,7 +902,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Fluffy Towels",
                 'color' =>  "#EFDCD2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -909,7 +912,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pink Ritual",
                 'color' =>  "#EFB499",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -919,7 +922,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 68/127",
                 'color' =>  "#EECCC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -929,7 +932,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pink Chablis",
                 'color' =>  "#EECCC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -939,7 +942,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Notorious Peach",
                 'color' =>  "#EEC4A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -949,7 +952,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Airy Peach",
                 'color' =>  "#EEA986",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -959,7 +962,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sublime Salmon",
                 'color' =>  "#EDA798",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -969,7 +972,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Flighty Orange",
                 'color' =>  "#ED8B45",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -979,9 +982,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 49/382",
                 'color' =>  "#ECA779",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -989,7 +992,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Koi Pond",
                 'color' =>  "#EC9F6C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -999,7 +1002,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 45/427",
                 'color' =>  "#EC9F6C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1009,7 +1012,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "23YR 45/369",
                 'color' =>  "#EC9486",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1019,7 +1022,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 49/382",
                 'color' =>  "#EBAA76",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1029,7 +1032,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 49/332",
                 'color' =>  "#EBA984",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1039,7 +1042,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 44/378",
                 'color' =>  "#E99B78",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1049,7 +1052,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "52YR 37/501",
                 'color' =>  "#E9855D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1060,7 +1063,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Jupiter Fantasy",
                 'color' =>  "#E8A06C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1070,7 +1073,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 44/378",
                 'color' =>  "#E79D75",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1080,7 +1083,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Happy Tangerine",
                 'color' =>  "#E68D5A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1090,7 +1093,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 40/423",
                 'color' =>  "#E5906A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1101,7 +1104,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Light Salmon",
                 'color' =>  "#E5906A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1111,7 +1114,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 37/516",
                 'color' =>  "#E58C4F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1122,7 +1125,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Earth Melody",
                 'color' =>  "#E58A77",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1132,7 +1135,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "68YR 28/701",
                 'color' =>  "#E56E27",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1143,7 +1146,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Fiesta Orange",
                 'color' =>  "#E56E27",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1153,7 +1156,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "25YR 34/473",
                 'color' =>  "#E47969",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1164,7 +1167,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 36/468",
                 'color' =>  "#E3865D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1175,7 +1178,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 41/472",
                 'color' =>  "#E29859",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1186,7 +1189,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Valencia",
                 'color' =>  "#E29859",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1196,9 +1199,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 30/651",
                 'color' =>  "#E2712B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1207,7 +1210,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 43/295",
                 'color' =>  "#E19B8D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1217,7 +1220,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pink Adobe",
                 'color' =>  "#E19B8D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1227,7 +1230,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 36/468",
                 'color' =>  "#E18959",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1238,7 +1241,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peach Touch",
                 'color' =>  "#E18479",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1248,7 +1251,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "26YR 30/511",
                 'color' =>  "#E16F5F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1259,7 +1262,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Oriental Coral",
                 'color' =>  "#E16F5F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1269,9 +1272,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "28YR 29/561",
                 'color' =>  "#E16553",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1280,7 +1283,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Blistering Sun",
                 'color' =>  "#E16233",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1290,7 +1293,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 42/387",
                 'color' =>  "#E09B6C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1300,7 +1303,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 34/561",
                 'color' =>  "#E0843F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1311,7 +1314,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 38/337",
                 'color' =>  "#DE8F7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1321,7 +1324,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peachy Pink",
                 'color' =>  "#DE8F7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1331,7 +1334,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Carribean Sunset",
                 'color' =>  "#DE6546",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1341,7 +1344,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 34/561",
                 'color' =>  "#DD883A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1352,7 +1355,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Harvest Glory",
                 'color' =>  "#DD883A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1362,7 +1365,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 32/460",
                 'color' =>  "#DD7B59",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1373,7 +1376,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Cinnabar",
                 'color' =>  "#DD7B59",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1383,9 +1386,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Orange Bitters",
                 'color' =>  "#DC7525",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1393,7 +1396,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 28/650",
                 'color' =>  "#DC7525",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1404,7 +1407,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Orange Bitters",
                 'color' =>  "#DC7525",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1414,7 +1417,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 29/559",
                 'color' =>  "#DC703D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1425,7 +1428,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peeping Tom",
                 'color' =>  "#DA8953",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1435,7 +1438,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 34/468",
                 'color' =>  "#DA8953",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1446,7 +1449,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 29/559",
                 'color' =>  "#DA783E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1457,7 +1460,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "55YR 24/666",
                 'color' =>  "#DA5D23",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1468,7 +1471,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 26/605",
                 'color' =>  "#D96630",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1479,7 +1482,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Woodley",
                 'color' =>  "#D77E44",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1489,7 +1492,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 31/508",
                 'color' =>  "#D77E44",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1500,7 +1503,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 31/605",
                 'color' =>  "#D77E29",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1511,7 +1514,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sunlit Topaz",
                 'color' =>  "#D77E29",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1521,7 +1524,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 26/605",
                 'color' =>  "#D66B29",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1532,7 +1535,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 30/417",
                 'color' =>  "#D47A5C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1543,7 +1546,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sunset Flame",
                 'color' =>  "#D4692E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1553,9 +1556,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 25/556",
                 'color' =>  "#D4623C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1564,7 +1567,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Striped Tiger",
                 'color' =>  "#D38043",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1574,7 +1577,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Flame Grilled",
                 'color' =>  "#D35338",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1584,7 +1587,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 29/421",
                 'color' =>  "#D27563",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1595,7 +1598,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Autumn Walks",
                 'color' =>  "#D06740",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1605,7 +1608,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 18/650",
                 'color' =>  "#D04F27",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1616,7 +1619,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 20/595",
                 'color' =>  "#CF4D3D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1627,7 +1630,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Skyrocket Red",
                 'color' =>  "#CF4D3D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1637,7 +1640,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Lilly Pollen",
                 'color' =>  "#CD6F27",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1647,7 +1650,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "African Tulip",
                 'color' =>  "#CD6555",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1657,7 +1660,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 25/463",
                 'color' =>  "#CD6555",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1668,7 +1671,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "African Tulip",
                 'color' =>  "#CD6555",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1678,9 +1681,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Shanghai",
                 'color' =>  "#CD4A38",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1688,7 +1691,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "29YR 19/621",
                 'color' =>  "#CD4A38",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1699,7 +1702,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Shanghai",
                 'color' =>  "#CD4A38",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1709,7 +1712,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 27/530",
                 'color' =>  "#CC7436",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1720,7 +1723,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 26/461",
                 'color' =>  "#CC6D4B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1731,7 +1734,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Muted Tango",
                 'color' =>  "#CC6552",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1741,7 +1744,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Red Badge",
                 'color' =>  "#CA5B4A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1751,7 +1754,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 21/505",
                 'color' =>  "#CA5B4A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1762,7 +1765,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Blood Orange Zest",
                 'color' =>  "#CA5322",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1772,7 +1775,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 24/569",
                 'color' =>  "#C86C25",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1783,9 +1786,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "31YR 18/648",
                 'color' =>  "#C8402F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1794,7 +1797,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Saffron Burst",
                 'color' =>  "#C77338",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1804,7 +1807,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 23/569",
                 'color' =>  "#C37120",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1815,7 +1818,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Cherry Sensation",
                 'color' =>  "#C33F28",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1825,7 +1828,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Egyptian Earth",
                 'color' =>  "#C16130",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1835,7 +1838,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 19/557",
                 'color' =>  "#C16130",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1846,7 +1849,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 19/557",
                 'color' =>  "#BE5A2B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1857,7 +1860,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Routelle Red",
                 'color' =>  "#B9483C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1867,7 +1870,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 15/550",
                 'color' =>  "#B54131",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1878,7 +1881,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Riding Hood",
                 'color' =>  "#B54131",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1888,7 +1891,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Orange Copper",
                 'color' =>  "#B25431",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1898,7 +1901,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "53YR 17/504",
                 'color' =>  "#B25431",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1909,7 +1912,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Burnt Furnace",
                 'color' =>  "#AE5138",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1919,7 +1922,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "26YR 14/548",
                 'color' =>  "#AB392B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1930,9 +1933,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Algonquin Red",
                 'color' =>  "#A43E2D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1940,7 +1943,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Algonquin Red",
                 'color' =>  "#A43E2D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1950,7 +1953,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Puppet Patio",
                 'color' =>  "#A23530",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1960,7 +1963,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 77/115",
                 'color' =>  "#F5DECE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1970,17 +1973,18 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "76215",
                 'color' =>  "#F5DAC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "90YR 77/115",
                 'color' =>  "#F4DDCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1990,7 +1994,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Only Peach",
                 'color' =>  "#F4DDCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2000,7 +2004,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "51YR 83/054",
                 'color' =>  "#F3E3DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2010,7 +2014,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "French Manicure",
                 'color' =>  "#F3E3DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2020,7 +2024,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 77/124",
                 'color' =>  "#F3DDC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2030,7 +2034,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Succulent Silk",
                 'color' =>  "#F2EBE3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2040,7 +2044,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 83/051",
                 'color' =>  "#F2E7DF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2050,7 +2054,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 83/069",
                 'color' =>  "#F1E4D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2060,7 +2064,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Strawberry Blonde",
                 'color' =>  "#F1E4D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2070,7 +2074,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sugar Touch",
                 'color' =>  "#F1E1CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2080,17 +2084,18 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "22299",
                 'color' =>  "#F1DEC5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "90YR 83/044",
                 'color' =>  "#F0E8E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2100,7 +2105,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Olivia's White",
                 'color' =>  "#F0E8E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2110,7 +2115,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 83/034",
                 'color' =>  "#F0E8DF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2120,7 +2125,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Spring Moment",
                 'color' =>  "#F0E4DB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2130,7 +2135,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Glowing Morning",
                 'color' =>  "#F0DCC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2140,7 +2145,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "20YY 77/110",
                 'color' =>  "#EFDFCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2150,7 +2155,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "September Cream",
                 'color' =>  "#EFDDD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2160,7 +2165,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 76/086",
                 'color' =>  "#EFDDD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2170,7 +2175,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 76/086",
                 'color' =>  "#EFDCCF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2180,7 +2185,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 67/212",
                 'color' =>  "#EFCCAB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2190,7 +2195,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Morning Peach",
                 'color' =>  "#EED3C1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2200,7 +2205,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "20YY 67/216",
                 'color' =>  "#EED0AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2210,7 +2215,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "White Tide",
                 'color' =>  "#EDE1D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2220,7 +2225,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 75/075",
                 'color' =>  "#EDDCD2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2230,7 +2235,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Chemise Pink",
                 'color' =>  "#EDDAD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2240,7 +2245,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 75/075",
                 'color' =>  "#EDDAD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2250,7 +2255,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Cookie Sensation",
                 'color' =>  "#EDD0AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2260,7 +2265,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 76/088",
                 'color' =>  "#ECDBCD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2270,7 +2275,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Ivory Peach",
                 'color' =>  "#ECDBCD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2280,7 +2285,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 75/072",
                 'color' =>  "#EBDCD0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2290,7 +2295,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 68/118",
                 'color' =>  "#EBCFC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2300,7 +2305,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 69/114",
                 'color' =>  "#EAD2C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2310,7 +2315,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sweet Blush",
                 'color' =>  "#EACEC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2320,7 +2325,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 68/118",
                 'color' =>  "#EACEC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2330,7 +2335,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Potion Pink",
                 'color' =>  "#EACDC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2340,7 +2345,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 68/114",
                 'color' =>  "#EACDC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2350,7 +2355,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pearberry",
                 'color' =>  "#EAB696",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2360,7 +2365,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 55/266",
                 'color' =>  "#EAB696",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2370,7 +2375,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 75/057",
                 'color' =>  "#E9DCD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2380,7 +2385,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Blush",
                 'color' =>  "#E9DCD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2390,7 +2395,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peach Goddess",
                 'color' =>  "#E9C9B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2400,7 +2405,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 64/166",
                 'color' =>  "#E9C9B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2410,7 +2415,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 75/071",
                 'color' =>  "#E8DBCE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2420,7 +2425,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Inspired",
                 'color' =>  "#E7DCD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2430,7 +2435,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 74/045",
                 'color' =>  "#E7DCD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2440,7 +2445,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "10YY 74/063",
                 'color' =>  "#E7DBD0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2450,7 +2455,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Petal Pink",
                 'color' =>  "#E7DBD0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2460,7 +2465,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 68/102",
                 'color' =>  "#E7D0C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2470,7 +2475,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Terrace Ground",
                 'color' =>  "#E7C4A6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2480,7 +2485,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sweet Sandy",
                 'color' =>  "#E7B794",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2490,7 +2495,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 55/266",
                 'color' =>  "#E7B794",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2500,7 +2505,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 74/054",
                 'color' =>  "#E6D8D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2510,17 +2515,18 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "24141",
                 'color' =>  "#E6D6CA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "10YY 53/337",
                 'color' =>  "#E6B580",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2530,7 +2536,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pink Suede",
                 'color' =>  "#E5DAD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2540,7 +2546,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 74/043",
                 'color' =>  "#E5DAD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2550,7 +2556,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Angel Cloud",
                 'color' =>  "#E5D9D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2560,7 +2566,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 74/043",
                 'color' =>  "#E5D9D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2570,7 +2576,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Lotus Blossom",
                 'color' =>  "#E5B4A3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2580,7 +2586,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 55/201",
                 'color' =>  "#E5B4A3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2590,7 +2596,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 68/100",
                 'color' =>  "#E4D1C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2600,7 +2606,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 56/190",
                 'color' =>  "#E4B8A5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2610,7 +2616,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 66/091",
                 'color' =>  "#E3CCC3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2620,7 +2626,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Pueblo Pink",
                 'color' =>  "#E3CCC3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2630,7 +2636,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sweet Nougat",
                 'color' =>  "#E3B383",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2640,7 +2646,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sand Sensation",
                 'color' =>  "#E1D2CA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2650,7 +2656,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Domestic Bliss",
                 'color' =>  "#E1D0C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2660,7 +2666,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 67/085",
                 'color' =>  "#E1D0C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2670,7 +2676,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Salmon Sand",
                 'color' =>  "#E1CBBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2680,7 +2686,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Queen Coral",
                 'color' =>  "#E1BCA7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2690,7 +2696,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 57/179",
                 'color' =>  "#E1BCA7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2700,7 +2706,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Desert Warmth",
                 'color' =>  "#E1B7A3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2710,7 +2716,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 56/190",
                 'color' =>  "#E1B7A3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2720,7 +2726,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "San Mateo",
                 'color' =>  "#E0A678",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2730,7 +2736,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 46/346",
                 'color' =>  "#E0A678",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2740,7 +2746,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 62/144",
                 'color' =>  "#DFC6B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2750,7 +2756,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Tahoe Stone",
                 'color' =>  "#DFC6B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2760,7 +2766,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 56/173",
                 'color' =>  "#DCBEA4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2770,7 +2776,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 48/219",
                 'color' =>  "#DCA896",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2780,7 +2786,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 44/287",
                 'color' =>  "#DC9C86",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2790,7 +2796,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Desert Dawn",
                 'color' =>  "#DC9C86",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2800,7 +2806,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Desert Dawn",
                 'color' =>  "#DC9C86",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2810,7 +2816,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Milky Taupe",
                 'color' =>  "#DBB6A6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2820,7 +2826,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 45/261",
                 'color' =>  "#D9A387",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2830,7 +2836,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Cozy Melon",
                 'color' =>  "#D9A387",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2840,7 +2846,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 44/311",
                 'color' =>  "#D99F7A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2850,7 +2856,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Authentic Nude",
                 'color' =>  "#D8BCAA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2860,7 +2866,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 40/297",
                 'color' =>  "#D8967B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2870,7 +2876,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Warm Autumn",
                 'color' =>  "#D8967B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2880,7 +2886,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 38/427",
                 'color' =>  "#D8935B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2891,7 +2897,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 58/093",
                 'color' =>  "#D6BFB7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2901,7 +2907,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 48/195",
                 'color' =>  "#D6AD97",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2911,7 +2917,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Muffin",
                 'color' =>  "#D6A78A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2921,7 +2927,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 46/243",
                 'color' =>  "#D6A78A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2931,7 +2937,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 34/468",
                 'color' =>  "#D48B4C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2942,7 +2948,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Golden Tan",
                 'color' =>  "#D48B4C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2952,7 +2958,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 43/304",
                 'color' =>  "#D2A074",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2962,7 +2968,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 48/183",
                 'color' =>  "#D1B098",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2972,17 +2978,18 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "72160",
                 'color' =>  "#D0BAB1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Caramel Honey",
                 'color' =>  "#D09D6E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2992,7 +2999,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Maplewood Trail",
                 'color' =>  "#D08E61",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3002,7 +3009,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 35/383",
                 'color' =>  "#D08E61",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3013,7 +3020,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Mars Dust",
                 'color' =>  "#CF966E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3023,7 +3030,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 35/332",
                 'color' =>  "#CD8E6C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3033,7 +3040,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 31/419",
                 'color' =>  "#CD8555",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3044,7 +3051,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Tierra Del Fuego",
                 'color' =>  "#CD8161",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3054,7 +3061,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 31/368",
                 'color' =>  "#CD8161",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3065,7 +3072,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Relaxing Siesta",
                 'color' =>  "#CCB19F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3075,7 +3082,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 36/263",
                 'color' =>  "#CC907B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3085,7 +3092,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Cedar Shadow",
                 'color' =>  "#CC907B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3095,7 +3102,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 32/339",
                 'color' =>  "#C58961",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3105,7 +3112,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 38/239",
                 'color' =>  "#C49A7A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3115,7 +3122,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Mild Mocha",
                 'color' =>  "#C2886B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3125,7 +3132,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 27/404",
                 'color' =>  "#C2794F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3136,7 +3143,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Southern Tip",
                 'color' =>  "#C2794F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3147,9 +3154,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 27/404",
                 'color' =>  "#C2794F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -3158,7 +3165,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 35/216",
                 'color' =>  "#C1957D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3168,7 +3175,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Autumn Tree",
                 'color' =>  "#BF8E63",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3178,7 +3185,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 37/221",
                 'color' =>  "#BE9B7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3188,7 +3195,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 24/439",
                 'color' =>  "#BE6B44",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3199,7 +3206,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Peking Orange",
                 'color' =>  "#BE6B44",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3209,7 +3216,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Macchiato Morning",
                 'color' =>  "#BB7546",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3219,7 +3226,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 23/365",
                 'color' =>  "#B86C51",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3230,7 +3237,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Amber Coast",
                 'color' =>  "#B86C51",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3240,9 +3247,9 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Amber Coast",
                 'color' =>  "#B86C51",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -3250,7 +3257,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Authentic Leather",
                 'color' =>  "#B48D7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3260,7 +3267,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Spice Tea",
                 'color' =>  "#B4662F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3270,7 +3277,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 20/488",
                 'color' =>  "#B4662F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3281,7 +3288,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 26/323",
                 'color' =>  "#B37A54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3292,7 +3299,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Leather Brogue",
                 'color' =>  "#AF907B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3302,7 +3309,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Clay Walls",
                 'color' =>  "#AF7F6B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3312,7 +3319,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Continental Tile",
                 'color' =>  "#AE684A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3322,7 +3329,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Baroque Jewel",
                 'color' =>  "#AE6830",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3332,7 +3339,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 19/487",
                 'color' =>  "#AE6830",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3343,7 +3350,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 19/432",
                 'color' =>  "#AE6335",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3354,7 +3361,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Spanish Hollow",
                 'color' =>  "#AE562D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3364,7 +3371,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 16/464",
                 'color' =>  "#AE562D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3375,7 +3382,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 25/323",
                 'color' =>  "#AD7A51",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3386,7 +3393,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Clay Pot",
                 'color' =>  "#AD6C55",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3396,7 +3403,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Clay Pot",
                 'color' =>  "#AD6C55",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3406,7 +3413,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 21/318",
                 'color' =>  "#AD6C55",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3417,7 +3424,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Bonfire Toffee",
                 'color' =>  "#A75B34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3427,7 +3434,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Squirrell Tail",
                 'color' =>  "#A55E43",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3437,7 +3444,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 19/378",
                 'color' =>  "#A4673C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3448,7 +3455,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Bennington Clay",
                 'color' =>  "#A4673C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3458,7 +3465,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 23/274",
                 'color' =>  "#A27653",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3469,7 +3476,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Seville Dream",
                 'color' =>  "#A25D2C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3479,7 +3486,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Toffee Delight",
                 'color' =>  "#A17247",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3489,7 +3496,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 17/406",
                 'color' =>  "#9F5E2E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3500,7 +3507,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Bitter Creek",
                 'color' =>  "#9E7043",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3511,7 +3518,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 21/321",
                 'color' =>  "#9E7043",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3522,7 +3529,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Vandyke Red",
                 'color' =>  "#9A5238",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3532,7 +3539,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 15/377",
                 'color' =>  "#9A5238",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3542,7 +3549,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "90YR 16/406",
                 'color' =>  "#995F2C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3553,7 +3560,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 12/406",
                 'color' =>  "#994C33",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3564,7 +3571,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Tinder Box",
                 'color' =>  "#994C33",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3574,7 +3581,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Soft Copper",
                 'color' =>  "#976856",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3584,7 +3591,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 18/223",
                 'color' =>  "#976856",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3595,7 +3602,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 13/371",
                 'color' =>  "#954F2E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3606,7 +3613,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Spanish Chestnut",
                 'color' =>  "#8F5833",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3616,7 +3623,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "80YR 13/325",
                 'color' =>  "#8F5833",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3627,7 +3634,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Burnt Forest",
                 'color' =>  "#8E5637",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3637,7 +3644,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 15/243",
                 'color' =>  "#8C5B48",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3648,7 +3655,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Sicilian Summer",
                 'color' =>  "#8B4C3F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3658,7 +3665,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "30YR 12/292",
                 'color' =>  "#8B4C3F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3669,7 +3676,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Espresso Mist",
                 'color' =>  "#8A5631",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3679,7 +3686,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "39YR 11/342",
                 'color' =>  "#874531",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3690,7 +3697,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Deep Spice",
                 'color' =>  "#874531",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3700,7 +3707,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Mud Slide",
                 'color' =>  "#864833",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3710,7 +3717,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 13/259",
                 'color' =>  "#84563C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3721,7 +3728,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "70YR 11/279",
                 'color' =>  "#7E4D32",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3732,7 +3739,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Chocolate Toffee",
                 'color' =>  "#7A4D3A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3742,7 +3749,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Burnt Peppercorn",
                 'color' =>  "#794532",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3752,7 +3759,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Mississippi Mud",
                 'color' =>  "#735237",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3762,7 +3769,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "Red Brick",
                 'color' =>  "#724232",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3772,7 +3779,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 09/244",
                 'color' =>  "#724232",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3783,7 +3790,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "00YY 12/173",
                 'color' =>  "#70563E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3794,7 +3801,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "10YY 78/188",
                 'color' =>  "#F9DBBD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3804,27 +3811,29 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "76418",
                 'color' =>  "#F9D2A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "76832",
                 'color' =>  "#F5E3CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "80YR 77/115",
                 'color' =>  "#F5DECE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3834,7 +3843,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "32YR 78/106",
                 'color' =>  "#F5DCD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3844,7 +3853,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "76525",
                 'color' =>  "#F5A265",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3855,37 +3864,40 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "75056",
                 'color' =>  "#F4E6DA",
-                'color_group_id' =>  1,
-                'mixed_by_computer' =>  0,
-                'is_popular' =>  0,
-                'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
-            ],
-            [
-                'name' =>  "77136",
-                'color' =>  "#F3E2C9",
-                'color_group_id' =>  1,
-                'mixed_by_computer' =>  0,
-                'is_popular' =>  0,
-                'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
-            ],
-            [
-                'name' =>  "75058",
-                'color' =>  "#F2E8D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'projectTypes' => [
+        ],
+            ],
+            [
+                'name' =>  "77136",
+                'color' =>  "#F3E2C9",
+                'color_group_id' =>  3,
+                'mixed_by_computer' =>  0,
+                'is_popular' =>  0,
+                'is_deep_color' =>  0,
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
+            ],
+            [
+                'name' =>  "75058",
+                'color' =>  "#F2E8D9",
+                'color_group_id' =>  3,
+                'mixed_by_computer' =>  0,
+                'is_popular' =>  0,
+                'is_deep_color' =>  0,
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "90YR 57/293",
                 'color' =>  "#F0BC94",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3895,7 +3907,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "60YR 75/075",
                 'color' =>  "#EDDAD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3905,7 +3917,7 @@ class ColorOrangeSeeder extends Seeder
             [
                 'name' =>  "50YR 58/093",
                 'color' =>  "#D6BFB7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  3,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,

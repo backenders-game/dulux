@@ -16,7 +16,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Whisper Bluff",
                 'color' =>  "#F1E8DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -26,7 +26,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 83/063",
                 'color' =>  "#F1E8DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -36,9 +36,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "68YY 86/042",
                 'color' =>  "#F0ECDF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -46,7 +46,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Marble Falls",
                 'color' =>  "#F0ECDF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -56,7 +56,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Crisp White Shirt",
                 'color' =>  "#EDEAE6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -66,7 +66,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Nature's Choice",
                 'color' =>  "#ECE9DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -76,7 +76,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Prairie Light",
                 'color' =>  "#ECE7E4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -86,7 +86,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 83/013",
                 'color' =>  "#ECE7E4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -96,7 +96,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "55YY 80/072",
                 'color' =>  "#ECE4D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -106,9 +106,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 75/084",
                 'color' =>  "#EBDCCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -116,7 +116,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 75/073",
                 'color' =>  "#EADED0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -126,7 +126,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "45YY 75/110",
                 'color' =>  "#E8DCC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -136,7 +136,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Eloquent Ivory",
                 'color' =>  "#E8DCC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -146,7 +146,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Eloquent Ivory",
                 'color' =>  "#E8DCC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -156,7 +156,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Precious Spring",
                 'color' =>  "#E7E1D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -166,7 +166,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Ivory Flash",
                 'color' =>  "#E6D9CC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -176,9 +176,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "45YY 74/073",
                 'color' =>  "#E4DDCE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -186,7 +186,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Llama White",
                 'color' =>  "#E4D8CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -196,7 +196,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 74/053",
                 'color' =>  "#E4D8CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -206,7 +206,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Desert Floor",
                 'color' =>  "#E4D2BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -216,7 +216,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 69/120",
                 'color' =>  "#E4D2BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -226,7 +226,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Inspiring Morning",
                 'color' =>  "#E3DDCF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -236,7 +236,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 73/027",
                 'color' =>  "#E3DBD8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -246,7 +246,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wood Anemone",
                 'color' =>  "#E3DBD8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -256,7 +256,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 73/034",
                 'color' =>  "#E3DAD6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -266,7 +266,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Modern Luxury",
                 'color' =>  "#E3DAD6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -276,7 +276,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "44YY 70/110",
                 'color' =>  "#E3D7C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -286,7 +286,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 70/120",
                 'color' =>  "#E3D5C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -296,7 +296,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 67/096",
                 'color' =>  "#E3D2C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -306,7 +306,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Ivory Beige",
                 'color' =>  "#E3D1BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -316,7 +316,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 68/110",
                 'color' =>  "#E3D1BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -326,9 +326,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YY 73/083",
                 'color' =>  "#E2DDCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -336,9 +336,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YY 74/069",
                 'color' =>  "#E2DBCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -346,9 +346,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 69/112",
                 'color' =>  "#E2D5C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -356,7 +356,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Cloud Sand",
                 'color' =>  "#E1DACA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -366,7 +366,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Golden Ground",
                 'color' =>  "#E1DAC7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -376,7 +376,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 67/085",
                 'color' =>  "#E1CFC3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -386,7 +386,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Tippy Taupe",
                 'color' =>  "#E1CFC3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -396,7 +396,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 68/102",
                 'color' =>  "#E0D1BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -406,7 +406,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Russian White",
                 'color' =>  "#E0D1BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -416,7 +416,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 73/028",
                 'color' =>  "#DFDCD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -426,7 +426,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 66/070",
                 'color' =>  "#DFD0C6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -436,7 +436,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Spheric Beige",
                 'color' =>  "#DFD0C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -446,7 +446,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 66/070",
                 'color' =>  "#DFCFC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -456,7 +456,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Little White Lie",
                 'color' =>  "#DED9D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -466,7 +466,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 73/022",
                 'color' =>  "#DED9D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -476,9 +476,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 67/089",
                 'color' =>  "#DED0C1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -486,7 +486,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "White Ritual",
                 'color' =>  "#DECEBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -496,7 +496,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Carolina Strand",
                 'color' =>  "#DDD7CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -506,7 +506,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 69/048",
                 'color' =>  "#DDD7CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -516,7 +516,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Weathered Pebble",
                 'color' =>  "#DDD6C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -526,7 +526,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pillar",
                 'color' =>  "#DDD3C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -536,7 +536,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 67/087",
                 'color' =>  "#DDD3C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -546,7 +546,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 66/070",
                 'color' =>  "#DDCEC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -556,9 +556,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brazil Nut",
                 'color' =>  "#DDC9B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -566,7 +566,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brazil Nut",
                 'color' =>  "#DDC9B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -576,7 +576,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 63/149",
                 'color' =>  "#DDC9B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -586,7 +586,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 67/084",
                 'color' =>  "#DCD1C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -596,7 +596,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "European White",
                 'color' =>  "#DCD1C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -606,9 +606,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "45YY 67/120",
                 'color' =>  "#DCD0B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -616,7 +616,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 66/078",
                 'color' =>  "#DCCEC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -626,7 +626,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 61/136",
                 'color' =>  "#DCC6B1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -636,7 +636,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Damask Silk",
                 'color' =>  "#DBCFC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -646,7 +646,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 67/084",
                 'color' =>  "#DBCFC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -656,7 +656,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sahara Drive",
                 'color' =>  "#DBCFBB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -666,7 +666,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 65/054",
                 'color' =>  "#DBCEC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -676,7 +676,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Mystical",
                 'color' =>  "#DBCEC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -686,7 +686,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Simply Taupe",
                 'color' =>  "#DBCCC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -696,7 +696,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 65/056",
                 'color' =>  "#DBCCC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -706,7 +706,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 66/066",
                 'color' =>  "#DAD1C4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -716,7 +716,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Classic Neutral",
                 'color' =>  "#DACCB0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -726,7 +726,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 62/127",
                 'color' =>  "#DACAB3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -736,7 +736,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Water Chestnut",
                 'color' =>  "#DACAB3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -746,7 +746,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Manilla Tan",
                 'color' =>  "#DAC8B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -756,7 +756,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 61/127",
                 'color' =>  "#DAC8B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -766,7 +766,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "45YY 65/084",
                 'color' =>  "#D9D1C1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -776,7 +776,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Nepal Neutral",
                 'color' =>  "#D9C4B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -786,7 +786,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 59/108",
                 'color' =>  "#D9C4B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -796,7 +796,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Egyptian Cotton",
                 'color' =>  "#D8D1C5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -806,7 +806,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 64/036",
                 'color' =>  "#D8CFCD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -816,7 +816,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "White Lilac",
                 'color' =>  "#D8CFCD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -826,7 +826,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 64/044",
                 'color' =>  "#D8CCC8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -836,7 +836,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Silk Moire",
                 'color' =>  "#D8CCC8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -846,7 +846,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Your Sanctuary",
                 'color' =>  "#D7CCC7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -856,7 +856,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 64/045",
                 'color' =>  "#D7CCC7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -866,7 +866,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 59/111",
                 'color' =>  "#D7C6B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -876,7 +876,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sandringham",
                 'color' =>  "#D7C6B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -886,7 +886,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 59/098",
                 'color' =>  "#D7C5B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -896,7 +896,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sandcastle Fall",
                 'color' =>  "#D7C1A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -906,7 +906,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 55/163",
                 'color' =>  "#D7BEA3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -916,7 +916,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Dapper Tan",
                 'color' =>  "#D7BEA3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -926,7 +926,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 64/040",
                 'color' =>  "#D6CEC7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -936,7 +936,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Painter's White",
                 'color' =>  "#D6CEC7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -946,7 +946,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Taupe Twist",
                 'color' =>  "#D6C9AD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -956,7 +956,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Alencon Lace",
                 'color' =>  "#D6C7B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -966,7 +966,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 60/104",
                 'color' =>  "#D6C7B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -976,9 +976,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Mochaccino",
                 'color' =>  "#D6C2B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -986,7 +986,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Mochaccino",
                 'color' =>  "#D6C2B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -996,7 +996,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 59/089",
                 'color' =>  "#D6C2B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1006,7 +1006,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Lightness Love",
                 'color' =>  "#D5D1C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1016,7 +1016,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 64/038",
                 'color' =>  "#D5CBC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1026,7 +1026,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Cameo Stone",
                 'color' =>  "#D5CBC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1036,7 +1036,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Cameo Stone",
                 'color' =>  "#D5CBC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1046,7 +1046,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 58/091",
                 'color' =>  "#D5C2B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1056,7 +1056,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YY 65/090",
                 'color' =>  "#D4CFBC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1066,9 +1066,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Ionic Green",
                 'color' =>  "#D4CFBC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1076,7 +1076,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Ionic Green",
                 'color' =>  "#D4CFBC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1086,7 +1086,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Roma Glass",
                 'color' =>  "#D4CCC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1096,7 +1096,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 63/031",
                 'color' =>  "#D4CCC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1106,7 +1106,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 60/103",
                 'color' =>  "#D4C9B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1116,7 +1116,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Manuscript",
                 'color' =>  "#D4C9B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1126,7 +1126,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Manuscript",
                 'color' =>  "#D4C9B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1136,7 +1136,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Beige Flash",
                 'color' =>  "#D4C5B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1146,7 +1146,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Mushroom Cap",
                 'color' =>  "#D4BFA5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1156,9 +1156,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 55/151",
                 'color' =>  "#D4BFA5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1166,7 +1166,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 60/104",
                 'color' =>  "#D3C6B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1176,7 +1176,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Buffy",
                 'color' =>  "#D3C6B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1186,7 +1186,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Norman Villa Neutral",
                 'color' =>  "#D3BAA7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1196,7 +1196,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 53/132",
                 'color' =>  "#D3BAA7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1206,7 +1206,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 58/082",
                 'color' =>  "#D1C5B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1216,7 +1216,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Beachcomber",
                 'color' =>  "#D1C5B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1226,7 +1226,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 57/070",
                 'color' =>  "#D1C2B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1236,7 +1236,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 57/070",
                 'color' =>  "#CFC2B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1246,7 +1246,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sand White",
                 'color' =>  "#CEC5B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1256,7 +1256,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 58/082",
                 'color' =>  "#CEC5B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1266,7 +1266,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "African Plains",
                 'color' =>  "#CEBEA8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1276,7 +1276,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 48/171",
                 'color' =>  "#CEAF96",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1286,9 +1286,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Park Loop",
                 'color' =>  "#CEAF96",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1296,7 +1296,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Park Loop",
                 'color' =>  "#CEAF96",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1306,7 +1306,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 53/124",
                 'color' =>  "#CDBBA6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1316,7 +1316,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Desert Castle",
                 'color' =>  "#CDBBA6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1326,7 +1326,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 52/119",
                 'color' =>  "#CDB9A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1336,7 +1336,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Olive Walls",
                 'color' =>  "#CCBDA6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1346,7 +1346,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Basic Khaki",
                 'color' =>  "#CCB9A4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1356,7 +1356,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 53/132",
                 'color' =>  "#CCB9A4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1366,7 +1366,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 51/109",
                 'color' =>  "#CCB7A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1376,7 +1376,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Coastal Beige",
                 'color' =>  "#CCB7A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1386,9 +1386,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 50/176",
                 'color' =>  "#CCB797",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1396,7 +1396,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Distant Mountain",
                 'color' =>  "#CBC5B1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1406,7 +1406,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YY 57/098",
                 'color' =>  "#CBC5B1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1416,7 +1416,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Fossil Grey",
                 'color' =>  "#CBC4B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1426,7 +1426,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 56/060",
                 'color' =>  "#CBC4B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1436,7 +1436,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YY 57/082",
                 'color' =>  "#CBC4B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1446,7 +1446,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 56/060",
                 'color' =>  "#CBC1B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1456,7 +1456,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Grey Lounge",
                 'color' =>  "#CBC0A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1466,9 +1466,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 53/125",
                 'color' =>  "#CBBCA6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1476,7 +1476,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 49/098",
                 'color' =>  "#CBB3AA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1486,7 +1486,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 57/060",
                 'color' =>  "#CAC2B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1496,7 +1496,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Kennett Square",
                 'color' =>  "#CAC0B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1506,7 +1506,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Kennett Square",
                 'color' =>  "#CAC0B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1516,7 +1516,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 55/051",
                 'color' =>  "#CAC0B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1526,9 +1526,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "45YY 53/151",
                 'color' =>  "#CABB9E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1536,7 +1536,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pelican Bluff",
                 'color' =>  "#C9BFBD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1546,7 +1546,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YR 55/037",
                 'color' =>  "#C9BFBD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1556,7 +1556,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pink Desert",
                 'color' =>  "#C9B7B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1566,7 +1566,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Desert Drive",
                 'color' =>  "#C9B1A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1576,7 +1576,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Country Barn",
                 'color' =>  "#C9AE91",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1586,7 +1586,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 51/098",
                 'color' =>  "#C7BAA9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1596,7 +1596,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Toasty Grey",
                 'color' =>  "#C6BAA8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1606,7 +1606,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 51/098",
                 'color' =>  "#C6BAA8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1616,7 +1616,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Timescape",
                 'color' =>  "#C6B3AA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1626,7 +1626,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Timescape",
                 'color' =>  "#C6B3AA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1636,7 +1636,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 50/086",
                 'color' =>  "#C6B3AA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1646,7 +1646,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Timescape",
                 'color' =>  "#C6B3AA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1656,7 +1656,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 47/145",
                 'color' =>  "#C6B299",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1666,7 +1666,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 50/091",
                 'color' =>  "#C5B5A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1676,7 +1676,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Indian Painting",
                 'color' =>  "#C5B5A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1686,7 +1686,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Teabag Taste",
                 'color' =>  "#C5AF92",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1696,7 +1696,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Tibet Tan",
                 'color' =>  "#C5AA9B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1706,7 +1706,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 45/133",
                 'color' =>  "#C5AA9B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1716,9 +1716,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 43/200",
                 'color' =>  "#C5AA88",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1726,7 +1726,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 48/074",
                 'color' =>  "#C4B1AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1736,7 +1736,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Castlestone Rose",
                 'color' =>  "#C4B1AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1746,7 +1746,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pebble Sea",
                 'color' =>  "#C3BDB0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1756,7 +1756,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 49/061",
                 'color' =>  "#C3B2B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1766,7 +1766,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Jefferson House",
                 'color' =>  "#C3B198",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1776,7 +1776,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 47/145",
                 'color' =>  "#C3B198",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1786,7 +1786,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 48/071",
                 'color' =>  "#C2B6A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1796,7 +1796,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Stone Harbor",
                 'color' =>  "#C2B6A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1806,7 +1806,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Damascan Rose",
                 'color' =>  "#C1ACA9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1816,7 +1816,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 41/179",
                 'color' =>  "#C1A28B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1826,7 +1826,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Hudson River Stone",
                 'color' =>  "#C1A28B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1836,7 +1836,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 44/107",
                 'color' =>  "#BFAC9C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1846,7 +1846,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Grey Mauve",
                 'color' =>  "#BEB1AB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1856,7 +1856,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 47/057",
                 'color' =>  "#BEB1AB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1866,7 +1866,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Chic Taupe",
                 'color' =>  "#BEAFA6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1876,7 +1876,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 44/101",
                 'color' =>  "#BEA99D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1886,7 +1886,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 41/175",
                 'color' =>  "#BEA488",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1896,7 +1896,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Highland Plains",
                 'color' =>  "#BEA488",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1906,7 +1906,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Highland Plains",
                 'color' =>  "#BEA488",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1916,7 +1916,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 40/148",
                 'color' =>  "#BEA18E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1926,7 +1926,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 41/165",
                 'color' =>  "#BDA68A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1936,7 +1936,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Stonington Beige",
                 'color' =>  "#BCAE9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1946,7 +1946,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 44/114",
                 'color' =>  "#BCAE9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1956,7 +1956,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Obelisk",
                 'color' =>  "#BCAD9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1966,7 +1966,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 45/114",
                 'color' =>  "#BCAD9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1976,7 +1976,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 41/165",
                 'color' =>  "#BCA88B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1986,7 +1986,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 43/101",
                 'color' =>  "#BAA79A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1996,7 +1996,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Council Bluff",
                 'color' =>  "#BAA79A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2006,7 +2006,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brownington Court",
                 'color' =>  "#BA977C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2016,7 +2016,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brownington Court",
                 'color' =>  "#BA977C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2026,7 +2026,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 36/203",
                 'color' =>  "#BA977C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2036,7 +2036,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 42/073",
                 'color' =>  "#B9A99F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2046,7 +2046,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 41/083",
                 'color' =>  "#B7A99B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2056,7 +2056,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Montana Tan",
                 'color' =>  "#B7A78C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2066,7 +2066,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 41/152",
                 'color' =>  "#B7A78C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2076,7 +2076,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 33/175",
                 'color' =>  "#B7927F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2086,7 +2086,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 44/095",
                 'color' =>  "#B6AC9B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2096,9 +2096,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YY 43/103",
                 'color' =>  "#B5AC99",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2106,7 +2106,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 41/072",
                 'color' =>  "#B5A49D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2116,7 +2116,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pressed Rose",
                 'color' =>  "#B5A49D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2126,7 +2126,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "English Ale",
                 'color' =>  "#B5A08F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2136,7 +2136,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Glowing Brown",
                 'color' =>  "#B59F91",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2146,7 +2146,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 35/196",
                 'color' =>  "#B5987A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2156,7 +2156,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 42/083",
                 'color' =>  "#B4AA9B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2166,7 +2166,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Naughty Neutral",
                 'color' =>  "#B4A4A0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2176,7 +2176,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 40/061",
                 'color' =>  "#B4A4A0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2186,7 +2186,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YR 40/054",
                 'color' =>  "#B3A4A3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2196,7 +2196,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Palm Springs Tan",
                 'color' =>  "#B3A18C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2206,7 +2206,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 39/130",
                 'color' =>  "#B3A18C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2216,7 +2216,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 38/123",
                 'color' =>  "#B39E8C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2226,7 +2226,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 36/185",
                 'color' =>  "#B29C7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2236,7 +2236,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Surrey Beige",
                 'color' =>  "#B29C7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2246,7 +2246,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 31/160",
                 'color' =>  "#B28D80",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2256,7 +2256,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YY 43/113",
                 'color' =>  "#B1AC96",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2266,7 +2266,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sanderling",
                 'color' =>  "#B1937D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2276,7 +2276,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 33/167",
                 'color' =>  "#B1937D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2286,7 +2286,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Elegant Mud",
                 'color' =>  "#B0A290",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2296,7 +2296,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 38/107",
                 'color' =>  "#AFA490",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2306,7 +2306,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Potter's Clay",
                 'color' =>  "#AFA490",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2316,17 +2316,18 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "72031",
                 'color' =>  "#AD8D82",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "80YR 30/187",
                 'color' =>  "#AD8972",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2336,7 +2337,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Evening Thunder",
                 'color' =>  "#ABA18D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2346,7 +2347,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 37/094",
                 'color' =>  "#AB9E8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2356,7 +2357,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Heron Grey",
                 'color' =>  "#AB9E8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2366,7 +2367,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Chocolate Bubble",
                 'color' =>  "#AB9279",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2376,7 +2377,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Olive Wash",
                 'color' =>  "#AAA48F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2386,9 +2387,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 33/145",
                 'color' =>  "#AA967E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2396,7 +2397,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 31/205",
                 'color' =>  "#AA906F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2406,7 +2407,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Basketry",
                 'color' =>  "#AA906F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2416,7 +2417,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 31/135",
                 'color' =>  "#AA8E7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2426,7 +2427,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Dusty Canyon",
                 'color' =>  "#AA8E7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2436,7 +2437,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 36/094",
                 'color' =>  "#A99D8D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2446,7 +2447,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 35/094",
                 'color' =>  "#A99A8C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2456,7 +2457,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 35/060",
                 'color' =>  "#A99898",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2466,7 +2467,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Museworthy",
                 'color' =>  "#A99898",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2476,7 +2477,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 31/205",
                 'color' =>  "#A9926F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2486,7 +2487,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Taupewood",
                 'color' =>  "#A8998E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2496,7 +2497,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 34/084",
                 'color' =>  "#A8998E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2506,9 +2507,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 33/145",
                 'color' =>  "#A7967E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2516,7 +2517,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Twisted Twig",
                 'color' =>  "#A79278",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2526,7 +2527,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Violet Hush",
                 'color' =>  "#A78E8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2536,7 +2537,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 31/100",
                 'color' =>  "#A78E8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2546,7 +2547,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Ancient Tradition",
                 'color' =>  "#A78A84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2556,7 +2557,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 29/118",
                 'color' =>  "#A78A84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2566,7 +2567,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 31/131",
                 'color' =>  "#A68F7E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2576,7 +2577,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 33/118",
                 'color' =>  "#A49882",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2586,9 +2587,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Creme Brulee",
                 'color' =>  "#A38061",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2596,7 +2597,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Creme Brulee",
                 'color' =>  "#A38061",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2606,7 +2607,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 26/220",
                 'color' =>  "#A38061",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2616,7 +2617,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YY 30/192",
                 'color' =>  "#A1926E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2626,7 +2627,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 30/094",
                 'color' =>  "#A18C82",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2636,7 +2637,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Mocha Mauve",
                 'color' =>  "#A18C82",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2646,7 +2647,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Rocky Earth",
                 'color' =>  "#A1876A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2656,7 +2657,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brushwood",
                 'color' =>  "#A09180",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2666,7 +2667,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 31/106",
                 'color' =>  "#A09180",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2676,7 +2677,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 27/147",
                 'color' =>  "#A08573",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2686,7 +2687,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Noah's Ark",
                 'color' =>  "#A08573",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2696,7 +2697,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YY 33/130",
                 'color' =>  "#9E967E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2706,7 +2707,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Khaki Green",
                 'color' =>  "#9E967E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2716,7 +2717,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 29/096",
                 'color' =>  "#9E8C7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2726,7 +2727,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sweetwood",
                 'color' =>  "#9E8472",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2736,7 +2737,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 26/147",
                 'color' =>  "#9E8472",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2746,9 +2747,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YY 31/124",
                 'color' =>  "#9D937C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2756,7 +2757,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 30/106",
                 'color' =>  "#9D8E7E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2766,7 +2767,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wright Stone",
                 'color' =>  "#9D8E7E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2776,7 +2777,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 28/161",
                 'color' =>  "#9D8B70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2786,7 +2787,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pecan Tree",
                 'color' =>  "#9D8B70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2796,9 +2797,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pictured Rocks",
                 'color' =>  "#9B8987",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2806,7 +2807,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YR 28/072",
                 'color' =>  "#9B8987",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2816,7 +2817,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Heart Wood",
                 'color' =>  "#9B8987",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2826,7 +2827,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Pictured Rocks",
                 'color' =>  "#9B8987",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2836,7 +2837,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Heart Wood",
                 'color' =>  "#9B8987",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2846,7 +2847,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 20/239",
                 'color' =>  "#9B6D54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2857,9 +2858,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Padre Island",
                 'color' =>  "#9B6D54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2867,7 +2868,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Padre Island",
                 'color' =>  "#9B6D54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2877,7 +2878,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 21/226",
                 'color' =>  "#9A7259",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2888,7 +2889,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Afternoon Tea",
                 'color' =>  "#9A7259",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2898,7 +2899,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Afternoon Tea",
                 'color' =>  "#9A7259",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2908,7 +2909,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Rabbit Run",
                 'color' =>  "#998C7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2918,7 +2919,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 24/177",
                 'color' =>  "#978064",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2929,7 +2930,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Rough Hewn",
                 'color' =>  "#978064",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2939,7 +2940,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 23/184",
                 'color' =>  "#977C60",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2950,7 +2951,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 22/126",
                 'color' =>  "#957575",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2960,7 +2961,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sorrel",
                 'color' =>  "#948062",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2970,7 +2971,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 24/177",
                 'color' =>  "#948062",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2981,7 +2982,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Palo Verde",
                 'color' =>  "#918A70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2991,7 +2992,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YY 26/137",
                 'color' =>  "#918A70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3001,7 +3002,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Urban Earth",
                 'color' =>  "#908874",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3011,7 +3012,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Goldstone",
                 'color' =>  "#906A46",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3021,7 +3022,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 19/261",
                 'color' =>  "#906A46",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3032,7 +3033,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 18/184",
                 'color' =>  "#8F6C58",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3043,7 +3044,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Antique Photograph",
                 'color' =>  "#8F6C58",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3053,7 +3054,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Century Brown",
                 'color' =>  "#8D6E5A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3063,7 +3064,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 19/177",
                 'color' =>  "#8D6E5A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3074,7 +3075,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 21/118",
                 'color' =>  "#8C7567",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3085,7 +3086,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Ancient Pottery",
                 'color' =>  "#8C7567",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3095,9 +3096,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 22/129",
                 'color' =>  "#8B7A66",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -3106,7 +3107,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Centre Court",
                 'color' =>  "#8B7267",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3116,7 +3117,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 20/117",
                 'color' =>  "#8B7267",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3127,7 +3128,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Centre Court",
                 'color' =>  "#8B7267",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3137,7 +3138,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Centre Court",
                 'color' =>  "#8B7267",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3147,7 +3148,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Coffee Muffin",
                 'color' =>  "#8A7662",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3157,7 +3158,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 20/193",
                 'color' =>  "#8A7455",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3168,7 +3169,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Calm Matter",
                 'color' =>  "#8A7455",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3178,7 +3179,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 18/139",
                 'color' =>  "#8A6769",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3189,7 +3190,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 18/177",
                 'color' =>  "#896B54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3200,7 +3201,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Rosemont Hall",
                 'color' =>  "#88625A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3210,7 +3211,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 16/162",
                 'color' =>  "#88625A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3221,7 +3222,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 16/193",
                 'color' =>  "#85634E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3232,7 +3233,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "45YY 20/168",
                 'color' =>  "#847558",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3243,7 +3244,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Moss Agate",
                 'color' =>  "#847558",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3253,7 +3254,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brown Windmill",
                 'color' =>  "#826F63",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3263,7 +3264,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 17/129",
                 'color' =>  "#826A5C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3274,7 +3275,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Turret Brown",
                 'color' =>  "#826A5C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3284,7 +3285,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Lovely Camel",
                 'color' =>  "#806C65",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3294,7 +3295,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Khaki Mists",
                 'color' =>  "#7F6948",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3304,7 +3305,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 17/209",
                 'color' =>  "#7F6948",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3315,7 +3316,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Audrey's Auburn",
                 'color' =>  "#7F6359",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3325,7 +3326,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 16/127",
                 'color' =>  "#7F6359",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3336,7 +3337,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Westchester Gold",
                 'color' =>  "#7D623B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3346,7 +3347,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 15/245",
                 'color' =>  "#7D623B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3357,7 +3358,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 17/140",
                 'color' =>  "#7C6A55",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3368,7 +3369,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Thatched Cottage",
                 'color' =>  "#7C6A55",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3378,7 +3379,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Light Chocolat",
                 'color' =>  "#7C6655",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3388,7 +3389,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 16/129",
                 'color' =>  "#7C6655",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3399,7 +3400,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 15/112",
                 'color' =>  "#7C625C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3410,7 +3411,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Square Dance",
                 'color' =>  "#7C625C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3420,7 +3421,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Precious Pecan",
                 'color' =>  "#7C503A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3430,7 +3431,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Play House Plum",
                 'color' =>  "#7B6364",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3440,7 +3441,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 16/095",
                 'color' =>  "#7B6364",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3451,7 +3452,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Play House Plum",
                 'color' =>  "#7B6364",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3461,7 +3462,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Play House Plum",
                 'color' =>  "#7B6364",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3471,7 +3472,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Vintage Coins",
                 'color' =>  "#796C61",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3481,7 +3482,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Green Grove",
                 'color' =>  "#787256",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3491,7 +3492,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Green Grove",
                 'color' =>  "#787256",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3501,7 +3502,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YY 18/152",
                 'color' =>  "#787256",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3512,7 +3513,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Cottage Chocolate",
                 'color' =>  "#765B4D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3522,7 +3523,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 13/140",
                 'color' =>  "#765B4D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3533,7 +3534,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 12/263",
                 'color' =>  "#765935",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3544,7 +3545,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Olympic Bronze",
                 'color' =>  "#765935",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3554,7 +3555,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 12/263",
                 'color' =>  "#745D36",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3565,7 +3566,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Gilt Trip",
                 'color' =>  "#745D36",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3575,7 +3576,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 13/152",
                 'color' =>  "#735F49",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3586,7 +3587,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 14/201",
                 'color' =>  "#726241",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3597,7 +3598,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 10/244",
                 'color' =>  "#724D30",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3608,7 +3609,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 12/122",
                 'color' =>  "#71554E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3619,7 +3620,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Grapevine Wreath",
                 'color' =>  "#71554E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3629,7 +3630,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Birds House",
                 'color' =>  "#6F614F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3639,9 +3640,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 14/080",
                 'color' =>  "#6E6256",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -3650,7 +3651,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Coffee Infusion",
                 'color' =>  "#6D5E4D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3660,7 +3661,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Tall Trees",
                 'color' =>  "#6D5539",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3670,7 +3671,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 11/187",
                 'color' =>  "#6D5539",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3681,7 +3682,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Otter Brook",
                 'color' =>  "#6C5141",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3691,7 +3692,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 11/151",
                 'color' =>  "#6C5141",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3702,7 +3703,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "American Brownie",
                 'color' =>  "#6C4E3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3712,7 +3713,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brownie Breakfast",
                 'color' =>  "#6B5253",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3722,7 +3723,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 09/200",
                 'color' =>  "#6B5137",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3733,7 +3734,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Italian Ochre",
                 'color' =>  "#6B5137",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3743,7 +3744,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 12/163",
                 'color' =>  "#6A583E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3754,7 +3755,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 09/186",
                 'color' =>  "#6A4E36",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3765,7 +3766,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Rich Mocha",
                 'color' =>  "#6A4E36",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3775,7 +3776,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 10/151",
                 'color' =>  "#6A4A3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3786,7 +3787,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 10/151",
                 'color' =>  "#6A4A3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3797,7 +3798,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Tobacco Brown",
                 'color' =>  "#6A4A3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3807,7 +3808,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Charred Timber",
                 'color' =>  "#675750",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3817,7 +3818,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 10/119",
                 'color' =>  "#67494B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3828,7 +3829,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Woodhaven",
                 'color' =>  "#674332",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3838,7 +3839,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 08/186",
                 'color' =>  "#674332",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3849,7 +3850,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brown Mustache",
                 'color' =>  "#66554D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3859,7 +3860,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 10/151",
                 'color' =>  "#664D3B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3870,7 +3871,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Bird's Nest",
                 'color' =>  "#664D3B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3880,7 +3881,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Bronze Amulet",
                 'color' =>  "#654330",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3890,7 +3891,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 08/186",
                 'color' =>  "#654330",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3901,7 +3902,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Asian Moss",
                 'color' =>  "#645636",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3911,7 +3912,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "45YY 11/200",
                 'color' =>  "#645636",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3922,7 +3923,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 09/175",
                 'color' =>  "#645239",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3933,7 +3934,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Oak Alley",
                 'color' =>  "#645239",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3943,7 +3944,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Chocolate Muffin",
                 'color' =>  "#63584C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3953,7 +3954,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 09/175",
                 'color' =>  "#634F35",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3964,7 +3965,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Turkish Brown",
                 'color' =>  "#634F35",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3974,7 +3975,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Forest Ground",
                 'color' =>  "#625841",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3984,7 +3985,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "80YR 09/163",
                 'color' =>  "#624736",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3995,9 +3996,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YY 12/095",
                 'color' =>  "#605948",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -4006,7 +4007,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "71YR 08/119",
                 'color' =>  "#604F47",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4016,7 +4017,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Dark Melody",
                 'color' =>  "#5F5A4C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4026,7 +4027,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Touch Of Clay",
                 'color' =>  "#5F4546",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4036,7 +4037,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 07/162",
                 'color' =>  "#5E3E32",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4047,7 +4048,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Chippendale",
                 'color' =>  "#5E3E32",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4057,7 +4058,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Fudge Cookie",
                 'color' =>  "#5E3B34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4067,7 +4068,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YR 07/157",
                 'color' =>  "#5E3B34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4078,9 +4079,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 11/076",
                 'color' =>  "#5D5447",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -4089,7 +4090,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 08/129",
                 'color' =>  "#5D3E3F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4100,7 +4101,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sublime Pencil",
                 'color' =>  "#5B5A58",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4110,7 +4111,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Bark",
                 'color' =>  "#5B4A41",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4120,7 +4121,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 09/086",
                 'color' =>  "#5B4A41",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4131,7 +4132,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Authentic Brown",
                 'color' =>  "#5B4941",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4141,7 +4142,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 09/086",
                 'color' =>  "#5B4941",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4152,7 +4153,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Forest Floor",
                 'color' =>  "#5A5335",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4162,7 +4163,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YY 09/175",
                 'color' =>  "#5A5335",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4173,7 +4174,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Hilarious Henna",
                 'color' =>  "#5A4A3D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4183,7 +4184,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Babbitt Brown",
                 'color' =>  "#5A3732",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4193,7 +4194,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "13YR 07/157",
                 'color' =>  "#5A3732",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4204,7 +4205,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Babbitt Brown",
                 'color' =>  "#5A3732",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4214,7 +4215,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Slate Brown",
                 'color' =>  "#594B3F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4224,7 +4225,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 09/087",
                 'color' =>  "#594B3F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4235,7 +4236,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Elegant Leather",
                 'color' =>  "#57453E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4245,7 +4246,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YR 07/125",
                 'color' =>  "#573A38",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4256,9 +4257,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 08/093",
                 'color' =>  "#54473B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -4267,7 +4268,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70RR 07/100",
                 'color' =>  "#533A3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4278,9 +4279,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 08/082",
                 'color' =>  "#52483B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -4289,7 +4290,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Luxurious Chocolate",
                 'color' =>  "#52463B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4299,7 +4300,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 07/093",
                 'color' =>  "#503E37",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4310,7 +4311,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Chocolate Kiss",
                 'color' =>  "#503E37",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4320,7 +4321,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Deep Brown",
                 'color' =>  "#4E3D34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4330,7 +4331,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 07/093",
                 'color' =>  "#4E3D34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4341,7 +4342,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "48YR 06/091",
                 'color' =>  "#4E3A34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4352,7 +4353,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Cocoa Mousse",
                 'color' =>  "#4E3A34",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4362,7 +4363,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 06/100",
                 'color' =>  "#4D4033",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4373,7 +4374,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 07/093",
                 'color' =>  "#4D3F33",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4384,7 +4385,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Distant Land",
                 'color' =>  "#4D3F33",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4394,7 +4395,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Gorgeous Oak",
                 'color' =>  "#4A423A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4404,7 +4405,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 06/081",
                 'color' =>  "#4A3832",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4415,7 +4416,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YY 07/093",
                 'color' =>  "#484737",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4426,7 +4427,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Tarragon Glory",
                 'color' =>  "#484737",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4436,7 +4437,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Scottsdale Brown",
                 'color' =>  "#482E32",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4446,7 +4447,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Espadrille",
                 'color' =>  "#453432",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4456,7 +4457,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "18YR 05/072",
                 'color' =>  "#453432",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4467,7 +4468,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 83/057",
                 'color' =>  "#F0E8DD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4477,7 +4478,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Moths Dust",
                 'color' =>  "#EFE7DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4487,7 +4488,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Chiffon Drape",
                 'color' =>  "#ECE5DF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4497,7 +4498,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "99YR 82/029",
                 'color' =>  "#EAE5DE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4507,7 +4508,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wings Of A Dove",
                 'color' =>  "#DFDBDA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4517,7 +4518,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10RR 73/016",
                 'color' =>  "#DFDBDA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4527,7 +4528,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 73/015",
                 'color' =>  "#DED9D6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4537,7 +4538,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Spacious Feeling",
                 'color' =>  "#DBD7D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4547,17 +4548,18 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70317",
                 'color' =>  "#DAD7D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "00YY 65/060",
                 'color' =>  "#D9CEC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4567,7 +4569,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 68/024",
                 'color' =>  "#D8D4CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4577,7 +4579,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Barley Beige",
                 'color' =>  "#D8D4CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4587,9 +4589,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Barley Beige",
                 'color' =>  "#D8D4CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -4597,7 +4599,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Brave Beige",
                 'color' =>  "#D8CBC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4607,7 +4609,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 64/025",
                 'color' =>  "#D5CECD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4617,7 +4619,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Greystone",
                 'color' =>  "#D5CECD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4627,7 +4629,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Unicorn White",
                 'color' =>  "#D5CCC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4637,9 +4639,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Unicorn White",
                 'color' =>  "#D5CCC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -4647,7 +4649,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 64/048",
                 'color' =>  "#D5CCC4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4657,7 +4659,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YY 63/041",
                 'color' =>  "#D2CFC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4667,7 +4669,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Designer Grey",
                 'color' =>  "#D2CFC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4677,7 +4679,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wayside Inn",
                 'color' =>  "#D2CDC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4687,7 +4689,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00YY 63/024",
                 'color' =>  "#D2CDC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4697,7 +4699,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Stone Sensation",
                 'color' =>  "#D2CABF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4707,7 +4709,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "City Life",
                 'color' =>  "#CECCC3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4717,7 +4719,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Whiter Shade",
                 'color' =>  "#CDCBC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4727,7 +4729,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 62/008",
                 'color' =>  "#CDCBC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4737,7 +4739,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Nougat Walls",
                 'color' =>  "#CDC0B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4747,7 +4749,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 56/049",
                 'color' =>  "#C9BDB7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4757,7 +4759,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 54/034",
                 'color' =>  "#C5BFB9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4767,7 +4769,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Roma Haze",
                 'color' =>  "#C5BFB9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4777,7 +4779,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 54/028",
                 'color' =>  "#C5BEBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4787,7 +4789,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Mcclendon's Pass",
                 'color' =>  "#C5BEBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4797,7 +4799,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50RR 54/018",
                 'color' =>  "#C4C0C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4807,7 +4809,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Urban Natural",
                 'color' =>  "#C4C0C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4817,7 +4819,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Grey Feather",
                 'color' =>  "#C4BDB0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4827,7 +4829,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 51/084",
                 'color' =>  "#C1B8A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4837,7 +4839,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Burmese Beige",
                 'color' =>  "#C1B8A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4847,7 +4849,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Burmese Beige",
                 'color' =>  "#C1B8A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4857,7 +4859,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Light Taupe",
                 'color' =>  "#C0B4AB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4867,7 +4869,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90YR 48/062",
                 'color' =>  "#C0B4AB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4877,7 +4879,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 53/011",
                 'color' =>  "#BEBCBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4887,7 +4889,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Silver Shores",
                 'color' =>  "#BEBCBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4897,7 +4899,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Silver Shores",
                 'color' =>  "#BEBCBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4907,7 +4909,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Smoky Sensation",
                 'color' =>  "#BEB4B1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4917,7 +4919,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Gathering Dusk",
                 'color' =>  "#BDB1A6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4927,7 +4929,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 46/041",
                 'color' =>  "#BAB3AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4937,7 +4939,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Chinchilla White",
                 'color' =>  "#BAB3AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4947,7 +4949,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Zeppelin",
                 'color' =>  "#B7B3AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4957,7 +4959,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 46/036",
                 'color' =>  "#B7B3AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4967,7 +4969,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Evolving Rocks",
                 'color' =>  "#B7AFA4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -4977,7 +4979,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 43/083",
                 'color' =>  "#B6AB9D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4987,7 +4989,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Scroll Beige",
                 'color' =>  "#B6AB9D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -4997,7 +4999,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 45/014",
                 'color' =>  "#B1AEAC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5007,7 +5009,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wood Smoke",
                 'color' =>  "#B0AAA0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5017,9 +5019,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wood Smoke",
                 'color' =>  "#B0AAA0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -5027,7 +5029,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 41/054",
                 'color' =>  "#B0AAA0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5037,7 +5039,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 38/017",
                 'color' =>  "#A5A2A0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5047,7 +5049,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Silver Pendant",
                 'color' =>  "#A19B98",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5057,7 +5059,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Clay Mould",
                 'color' =>  "#A1948C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5067,7 +5069,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "60YR 33/047",
                 'color' =>  "#A09591",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5077,7 +5079,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50RR 32/029",
                 'color' =>  "#9F9899",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5087,7 +5089,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Fog Grey",
                 'color' =>  "#9F9899",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5097,7 +5099,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 33/047",
                 'color' =>  "#9E9890",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5107,7 +5109,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Urban Road",
                 'color' =>  "#9E9890",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5117,7 +5119,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Taupe Tower",
                 'color' =>  "#9D948B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5127,7 +5129,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 27/060",
                 'color' =>  "#92897F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5137,7 +5139,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 26/023",
                 'color' =>  "#8D8885",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5147,7 +5149,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Cobbled Grey",
                 'color' =>  "#867E7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5157,7 +5159,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Stoney Dream",
                 'color' =>  "#857A74",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5167,7 +5169,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 22/052",
                 'color' =>  "#857873",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5177,7 +5179,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Clay Oven",
                 'color' =>  "#847B72",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5187,7 +5189,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Grey Suede",
                 'color' =>  "#817B73",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5197,7 +5199,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 22/059",
                 'color' =>  "#817B72",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5207,7 +5209,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wet Granite",
                 'color' =>  "#807A7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5217,7 +5219,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wet Granite",
                 'color' =>  "#807A7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5227,7 +5229,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30RR 22/031",
                 'color' =>  "#807A7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5237,7 +5239,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Wet Granite",
                 'color' =>  "#807A7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5247,7 +5249,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 20/029",
                 'color' =>  "#7D7974",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5258,7 +5260,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Tangling Clay",
                 'color' =>  "#786D60",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5268,7 +5270,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Grey Gimmick",
                 'color' =>  "#6E6867",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5278,7 +5280,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Sacred Grey",
                 'color' =>  "#6C6965",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5288,7 +5290,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Stone Road",
                 'color' =>  "#6C645F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5298,7 +5300,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 14/070",
                 'color' =>  "#696155",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5309,7 +5311,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Generous Grey",
                 'color' =>  "#676162",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5319,7 +5321,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 13/032",
                 'color' =>  "#66605C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5330,7 +5332,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Midnite Hour",
                 'color' =>  "#66605C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5340,7 +5342,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Steel Shadows",
                 'color' =>  "#5F5654",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5350,7 +5352,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "00NN 13/000",
                 'color' =>  "#555656",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5361,7 +5363,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Dark Desert",
                 'color' =>  "#54494B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5371,7 +5373,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Storm Bird",
                 'color' =>  "#53504D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5381,7 +5383,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 10/038",
                 'color' =>  "#534F49",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5392,7 +5394,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Thick Smoke",
                 'color' =>  "#514C47",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5402,7 +5404,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Dazzling Darkness",
                 'color' =>  "#4F4E49",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5412,7 +5414,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 08/107",
                 'color' =>  "#4F4532",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5423,7 +5425,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30RR 08/044",
                 'color' =>  "#4E4448",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5434,7 +5436,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Coal Crush",
                 'color' =>  "#4D4A4A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5444,7 +5446,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "50YR 08/038",
                 'color' =>  "#4A413E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5455,7 +5457,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Manor House",
                 'color' =>  "#4A413E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5466,7 +5468,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Manor House",
                 'color' =>  "#4A413E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5477,7 +5479,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Charcoal Choice",
                 'color' =>  "#48433F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5487,7 +5489,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "Night Intensity",
                 'color' =>  "#41393B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -5497,7 +5499,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 05/044",
                 'color' =>  "#3F3934",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -5508,7 +5510,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "30YY 70/120",
                 'color' =>  "#E3D5C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -5518,7 +5520,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "10YY 68/110",
                 'color' =>  "#E3D1BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -5528,7 +5530,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "40YY 67/087",
                 'color' =>  "#DDD3C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -5538,7 +5540,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70YR 65/054",
                 'color' =>  "#DBCEC6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -5548,17 +5550,18 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "70317",
                 'color' =>  "#DAD7D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "30YY 60/104",
                 'color' =>  "#D3C6B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -5568,9 +5571,9 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "20YY 43/200",
                 'color' =>  "#C5AA88",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -5578,7 +5581,7 @@ class ColorLandSeeder extends Seeder
             [
                 'name' =>  "90RR 49/061",
                 'color' =>  "#C3B2B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  12,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,

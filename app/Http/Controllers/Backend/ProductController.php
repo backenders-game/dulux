@@ -8,37 +8,19 @@ use App\Http\Controllers\Controller;
 use DataTables;
 use DB;
 use App\Models\Product;
+use App\Models\Category;
+use App\Models\Property;
+use App\Models\Color;
+use App\Models\FinishSurface;
+use App\Models\Surface;
+use App\Models\ColorGroup;
+use App\Models\ProjectType;
 use Illuminate\Support\Facades\Storage;
-use App\Repositories\Backend\ProductRepository;
-use App\Repositories\Backend\CategoryRepository;
-use App\Repositories\Backend\PropertyRepository;
-use App\Repositories\Backend\ColorGroupRepository;
-use App\Repositories\Backend\ColorRepository;
-use App\Repositories\Backend\FinishSurfaceRepository;
-use App\Repositories\Backend\SurfaceRepository;
-use App\Repositories\Backend\ProjectTypeRepository;
 
 class ProductController extends Controller
 {
-    public function __construct(
-        ProductRepository $productRepository,
-        CategoryRepository $categoryRepository,
-        PropertyRepository $propertyRepository,
-        ColorGroupRepository $colorGroupRepository,
-        ColorRepository $colorRepository,
-        FinishSurfaceRepository $finishSurfaceRepository,
-        SurfaceRepository $surfaceRepository,
-        ProjectTypeRepository $projectTypeRepository
-    )
+    public function __construct ()
     {
-        $this->productRepository = $productRepository;
-        $this->categoryRepository = $categoryRepository;
-        $this->propertyRepository = $propertyRepository;
-        $this->colorGroupRepository = $colorGroupRepository;
-        $this->colorRepository = $colorRepository;
-        $this->finishSurfaceRepository = $finishSurfaceRepository;
-        $this->surfaceRepository = $surfaceRepository;
-        $this->projectTypeRepository = $projectTypeRepository;
     }
     /**
      * Display a listing of the resource.
@@ -62,13 +44,13 @@ class ProductController extends Controller
      */
     public function create()
     {
-        $properties = $this->propertyRepository->all()->toArray();
-        $categories = $this->categoryRepository->where('type', 0)->get();
-        $finishSurfaces = $this->finishSurfaceRepository->all();
-        $colorGroups = $this->colorGroupRepository->all();
-        $surfaces = $this->surfaceRepository->all();
-        $projectTypes = $this->projectTypeRepository->all();
-        $colors = $this->colorRepository->all();
+        $properties = Property::get()->toArray();
+        $categories = Category::where('type', 0)->get();
+        $finishSurfaces = FinishSurface::get();
+        $colorGroups = ColorGroup::get();
+        $surfaces = Surface::get();
+        $projectTypes = ProjectType::get();
+        $colors = Color::get();
         return view('backend.product.create', [
             'properties' => $properties,
             'categories' => $categories,
@@ -90,6 +72,10 @@ class ProductController extends Controller
     {
         try {
             $inputs = $request->all();
+            $inputs['colors'] = explode(',', $inputs['colors']);
+            for ($i = 0; $i < count($inputs['colors']); $i++) {
+                $inputs['colors'][$i] = intval($inputs['colors'][$i]);
+            }
             DB::beginTransaction();
             $productData = [
                 'name' => $inputs['name'],
@@ -111,15 +97,16 @@ class ProductController extends Controller
                     $productData['img_path'] = $imgPath;
                 }
             }
-            $product = $this->productRepository->create($productData);
+            $product = Product::create($productData);
             if ($product) {
                 $product->properties()->sync($inputs['properties']);
-                // $products->colors()->sync($inputs['colors']);
+                $product->colors()->sync($inputs['colors']);
             }
             DB::commit();
             return redirect()->route('admin.products.index');
         } catch (\Exception $e) {
             DB::rollBack();
+            dd($e);
             return redirect()->back();
         }
     }
@@ -151,13 +138,13 @@ class ProductController extends Controller
                 // foreach($product->properties as $prop) {
                 //     $categoriesproductProperties[] = $prop->id;
                 // }
-                $properties = $this->propertyRepository->all()->toArray();
-                $categories = $this->categoryRepository->where('type', 0)->get();
-                $finishSurfaces = $this->finishSurfaceRepository->all();
-                $colorGroups = $this->colorGroupRepository->all();
-                $surfaces = $this->surfaceRepository->all();
-                $projectTypes = $this->projectTypeRepository->all();
-                $colors = $this->colorRepository->all();
+                $properties = Property::get()->toArray();
+                $categories = Category::where('type', 0)->get();
+                $finishSurfaces = FinishSurface::get();
+                $colorGroups = ColorGroup::get();
+                $surfaces = Surface::get();
+                $projectTypes = ProjectType::get();
+                $colors = Color::get();
                 return view('backend.product.edit', [
                     'properties' => $properties,
                     'categories' => $categories,

@@ -139,7 +139,7 @@ class FindColorController extends Controller
                 if ($inputs['filters']) {
                     $this->saveFilters($inputs['filters']);
                 }
-                $groupId = isset($inputs['filters']['group_id']) ? $inputs['filters']['group_id'] : 0;
+                $groupId = isset($inputs['filters']['group_id']) ? $inputs['filters']['group_id'] : 1;
                 $finishSurfaceId = isset($inputs['filters']['finish_id']) ? $inputs['filters']['finish_id'] : 0;
                 $surfaceIds = isset($inputs['filters']['surfaces_id']) ? $inputs['filters']['surfaces_id'] : 0;
                 $projectTypeId = isset($inputs['filters']['project_id']) ? $inputs['filters']['project_id'] : 0;

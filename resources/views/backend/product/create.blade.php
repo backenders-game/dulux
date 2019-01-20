@@ -356,6 +356,35 @@
                 if (colorGroupGrid) {
                     $(colorGroupGrid).removeClass('d-none');
                 }
+                $('#select_all_colors').prop('checked', false);
+            }
+        });
+        $('#select_all_colors').on('change', function (e) {
+            if ($(this).is(':checked')) {
+                let selectedClrGrp = $('#select_colorgroup').val();
+                if (selectedClrGrp) {
+                    let colorGroupGrid = $('.color_group_grid_' + selectedClrGrp);
+                    if (colorGroupGrid) {
+                        $(colorGroupGrid).find('.color-item').each((idx, item) => {
+                            let parent = $(item).parent().parent();
+
+                            if (!$(item).is(':checked') && !$(parent).hasClass('d-none')) {
+
+                                $(item).prop('checked', true);
+                                let checkValue = $(item).val();
+                                if (!selectedColors.includes(checkValue)) {
+                                    selectedColors.push(checkValue);
+                                }
+                            }
+                        });
+                        $('#list_selected_colors').val(selectedColors.toString());
+                        if (selectedColors.length) {
+                            $('#num_selected_colors').html('Có ' + selectedColors.length + ' màu đã được chọn.')
+                        } else {
+                            $('#num_selected_colors').html('Không có màu nào được chọn');
+                        }
+                    }
+                }
             }
         });
         $('.color-item').on('change', function (e) {
@@ -385,20 +414,41 @@
                 e.preventDefault();
             } else {
                 let keyword = $(this).val();
+                if (keyword.indexOf(',') !== -1) {
+                    keyword = keyword.split(',');
+                    keyword = keyword.map((key) => {
+                        return key.trim().toLowerCase()
+                    })
+                }
+                console.log(keyword);
                 let selectedColorGroupId = $('#select_colorgroup').val();
                 if (typeof keyword === 'string' && keyword.trim() !== '') {
                     keyword = keyword.toLowerCase();
+                    keyword = keyword.trim();
                     $('.color_group_grid_' + selectedColorGroupId)
-                            .find('.color-box-item').each((idx, item) => {
-                                let colorName = $(item).data('id');
-
-                                if(!colorName || colorName.toLowerCase().indexOf(keyword) == -1) {
-                                    $(item).addClass('d-none');
-                                } else {
-                                    console.log(colorName.toLowerCase().indexOf(keyword))
-                                    $(item).removeClass('d-none');
-                                }
-                            });
+                        .find('.color-box-item').each((idx, item) => {
+                            let colorName = $(item).data('id');
+                            colorName = '' + colorName;
+                            colorName = colorName.toLowerCase();
+                            if(!colorName || colorName.indexOf(keyword) == -1) {
+                                $(item).addClass('d-none');
+                            } else {
+                                console.log(colorName.toLowerCase().indexOf(keyword))
+                                $(item).removeClass('d-none');
+                            }
+                        });
+                } else if (Array.isArray(keyword)) {
+                    $('.color_group_grid_' + selectedColorGroupId)
+                        .find('.color-box-item').each((idx, item) => {
+                            let colorName = $(item).data('id');
+                            colorName = '' + colorName;
+                            colorName = colorName.toLowerCase();
+                            if(!colorName || !keyword.includes(colorName)) {
+                                $(item).addClass('d-none');
+                            } else {
+                                $(item).removeClass('d-none');
+                            }
+                        })
                 } else {
                     if(selectedColorGroupId) {
                         $('.color_group_grid_' + selectedColorGroupId)
@@ -406,6 +456,7 @@
                                 $(item).removeClass('d-none');
                             });
                     }
+
                 }
             }
         });

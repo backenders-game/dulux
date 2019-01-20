@@ -16,7 +16,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Apricot Morning",
                 'color' =>  "#FFD997",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -26,7 +26,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 70/365",
                 'color' =>  "#FFD090",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -36,7 +36,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Wispy Peach",
                 'color' =>  "#FFD090",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -46,7 +46,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Butternut Babe",
                 'color' =>  "#FFCF95",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -56,7 +56,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Golden Day",
                 'color' =>  "#FFCF73",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -66,7 +66,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 71/474",
                 'color' =>  "#FFCF73",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -76,7 +76,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Dazzling Dunes",
                 'color' =>  "#FFCF6E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -86,7 +86,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 70/455",
                 'color' =>  "#FFCE7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -96,7 +96,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Lovely Lisa",
                 'color' =>  "#FFCE7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -106,7 +106,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "29YY 66/537",
                 'color' =>  "#FFCA69",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -116,7 +116,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 64/633",
                 'color' =>  "#FFC247",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -126,9 +126,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "23YY 61/631",
                 'color' =>  "#FFC04D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -137,7 +137,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "28YY 63/746",
                 'color' =>  "#FFBE31",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -148,7 +148,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Aztec Sunrise",
                 'color' =>  "#FFBA35",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -158,7 +158,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Royal Gold",
                 'color' =>  "#FFBA1F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -168,7 +168,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "23YY 62/816",
                 'color' =>  "#FFBA1F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -179,7 +179,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 56/625",
                 'color' =>  "#FFB549",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -190,7 +190,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "09YY 57/689",
                 'color' =>  "#FFAF3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -201,7 +201,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Harvest Flame",
                 'color' =>  "#FFAF3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -211,7 +211,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Sun God",
                 'color' =>  "#FFA405",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -221,7 +221,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "06YY 49/797",
                 'color' =>  "#FFA405",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -232,7 +232,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Saffron Dilution",
                 'color' =>  "#FEE1BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -242,7 +242,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Summer Sentiment",
                 'color' =>  "#FEDFA1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -252,7 +252,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 74/372",
                 'color' =>  "#FED58F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -262,7 +262,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Supernova",
                 'color' =>  "#FEAB13",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -272,7 +272,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "19YY 51/758",
                 'color' =>  "#FEAB13",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -283,7 +283,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Gas Flame",
                 'color' =>  "#FEA93A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -293,7 +293,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Northern Sunrise",
                 'color' =>  "#FDD29B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -303,7 +303,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "32YY 73/398",
                 'color' =>  "#FDD28D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -313,7 +313,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "27YY 68/470",
                 'color' =>  "#FDCB77",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -323,7 +323,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Saffron Sensation",
                 'color' =>  "#FDC582",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -333,7 +333,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Tropical Mango",
                 'color' =>  "#FDBA61",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -343,7 +343,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "12YY 61/523",
                 'color' =>  "#FDBA61",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -354,7 +354,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "24YY 64/523",
                 'color' =>  "#FCC367",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -364,7 +364,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "21YY 60/577",
                 'color' =>  "#FCBB58",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -375,7 +375,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Del Sol",
                 'color' =>  "#FCBB58",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -385,7 +385,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Organic Orange",
                 'color' =>  "#FCAE63",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -395,7 +395,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Lush Lightbulb",
                 'color' =>  "#FBE3BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -405,9 +405,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 78/232",
                 'color' =>  "#FBDCB1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -415,9 +415,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 79/240",
                 'color' =>  "#FBDCAE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -425,7 +425,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Glow Delight",
                 'color' =>  "#FBD388",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -435,7 +435,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "22YY 71/347",
                 'color' =>  "#FBD295",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -445,7 +445,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "13YY 60/475",
                 'color' =>  "#FBBD71",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -455,7 +455,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Fresca",
                 'color' =>  "#FBBD71",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -465,7 +465,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Bajan Sands",
                 'color' =>  "#FBB847",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -475,7 +475,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Topaz Sparkle",
                 'color' =>  "#FBB758",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -485,7 +485,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Space Sensation",
                 'color' =>  "#FAEBD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -495,7 +495,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Streetlamp Glow",
                 'color' =>  "#FAE8D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -505,7 +505,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Uplifting",
                 'color' =>  "#FADEAE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -515,7 +515,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "38YY 81/256",
                 'color' =>  "#FADEAE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -525,7 +525,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 78/269",
                 'color' =>  "#FADEAA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -535,7 +535,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Newborn",
                 'color' =>  "#FADEAA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -545,7 +545,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "27YY 78/255",
                 'color' =>  "#FADBAF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -555,7 +555,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Peaches And Cream",
                 'color' =>  "#FADBAF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -565,9 +565,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "37YY 78/312",
                 'color' =>  "#FADAA1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -575,7 +575,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Autumn Dawn",
                 'color' =>  "#FAD9AF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -585,7 +585,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Summer Feeling",
                 'color' =>  "#FAD587",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -595,9 +595,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "17YY 65/420",
                 'color' =>  "#FAC681",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -605,7 +605,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "17YY 56/627",
                 'color' =>  "#FAB248",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -616,7 +616,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "46YY 86/166",
                 'color' =>  "#F9E9CB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -626,9 +626,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "41YY 83/214",
                 'color' =>  "#F9E3BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -636,7 +636,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Pancake Parade",
                 'color' =>  "#F9DFAD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -646,7 +646,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 61/475",
                 'color' =>  "#F9BF70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -656,9 +656,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "08YY 56/528",
                 'color' =>  "#F9B462",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -667,7 +667,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "45YY 83/187",
                 'color' =>  "#F8E5C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -677,7 +677,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 81/233",
                 'color' =>  "#F8DEB1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -687,7 +687,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Peach Calling",
                 'color' =>  "#F8DCBB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -697,9 +697,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "45YY 71/426",
                 'color' =>  "#F8D483",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -707,7 +707,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 49/757",
                 'color' =>  "#F8AF1C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -718,7 +718,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Golden Sun",
                 'color' =>  "#F8AF1C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -728,7 +728,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "04YY 51/583",
                 'color' =>  "#F8A850",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -739,17 +739,18 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "76419",
                 'color' =>  "#F7CF92",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Mango Sensation",
                 'color' =>  "#F7B260",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -759,7 +760,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "12YY 51/682",
                 'color' =>  "#F7A835",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -770,7 +771,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Nemo Stripe",
                 'color' =>  "#F79A38",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -780,7 +781,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "28YY 86/106",
                 'color' =>  "#F6E9D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -790,7 +791,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Ivory Palace",
                 'color' =>  "#F6E8CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -800,7 +801,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "45YY 83/125",
                 'color' =>  "#F6E8CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -810,9 +811,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "40YY 83/129",
                 'color' =>  "#F6E7CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -820,7 +821,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Gold Hint",
                 'color' =>  "#F6E5D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -830,7 +831,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 81/174",
                 'color' =>  "#F6E4BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -840,7 +841,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Caramel Hint",
                 'color' =>  "#F6E0C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -850,7 +851,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Clever Clay",
                 'color' =>  "#F6CEA2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -860,7 +861,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Shell White Rum",
                 'color' =>  "#F5E9D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -870,7 +871,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "44YY 80/106",
                 'color' =>  "#F5E9D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -880,7 +881,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Currier Creme",
                 'color' =>  "#F5E8D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -890,7 +891,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "40YY 83/107",
                 'color' =>  "#F5E8D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -900,7 +901,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 83/103",
                 'color' =>  "#F5E6D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -910,7 +911,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "French Cream",
                 'color' =>  "#F5E6D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -920,7 +921,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "First Light",
                 'color' =>  "#F5E5C7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -930,7 +931,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "39YY 85/156",
                 'color' =>  "#F5E5C7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -940,9 +941,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "19YY 83/140",
                 'color' =>  "#F5E2C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -950,7 +951,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Bamboo Shoot",
                 'color' =>  "#F5E1BE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -960,7 +961,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 81/177",
                 'color' =>  "#F5E1BE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -970,7 +971,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "White Tangerine",
                 'color' =>  "#F5D6B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -980,7 +981,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Elegant Easter",
                 'color' =>  "#F5B700",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -990,7 +991,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Pure Light",
                 'color' =>  "#F4EAD1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1000,7 +1001,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Sugared Almond",
                 'color' =>  "#F4E9D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1010,7 +1011,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "42YY 84/095",
                 'color' =>  "#F4E9D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1020,7 +1021,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 85/108",
                 'color' =>  "#F4E7CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1030,7 +1031,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Coconut Milk",
                 'color' =>  "#F4E7CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1040,7 +1041,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "50YY 83/143",
                 'color' =>  "#F4E6C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1050,7 +1051,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "40YY 79/168",
                 'color' =>  "#F4E1C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1060,7 +1061,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Summertime Medley",
                 'color' =>  "#F4C272",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1070,9 +1071,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "97YR 44/642",
                 'color' =>  "#F49839",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1081,9 +1082,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "50YY 83/114",
                 'color' =>  "#F3E7CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1091,7 +1092,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 81/123",
                 'color' =>  "#F3E5CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1101,7 +1102,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Ivory Fresco",
                 'color' =>  "#F3E5CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1111,7 +1112,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 77/125",
                 'color' =>  "#F3DEC8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1121,7 +1122,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Warm Peach",
                 'color' =>  "#F3DEC8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1131,7 +1132,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Orange Parade",
                 'color' =>  "#F3C49B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1141,7 +1142,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 57/441",
                 'color' =>  "#F3BA6F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1152,7 +1153,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Glorious",
                 'color' =>  "#F3BA6F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1162,7 +1163,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "05YY 42/727",
                 'color' =>  "#F3951B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1172,7 +1173,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Marigold Blossom",
                 'color' =>  "#F3951B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1182,7 +1183,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Reflected Sunlight",
                 'color' =>  "#F2DEBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1192,7 +1193,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 65/285",
                 'color' =>  "#F2C89B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1202,7 +1203,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Manchester Morn",
                 'color' =>  "#F2C89B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1212,7 +1213,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Day Star",
                 'color' =>  "#F1C184",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1222,7 +1223,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 62/353",
                 'color' =>  "#F1C184",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1232,7 +1233,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Warm Gold",
                 'color' =>  "#F1BC59",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1242,7 +1243,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 59/533",
                 'color' =>  "#F1BC59",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1252,7 +1253,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Fire's Glow",
                 'color' =>  "#F1AA4A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1262,7 +1263,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "25YY 50/592",
                 'color' =>  "#F1AA4A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1273,7 +1274,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Explosive Orange",
                 'color' =>  "#F18517",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1283,7 +1284,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 67/213",
                 'color' =>  "#EFCFAD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1293,7 +1294,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Orient Scent",
                 'color' =>  "#EFC89B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1303,9 +1304,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 61/431",
                 'color' =>  "#EFC076",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1313,7 +1314,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Caramel Cookie",
                 'color' =>  "#EEBF8B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1323,7 +1324,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 57/377",
                 'color' =>  "#EEBA7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1333,7 +1334,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 53/423",
                 'color' =>  "#EDB370",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1343,7 +1344,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 57/299",
                 'color' =>  "#ECBA8B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1353,7 +1354,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 50/469",
                 'color' =>  "#EBAE62",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1364,7 +1365,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Mississippi Moon",
                 'color' =>  "#EBAE62",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1374,9 +1375,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "01YY 36/694",
                 'color' =>  "#EB8621",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 8,],
@@ -1384,7 +1385,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 58/423",
                 'color' =>  "#EABE73",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1394,7 +1395,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Appealing Potatoe",
                 'color' =>  "#EAB45D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1404,7 +1405,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Autumn Squash",
                 'color' =>  "#E8A553",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1414,7 +1415,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 46/515",
                 'color' =>  "#E8A553",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1425,7 +1426,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 49/562",
                 'color' =>  "#E6AF47",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1436,7 +1437,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 49/387",
                 'color' =>  "#E6A96F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1446,7 +1447,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Country Curry",
                 'color' =>  "#E6A96F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1456,7 +1457,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Winter Squash",
                 'color' =>  "#E39931",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1466,7 +1467,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 40/608",
                 'color' =>  "#E39931",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1477,7 +1478,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Treacle Twist",
                 'color' =>  "#E3901A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1487,9 +1488,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "40YY 48/750",
                 'color' =>  "#E2AE00",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1498,7 +1499,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Fireside Glow",
                 'color' =>  "#E19000",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1508,7 +1509,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Whiskers",
                 'color' =>  "#E09851",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1518,7 +1519,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 41/475",
                 'color' =>  "#E09851",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1529,7 +1530,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 37/654",
                 'color' =>  "#E09321",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1540,7 +1541,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Dune Surfing",
                 'color' =>  "#DCA440",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1550,7 +1551,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 34/700",
                 'color' =>  "#D98C1D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1561,7 +1562,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Pumpkin Face",
                 'color' =>  "#D88A30",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1571,7 +1572,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 34/562",
                 'color' =>  "#D88A30",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1582,7 +1583,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Hot Mustard",
                 'color' =>  "#D79413",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1592,7 +1593,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 34/700",
                 'color' =>  "#D79413",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1603,7 +1604,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Golden Amber",
                 'color' =>  "#CE8121",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1613,7 +1614,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 28/650",
                 'color' =>  "#CE8121",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1624,7 +1625,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Apple Love",
                 'color' =>  "#CB983B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1634,7 +1635,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 27/600",
                 'color' =>  "#C88326",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1645,7 +1646,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Dutch Gold",
                 'color' =>  "#C88326",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1655,7 +1656,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "40YY 77/242",
                 'color' =>  "#F8DFB2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1665,7 +1666,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Summer Haze",
                 'color' =>  "#F6EBD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1675,7 +1676,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "44YY 87/118",
                 'color' =>  "#F6EBD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1685,7 +1686,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Clean Apricot",
                 'color' =>  "#F6E5D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1695,7 +1696,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Sugar Sand",
                 'color' =>  "#F6D8B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1705,7 +1706,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 74/192",
                 'color' =>  "#F6D8B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1715,7 +1716,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 78/146",
                 'color' =>  "#F5DEC5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1725,7 +1726,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 83/100",
                 'color' =>  "#F4E7D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1735,7 +1736,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 77/169",
                 'color' =>  "#F4DDBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1745,7 +1746,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Lis Creme",
                 'color' =>  "#F4DDBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1755,7 +1756,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 74/192",
                 'color' =>  "#F4D8B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1765,7 +1766,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 77/128",
                 'color' =>  "#F3DFC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1775,7 +1776,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Clay Tones",
                 'color' =>  "#F2E6DB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1785,7 +1786,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 80/088",
                 'color' =>  "#F0E3D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1795,7 +1796,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 76/104",
                 'color' =>  "#F0DECC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1805,7 +1806,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 75/145",
                 'color' =>  "#F0DEC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1815,7 +1816,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Macadamia White",
                 'color' =>  "#F0DEC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1825,7 +1826,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 64/331",
                 'color' =>  "#F0CB90",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1835,7 +1836,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 69/216",
                 'color' =>  "#EFD5AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1845,7 +1846,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 65/285",
                 'color' =>  "#EFC898",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1855,7 +1856,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Indian Corn",
                 'color' =>  "#EFC898",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1865,7 +1866,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Nature Call",
                 'color' =>  "#EDE1D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1875,7 +1876,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "35YY 63/346",
                 'color' =>  "#EDC786",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1885,7 +1886,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Mustard Sky",
                 'color' =>  "#ECDFCA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1895,7 +1896,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "40YY 76/112",
                 'color' =>  "#ECDFCA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1905,7 +1906,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Toffee Nougat",
                 'color' =>  "#ECD5AF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1915,7 +1916,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 74/121",
                 'color' =>  "#EBDBC5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1925,7 +1926,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 71/156",
                 'color' =>  "#EBD4B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1935,7 +1936,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Muted Mustard",
                 'color' =>  "#EBC68E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1945,7 +1946,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 53/423",
                 'color' =>  "#EBB76F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1955,7 +1956,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 63/258",
                 'color' =>  "#EAC79C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1965,7 +1966,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Indian Legend",
                 'color' =>  "#E9DBC5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1975,7 +1976,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "38YY 72/117",
                 'color' =>  "#E9DBC5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1985,7 +1986,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 71/138",
                 'color' =>  "#E9D8BE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1995,7 +1996,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Flaxen White",
                 'color' =>  "#E9D8BE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2005,7 +2006,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 67/194",
                 'color' =>  "#E9D2B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2015,17 +2016,18 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "22619",
                 'color' =>  "#E9CFAC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "10YY 58/295",
                 'color' =>  "#E9BD8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2035,7 +2037,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Light Topaz",
                 'color' =>  "#E9BD8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2045,7 +2047,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "44YY 75/094",
                 'color' =>  "#E8DECB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2055,7 +2057,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "41YY 70/112",
                 'color' =>  "#E8DCC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2065,7 +2067,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 70/138",
                 'color' =>  "#E8D4BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2075,7 +2077,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Milk & Honey",
                 'color' =>  "#E8D3BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2085,7 +2087,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 69/130",
                 'color' =>  "#E8D3BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2095,7 +2097,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "26YY 71/098",
                 'color' =>  "#E7DBCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2105,7 +2107,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 72/097",
                 'color' =>  "#E7D9C7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2115,7 +2117,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Cream Slippers",
                 'color' =>  "#E7D4BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2125,7 +2127,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 63/231",
                 'color' =>  "#E6CAA1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2135,7 +2137,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Kansas Corn",
                 'color' =>  "#E6CAA1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2145,7 +2147,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 64/171",
                 'color' =>  "#E5CDAF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2155,7 +2157,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Cairo Gold",
                 'color' =>  "#E5AA53",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2165,7 +2167,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 46/515",
                 'color' =>  "#E5AA53",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2176,7 +2178,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 65/171",
                 'color' =>  "#E4CFB1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2186,7 +2188,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Tawny Birch",
                 'color' =>  "#E4CFB1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2196,7 +2198,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Nutmeg Sensation",
                 'color' =>  "#E4CAA7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2206,7 +2208,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 60/224",
                 'color' =>  "#E4C39F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2216,7 +2218,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 54/342",
                 'color' =>  "#E4B87F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2226,7 +2228,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 63/162",
                 'color' =>  "#E3CAAF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2236,7 +2238,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 71/073",
                 'color' =>  "#E2D8C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2246,7 +2248,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Prism White",
                 'color' =>  "#E2D8C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2256,7 +2258,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 49/378",
                 'color' =>  "#E2AD72",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2266,7 +2268,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Honeysweet",
                 'color' =>  "#E2AD72",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2276,7 +2278,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Honeysweet",
                 'color' =>  "#E2AD72",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2286,7 +2288,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Hilarious Hessian",
                 'color' =>  "#E1D4C6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2296,7 +2298,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Mauve Fantasy",
                 'color' =>  "#E1CFBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2306,17 +2308,18 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "76132",
                 'color' =>  "#E1BB97",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "10YY 45/419",
                 'color' =>  "#E0A767",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2326,7 +2329,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Oyster White",
                 'color' =>  "#DFCCB1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2336,7 +2339,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 64/149",
                 'color' =>  "#DFCCB1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2346,7 +2349,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Hay Harvest",
                 'color' =>  "#DFB778",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2356,7 +2359,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Dusky Syrup",
                 'color' =>  "#DDB694",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2366,7 +2369,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Stem Ginger",
                 'color' =>  "#DDA667",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2376,7 +2379,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 40/608",
                 'color' =>  "#DD9C2C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2387,7 +2390,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Rich Brocade",
                 'color' =>  "#DD9C2C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2397,7 +2400,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 51/306",
                 'color' =>  "#DCB481",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2407,7 +2410,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Butterfield",
                 'color' =>  "#DCB481",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2417,7 +2420,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 53/238",
                 'color' =>  "#DBBB93",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2427,7 +2430,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 46/425",
                 'color' =>  "#DBA963",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2438,7 +2441,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Ivory Sampler",
                 'color' =>  "#D9C3A4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2448,7 +2451,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 58/178",
                 'color' =>  "#D9C3A4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2458,7 +2461,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Classic Ivory",
                 'color' =>  "#D9C1A2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2468,7 +2471,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 57/178",
                 'color' =>  "#D9C1A2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2478,7 +2481,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Honey Suede",
                 'color' =>  "#D9974C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2488,7 +2491,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Brown Ginger",
                 'color' =>  "#D8B081",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2498,7 +2501,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 42/460",
                 'color' =>  "#D89E55",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2509,17 +2512,18 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "22295",
                 'color' =>  "#D7C2AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Caramel Crunch",
                 'color' =>  "#D7A762",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2529,7 +2533,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Mellow Matt",
                 'color' =>  "#D4BEA8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2539,7 +2543,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 52/207",
                 'color' =>  "#D3BB96",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2549,7 +2553,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 49/271",
                 'color' =>  "#D2AF82",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2559,7 +2563,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Apricot Brandy",
                 'color' =>  "#D19038",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2569,7 +2573,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 35/543",
                 'color' =>  "#D19038",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2580,7 +2584,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Gentle Hay",
                 'color' =>  "#CA9A51",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2590,7 +2594,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 36/572",
                 'color' =>  "#CA972F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2601,7 +2605,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 36/572",
                 'color' =>  "#CA972F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2612,7 +2616,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 44/215",
                 'color' =>  "#C9A887",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2622,7 +2626,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Naturally Calm",
                 'color' =>  "#C9A887",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2632,7 +2636,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 40/337",
                 'color' =>  "#C89E67",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2642,7 +2646,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 33/613",
                 'color' =>  "#C89319",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2653,7 +2657,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Provincial Majesty",
                 'color' =>  "#C89319",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2663,7 +2667,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Golden Harvest",
                 'color' =>  "#C88A28",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2673,7 +2677,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 28/613",
                 'color' =>  "#C88A28",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2684,7 +2688,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Copperleaf",
                 'color' =>  "#C88626",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2694,7 +2698,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 30/560",
                 'color' =>  "#C88626",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2705,7 +2709,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 35/456",
                 'color' =>  "#C79448",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2716,7 +2720,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 41/264",
                 'color' =>  "#C5A479",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2726,7 +2730,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Maple Fantasy",
                 'color' =>  "#C59967",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2736,7 +2740,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Darkened Sugar",
                 'color' =>  "#C49F80",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2746,7 +2750,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 38/370",
                 'color' =>  "#C49B5D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2757,7 +2761,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Nutty Liquor",
                 'color' =>  "#C39E67",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2767,7 +2771,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 32/494",
                 'color' =>  "#C38D38",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2777,7 +2781,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Hidden Treasure",
                 'color' =>  "#C38D38",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2787,7 +2791,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 26/520",
                 'color' =>  "#C27B2E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2798,7 +2802,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Peach Clay",
                 'color' =>  "#C27B2E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2808,7 +2812,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Monarch Gold",
                 'color' =>  "#C19659",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2818,7 +2822,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 36/370",
                 'color' =>  "#C19659",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2829,7 +2833,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Monarch Gold",
                 'color' =>  "#C19659",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2839,7 +2843,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "California Copper",
                 'color' =>  "#C07722",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2849,7 +2853,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 23/557",
                 'color' =>  "#C07722",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2860,7 +2864,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Light Ground",
                 'color' =>  "#BF9B6E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2870,7 +2874,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 38/225",
                 'color' =>  "#BD9F7B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2880,7 +2884,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Creamy Toffee",
                 'color' =>  "#BA9A77",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2890,7 +2894,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Rags To Riches",
                 'color' =>  "#B5812E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2900,7 +2904,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 26/490",
                 'color' =>  "#B5812E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2911,7 +2915,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 28/352",
                 'color' =>  "#B5804C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2922,7 +2926,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Henna",
                 'color' =>  "#B37F28",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2932,7 +2936,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 23/525",
                 'color' =>  "#B37F28",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2943,7 +2947,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 24/467",
                 'color' =>  "#B2792C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2954,7 +2958,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Azteca",
                 'color' =>  "#B0752D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2964,7 +2968,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 21/500",
                 'color' =>  "#B0752D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2975,7 +2979,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Winning Hue",
                 'color' =>  "#AF8136",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2985,7 +2989,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Gold Bazaar",
                 'color' =>  "#AF7026",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2995,7 +2999,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Brave Olive",
                 'color' =>  "#AC833F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3005,7 +3009,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 26/321",
                 'color' =>  "#AB804F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3016,7 +3020,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Country Store",
                 'color' =>  "#AB804F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3026,7 +3030,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Teddybear Brown",
                 'color' =>  "#AA7E54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3036,7 +3040,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 19/464",
                 'color' =>  "#A96B2B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3047,7 +3051,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Spice Island",
                 'color' =>  "#A96B2B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3057,7 +3061,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Fudge Sensation",
                 'color' =>  "#A48561",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3067,7 +3071,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 27/225",
                 'color' =>  "#A28662",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3078,7 +3082,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Old Bronze",
                 'color' =>  "#9E782E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3088,7 +3092,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "30YY 21/438",
                 'color' =>  "#9E782E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3099,7 +3103,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 23/261",
                 'color' =>  "#9C7851",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3110,7 +3114,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Burlap Gold",
                 'color' =>  "#9C7851",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3120,7 +3124,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 19/438",
                 'color' =>  "#9C6F27",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3131,7 +3135,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Bentwood",
                 'color' =>  "#987B54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3141,7 +3145,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "20YY 23/246",
                 'color' =>  "#987B54",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3152,7 +3156,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 18/346",
                 'color' =>  "#986735",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3163,7 +3167,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Deep Ochre",
                 'color' =>  "#986735",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3173,7 +3177,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 15/371",
                 'color' =>  "#956133",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3184,7 +3188,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Kessy's Bark",
                 'color' =>  "#956133",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3194,7 +3198,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Brandy Snap",
                 'color' =>  "#896A46",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3204,7 +3208,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 16/217",
                 'color' =>  "#826544",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3215,7 +3219,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "10YY 12/300",
                 'color' =>  "#825E39",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3226,7 +3230,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Dark Safari",
                 'color' =>  "#825E39",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3236,7 +3240,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "Cigar",
                 'color' =>  "#7F5832",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3246,7 +3250,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "00YY 12/279",
                 'color' =>  "#7F5832",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3257,7 +3261,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "27YY 68/470",
                 'color' =>  "#FDCB77",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3267,7 +3271,7 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "22YY 71/347",
                 'color' =>  "#FBD295",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3277,9 +3281,9 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "17YY 65/420",
                 'color' =>  "#FAC681",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -3287,77 +3291,84 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "08YY 56/528",
                 'color' =>  "#F9B462",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "76827",
                 'color' =>  "#F8E3BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "76419",
                 'color' =>  "#F7CF92",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "71559",
                 'color' =>  "#F5E4CA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "76594",
                 'color' =>  "#F5E2BB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "77135",
                 'color' =>  "#F4E1BB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "22299",
                 'color' =>  "#F1DEC5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "35YY 63/346",
                 'color' =>  "#EDC786",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3367,22 +3378,24 @@ class ColorGoldenSeeder extends Seeder
             [
                 'name' =>  "22503",
                 'color' =>  "#EBE6DD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "22619",
                 'color' =>  "#E9CFAC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  4,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
         ];
 

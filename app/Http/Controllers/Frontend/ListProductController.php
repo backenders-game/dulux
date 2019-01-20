@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 use App\Http\Controllers\Controller;
 
 class ListProductController extends Controller
@@ -12,9 +13,13 @@ class ListProductController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($id, Request $request)
     {
-        return view('frontend.product.list_product');
+        $products = Product::where('category_id', $id)->with(['properties'])
+            ->paginate(9);
+        return view('frontend.product.list_product', [
+            'products' => $products
+        ]);
     }
 
     /**

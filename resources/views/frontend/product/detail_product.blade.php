@@ -27,9 +27,9 @@
                     <div class="col-2 col-md-6 col-sm-8 col-xs-12 pull-right">
                       <div class="white-box">
                         <div class="row no-margin">
-                          <h1 class="float1 product-name fl-product-title">Dulux Weathershield Powerflexx</h1>
+                          <h1 class="float1 product-name fl-product-title">{{$product->name}}</h1>
                           <span class ="float2"><i class="far fa-heart focus-outline" style="font-size:20px"></i></span>
-                          <div class="float3 product-slogan">Chống rạn nứt - Chống thấm vượt trội</div>
+                          <div class="float3 product-slogan">{{$product->description}}</div>
                           <p class="fs16"></p>
                         </div>
                         <div class="row no-margin paint-box-holder prod-info-container">
@@ -37,18 +37,18 @@
                             <span class="img-responsive">
                               <div class="field field-name-field-packshots-s-url field-type-image field-label-hidden">
                                 <div class="field-items">
-                                  <div class="field-item even"><img typeof="foaf:Image" title="Dulux Weathershield Powerflexx" alt="Dulux Weathershield Powerflexx" src="https://31fc8ad09e49483b220c-ba33b5880d166b057491bd70be456089.ssl.cf3.rackcdn.com/dulux-weathershield-powerflexx_s.png"></div>
+                                  <div class="field-item even"><img typeof="foaf:Image" title="{{$product->name}}" alt="{{$product->name}}" src="{{asset('/storage/'.$product->img_path)}}"></div>
                                 </div>
                               </div>
                             </span>
                           </div>
                           <div class="float-left col-md-8 col-sm-8 col-xs-6 prod-quantity-container no-padding desktop-cart-view">
-                            <div class="find-color-btn hidden-xs"><a href="/vi/mau-sac-bang-mau?product=69313&amp;fl-stickey=1" tabindex="26">Tìm màu sơn theo sản phẩm này</a></div>
+                            <div class="find-color-btn hidden-xs"><a href="{{route('frontend.mau_sac_bang_mau')}}" tabindex="26">Tìm màu sơn theo sản phẩm này</a></div>
                           </div>
                         </div>
                         <div class="row no-margin buton-holder mobile-view visible-xs">
                           <div class="buton-holder">
-                            <div class="find-color-btn"><a href="/vi/mau-sac-bang-mau?product=69313&amp;fl-stickey=1">Tìm màu sơn theo sản phẩm này</a></div>
+                            <div class="find-color-btn"><a href="{{route('frontend.mau_sac_bang_mau')}}">Tìm màu sơn theo sản phẩm này</a></div>
                           </div>
                         </div>
                         <section id="block-platform-paint-calculator-paint-calculator-block" class="block block-platform-paint-calculator clearfix">
@@ -59,7 +59,7 @@
                             </div>
                             <div class="paint-calculator-container">
                               <div class="paint-calculator-content">
-                                <!-- Paint calculator - Forms -->							
+                                <!-- Paint calculator - Forms -->
                                 <div class="paint-calculator text-center center-block">
                                   <div class="center-block">
                                     <h6 class="margin-bottom-s js-showHideItem">Bạn có biết diện tích cần sơn không?</h6>
@@ -138,9 +138,9 @@
                                         </div>
                                         <div class="squircle-bottom">
                                           <div class="triangle center-block margin-bottom-xs"></div>
-                                          Bạn sẽ cần                                
+                                          Bạn sẽ cần
                                           <h3 class="margin-bottom-xxxs"></h3>
-                                          Dựa trên việc sơn 2 lớp                            
+                                          Dựa trên việc sơn 2 lớp
                                         </div>
                                       </div>
                                       <i>Đây là lượng sơn ước lượng dựa trên khả năng sẽ tiến hành sơn 2 lớp. Lớp phủ thực tế sẽ tùy thuộc vào điều kiện của bề mặt. Nếu thay đổi sang màu sắc khác biệt, có thể cần thêm nhiều lớp sơn.</i>
@@ -168,7 +168,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <!-- Paint calculator - Forms -->			
+                                <!-- Paint calculator - Forms -->
                               </div>
                               <div class="paint-calculator-footer">
                                 <a class="paint-calculator-refresh js-toggleShowHide" tabindex="39">Tính toán lại</a>
@@ -205,7 +205,7 @@
                                 </svg>
                               </span>
                               <div>
-                                <span class="text"> <strong>Bề mặt hoàn thiện</strong> Bề Mặt Bóng Mờ
+                                <span class="text"> <strong>Bề mặt hoàn thiện</strong> {{$product->finishSurface->name}}
                                 </span>
                               </div>
                             </li>
@@ -217,7 +217,7 @@
                                 </svg>
                               </span>
                               <div>
-                                <span class="text"> <strong>Độ bao phủ</strong> ≈ 13 m²/L
+                                <span class="text"> <strong>Độ bao phủ</strong> ≈ {{$product->coverage}} m²/L
                                 </span>
                               </div>
                             </li>
@@ -230,7 +230,7 @@
                                 </svg>
                               </span>
                               <div>
-                                <span class="text"> <strong>Thời gian khô </strong> Khô bề mặt 30 phút
+                                <span class="text"> <strong>Thời gian khô </strong> {{$product->drying_time}}
                                 </span>
                               </div>
                             </li>
@@ -242,7 +242,7 @@
                                 </svg>
                               </span>
                               <div>
-                                <span class="text"> <strong>Số lớp</strong> 2 </span>
+                                <span class="text"> <strong>Số lớp</strong> {{$product->num_layer}}</span>
                               </div>
                             </li>
                           </ul>
@@ -254,7 +254,7 @@
                           <p>Điều kiện thi công: Độ ẩm của bề mặt dưới 16% theo máy  đo độ ẩm Protimeter hay  để bề mặt tường khô từ 21 đến 28 ngày trong điều kiện bình thường (nhiệt độ trung bình 30 độ C, độ ẩm môi trường 80%). Không sơn nếu nhiệt  độ thời tiết dưới 10 độ C. Bảo đảm bề mặt  sơn phải sạch, khô, không có tạp chất làm giảm độ bám dính như bụi, dầu mỡ hay  sáp. Dùng hóa chất thích hợp để xử lý  bề mặt có rêu mốc. Đối với bề mặt  cũ bị phấn hóa, cần loại bỏ màng sơn cũ bằng dụng cụ thích hợp trước khi thi công. Xử lý  triệt để các vết  nứt tường trước khi thi công.</p>
                           <h2>Thông Tin Về An Toàn, Sức Khỏe Và Môi Trường</h2>
                           <p><strong>Hazard warnings</strong></p>
-                          Việc xả nhám khô, cắt và/hoặc hàn màng sơn khô bằng khí ga sẽ tạo bụi và/hoặc khói độc. Nên xả nhám ướt nếu có thể. Nếu điều kiện làm việc tại chỗ không thông thoáng để tránh tiếp xúc với khói độc, nên sử dụng thiết bị bảo vệ đường hô hấp thích hợp • Chỉ sử dụng ở nơi thông thoáng. Tránh hít bụi sơn • Tránh tiếp xúc với da hoặc mắt • Mang găng tay, khẩu trang và kính bảo vệ mắt thích hợp khi thi công •  Khi bị dính sơn vào mắt, lập tức rửa  mắt với nhiều nước sạch và đến gặp bác sĩ ngay • Nếu nuốt phải, đến gặp bác sĩ ngay và mang theo thùng sơn hoặc nhãn sản phẩm • Để xa tầm tay trẻ em • Không tái sử dụng thùng sơn để chứa thực phẩm hay đồ uống • Lấy lại lượng sơn còn dư trên cọ hoặc rulô càng nhiều càng tốt trước khi rửa • Không đổ sơn vào cống rãnh hay nguồn nước. Tránh thải sơn ra môi trường. Nên tham khảo hướng dẫn đặc biệt/ thông tin an toàn sản phẩm • Độc đối với sinh vật sống dưới nước. Có thể gây tác hại lâu dài đối với môi trường nước • Khi bị đổ sơn, thu gom bằng đất hoặc cát. Tất cả các vật liệu thải bỏ và thùng chứa, phải được xử lý theo quy định hiện hành của nước sở tại 
+                          Việc xả nhám khô, cắt và/hoặc hàn màng sơn khô bằng khí ga sẽ tạo bụi và/hoặc khói độc. Nên xả nhám ướt nếu có thể. Nếu điều kiện làm việc tại chỗ không thông thoáng để tránh tiếp xúc với khói độc, nên sử dụng thiết bị bảo vệ đường hô hấp thích hợp • Chỉ sử dụng ở nơi thông thoáng. Tránh hít bụi sơn • Tránh tiếp xúc với da hoặc mắt • Mang găng tay, khẩu trang và kính bảo vệ mắt thích hợp khi thi công •  Khi bị dính sơn vào mắt, lập tức rửa  mắt với nhiều nước sạch và đến gặp bác sĩ ngay • Nếu nuốt phải, đến gặp bác sĩ ngay và mang theo thùng sơn hoặc nhãn sản phẩm • Để xa tầm tay trẻ em • Không tái sử dụng thùng sơn để chứa thực phẩm hay đồ uống • Lấy lại lượng sơn còn dư trên cọ hoặc rulô càng nhiều càng tốt trước khi rửa • Không đổ sơn vào cống rãnh hay nguồn nước. Tránh thải sơn ra môi trường. Nên tham khảo hướng dẫn đặc biệt/ thông tin an toàn sản phẩm • Độc đối với sinh vật sống dưới nước. Có thể gây tác hại lâu dài đối với môi trường nước • Khi bị đổ sơn, thu gom bằng đất hoặc cát. Tất cả các vật liệu thải bỏ và thùng chứa, phải được xử lý theo quy định hiện hành của nước sở tại
                         </div>
                       </div>
                     </div>
@@ -278,117 +278,23 @@
                             <div role="tabpanel" class="tab-pane active no-margin" id="tab-1">
                               <div class="tab-item">
                                 <div class="col-md-12 no-padding">
+                                @foreach($product->properties as $property)
                                   <div class="col-md-6 tab-cnt-part">
                                     <div class="col-md-2 col-sm-2 no-padding">
                                       <i class="feature-symbol-chống-loang-màu"></i>
                                     </div>
                                     <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Chống loang màu</strong>                                                      
+                                      <strong class="fs16">{{$property->name}}</strong>
                                     </div>
                                   </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-bền-màu"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Bền màu</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-che-lấp-khe-nứt-nhỏ"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Che lấp khe nứt nhỏ</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-chống-bám-bụi"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Chống bám bụi</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-chống-nấm-mốc"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Chống nấm mốc</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-làm-mát"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Làm mát</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-lượng-voc-thấp"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Lượng VOC thấp</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-không-thêm-chì-và-thủy-ngân"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Không thêm chì và thủy ngân</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-chống-bong-tróc"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Chống bong tróc</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-mặt-sơn-nhẵn-mịn"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Mặt sơn nhẵn mịn</strong>                                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 tab-cnt-part">
-                                    <div class="col-md-2 col-sm-2 no-padding">
-                                      <i class="feature-symbol-chống-thấm"></i>
-                                    </div>
-                                    <div class="tab-text-holder col-md-10 col-sm-10">
-                                      <strong class="fs16">Chống thấm</strong>                                                      
-                                    </div>
-                                  </div>
+                                @endforeach
+
                                 </div>
                               </div>
                             </div>
                             <div role="tabpanel" class="tab-pane" id="tab-3">
                               <div class="tab-item">
-                                <h3>Hướng dẫn sử dụng</h3>
-                                <div class="tips-content">
-                                  <div>
-                                    <span class="title"><strong class="fs16">Chuẩn bị bề mặt trước khi sơn</strong></span>
-                                    <div class="tab-description">Bề Mặt Bóng Mờ</div>
-                                    <br>
-                                  </div>
-                                  <div>
-                                    <span class="title"><strong class="fs16">Làm sạch</strong></span>
-                                    <div class="tab-description">Rửa sạch dụng cụ với nước ngay sau khi sử dụng</div>
-                                    <br>
-                                  </div>
-                                  <div>
-                                    <strong class="fs16">Cách lưu trữ</strong>
-                                    <div class="tab-description">Bảo quản sơn ở nơi khô, mát.  Đặt thùng sơn ở vị trí thẳng đứng an toàn và đậy chặt nắp</div>
-                                    <br>
-                                  </div>
-                                </div>
+                                {!! $product->user_manual !!}
                               </div>
                             </div>
                           </div>
@@ -420,7 +326,7 @@
                             </div>
                             <div class="panel-collapse collapse" style="height: 0px;">
                               <div class="panel-body  no-margin accordion-panel-body">
-                                <p>Dulux Weathershield Powerflexx mới là sơn ngoại thất siêu cao cấp, với màng sơn co giãn gấp 3 lần giúp chống rạn nứt &amp; chống thấm vượt trội.</p>
+                                <p>{{$product->introduction}}</p>
                               </div>
                             </div>
                           </div>
@@ -431,164 +337,6 @@
                               </div>
                               <div class="pull-right">
                                 <a class="accordion-icon-holder collapsed" data-toggle="collapse" data-parent="#accordion" href="#ProductFeatures" aria-expanded="false">
-                                  <span class="sr-only">accordion images</span> 
-                                  <span>
-                                    <svg class="icon icon-open icon-sm-plus">
-                                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-open"></use>
-                                    </svg>
-                                    <svg class="icon icon-close icon-sm-minus" style="display:none">
-                                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
-                                    </svg>
-                                  </span>
-                                </a>
-                              </div>
-                            </div>
-                            <div class="panel-collapse collapse" style="height: 0px;">
-                              <div class="panel-body  no-margin accordion-panel-body">
-                                <div class="prod-features">
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-chống-loang-màu"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Chống loang màu</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-bền-màu"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Bền màu</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-che-lấp-khe-nứt-nhỏ"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Che lấp khe nứt nhỏ</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-chống-bám-bụi"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Chống bám bụi</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-chống-nấm-mốc"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Chống nấm mốc</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-làm-mát"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Làm mát</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-lượng-voc-thấp"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Lượng VOC thấp</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-không-thêm-chì-và-thủy-ngân"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Không thêm chì và thủy ngân</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-chống-bong-tróc"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Chống bong tróc</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-mặt-sơn-nhẵn-mịn"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Mặt sơn nhẵn mịn</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
-                                    <div class="row no-margin  tab-content-wrapper">
-                                      <div class="col-xs-12 no-padding">
-                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
-                                          <i class="feature-symbol-chống-thấm"></i>
-                                        </div>
-                                        <div class="pull-left col-xs-9 pd-title-holder">
-                                          <strong class="fs16">Chống thấm</strong><br>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div id="tips-advice" class="panel panel-default">
-                            <div class="panel-heading">
-                              <div class="pull-left">
-                                <h4 class="fs19 no-padding no-margin  accordion-lbl">Hướng dẫn sử dụng</h4>
-                              </div>
-                              <div class="pull-right">
-                                <a class="accordion-icon-holder" data-toggle="collapse" data-parent="#accordion" href="#tips-advice">
                                   <span class="sr-only">accordion images</span>
                                   <span>
                                     <svg class="icon icon-open icon-sm-plus">
@@ -603,32 +351,34 @@
                             </div>
                             <div class="panel-collapse collapse" style="height: 0px;">
                               <div class="panel-body  no-margin accordion-panel-body">
-                                <div class="tips-content">
-                                  <div>
-                                    <span class="title"><strong class="fs16">Chuẩn bị bề mặt trước khi sơn</strong></span>
-                                    <div class="tab-description">Bề Mặt Bóng Mờ</div>
-                                    <br>
+                                <div class="prod-features">
+                                @foreach($product->properties as $property)
+                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding pane-left">
+                                    <div class="row no-margin  tab-content-wrapper">
+                                      <div class="col-xs-12 no-padding">
+                                        <div class="pd-icon-holder  col-md-3 col-xs-3 no-padding">
+                                          <i class="feature-symbol-chống-loang-màu"></i>
+                                        </div>
+                                        <div class="pull-left col-xs-9 pd-title-holder">
+                                          <strong class="fs16">{{$property->name}}</strong><br>
+                                        </div>
+                                      </div>
+                                    </div>
                                   </div>
-                                  <div>
-                                    <span class="title"><strong class="fs16">Làm sạch</strong></span>
-                                    <div class="tab-description">Rửa sạch dụng cụ với nước ngay sau khi sử dụng</div>
-                                    <br>
-                                  </div>
-                                  <div>
-                                    <span class="title"><strong class="fs16">Cách lưu trữ</strong></span>
-                                    <div class="tab-description">Bảo quản sơn ở nơi khô, mát.  Đặt thùng sơn ở vị trí thẳng đứng an toàn và đậy chặt nắp</div>
-                                    <br>
-                                  </div>
+                                @endforeach
                                 </div>
                               </div>
                             </div>
+                          </div>
+                          <div id="tips-advice" class="panel panel-default">
+                            {!! $product->user_manual !!}
                           </div>
                           <div class="margin-top-20 padding-15">
                             <h4 class="margin-top-xxl margin-bottom-s"><strong>Thông Tin Về An Toàn, Sức Khỏe Và Môi Trường
                               </strong>
                             </h4>
                             <div class="margin-bottom-xxxs"><span class="semibold">Hazard warnings</span></div>
-                            Việc xả nhám khô, cắt và/hoặc hàn màng sơn khô bằng khí ga sẽ tạo bụi và/hoặc khói độc. Nên xả nhám ướt nếu có thể. Nếu điều kiện làm việc tại chỗ không thông thoáng để tránh tiếp xúc với khói độc, nên sử dụng thiết bị bảo vệ đường hô hấp thích hợp • Chỉ sử dụng ở nơi thông thoáng. Tránh hít bụi sơn • Tránh tiếp xúc với da hoặc mắt • Mang găng tay, khẩu trang và kính bảo vệ mắt thích hợp khi thi công •  Khi bị dính sơn vào mắt, lập tức rửa  mắt với nhiều nước sạch và đến gặp bác sĩ ngay • Nếu nuốt phải, đến gặp bác sĩ ngay và mang theo thùng sơn hoặc nhãn sản phẩm • Để xa tầm tay trẻ em • Không tái sử dụng thùng sơn để chứa thực phẩm hay đồ uống • Lấy lại lượng sơn còn dư trên cọ hoặc rulô càng nhiều càng tốt trước khi rửa • Không đổ sơn vào cống rãnh hay nguồn nước. Tránh thải sơn ra môi trường. Nên tham khảo hướng dẫn đặc biệt/ thông tin an toàn sản phẩm • Độc đối với sinh vật sống dưới nước. Có thể gây tác hại lâu dài đối với môi trường nước • Khi bị đổ sơn, thu gom bằng đất hoặc cát. Tất cả các vật liệu thải bỏ và thùng chứa, phải được xử lý theo quy định hiện hành của nước sở tại 
+                            {{$product->protection_info}}
                           </div>
                         </div>
                       </div>

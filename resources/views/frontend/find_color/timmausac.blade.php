@@ -208,7 +208,6 @@ $(document).ready(function() {
         if ($(item).is(':checked')) {
             let room = $(item).val();
             room = parseInt(room);
-            console.log('room type ', typeof room);
             if (room !== 0) {
                 $('.counter-projecttype').addClass('visible');
             }
@@ -243,14 +242,7 @@ $(document).ready(function() {
         $(this).toggleClass('visible');
         $('.filter-projecttypes').toggleClass('hidden');
     });
-//     const outsideClickListener = (event) => {
-//     if (!$(event.target).closest(selector).length) {
-//       if ($(selector).is(':visible')) {
-//         $(selector).hide()
-//         removeClickListener()
-//       }
-//     }
-//   }
+
     // Ẩn hiện selector bề mặt cần sơn.
     $('#form-color-surface-usage').on('click', function (e) {
         $(this).toggleClass('visible');
@@ -520,19 +512,24 @@ $(document).ready(function() {
         });
     });
 
-    $(document).on('click', '.rowBox', function (e) {
-        if (!$(this).next().hasClass('rowInfo')) {
-            $('.rowInfo').remove();
-            let linkEle = $(this).find('.color-box-child');
-            $(this).addClass('focus-outline');
-            let colorid = $(linkEle[0]).data('colorid');
-            let colorcode = $(linkEle[0]).data('id');
-            let colortitle = $(linkEle[0]).data('title');
-            let detailHtml = showDetailColorBox(colorid, colortitle, colorcode);
-            $(this).after(detailHtml);
-            setTimeout(function () {
-                $('.rowInfo').slideDown(2000);
-            }, 800);
+    $(document).on('click', '.color-box-child', function (e) {
+        e.preventDefault();
+        let rowBoxClicked = $(this).parent();
+
+        if (rowBoxClicked) {
+            let colorBoxChild = this;
+            if (!$(rowBoxClicked).next().hasClass('rowInfo')) {
+                $('.rowInfo').remove();
+                $(rowBoxClicked).addClass('focus-outline');
+                let colorid = $(colorBoxChild).data('colorid');
+                let colorcode = $(colorBoxChild).data('id');
+                let colortitle = $(colorBoxChild).data('title');
+                let detailHtml = showDetailColorBox(colorid, colortitle, colorcode);
+                $(rowBoxClicked).after(detailHtml);
+                setTimeout(function () {
+                    $('.rowInfo').slideDown('slow');
+                }, 800);
+            }
         }
     });
 });
@@ -552,7 +549,6 @@ function findColor (filters, afterSuccess = null, afterError = null) {
             }
         },
         error: function (err) {
-            console.log(err);
             if (typeof afterError === 'function') {
                 afterError(err);
             }
@@ -605,7 +601,7 @@ function displayAllColorList (colors, numAllColors) {
     let normalColors = [];
     let deepColors = [];
     let numPopular = 0;
-
+    $('.rowInfo').remove();
     colors.forEach(function (color) {
         if (color.is_popular == 1) {
             numPopular++;
@@ -642,6 +638,8 @@ function displayAllColorList (colors, numAllColors) {
         $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
         // Maù trầm
         $('#popular-colors-list .solr-muted-color-list').append(deepColorHtml);
+
+        setClickEventColorBoxChild();
     }
 }
 // Hiển thị bảng màu pha bằng máy tính.
@@ -650,7 +648,7 @@ function displayPopularColorList (colors, numAllColors) {
         if (grp.id == selectedColorGroupId) return grp;
     });
     colorGrp = colorGrp.length ? colorGrp[0] : null;
-
+    $('.rowInfo').remove();
     let normalColors = [];
     let deepColors = [];
 
@@ -695,15 +693,21 @@ function displayPopularColorList (colors, numAllColors) {
         // Maù trầm
         $('#popular-colors-list .solr-muted-color-list').append(deepColorHtml);
 
+        setClickEventColorBoxChild();
+
     }
 }
 
 function displayReadyToBuyColors (colors) {
+    $('.rowInfo').remove();
     $('.solr-readymix-color-list').find('.rowBox').each(function (idx, item) {
         $(item).remove();
     });
     let colorHtml = renderColorBoxChild(colors);
     $('.solr-readymix-color-list').html(colorHtml);
+    setTimeout(function () {
+        setClickEventColorBoxChild();
+    }, 10)
 
 }
 
@@ -711,12 +715,14 @@ function renderColorBoxChild (colors) {
     let html = '';
     if (Array.isArray(colors)) {
         for (let i = 0; i < colors.length; i++) {
+            let colorCode = colors[i].color;
+            colorCode = colorCode.replace('#', '');
             let textColor = genTextColor(colors[i].color);
             html += '<div class="rowBox col-xs-3 col-sm-2 col-md-2 col-lg-2">'
             + '<a class="color-box-child  color-box-child-' + colors[i].id + ' colorBox-processed flourish_google_tag_manager-processed" '
-            + 'style="background:'+ colors[i].color + '" data-title="' + colors[i].name + '" data-id="F4F0E4" '
+            + 'style="background:'+ colors[i].color + '" data-title="' + colors[i].name + '" data-id="' + colorCode + '" '
             + 'data-colorid="'+ colors[i].id + '" alt="' + colors[i].name + '" tabindex="85">'
-            + '<p class="cnme color-text" data-rgb="' + colors[i].color.replace('#', '') +'" style="color: '+ textColor + '; stroke: '+ textColor + ';">'
+            + '<p class="cnme color-text" data-rgb="' + colorCode +'" style="color: '+ textColor + '; stroke: '+ textColor + ';">'
             + colors[i].name
             + '</p>'
             + '</a>'
@@ -766,9 +772,7 @@ function renderFilterElem () {
         }
     }
     if (selectedFinish) {
-        console.log('selected finish', selectedFinish);
         for (let finish of finishSurfaces) {
-            console.log(finish);
             if (selectedFinish == finish.id) {
                 filterLabelHtml += '<a class="remove reset-filter reset-color-filter-finish " id="'
                 + finish.name + ' " data-tid="' + finish.name + '" data-field="" selected_finish"="" data-fname="'+ finish.name + '">'
@@ -790,10 +794,8 @@ function renderFilterElem () {
 }
 
 function showDetailColorBox (colorId, colorName, colorCode) {
-    console.log('colorcode', colorCode);
     colorCode = '' + colorCode;
     let textColor = genTextColor(colorCode);
-    console.log('text Color', textColor);
     let detail = '<div class="rowInfo row-swatch-info fl-color-expend-box" style="display: none;">'
     +  '<div class="color-header-wrap">'
     +    '<h2 class="color-title visible-xs col-xs-8" data-rgb="' + colorCode + '">'
@@ -838,7 +840,7 @@ function genTextColor (colorCode) {
     if (colorCode.indexOf('#') !== -1) {
         colorCode = colorCode.replace('#', '');
     }
-    let bigEndian = ['9', 'A', 'B', 'C', 'D', 'E', 'F'];
+    let bigEndian = ['8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
     let numBigEndian = 0;
     let index0 = bigEndian.includes(colorCode[0]);
     let index2 = bigEndian.includes(colorCode[2]);
@@ -855,6 +857,28 @@ function genTextColor (colorCode) {
     } else {
         return 'rgb(255, 255, 255)';
     }
+}
+
+function setClickEventColorBoxChild() {
+    $('.color-box-child').on('click', function (e) {
+        e.preventDefault();
+        let rowBoxClicked = $(this).parent();
+        if (rowBoxClicked) {
+            let colorBoxChild = this;
+            if (!$(rowBoxClicked).next().hasClass('rowInfo')) {
+                $('.rowInfo').remove();
+                $(rowBoxClicked).addClass('focus-outline');
+                let colorid = $(colorBoxChild).data('colorid');
+                let colorcode = $(colorBoxChild).data('id');
+                let colortitle = $(colorBoxChild).data('title');
+                let detailHtml = showDetailColorBox(colorid, colortitle, colorcode);
+                $(rowBoxClicked).after(detailHtml);
+                setTimeout(function () {
+                    $('.rowInfo').slideDown('slow');
+                }, 800);
+            }
+        }
+    });
 }
 </script>
 @endsection

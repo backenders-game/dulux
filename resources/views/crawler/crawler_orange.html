@@ -107,7 +107,7 @@
             }
               result += (eleType === 'object' ? tab : '') + convertToPHPArray(inp, format, tab) + ',';
           }
-          result +=  (eleType === 'object' ? '\n' : '') + endTag; 
+          result +=  (eleType === 'object' ? '\n' : '') + endTag;
       } else if (!Array.isArray(input) && typeof input === 'object') {
           result += startTag + '\n';
           let newTab = tab + '    ';
@@ -163,6 +163,7 @@
     $(document).ready(function () {
       var colors = [];
       var popularColors = [];
+      var selectedPopularColors = [];
       var surfaceColors = {
         tran_nha: [],
         tuong: []
@@ -199,7 +200,6 @@
             projectColors[project].push("" + name);
           });
       }
-      console.log(surfaceColors);
 
       $('#nor_mixedbycomputer').find('.color-box-child')
         .each((idx, item) => {
@@ -208,13 +208,16 @@
           let colorDt = {
             name: "" + name,
             color: '#' + color,
-            color_group_id: 1,
+            color_group_id: 3,
             mixed_by_computer: 1,
-            is_popular: popularColors.includes(name) ? 1 : 0,
+            is_popular: popularColors.includes(name) && !selectedPopularColors.includes('' + name) ? 1 : 0,
             is_deep_color: 0,
             surfaces: [],
             projectTypes: []
           };
+          if (popularColors.includes('' +name) && !selectedPopularColors.includes('' + name)) {
+              selectedPopularColors.push("" + name);
+          }
 
           for (let surfaceName in surfaceColors) {
             // console.log('surface name', surfaceName);
@@ -232,7 +235,7 @@
               colorDt.projectTypes.push(projectId);
             }
           }
-          
+
           colors.push(colorDt);
         });
       $('#deep_mixedbycomputer').find('.color-box-child')
@@ -242,13 +245,16 @@
           let colorDt = {
             name: "" + name,
             color: '#' + color,
-            color_group_id: 1,
+            color_group_id: 3,
             mixed_by_computer: 1,
-            is_popular: popularColors.includes(name) ? 1 : 0,
+            is_popular: popularColors.includes(name) && !selectedPopularColors.includes('' + name) ? 1 : 0,
             is_deep_color: 1,
             surfaces: [],
             projectTypes: []
           };
+          if (popularColors.includes('' +name) && !selectedPopularColors.includes('' + name)) {
+              selectedPopularColors.push("" + name);
+          }
           for (let surfaceName in surfaceColors) {
             let surfaceColor = surfaceColors[surfaceName];
             let surfaceId = surfaces[surfaceName];
@@ -263,7 +269,7 @@
               colorDt.projectTypes.push(projectId);
             }
           }
-          
+
           colors.push(colorDt);
         });
       $('#color_available').find('.color-box-child')
@@ -273,7 +279,7 @@
           let colorDt = {
             name: "" + name,
             color: '#' + color,
-            color_group_id: 1,
+            color_group_id: 3,
             mixed_by_computer: 0,
             is_popular: popularColors.includes(name) ? 1 : 0,
             is_deep_color: 0,
@@ -294,7 +300,7 @@
               colorDt.projectTypes.push(projectId);
             }
           }
-          
+
           colors.push(colorDt);
         });
       let text = convertToPHPArray(colors);

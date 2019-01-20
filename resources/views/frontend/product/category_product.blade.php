@@ -3,6 +3,12 @@
 @section('title', app_name() . ' | ' . __('navs.general.home'))
 @section('cssPage')
 @include('frontend.includes.css.categoryProductCss')
+<style type="text/css">
+    .main-container {
+        padding-left: 1.08em !important;
+        padding-right: 1.08em !important;
+    }
+</style>
 @endsection
 @section('content')
 <div id="zone-content" class="zone-content product_dulux_responsive">
@@ -70,18 +76,20 @@
                                         <div class="prdct-overview">
                                           <div class="row no-margin no-padding">
                                             <div class="row-3">
+                                            @isset($categories)
+                                            @foreach($categories as $category)
                                               <div class="cstm-col-md-4 flourishProducts-processed" style="height: 239px;">
-                                                <div class="img-holder "><a href="{{route('frontend.danh_sach_san_pham')}}" title="Sơn" tabindex="26"><img alt="" class="img-responsive center-block" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/son.png"></a></div>
+                                                <div class="img-holder "><a href="{{route('frontend.danh_sach_san_pham', ['id' => $category->id])}}" title="{{$category->name}}" tabindex="26">
+                                                    <img alt="" class="img-responsive center-block" src="{{asset('/'). '/storage/'. $category->img_path}}"></a></div>
                                                 <div class="text-holder">
-                                                  <p class="text-center fs24"><a href="{{route('frontend.danh_sach_san_pham')}}" title="Sơn" tabindex="27">Sơn</a></p>
+                                                  <p class="text-center fs24">
+                                                    <a href="{{route('frontend.danh_sach_san_pham', ['id' => $category->id])}}" title="{{$category->name}}" tabindex="27">{{$category->name}}
+                                                    </a>
+                                                  </p>
                                                 </div>
                                               </div>
-                                              <div class="cstm-col-md-4 flourishProducts-processed" style="height: 239px;">
-                                                <div class="img-holder "><a href="{{route('frontend.danh_sach_san_pham')}}" title="Sản phẩm phụ trợ" tabindex="28"><img alt="" class="img-responsive center-block" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/wysiwyg/packshot_274_x_159.png"></a></div>
-                                                <div class="text-holder">
-                                                  <p class="text-center fs24"><a href="{{route('frontend.danh_sach_san_pham')}}" title="Sản phẩm phụ trợ" tabindex="29">Sản phẩm phụ trợ</a></p>
-                                                </div>
-                                              </div>
+                                            @endforeach
+                                            @endisset
                                             </div>
                                           </div>
                                           <div class="row-4">

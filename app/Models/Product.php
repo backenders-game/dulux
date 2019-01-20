@@ -28,4 +28,8 @@ class Product extends Model
     public function colors () {
         return $this->belongsToMany('App\Models\Color', 'product_colors', 'product_id', 'color_id');
     }
+
+    public function finishSurface () {
+        return $this->belongsTo('App\Models\FinishSurface');
+    }
 }

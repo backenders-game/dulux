@@ -16,7 +16,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Ski Adventure",
                 'color' =>  "#E1E7EA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -26,7 +26,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50BG 76/023",
                 'color' =>  "#DBE1E1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -36,7 +36,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Silver Streak",
                 'color' =>  "#DBE1E1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -46,7 +46,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50BG 76/023",
                 'color' =>  "#DBE1E1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -56,7 +56,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Marianna's Aria",
                 'color' =>  "#DBE0E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -66,9 +66,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "72BG 75/023",
                 'color' =>  "#DBE0E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -76,7 +76,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "72BG 75/023",
                 'color' =>  "#DBE0E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -86,7 +86,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "41BG 76/025",
                 'color' =>  "#D9E1E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -96,7 +96,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Whale Sensation",
                 'color' =>  "#D9DEDF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -106,9 +106,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10BB 73/039",
                 'color' =>  "#D7DDE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -116,7 +116,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Swiss White",
                 'color' =>  "#D6DAD7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -126,7 +126,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BG 72/017",
                 'color' =>  "#D6DAD7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -136,7 +136,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Seagul Shadow",
                 'color' =>  "#D5E1E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -146,7 +146,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BG 72/034",
                 'color' =>  "#D5DEDE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -156,7 +156,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 72/038",
                 'color' =>  "#D5DDE0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -166,7 +166,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Spring Sensation",
                 'color' =>  "#D4DEE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -176,17 +176,18 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "73499",
                 'color' =>  "#D4D9D6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Ghost Grey",
                 'color' =>  "#D4D4D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -196,9 +197,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70BG 72/043",
                 'color' =>  "#D3DDE0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -206,17 +207,18 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "71755",
                 'color' =>  "#CFD5D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Cheeky Sprite",
                 'color' =>  "#CDD3D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -226,9 +228,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70BG 68/056",
                 'color' =>  "#CCD9DD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -236,7 +238,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Universal Grey",
                 'color' =>  "#CCCCCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -246,9 +248,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 62/000",
                 'color' =>  "#CCCCCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -256,7 +258,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Silent Sealevel",
                 'color' =>  "#CBD7DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -266,7 +268,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Fine Silver",
                 'color' =>  "#CBCDCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -276,7 +278,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 62/004",
                 'color' =>  "#CBCDCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -286,7 +288,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Light Charcoal",
                 'color' =>  "#CBCCCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -296,7 +298,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50BG 64/028",
                 'color' =>  "#C9D1D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -306,7 +308,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Paddlewheel Grey",
                 'color' =>  "#C9D1D2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -316,7 +318,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Silver Quill",
                 'color' =>  "#C9CBC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -326,7 +328,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GG 61/010",
                 'color' =>  "#C9CBC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -336,7 +338,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Aviator Silver",
                 'color' =>  "#C8CED4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -346,7 +348,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 62/044",
                 'color' =>  "#C8CED4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -356,7 +358,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Fostoria Glass",
                 'color' =>  "#C7D0D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -366,7 +368,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 63/043",
                 'color' =>  "#C7D0D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -376,17 +378,18 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70334",
                 'color' =>  "#C7CBCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "30BB 53/012",
                 'color' =>  "#BDBFC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -396,7 +399,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Silver Trophy",
                 'color' =>  "#BDBFC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -406,7 +409,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Silky Stone",
                 'color' =>  "#BCBDBB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -416,7 +419,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Blue Behaviour",
                 'color' =>  "#BBC9D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -426,7 +429,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Veil",
                 'color' =>  "#BABAB9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -436,7 +439,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 53/000",
                 'color' =>  "#BABAB9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -446,9 +449,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 55/051",
                 'color' =>  "#B9C4C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -456,7 +459,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GG 52/011",
                 'color' =>  "#B8BBB9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -466,7 +469,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Frost Grey",
                 'color' =>  "#B8BBB9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -476,7 +479,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Limoges Blue",
                 'color' =>  "#B7C3C5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -486,7 +489,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Limoges Blue",
                 'color' =>  "#B7C3C5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -496,7 +499,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BG 56/045",
                 'color' =>  "#B7C3C5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -506,7 +509,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Tinfoil",
                 'color' =>  "#B2B8BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -516,7 +519,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Alloy Touch",
                 'color' =>  "#B0B0AF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -526,7 +529,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Surreal Blue",
                 'color' =>  "#AFB1B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -536,9 +539,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 45/015",
                 'color' =>  "#AFB1B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -546,9 +549,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 48/057",
                 'color' =>  "#ADB9BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -556,7 +559,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BG 49/047",
                 'color' =>  "#ADB9BB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -566,9 +569,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Swordplay",
                 'color' =>  "#AAB2B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -576,7 +579,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Swordplay",
                 'color' =>  "#AAB2B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -586,7 +589,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 45/049",
                 'color' =>  "#AAB2B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -596,17 +599,18 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70335",
                 'color' =>  "#A9AFB0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "Breaking Grey",
                 'color' =>  "#A7B1B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -616,19 +620,20 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70316",
                 'color' =>  "#A7A5A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "50BG 38/011",
                 'color' =>  "#A2A5A5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -636,7 +641,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Ascot Blue",
                 'color' =>  "#A0A9AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -646,7 +651,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 41/040",
                 'color' =>  "#A0A9AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -656,7 +661,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Ascot Blue",
                 'color' =>  "#A0A9AE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -666,7 +671,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Couture",
                 'color' =>  "#9E9F9E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -676,7 +681,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Spa Blue",
                 'color' =>  "#9DAAAE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -686,7 +691,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70BG 40/050",
                 'color' =>  "#9DAAAE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -696,9 +701,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Granite Grey",
                 'color' =>  "#9D9E9D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -706,9 +711,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 37/000",
                 'color' =>  "#9D9E9D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -716,7 +721,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Cobbled Stone",
                 'color' =>  "#9A9EA0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -726,7 +731,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 31/043",
                 'color' =>  "#90969C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -736,7 +741,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 31/043",
                 'color' =>  "#90969C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -746,7 +751,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Chiseled Grey",
                 'color' =>  "#90969C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -756,7 +761,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 31/022",
                 'color' =>  "#909396",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -766,7 +771,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Pennant",
                 'color' =>  "#909396",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -776,7 +781,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 31/022",
                 'color' =>  "#909396",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -786,7 +791,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Shadow Play",
                 'color' =>  "#8F9EA5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -796,7 +801,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Shadow Play",
                 'color' =>  "#8F9EA5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -806,7 +811,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 35/068",
                 'color' =>  "#8F9EA5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -816,7 +821,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Slick Seal",
                 'color' =>  "#8F9391",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -826,7 +831,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 31/000",
                 'color' =>  "#8F908F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -836,7 +841,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Sophisticated Grey",
                 'color' =>  "#878888",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -846,7 +851,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Dark Storm",
                 'color' =>  "#858585",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -856,7 +861,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Smoke Grey",
                 'color' =>  "#84939C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -866,7 +871,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 30/073",
                 'color' =>  "#84939C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -876,7 +881,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Smoke Grey",
                 'color' =>  "#84939C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -886,7 +891,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Gentry Blue",
                 'color' =>  "#829096",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -896,7 +901,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70BG 28/060",
                 'color' =>  "#829096",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -906,9 +911,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 25/000",
                 'color' =>  "#808080",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -916,7 +921,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Energetic Watertide",
                 'color' =>  "#7E8D99",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -926,7 +931,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Silver Buckle",
                 'color' =>  "#7D7D7C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -936,7 +941,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Brooding Storm",
                 'color' =>  "#7C8D95",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -946,9 +951,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 25/079",
                 'color' =>  "#778790",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -956,7 +961,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 21/014",
                 'color' =>  "#77797A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -967,7 +972,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Mellow Silver",
                 'color' =>  "#767F84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -977,7 +982,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 21/056",
                 'color' =>  "#737B84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -987,7 +992,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Evening Shadow",
                 'color' =>  "#737B84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -997,7 +1002,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Evening Shadow",
                 'color' =>  "#737B84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1007,7 +1012,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 20/000",
                 'color' =>  "#737372",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1018,9 +1023,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 16/031",
                 'color' =>  "#686D70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1029,7 +1034,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 16/031",
                 'color' =>  "#686D70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1040,7 +1045,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70BG 19/071",
                 'color' =>  "#67767D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1051,7 +1056,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Cable",
                 'color' =>  "#676A6B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1061,9 +1066,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 16/000",
                 'color' =>  "#666665",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1072,7 +1077,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Murky Nights",
                 'color' =>  "#64727A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1082,7 +1087,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Storm Season",
                 'color' =>  "#63707B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1092,9 +1097,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 16/060",
                 'color' =>  "#626D74",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1103,7 +1108,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Plush Pewter",
                 'color' =>  "#616160",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1113,7 +1118,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Wisdom Light",
                 'color' =>  "#60666C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1123,7 +1128,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Connecticut Blue",
                 'color' =>  "#5E717B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1133,7 +1138,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Connecticut Blue",
                 'color' =>  "#5E717B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1143,7 +1148,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 17/090",
                 'color' =>  "#5E717B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1154,7 +1159,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50BG 14/036",
                 'color' =>  "#5B6466",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1165,7 +1170,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 13/068",
                 'color' =>  "#58626C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1176,7 +1181,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Magnetic Field",
                 'color' =>  "#555C5E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1186,7 +1191,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Intense Gunmetal",
                 'color' =>  "#505354",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1196,7 +1201,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Forged Metal",
                 'color' =>  "#4F5050",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1206,7 +1211,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Whale Wall",
                 'color' =>  "#4E5B66",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1216,7 +1221,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Darkened Puddle",
                 'color' =>  "#4E5A60",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1226,9 +1231,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 10/019",
                 'color' =>  "#4D4F52",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1237,7 +1242,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Darkened Storm",
                 'color' =>  "#494D52",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1247,9 +1252,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 10/067",
                 'color' =>  "#46545C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1258,9 +1263,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50BG 08/021",
                 'color' =>  "#424748",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 8,],
@@ -1268,7 +1273,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Fantasy Space",
                 'color' =>  "#3F3E3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1278,7 +1283,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Newspaper Ink",
                 'color' =>  "#3D454D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1288,7 +1293,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Intense Ink",
                 'color' =>  "#3D4448",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1298,7 +1303,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Skylight Darkness",
                 'color' =>  "#3C3E3E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1308,9 +1313,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 07/000",
                 'color' =>  "#3A3A39",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1319,9 +1324,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90BG 08/075",
                 'color' =>  "#394A53",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1330,7 +1335,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Ink Explosion",
                 'color' =>  "#364A55",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1340,7 +1345,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Flow",
                 'color' =>  "#36393A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1350,7 +1355,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Soft Soot",
                 'color' =>  "#363635",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1360,9 +1365,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Black Mica",
                 'color' =>  "#343639",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1370,7 +1375,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30BB 05/022",
                 'color' =>  "#343639",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1381,7 +1386,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Black Mica",
                 'color' =>  "#343639",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1391,7 +1396,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Black Mica",
                 'color' =>  "#343639",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1401,7 +1406,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Black Mica",
                 'color' =>  "#343639",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1411,7 +1416,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Black Mica",
                 'color' =>  "#343639",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1421,7 +1426,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Deep Lead",
                 'color' =>  "#343333",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1431,9 +1436,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "00NN 05/000",
                 'color' =>  "#2C2B2B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  0,
+                'is_popular' =>  1,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 2,],
                 'projectTypes' => [
@@ -1442,7 +1447,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Arctic Majesty",
                 'color' =>  "#ECEADF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1452,7 +1457,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90YY 83/036",
                 'color' =>  "#EBE9E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1462,7 +1467,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Eternal Snowdrop",
                 'color' =>  "#E7E6DD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1472,7 +1477,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "60YY 74/072",
                 'color' =>  "#E0DBCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1482,7 +1487,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Dunes",
                 'color' =>  "#DEDDD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1492,7 +1497,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Mushroom Morning",
                 'color' =>  "#DEDACB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1502,7 +1507,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90YY 73/040",
                 'color' =>  "#DDDCD3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1512,7 +1517,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70YY 72/041",
                 'color' =>  "#DDDCD2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1522,7 +1527,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Lake Of Grey",
                 'color' =>  "#DCDFD8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1532,17 +1537,18 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "21237",
                 'color' =>  "#DAD8D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70GY 72/025",
                 'color' =>  "#D7DAD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1552,7 +1558,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Awakening Feel",
                 'color' =>  "#D6D5CB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1562,7 +1568,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Chelsea Fog",
                 'color' =>  "#D5DAD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1572,7 +1578,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GG 72/022",
                 'color' =>  "#D5DAD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1582,7 +1588,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "60YY 65/082",
                 'color' =>  "#D5D0BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1592,7 +1598,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Chic",
                 'color' =>  "#D3D3CB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1602,7 +1608,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "River Revolution",
                 'color' =>  "#D3CDBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1612,7 +1618,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90YY 63/044",
                 'color' =>  "#D0D0C6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1622,7 +1628,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Blurry Grey",
                 'color' =>  "#CDD4CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1632,7 +1638,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GG 62/026",
                 'color' =>  "#C9CFCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1642,7 +1648,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Gentle Tide",
                 'color' =>  "#C6D0C8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1652,7 +1658,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90GY 63/047",
                 'color' =>  "#C6D0C8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1662,7 +1668,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Massive Elephant",
                 'color' =>  "#C5C7C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1672,7 +1678,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GY 56/073",
                 'color' =>  "#C2C4B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1682,7 +1688,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GY 56/023",
                 'color' =>  "#C1C2BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1692,7 +1698,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Antique Sterling",
                 'color' =>  "#C1C2BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1702,7 +1708,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Furry Flush",
                 'color' =>  "#C0C1B5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1712,17 +1718,18 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "71759",
                 'color' =>  "#BEC3C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "50GY 55/066",
                 'color' =>  "#BDC4B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1732,7 +1739,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Jeans",
                 'color' =>  "#BDC3B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1742,7 +1749,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50GY 53/033",
                 'color' =>  "#BCC1BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1752,7 +1759,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50GY 53/017",
                 'color' =>  "#BCBFBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1762,7 +1769,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GG 53/030",
                 'color' =>  "#B8BFBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1772,7 +1779,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Souvenir",
                 'color' =>  "#B8BFBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1782,9 +1789,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Souvenir",
                 'color' =>  "#B8BFBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1792,9 +1799,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Souvenir",
                 'color' =>  "#B8BFBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -1802,7 +1809,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GY 49/081",
                 'color' =>  "#B7B8A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1812,7 +1819,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50YY 47/053",
                 'color' =>  "#B7B3A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1822,7 +1829,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Roman Sensation",
                 'color' =>  "#B7B2A4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1832,7 +1839,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70YY 46/053",
                 'color' =>  "#B6B4A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1842,7 +1849,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Aged Stucco",
                 'color' =>  "#B6B4A9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1852,7 +1859,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Silver Sensation",
                 'color' =>  "#B5BBB5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1862,7 +1869,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Calm",
                 'color' =>  "#B2B1A5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1872,7 +1879,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50GY 45/037",
                 'color' =>  "#AFB4AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1882,7 +1889,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Kaki Daylight",
                 'color' =>  "#AFB3A5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1892,7 +1899,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Dust Day",
                 'color' =>  "#A9B4AB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1902,7 +1909,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90YY 40/058",
                 'color' =>  "#A7A89C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1912,7 +1919,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GY 40/029",
                 'color' =>  "#A4A7A1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1922,7 +1929,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Wexford Fog",
                 'color' =>  "#A4A7A1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1932,7 +1939,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50YY 33/065",
                 'color' =>  "#9E998C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1942,7 +1949,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Pepper Tree",
                 'color' =>  "#9DA5A0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1952,7 +1959,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GG 38/038",
                 'color' =>  "#9DA5A0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1962,7 +1969,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Morning Pebble",
                 'color' =>  "#9DA298",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1972,7 +1979,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90YY 33/062",
                 'color' =>  "#9C9B8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1982,7 +1989,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Elephant Tail",
                 'color' =>  "#9C968B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1992,7 +1999,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Misty Morning",
                 'color' =>  "#94968A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2002,7 +2009,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Team Grey",
                 'color' =>  "#949488",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2012,7 +2019,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50GY 32/046",
                 'color' =>  "#93988F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2022,7 +2029,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Relaxing Mood",
                 'color' =>  "#8F988F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2032,7 +2039,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90YY 28/067",
                 'color' =>  "#8E8E81",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2042,7 +2049,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Mountain",
                 'color' =>  "#8A8376",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2052,7 +2059,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "40YY 25/074",
                 'color' =>  "#8A8376",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2062,7 +2069,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GY 27/036",
                 'color' =>  "#878A83",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2072,7 +2079,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Thundercloud",
                 'color' =>  "#838C86",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2082,9 +2089,9 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Thundercloud",
                 'color' =>  "#838C86",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  1,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2092,7 +2099,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GG 26/046",
                 'color' =>  "#838C86",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2102,7 +2109,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Iconic Grey",
                 'color' =>  "#818278",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2112,7 +2119,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Otter Silver",
                 'color' =>  "#7F847F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2122,7 +2129,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Grey Fur",
                 'color' =>  "#7F7B73",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2132,7 +2139,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "40YY 20/081",
                 'color' =>  "#7D7668",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2143,7 +2150,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Mouse Tail",
                 'color' =>  "#7B8178",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2153,7 +2160,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GG 21/050",
                 'color' =>  "#757E78",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2163,7 +2170,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "90YY 19/075",
                 'color' =>  "#747264",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2174,7 +2181,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "English Pinewood",
                 'color' =>  "#747264",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2184,7 +2191,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Calming Grey",
                 'color' =>  "#717366",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2194,7 +2201,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "November Storm",
                 'color' =>  "#68655D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2204,7 +2211,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70GY 16/063",
                 'color' =>  "#646E64",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2215,7 +2222,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Metal Clasp",
                 'color' =>  "#646967",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2225,7 +2232,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Spheric Winter",
                 'color' =>  "#63655D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2235,7 +2242,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Metallic Touch",
                 'color' =>  "#616760",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2245,7 +2252,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50GY 13/064",
                 'color' =>  "#5C6258",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2256,7 +2263,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Energetic Grey",
                 'color' =>  "#5C615A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2266,7 +2273,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Gorgeous Olive",
                 'color' =>  "#575A4C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2276,7 +2283,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GG 13/046",
                 'color' =>  "#55605B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2287,7 +2294,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Tarnished Iron",
                 'color' =>  "#4F514D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2297,7 +2304,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GY 10/048",
                 'color' =>  "#4F5148",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2308,7 +2315,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Military Mood",
                 'color' =>  "#4E4A45",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2318,7 +2325,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Slate Dream",
                 'color' =>  "#4C4E48",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2328,7 +2335,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70YY 06/088",
                 'color' =>  "#494538",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2339,7 +2346,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Spanish Moss",
                 'color' =>  "#494538",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2349,7 +2356,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "30GG 10/050",
                 'color' =>  "#47524D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2360,7 +2367,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Metropolis",
                 'color' =>  "#47524D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2370,7 +2377,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "70GY 08/075",
                 'color' =>  "#404B40",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2381,7 +2388,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Mysterious Grey",
                 'color' =>  "#384340",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2391,7 +2398,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "Tavern Green",
                 'color' =>  "#2D3D39",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2401,7 +2408,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "50GG 05/063",
                 'color' =>  "#2D3D39",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2412,79 +2419,86 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "21237",
                 'color' =>  "#DAD8D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "77133",
                 'color' =>  "#D4CDBD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70513",
                 'color' =>  "#D2D4D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "71755",
                 'color' =>  "#CFD5D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70514",
                 'color' =>  "#CFD2CB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70334",
                 'color' =>  "#C7CBCB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70511",
                 'color' =>  "#C5CACA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "50GY 55/066",
                 'color' =>  "#BDC4B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
-                'is_popular' =>  1,
+                'is_popular' =>  0,
                 'is_deep_color' =>  0,
                 'surfaces' => [ 1, 2,],
                 'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
@@ -2492,7 +2506,7 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "10GG 53/030",
                 'color' =>  "#B8BFBA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -2502,42 +2516,46 @@ class ColorNaturalSeeder extends Seeder
             [
                 'name' =>  "71754",
                 'color' =>  "#B7C2C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70512",
                 'color' =>  "#B5B4B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70510",
                 'color' =>  "#ACB2B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
             [
                 'name' =>  "70335",
                 'color' =>  "#A9AFB0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  11,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
-                'surfaces' => [ 1, 2,],
-                'projectTypes' => [ 1, 2, 3, 4, 5, 6, 7, 8,],
+                'surfaces' => [ 2,],
+                'projectTypes' => [
+        ],
             ],
         ];
 

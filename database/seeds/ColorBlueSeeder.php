@@ -16,7 +16,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Violet Arena",
                 'color' =>  "#DCDFE4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -26,7 +26,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Tailwind",
                 'color' =>  "#D8E0E9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -36,7 +36,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "29BB 75/065",
                 'color' =>  "#D8E0E9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -46,7 +46,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 72/032",
                 'color' =>  "#D8DCE0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -56,7 +56,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "River Ice",
                 'color' =>  "#D7E5EA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -66,7 +66,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Seaside Morning",
                 'color' =>  "#D6E5EB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -76,7 +76,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Crisp Mauve",
                 'color' =>  "#D4DEEE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -86,7 +86,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "69BG 77/076",
                 'color' =>  "#D3E5E9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -96,7 +96,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Pacific Pearl",
                 'color' =>  "#D0E4E8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -106,7 +106,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 76/079",
                 'color' =>  "#D0E4E8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -116,7 +116,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71114",
                 'color' =>  "#D0E3E8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -127,7 +127,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Lavender Morning",
                 'color' =>  "#CFD7E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -137,7 +137,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 67/096",
                 'color' =>  "#CED3E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -147,7 +147,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Arcadian Blue",
                 'color' =>  "#CED3E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -157,7 +157,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 76/090",
                 'color' =>  "#CDE5EA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -167,7 +167,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 72/086",
                 'color' =>  "#CBDFE6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -177,7 +177,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "38BB 69/096",
                 'color' =>  "#CBD8E6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -187,7 +187,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Lavender Twilight",
                 'color' =>  "#CBD8E6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -197,7 +197,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Mellow Lavender",
                 'color' =>  "#CBD3E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -207,7 +207,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 72/100",
                 'color' =>  "#C9DEE9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -217,7 +217,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Skier's Trail",
                 'color' =>  "#C9DEE9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -227,7 +227,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "06BB 71/091",
                 'color' =>  "#C7D9E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -237,7 +237,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Baby Blue",
                 'color' =>  "#C7D9E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -247,7 +247,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Purple Pastry",
                 'color' =>  "#C7D8E6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -257,7 +257,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 63/094",
                 'color' =>  "#C6CFDE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -267,7 +267,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Denim Fantasy",
                 'color' =>  "#C5E4E9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -277,7 +277,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Mystic Water",
                 'color' =>  "#C4E0EB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -287,7 +287,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "55BG 74/117",
                 'color' =>  "#C3E1E9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -297,7 +297,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "01BB 69/098",
                 'color' =>  "#C3D8E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -307,7 +307,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Everclear",
                 'color' =>  "#C3D8E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -317,7 +317,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Gorgeous Grape",
                 'color' =>  "#C3CDE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -327,7 +327,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 63/097",
                 'color' =>  "#C2D0DF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -337,7 +337,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 74/130",
                 'color' =>  "#C1E3EA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -347,7 +347,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Heaven",
                 'color' =>  "#C1E3EA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -357,7 +357,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "California Sky",
                 'color' =>  "#C1DDE7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -367,7 +367,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 70/113",
                 'color' =>  "#C1DDE7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -377,7 +377,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "89BG 70/116",
                 'color' =>  "#C1DAE6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -387,7 +387,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Windswept",
                 'color' =>  "#C1DAE6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -397,7 +397,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 69/117",
                 'color' =>  "#BDDDE4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -407,7 +407,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Beatle",
                 'color' =>  "#BDD7E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -417,7 +417,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 70/131",
                 'color' =>  "#BBDDE9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -427,7 +427,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Fountain Mist",
                 'color' =>  "#BBDDE9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -437,7 +437,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Pearl Violet",
                 'color' =>  "#BBCEE3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -447,7 +447,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Morning Fresh",
                 'color' =>  "#B6D4E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -457,7 +457,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Geoffrey's Room",
                 'color' =>  "#B6D1E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -467,7 +467,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "40BG 70/146",
                 'color' =>  "#B5DFE7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -477,7 +477,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Siesta Key",
                 'color' =>  "#B5D7E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -487,7 +487,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 67/126",
                 'color' =>  "#B5D7E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -497,7 +497,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 72/170",
                 'color' =>  "#B4DFE8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -507,7 +507,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "66BG 68/157",
                 'color' =>  "#B4DCEA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -517,7 +517,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Oceantide",
                 'color' =>  "#B4DCEA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -527,7 +527,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Festive Feel",
                 'color' =>  "#B4CEEB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -537,7 +537,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71744",
                 'color' =>  "#B3DCE6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -548,7 +548,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Lily Blue",
                 'color' =>  "#B3CADE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -558,7 +558,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Secret Water",
                 'color' =>  "#B2D1E7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -568,7 +568,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "48BB 56/162",
                 'color' =>  "#B2C5DF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -578,7 +578,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Dusky Lilac",
                 'color' =>  "#B2C5DF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -588,7 +588,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Evening Flower",
                 'color' =>  "#B2C1D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -598,7 +598,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "99BG 62/159",
                 'color' =>  "#B1D2E6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -608,7 +608,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Celestial",
                 'color' =>  "#B1D2E6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -618,7 +618,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Glistening Sea",
                 'color' =>  "#B0D3DB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -628,7 +628,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Glistening Sea",
                 'color' =>  "#B0D3DB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -638,7 +638,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 62/133",
                 'color' =>  "#B0D3DB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -648,7 +648,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Plum Marmelade",
                 'color' =>  "#ABBCDC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -658,7 +658,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Brave Ocean",
                 'color' =>  "#AACCE3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -668,7 +668,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Plum Touch",
                 'color' =>  "#A9CCE6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -678,7 +678,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Bubbling Blue",
                 'color' =>  "#A8DAE5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -688,7 +688,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Tranquil Blue",
                 'color' =>  "#A1C9E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -698,7 +698,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Undeniable Ocean",
                 'color' =>  "#A1C0DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -708,7 +708,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sailing Adventure",
                 'color' =>  "#A0D6E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -718,7 +718,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "46BG 63/190",
                 'color' =>  "#9FD5E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -728,7 +728,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Alice Blue",
                 'color' =>  "#9FD5E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -738,7 +738,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "74BG 61/206",
                 'color' =>  "#9FD3E7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -748,7 +748,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Wild Blue Yonder",
                 'color' =>  "#9FD3E7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -758,7 +758,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Aubergine Taste",
                 'color' =>  "#9CB2DF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -768,7 +768,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 53/164",
                 'color' =>  "#9AC5D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -778,7 +778,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Atlantis Blue",
                 'color' =>  "#9AC5D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -788,7 +788,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Fresh Encounter",
                 'color' =>  "#9AC2E2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -798,7 +798,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sublime Orchid",
                 'color' =>  "#97B1DA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -808,7 +808,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "36BB 46/231",
                 'color' =>  "#91B5D8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -818,7 +818,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Ceremonial Blue",
                 'color' =>  "#8FA6C6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -828,7 +828,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Chiffon",
                 'color' =>  "#8DCCE7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -838,7 +838,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "77BG 57/234",
                 'color' =>  "#8DCCE7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -848,7 +848,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 47/182",
                 'color' =>  "#8DBDCF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -858,7 +858,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Dahlia",
                 'color' =>  "#8DBDCF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -868,7 +868,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Basin Street Blue",
                 'color' =>  "#8998BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -878,7 +878,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Spa Weekend",
                 'color' =>  "#87CEE2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -888,7 +888,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Azure Skyline",
                 'color' =>  "#87B1D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -898,7 +898,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 55/241",
                 'color' =>  "#85CCDE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -908,7 +908,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Michigan Lakes",
                 'color' =>  "#83B8C5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -918,7 +918,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 44/184",
                 'color' =>  "#83B8C5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -928,7 +928,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "79BG 53/259",
                 'color' =>  "#82C8E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -938,7 +938,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Delft China",
                 'color' =>  "#82C8E3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -948,7 +948,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71743",
                 'color' =>  "#80BFD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -959,7 +959,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "48BG 54/244",
                 'color' =>  "#7FCADB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -969,7 +969,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Clear Sky",
                 'color' =>  "#7FCADB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -979,7 +979,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Water Rush",
                 'color' =>  "#7FB7D6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -989,7 +989,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Atmosphere View",
                 'color' =>  "#7DB0C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -999,7 +999,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "French Feeling",
                 'color' =>  "#7CA4D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1009,7 +1009,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 41/201",
                 'color' =>  "#7AB2C6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1019,7 +1019,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Periwinkle Blue",
                 'color' =>  "#769DC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1029,7 +1029,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Harlequin",
                 'color' =>  "#718EB4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1039,7 +1039,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Ladies In Lavender",
                 'color' =>  "#7090C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1049,7 +1049,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "61BB 28/291",
                 'color' =>  "#6D8DBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -1059,7 +1059,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Wobbly Water",
                 'color' =>  "#6CABD6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1069,7 +1069,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Moment",
                 'color' =>  "#67A0C1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1079,7 +1079,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Dream Spiral",
                 'color' =>  "#6790B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1089,7 +1089,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 32/262",
                 'color' =>  "#629DC2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1099,7 +1099,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Artist Lavender",
                 'color' =>  "#628CC0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1109,7 +1109,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Beside The Ocean",
                 'color' =>  "#5DB2CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1119,7 +1119,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 40/284",
                 'color' =>  "#5DB2CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1129,7 +1129,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Clean Waters",
                 'color' =>  "#5C9BCC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1139,7 +1139,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Hidden Harbor",
                 'color' =>  "#599FB7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1149,7 +1149,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 32/238",
                 'color' =>  "#599FB7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1159,7 +1159,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "86BG 43/321",
                 'color' =>  "#57B7DD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1169,7 +1169,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Note",
                 'color' =>  "#57B7DD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1179,7 +1179,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Berry Feeling",
                 'color' =>  "#57A3D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1189,7 +1189,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Amethyst Twist",
                 'color' =>  "#567EBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1199,7 +1199,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Operafest",
                 'color' =>  "#5270A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1209,7 +1209,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 30/235",
                 'color' =>  "#519BAD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1219,7 +1219,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "The Blues",
                 'color' =>  "#519BAD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1229,7 +1229,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 29/267",
                 'color' =>  "#4F98B9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1239,7 +1239,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Image Blue",
                 'color' =>  "#4D73A1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1249,7 +1249,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Amsterdam",
                 'color' =>  "#49B6CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1259,7 +1259,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 41/312",
                 'color' =>  "#49B6CE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1269,7 +1269,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Ocean Floor",
                 'color' =>  "#4883B0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1279,7 +1279,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sailors Sea",
                 'color' =>  "#448CA7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1289,7 +1289,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Beach Fever",
                 'color' =>  "#4181BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1299,7 +1299,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blackberry Fool",
                 'color' =>  "#3F4F72",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1309,7 +1309,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "89BG 37/353",
                 'color' =>  "#3BACD5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -1319,7 +1319,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Chelsea Blue",
                 'color' =>  "#39AFC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1329,7 +1329,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "52BG 38/320",
                 'color' =>  "#39AFC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1339,7 +1339,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Alluring Azure",
                 'color' =>  "#38B9CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1349,7 +1349,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Pim's Blue",
                 'color' =>  "#38B1DB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1359,7 +1359,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Police Siren",
                 'color' =>  "#3573AB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1369,7 +1369,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 18/318",
                 'color' =>  "#3078A8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1379,7 +1379,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 22/318",
                 'color' =>  "#2E86B2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1390,7 +1390,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 23/276",
                 'color' =>  "#2D8CA8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1401,7 +1401,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Indian Bead",
                 'color' =>  "#20A1C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1411,7 +1411,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 31/332",
                 'color' =>  "#20A1C3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1421,7 +1421,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Wedding",
                 'color' =>  "#1C5789",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1431,7 +1431,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Subzero Blue",
                 'color' =>  "#1C4B75",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1441,7 +1441,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Ride",
                 'color' =>  "#1B80B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1451,7 +1451,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Poseidons Wave",
                 'color' =>  "#1B7694",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1461,7 +1461,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 21/302",
                 'color' =>  "#1883A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1472,7 +1472,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Indigo Sea",
                 'color' =>  "#1883A7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1482,7 +1482,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Notorious Purple",
                 'color' =>  "#17407D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1492,7 +1492,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Kingdom",
                 'color' =>  "#165F9C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1502,7 +1502,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "93BG 32/374",
                 'color' =>  "#10A1CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1512,7 +1512,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Bluebird's Song",
                 'color' =>  "#10A1CF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1522,7 +1522,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Striking Sapphire",
                 'color' =>  "#106086",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1532,7 +1532,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Imagination",
                 'color' =>  "#0C4C62",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1542,7 +1542,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Soldier's Pride",
                 'color' =>  "#0A6C84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1552,7 +1552,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 14/243",
                 'color' =>  "#0A6C84",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1563,7 +1563,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Pure Blue",
                 'color' =>  "#024A7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -1573,7 +1573,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Pure Blue",
                 'color' =>  "#024A7F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1583,7 +1583,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Ocean Splash",
                 'color' =>  "#00A1B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1593,7 +1593,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Bayshore",
                 'color' =>  "#009FBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1603,7 +1603,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 30/384",
                 'color' =>  "#009FBE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1613,7 +1613,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blissfull Blue",
                 'color' =>  "#0097C4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1623,7 +1623,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "98BG 26/393",
                 'color' =>  "#0095C7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1634,7 +1634,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Neptune Sensation",
                 'color' =>  "#0095AC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1644,7 +1644,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 24/380",
                 'color' =>  "#008FB5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -1655,7 +1655,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Peking Blue",
                 'color' =>  "#008DAC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1665,7 +1665,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "56BG 23/355",
                 'color' =>  "#008DAC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1675,7 +1675,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "99BG 22/432",
                 'color' =>  "#0087BD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -1686,7 +1686,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sweet Saphyre",
                 'color' =>  "#00839D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1696,7 +1696,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 18/350",
                 'color' =>  "#00839D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1707,7 +1707,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Mediterranean Calm",
                 'color' =>  "#0081B8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1717,7 +1717,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "King Blue",
                 'color' =>  "#007CB6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1727,7 +1727,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Chip",
                 'color' =>  "#007C9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1737,7 +1737,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "60BG 17/341",
                 'color' =>  "#007C9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1748,7 +1748,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Caribbean Waters",
                 'color' =>  "#00779B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1758,7 +1758,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "65BG 17/353",
                 'color' =>  "#00779B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1769,7 +1769,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 14/337",
                 'color' =>  "#007096",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1780,7 +1780,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Planetarium",
                 'color' =>  "#007096",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1790,7 +1790,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Fabulous Feeling",
                 'color' =>  "#006B9F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1800,7 +1800,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 13/362",
                 'color' =>  "#006B9B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -1811,7 +1811,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 13/300",
                 'color' =>  "#006B88",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1822,7 +1822,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Jet Age",
                 'color' =>  "#006B88",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1832,7 +1832,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Electrical Storm",
                 'color' =>  "#006AA8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1842,7 +1842,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sail Away",
                 'color' =>  "#006392",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1852,7 +1852,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 11/350",
                 'color' =>  "#006392",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1863,7 +1863,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 12/310",
                 'color' =>  "#00638B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1874,7 +1874,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Jazz",
                 'color' =>  "#005B8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1884,7 +1884,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 10/337",
                 'color' =>  "#005B8E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1895,7 +1895,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Comets Tail",
                 'color' =>  "#005482",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1905,7 +1905,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blazer Blue",
                 'color' =>  "#005184",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -1915,7 +1915,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 08/263",
                 'color' =>  "#004E76",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  0,
@@ -1926,7 +1926,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sea Crystals",
                 'color' =>  "#E7E9EB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1936,7 +1936,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blues Breeze",
                 'color' =>  "#E0EAEF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1946,7 +1946,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Frosty Mist",
                 'color' =>  "#E0E4E8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1956,7 +1956,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "49BB 76/037",
                 'color' =>  "#DDE1E4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -1966,7 +1966,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 73/035",
                 'color' =>  "#DBDCE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1976,7 +1976,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Fountain Sprite",
                 'color' =>  "#DBDCE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1986,7 +1986,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 73/026",
                 'color' =>  "#D8DDDF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -1996,7 +1996,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 72/028",
                 'color' =>  "#D8DCDF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2006,7 +2006,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 72/034",
                 'color' =>  "#D7DCE0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2016,7 +2016,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Evening Light",
                 'color' =>  "#D7DBE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2026,7 +2026,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 72/045",
                 'color' =>  "#D7DBE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2036,7 +2036,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 73/045",
                 'color' =>  "#D6DEE3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2046,7 +2046,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Dandelion Puff",
                 'color' =>  "#D6DDE5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2056,7 +2056,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 72/045",
                 'color' =>  "#D6DCE2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2066,7 +2066,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 72/040",
                 'color' =>  "#D6DCE0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2076,7 +2076,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Virtual Reality",
                 'color' =>  "#D6DCE0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2086,7 +2086,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "28BB 72/039",
                 'color' =>  "#D4DBDE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2096,7 +2096,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Big Chill",
                 'color' =>  "#D1DDE3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2106,7 +2106,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 72/063",
                 'color' =>  "#D1DDE3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2116,7 +2116,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Morning Sensation",
                 'color' =>  "#D0DDE3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2126,7 +2126,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Dove Flight",
                 'color' =>  "#CFDBE5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2136,7 +2136,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 72/071",
                 'color' =>  "#CEDFE5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2146,7 +2146,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 65/056",
                 'color' =>  "#CED1D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2156,7 +2156,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Oasis",
                 'color' =>  "#CED1D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2166,7 +2166,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 65/066",
                 'color' =>  "#CDD1DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2176,7 +2176,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Smoky White",
                 'color' =>  "#CCCED3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2186,7 +2186,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 64/035",
                 'color' =>  "#CCCED3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2196,7 +2196,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 72/088",
                 'color' =>  "#CBDEE8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2206,7 +2206,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Soft Cloud",
                 'color' =>  "#CBDEE8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2216,7 +2216,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Lacy Lavender",
                 'color' =>  "#C9CFD8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2226,7 +2226,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 64/052",
                 'color' =>  "#C8D1D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2236,7 +2236,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 64/052",
                 'color' =>  "#C8D1D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2246,7 +2246,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 63/066",
                 'color' =>  "#C8CFD9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2256,7 +2256,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 63/058",
                 'color' =>  "#C5CED6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2266,7 +2266,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 63/072",
                 'color' =>  "#C3D2D9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2276,7 +2276,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 63/084",
                 'color' =>  "#C3CFDA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2286,7 +2286,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Reading Room",
                 'color' =>  "#C3CFDA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2296,7 +2296,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71760",
                 'color' =>  "#C2D5DE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2307,7 +2307,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 65/094",
                 'color' =>  "#C2D2DE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2317,7 +2317,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 55/044",
                 'color' =>  "#BEC2C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2327,7 +2327,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Moon Shade",
                 'color' =>  "#BEC2C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2337,7 +2337,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 54/079",
                 'color' =>  "#B9C1CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2347,7 +2347,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Tole Blue",
                 'color' =>  "#B9C1CD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2357,7 +2357,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Mild Wind",
                 'color' =>  "#B8C7CC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2367,7 +2367,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 56/061",
                 'color' =>  "#B8C7CC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2377,7 +2377,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Faded Denim",
                 'color' =>  "#B8C4CC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2387,7 +2387,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 55/065",
                 'color' =>  "#B8C4CC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2397,7 +2397,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71754",
                 'color' =>  "#B7C2C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2408,7 +2408,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 54/072",
                 'color' =>  "#B7C1CC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2418,7 +2418,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sensational Mood",
                 'color' =>  "#B4CBD9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2428,7 +2428,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 56/088",
                 'color' =>  "#B4C7D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2438,7 +2438,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 56/088",
                 'color' =>  "#B4C7D1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2448,7 +2448,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 57/115",
                 'color' =>  "#B3C8D8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2458,7 +2458,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 54/120",
                 'color' =>  "#B2C2D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2468,7 +2468,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Sensual",
                 'color' =>  "#B2C2D5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2478,7 +2478,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Mesmerize",
                 'color' =>  "#B1B6C4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2488,7 +2488,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 49/082",
                 'color' =>  "#B1B6C4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2498,7 +2498,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Soaring Skies",
                 'color' =>  "#B0CFDD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2508,7 +2508,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 59/124",
                 'color' =>  "#B0CED9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2518,7 +2518,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Hydrangea",
                 'color' =>  "#B0CED9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2528,7 +2528,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blueberry Mash",
                 'color' =>  "#B0C4D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2538,7 +2538,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Steamy Waters",
                 'color' =>  "#AFC5D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2548,7 +2548,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Danube",
                 'color' =>  "#ADC8D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2558,7 +2558,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 56/125",
                 'color' =>  "#ADC8D7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2568,7 +2568,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "21216",
                 'color' =>  "#A9C5D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2579,7 +2579,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 46/086",
                 'color' =>  "#A7B3C0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2589,7 +2589,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 46/124",
                 'color' =>  "#A3B5C8",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2599,7 +2599,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 40/062",
                 'color' =>  "#A3A7B1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2609,7 +2609,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Silhouette",
                 'color' =>  "#A3A7B1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2619,7 +2619,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 49/137",
                 'color' =>  "#A0BBCD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2629,7 +2629,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71761",
                 'color' =>  "#9FB8C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2640,7 +2640,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Purple Clash",
                 'color' =>  "#9DB1D0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2650,7 +2650,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71735",
                 'color' =>  "#9CB4BC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2661,7 +2661,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Electric Sky",
                 'color' =>  "#9CA5B6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2671,7 +2671,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 44/094",
                 'color' =>  "#9AB4BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2681,7 +2681,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Wilton Blue",
                 'color' =>  "#9AB4BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2691,7 +2691,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 39/104",
                 'color' =>  "#9AA5B7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2701,7 +2701,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Jordan",
                 'color' =>  "#99BDD0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2711,7 +2711,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 50/157",
                 'color' =>  "#99BDD0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2721,7 +2721,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 42/106",
                 'color' =>  "#99AFBC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2731,7 +2731,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Lunenburg",
                 'color' =>  "#99AFBC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2741,7 +2741,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 40/090",
                 'color' =>  "#99AAB6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2751,7 +2751,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Clean Harmony",
                 'color' =>  "#98B6CB",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2761,7 +2761,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 35/108",
                 'color' =>  "#979FB2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2771,7 +2771,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Approaching Night",
                 'color' =>  "#979FB2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2781,7 +2781,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Mouse Morning",
                 'color' =>  "#95A7B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2791,7 +2791,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 44/129",
                 'color' =>  "#94B5C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2801,7 +2801,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Rococo Blue",
                 'color' =>  "#94B5C2",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2811,7 +2811,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 28/080",
                 'color' =>  "#898D9B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2821,7 +2821,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Beyond Blue",
                 'color' =>  "#898D9B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2831,7 +2831,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 32/139",
                 'color' =>  "#869AAF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2841,7 +2841,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Wild Bluebell",
                 'color' =>  "#8699AD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2851,7 +2851,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 33/164",
                 'color' =>  "#8698B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2861,7 +2861,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Bunky Blue",
                 'color' =>  "#8599B4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2871,7 +2871,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blueberry Lolly",
                 'color' =>  "#83A8C1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2881,7 +2881,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blueberry Bud",
                 'color' =>  "#819BB4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2891,7 +2891,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 33/163",
                 'color' =>  "#819BB4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2901,7 +2901,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 32/114",
                 'color' =>  "#7F9DA5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2911,7 +2911,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Balkan Sea",
                 'color' =>  "#7F9DA5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2921,7 +2921,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 26/105",
                 'color' =>  "#7F8A9C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2931,7 +2931,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Cosmic Crescent",
                 'color' =>  "#7F8A9C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2941,7 +2941,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Cosmic Crescent",
                 'color' =>  "#7F8A9C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2951,7 +2951,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 31/124",
                 'color' =>  "#7D98A6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2961,7 +2961,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Lakefront",
                 'color' =>  "#7D98A6",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2971,7 +2971,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 38/185",
                 'color' =>  "#7CA8BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -2981,7 +2981,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Barton Blue",
                 'color' =>  "#7CA8BF",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -2991,7 +2991,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 28/116",
                 'color' =>  "#7B90A0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3001,7 +3001,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Starry Sky",
                 'color' =>  "#707992",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3011,7 +3011,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 21/147",
                 'color' =>  "#707992",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3022,7 +3022,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Tibet Blue",
                 'color' =>  "#6C97B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3032,7 +3032,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 30/203",
                 'color' =>  "#6C97B3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3042,7 +3042,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 28/169",
                 'color' =>  "#6794A5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3052,7 +3052,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Jay",
                 'color' =>  "#6794A5",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3062,7 +3062,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 17/126",
                 'color' =>  "#626F83",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3073,7 +3073,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Moon Waves",
                 'color' =>  "#626F83",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3083,7 +3083,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 18/106",
                 'color' =>  "#617482",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3094,7 +3094,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 15/081",
                 'color' =>  "#606573",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3105,7 +3105,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Arden Forge",
                 'color' =>  "#606573",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3115,7 +3115,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 28/213",
                 'color' =>  "#5E93AD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3125,7 +3125,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Waterbury Cottage",
                 'color' =>  "#5E93AD",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3135,7 +3135,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Denim Delight",
                 'color' =>  "#5C7291",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3145,7 +3145,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Midnight Rain",
                 'color' =>  "#58748B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3155,7 +3155,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Pebble Drift",
                 'color' =>  "#587381",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3165,7 +3165,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 17/120",
                 'color' =>  "#587381",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3176,7 +3176,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 17/158",
                 'color' =>  "#57718A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3187,7 +3187,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Waltz",
                 'color' =>  "#57718A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3197,7 +3197,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 19/144",
                 'color' =>  "#547C87",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3208,7 +3208,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Stormy Seas",
                 'color' =>  "#547C87",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3218,7 +3218,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Wild Coast",
                 'color' =>  "#537686",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3228,7 +3228,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 18/190",
                 'color' =>  "#537390",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3239,7 +3239,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 12/116",
                 'color' =>  "#535B6F",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3250,7 +3250,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Royal Cloak",
                 'color' =>  "#4E6185",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3260,7 +3260,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 15/154",
                 'color' =>  "#4C6B80",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3271,7 +3271,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Icelandic Waters",
                 'color' =>  "#457697",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3281,7 +3281,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 10/112",
                 'color' =>  "#455265",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3292,7 +3292,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BB 09/186",
                 'color' =>  "#454C6C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3302,7 +3302,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Condor Blues",
                 'color' =>  "#446A8B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3312,7 +3312,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 11/101",
                 'color' =>  "#445A66",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3323,7 +3323,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Approaching Storm",
                 'color' =>  "#445A66",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3333,7 +3333,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 10/112",
                 'color' =>  "#425465",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3344,7 +3344,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 11/126",
                 'color' =>  "#405A6B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3355,7 +3355,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 11/126",
                 'color' =>  "#405A6B",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3366,7 +3366,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Inky Darkness",
                 'color' =>  "#3B4966",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3376,7 +3376,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Indigo Depths",
                 'color' =>  "#3B424C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3386,7 +3386,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 20/241",
                 'color' =>  "#3A7D9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3397,7 +3397,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Bentley Blue",
                 'color' =>  "#3A7D9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3407,7 +3407,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Bentley Blue",
                 'color' =>  "#3A7D9A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3417,7 +3417,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Moonlight Drive",
                 'color' =>  "#3A698D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3427,7 +3427,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 14/242",
                 'color' =>  "#3A698D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3438,7 +3438,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 11/123",
                 'color' =>  "#3A5E67",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3449,7 +3449,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Global Waters",
                 'color' =>  "#3A5E67",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3459,7 +3459,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Global Waters",
                 'color' =>  "#3A5E67",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3469,7 +3469,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Neptunes Depths",
                 'color' =>  "#3A5267",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3479,7 +3479,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Inky Night",
                 'color' =>  "#37465C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3489,7 +3489,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 07/103",
                 'color' =>  "#373F51",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3500,7 +3500,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Encore",
                 'color' =>  "#354E76",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3510,7 +3510,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 16/209",
                 'color' =>  "#347488",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3521,7 +3521,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "West Pointe Blue",
                 'color' =>  "#338193",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3531,7 +3531,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 20/230",
                 'color' =>  "#338193",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3542,7 +3542,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 17/269",
                 'color' =>  "#32759A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3553,7 +3553,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 08/171",
                 'color' =>  "#324965",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3563,7 +3563,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Rich Navy",
                 'color' =>  "#324965",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3573,7 +3573,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Rich Navy",
                 'color' =>  "#324965",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3583,7 +3583,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Rich Navy",
                 'color' =>  "#324965",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3593,7 +3593,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Rich Navy",
                 'color' =>  "#324965",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3603,7 +3603,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Old World Blue",
                 'color' =>  "#315368",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3613,7 +3613,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 09/155",
                 'color' =>  "#315368",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3624,7 +3624,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Old World Blue",
                 'color' =>  "#315368",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3634,7 +3634,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Deep Well",
                 'color' =>  "#314655",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3644,7 +3644,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 07/086",
                 'color' =>  "#2F454D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3655,7 +3655,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Gabled Blue",
                 'color' =>  "#2F454D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3665,7 +3665,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Nourish Grey",
                 'color' =>  "#2C3241",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3675,7 +3675,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Mediterranean Blue",
                 'color' =>  "#274C68",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3685,7 +3685,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 08/188",
                 'color' =>  "#274C68",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3696,7 +3696,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 07/150",
                 'color' =>  "#25485C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  1,
                 'is_deep_color' =>  1,
@@ -3707,7 +3707,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Rendezvous",
                 'color' =>  "#245D6A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3717,7 +3717,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 10/175",
                 'color' =>  "#245D6A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3728,7 +3728,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Indigo Nights",
                 'color' =>  "#234760",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3738,7 +3738,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Deep Pacific",
                 'color' =>  "#233F61",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3748,7 +3748,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 09/171",
                 'color' =>  "#1E5566",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3759,7 +3759,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Deckchair Stripe",
                 'color' =>  "#1D567C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3769,7 +3769,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Elegant Ocean",
                 'color' =>  "#1C3753",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3779,7 +3779,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 08/200",
                 'color' =>  "#1A4F6A",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3790,7 +3790,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Wild Water",
                 'color' =>  "#184C6E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3800,7 +3800,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "30BB 08/225",
                 'color' =>  "#184C6E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3811,7 +3811,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Middy Blue",
                 'color' =>  "#136777",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3821,7 +3821,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 12/219",
                 'color' =>  "#136777",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3832,7 +3832,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Soft Azure",
                 'color' =>  "#0C5C70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3842,7 +3842,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 10/214",
                 'color' =>  "#0C5C70",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3853,7 +3853,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BG 11/257",
                 'color' =>  "#00647C",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3864,7 +3864,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "90BG 11/262",
                 'color' =>  "#005F7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3875,7 +3875,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Huron Lake",
                 'color' =>  "#005F7D",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3885,7 +3885,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Blue Bolt",
                 'color' =>  "#005476",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3895,7 +3895,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "10BB 09/250",
                 'color' =>  "#005476",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3906,7 +3906,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "Dress Blues",
                 'color' =>  "#00546E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3916,7 +3916,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "81BG 09/241",
                 'color' =>  "#00546E",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  1,
                 'is_popular' =>  0,
                 'is_deep_color' =>  1,
@@ -3927,7 +3927,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71732",
                 'color' =>  "#E0E4E7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3938,7 +3938,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 72/045",
                 'color' =>  "#D7DBE1",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3948,7 +3948,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71487",
                 'color' =>  "#D5DEE4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3959,7 +3959,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "69BG 77/076",
                 'color' =>  "#D3E5E9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3969,7 +3969,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71484",
                 'color' =>  "#CEE2E4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3980,7 +3980,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "70BB 65/066",
                 'color' =>  "#CDD1DC",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -3990,7 +3990,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BB 63/066",
                 'color' =>  "#C8CFD9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4000,7 +4000,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71760",
                 'color' =>  "#C2D5DE",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4011,7 +4011,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 74/130",
                 'color' =>  "#C1E3EA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4021,7 +4021,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71489",
                 'color' =>  "#BFD8E0",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4032,7 +4032,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "21216",
                 'color' =>  "#A9C5D3",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4043,7 +4043,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71804",
                 'color' =>  "#A7C5D4",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4054,7 +4054,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "71761",
                 'color' =>  "#9FB8C9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4065,7 +4065,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "50BG 44/094",
                 'color' =>  "#9AB4BA",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4075,7 +4075,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "52BG 38/320",
                 'color' =>  "#39AFC9",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,
@@ -4085,7 +4085,7 @@ class ColorBlueSeeder extends Seeder
             [
                 'name' =>  "98BG 26/393",
                 'color' =>  "#0095C7",
-                'color_group_id' =>  1,
+                'color_group_id' =>  9,
                 'mixed_by_computer' =>  0,
                 'is_popular' =>  0,
                 'is_deep_color' =>  0,

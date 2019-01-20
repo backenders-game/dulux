@@ -36,7 +36,7 @@
                         <div id="swatch-bar" class="swatch-bar squircle vr-margin-top-1">
                           <p class="h4 plp-color-name"></p>
                           <a class="inline-text-link pick-a-colour change-color" tabindex="30">
-                            Thay đổi màu này    
+                            Thay đổi màu này
                             <svg class="icon icon-arrow-right ">
                               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
                             </svg>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="title-section hidden-sm-down">
                               <h2 class="h5">Bộ lọc</h2>
-                              <a href="javascript:void(0)" class="filter-reset inline-text-link primary btn-clear" tabindex="31" style="display: none;">Khởi tạo lại bộ lọc</a>                              
+                              <a href="javascript:void(0)" class="filter-reset inline-text-link primary btn-clear" tabindex="31" style="display: none;">Khởi tạo lại bộ lọc</a>
                             </div>
                             <div class="clp-wrap collapse-wrap general">
                               <div class="form-collapse collapse-area visible" style="display: none;">
@@ -122,7 +122,7 @@
                               <div class="form-collapse collapse-area visible" style="order:;-webkit-order:;">
                                 <div class="collapse-trigger general-collapse-trigger-processed">
                                   Bề mặt cần sơn                <span class="count-label input-counter">0</span>
-                                
+
                                   <img class="icon_collapse_arrow" src="https://img.icons8.com/ios/50/000000/collapse-arrow.png">
 
                                 </div>
@@ -179,23 +179,28 @@
                           </div>
                           <div class="results-bar">
                             <a href="javascript:void(0)" class="filter-reset filter-reset inline-text-link primary btn-clear" tabindex="53" style="display: none;">Khởi tạo lại bộ lọc</a>
-                            <button id="filter_results_btn" class="bttn primary bttn-auto-width pull-right" tabindex="54">  <span>11</span> Kết quả</button>                            
+                            <button id="filter_results_btn" class="bttn primary bttn-auto-width pull-right" tabindex="54">  <span>11</span> Kết quả</button>
                           </div>
                         </div>
                         <div class="product-listing-markup-wrapper col-md-9 view-content focus-outline">
                           <div class="col-sm-12 focus-outline">
                             <h1 class="h2 vr-margin-bottom-0">Tìm sản phẩm cho dự án của bạn</h1>
                             <div class="product-listing-information focus-outline">
-                              <div class="product-amount vr-padding-vertical-4 focus-outline"><span>11</span> Đã tìm thấy sản phẩm</div>
+                              <div class="product-amount vr-padding-vertical-4 focus-outline">Đã tìm thấy
+                                  <span>
+                                    @isset($products)
+                                      {{$products->total()}}
+                                    @endisset
+                                  </span> sản phẩm</div>
                               <section class="filtering">
                                 <div class="filter-zone">
                                   <div class="icon-plus-text ipt-icon-settings right ">
-                                    Bộ lọc 
+                                    Bộ lọc
                                     <svg class="icon icon-settings ">
                                       <use xlink:href=""></use>
                                     </svg>
                                   </div>
-                                  <span class="count-label totalInputCount">0</span> 
+                                  <span class="count-label totalInputCount">0</span>
                                   <div class="clearfix"></div>
                                 </div>
                               </section>
@@ -213,31 +218,32 @@
                                   </div>
                                   <div class="view-content">
                                   <div class="row vr-margin-top-7">
-                                   
-                                   <div class="col-xs-12 col-md-4">
+                                   @isset($products)
+                                   @foreach($products as $product)
+                                   <div class="col col-lg-4 col-md-4 col-xs-12 focus-outline">
                                      <div class="product-card-container">
                                        <section class="product-card js-product-card">
                                          <div class="product-card__underlay"></div>
-                                         <span id="65622" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="9ca1c08e-b004-4ef7-9726-a2d001199474" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
+                                         <span id="{{$product->id}}" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="9ca1c08e-b004-4ef7-9726-a2d001199474" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
                                          <i class='far fa-heart' style='font-size:20px'></i>
                                          </span>
-                                         <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham')}}" title="Dulux Weathershield Sơn lót chống kiềm" tabindex="54">
+                                         <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham', ['id' => $product->id])}}" title="{{$product->name}}" tabindex="54">
                                            <article class="product-card__content">
-                                             <p class="product-card__title js-product-card-title" style="height: 48px;">Dulux Weathershield Sơn lót chống kiềm</p>
+                                             <p class="product-card__title js-product-card-title" style="height: 48px;">{{$product->name}}</p>
                                              <div class="product-card__image-wrapper">
                                                <div class="product-card__image">
-                                                 <img src="https://31fc8ad09e49483b220c-ba33b5880d166b057491bd70be456089.ssl.cf3.rackcdn.com/dulux-weathershield-son-lot-chng-kim_m.png">
+                                                 <img src="{{asset('/storage/'. $product->img_path)}}">
                                                </div>
                                              </div>
                                              <ul class="icon-list product-card__features">
+                                               @foreach($product->properties as $property)
+                                               @if ($loop->index < 3)
                                                <li>
                                                <i class="fas fa-check check_list_product"></i>
-                                                 Độ bám dính cao
+                                                 {{$property->name}}
                                                </li>
-                                               <li>
-                                               <i class="fas fa-check check_list_product"></i>
-                                                 Giữ màu sắc bền lâu cho lớp sơn phủ
-                                               </li>
+                                               @endif
+                                               @endforeach
                                              </ul>
                                              <button type="button" class="button  button--grey button--square" tabindex="55">
                                                <span class="button-text-label">
@@ -249,98 +255,22 @@
                                        </section>
                                      </div>
                                    </div>
-                                   <div class="col-xs-12 col-md-4">
-                                     <div class="product-card-container">
-                                       <section class="product-card js-product-card">
-                                         <div class="product-card__underlay"></div>
-                                         <span id="65622" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="9ca1c08e-b004-4ef7-9726-a2d001199474" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
-                                         <i class='far fa-heart' style='font-size:20px'></i>
-                                         </span>
-                                         <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham')}}" title="Dulux Weathershield Sơn lót chống kiềm" tabindex="54">
-                                           <article class="product-card__content">
-                                             <p class="product-card__title js-product-card-title" style="height: 48px;">Dulux Weathershield Sơn lót chống kiềm</p>
-                                             <div class="product-card__image-wrapper">
-                                               <div class="product-card__image">
-                                                 <img src="https://31fc8ad09e49483b220c-ba33b5880d166b057491bd70be456089.ssl.cf3.rackcdn.com/dulux-weathershield-son-lot-chng-kim_m.png">
-                                               </div>
-                                             </div>
-                                             <ul class="icon-list product-card__features">
-                                               <li>
-                                               <i class="fas fa-check check_list_product"></i>
-                                                 Độ bám dính cao
-                                               </li>
-                                               <li>
-                                               <i class="fas fa-check check_list_product"></i>
-                                                 Giữ màu sắc bền lâu cho lớp sơn phủ
-                                               </li>
-                                             </ul>
-                                             <button type="button" class="button  button--grey button--square" tabindex="55">
-                                               <span class="button-text-label">
-                                               <i class="fas fa-arrow-right focus-outline" style="font-size:15px;"></i>
-                                               </span>
-                                             </button>
-                                           </article>
-                                         </a>
-                                       </section>
-                                     </div>
-                                   </div>
-                                   <div class="col-xs-12 col-md-4">
-                                     <div class="product-card-container">
-                                       <section class="product-card js-product-card">
-                                         <div class="product-card__underlay"></div>
-                                         <span id="65622" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="9ca1c08e-b004-4ef7-9726-a2d001199474" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
-                                         <i class='far fa-heart' style='font-size:20px'></i>
-                                         </span>
-                                         <a class="product-card__link" href="{{route('frontend.chi_tiet_san_pham')}}" title="Dulux Weathershield Sơn lót chống kiềm" tabindex="54">
-                                           <article class="product-card__content">
-                                             <p class="product-card__title js-product-card-title" style="height: 48px;">Dulux Weathershield Sơn lót chống kiềm</p>
-                                             <div class="product-card__image-wrapper">
-                                               <div class="product-card__image">
-                                                 <img src="https://31fc8ad09e49483b220c-ba33b5880d166b057491bd70be456089.ssl.cf3.rackcdn.com/dulux-weathershield-son-lot-chng-kim_m.png">
-                                               </div>
-                                             </div>
-                                             <ul class="icon-list product-card__features">
-                                               <li>
-                                               <i class="fas fa-check check_list_product"></i>
-                                                 Độ bám dính cao
-                                               </li>
-                                               <li>
-                                               <i class="fas fa-check check_list_product"></i>
-                                                 Giữ màu sắc bền lâu cho lớp sơn phủ
-                                               </li>
-                                             </ul>
-                                             <button type="button" class="button  button--grey button--square" tabindex="55">
-                                               <span class="button-text-label">
-                                               <i class="fas fa-arrow-right focus-outline" style="font-size:15px;"></i>
-                                               </span>
-                                             </button>
-                                           </article>
-                                         </a>
-                                       </section>
-                                     </div>
-                                   </div>
+                                   @endforeach
+                                   @endisset
                                  </div>
                                   </div>
-                                  <div class="text-center pagination-clone-processed">
-                                    <ul class="pagination">
-                                      <li class="active first"><a href="#" tabindex="74">1</a></li>
-                                      <li><a title="Đi tới trang 2" href="/vi/san-pham/son-phu?page=1" tabindex="75">2</a></li>
-                                      <li class="next last"><a href="/vi/san-pham/son-phu?page=1" tabindex="76">❭</a></li>
-                                    </ul>
-                                  </div>
+                                <div class="text-center pagination-clone-processed">
+                                  {!! $products->links() !!}
+                                </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                         <div class="plp-pagination">
-                          <div class="text-center pagination-clone-processed">
-                            <ul class="pagination">
-                              <li class="active first"><a href="#" tabindex="74">1</a></li>
-                              <li><a title="Đi tới trang 2" href="/vi/san-pham/son-phu?page=1" tabindex="75">2</a></li>
-                              <li class="next last"><a href="/vi/san-pham/son-phu?page=1" tabindex="76">❭</a></li>
-                            </ul>
-                          </div>
+                            <div class="text-center pagination-clone-processed">
+                            {!! $products->links() !!}
+                            </div>
                         </div>
                       </div>
                     </div>

@@ -163,6 +163,7 @@
     $(document).ready(function () {
       var colors = [];
       var popularColors = [];
+      var selectedPopularColors = [];
       var surfaceColors = {
         tran_nha: [],
         tuong: []
@@ -208,13 +209,16 @@
           let colorDt = {
             name: "" + name,
             color: '#' + color,
-            color_group_id: 1,
+            color_group_id: 12,
             mixed_by_computer: 1,
-            is_popular: popularColors.includes(name) ? 1 : 0,
+            is_popular: popularColors.includes(name) && !selectedPopularColors.includes('' + name) ? 1 : 0,
             is_deep_color: 0,
             surfaces: [],
             projectTypes: []
           };
+          if (popularColors.includes('' + name) && !selectedPopularColors.includes('' + name)) {
+              selectedPopularColors.push("" + name);
+          }
 
           for (let surfaceName in surfaceColors) {
             // console.log('surface name', surfaceName);
@@ -242,13 +246,16 @@
           let colorDt = {
             name: "" + name,
             color: '#' + color,
-            color_group_id: 1,
+            color_group_id: 12,
             mixed_by_computer: 1,
-            is_popular: popularColors.includes(name) ? 1 : 0,
+            is_popular: popularColors.includes(name) && !selectedPopularColors.includes('' + name) ? 1 : 0,
             is_deep_color: 1,
             surfaces: [],
             projectTypes: []
           };
+          if (popularColors.includes('' + name) && !selectedPopularColors.includes('' + name)) {
+              selectedPopularColors.push("" + name);
+          }
           for (let surfaceName in surfaceColors) {
             let surfaceColor = surfaceColors[surfaceName];
             let surfaceId = surfaces[surfaceName];
@@ -273,9 +280,9 @@
           let colorDt = {
             name: "" + name,
             color: '#' + color,
-            color_group_id: 1,
+            color_group_id: 12,
             mixed_by_computer: 0,
-            is_popular: popularColors.includes(name) ? 1 : 0,
+            is_popular: 0,
             is_deep_color: 0,
             surfaces: [],
             projectTypes: []

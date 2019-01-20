@@ -37,7 +37,7 @@ class ProductRequest extends FormRequest
             'protection_info' => 'string|max:2000',
             'description' => 'string|max:200',
             'construction_guide' => 'string|max:2000',
-            'colors' => 'array',
+            'colors' => 'string',
         ];
     }
 
