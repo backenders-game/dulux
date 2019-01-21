@@ -16,7 +16,7 @@ class ListProductController extends Controller
     public function index($id, Request $request)
     {
         $products = Product::where('category_id', $id)->with(['properties'])
-            ->paginate(9);
+            ->paginate(1);
         return view('frontend.product.list_product', [
             'products' => $products
         ]);

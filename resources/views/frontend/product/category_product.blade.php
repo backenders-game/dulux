@@ -5,8 +5,9 @@
 @include('frontend.includes.css.categoryProductCss')
 <style type="text/css">
     .main-container {
-        padding-left: 1.08em !important;
-        padding-right: 1.08em !important;
+        max-width: 1360px !important;
+        padding-left: 1em !important;
+        padding-right: 1em !important;
     }
 </style>
 @endsection
