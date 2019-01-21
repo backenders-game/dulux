@@ -81,7 +81,7 @@
                                             @foreach($categories as $category)
                                               <div class="cstm-col-md-4 flourishProducts-processed" style="height: 239px;">
                                                 <div class="img-holder "><a href="{{route('frontend.danh_sach_san_pham', ['id' => $category->id])}}" title="{{$category->name}}" tabindex="26">
-                                                    <img alt="" class="img-responsive center-block" src="{{asset('/'). '/storage/'. $category->img_path}}"></a></div>
+                                                    <img alt="" class="img-responsive center-block" src="{{asset('/'). $category->img_path}}"></a></div>
                                                 <div class="text-holder">
                                                   <p class="text-center fs24">
                                                     <a href="{{route('frontend.danh_sach_san_pham', ['id' => $category->id])}}" title="{{$category->name}}" tabindex="27">{{$category->name}}
