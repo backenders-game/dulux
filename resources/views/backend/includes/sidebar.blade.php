@@ -40,11 +40,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ active_class(Active::checkUriPattern('admin/color-groups/*')) }}" href="{{ route('admin.color-groups.index') }}">
-                        <i class="nav-icon fas fa-palette"></i>@lang('labels.backend.colorgroups.management')
-                    </a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link {{ active_class(Active::checkUriPattern('admin/products/*')) }}" href="{{ route('admin.products.index') }}">
                         <i class="nav-icon fas fa-paint-roller"></i>@lang('labels.backend.products.management')
