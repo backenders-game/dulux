@@ -2,6 +2,7 @@
 /public/hot
 public/images
 /storage/*.key
+/vendor
 /.idea
 /.vagrant
 /nbproject
