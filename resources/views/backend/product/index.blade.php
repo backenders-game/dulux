@@ -36,7 +36,6 @@
                             <th>@lang('labels.backend.products.table.basic_info')</th>
                             <th>@lang('labels.backend.products.table.created_at')</th>
                             <th>@lang('labels.backend.products.table.updated_at')</th>
-                            <th>@lang('labels.general.actions')</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -83,22 +82,18 @@ $(document).ready(function() {
             {data: 'name', name: 'name'},
             {data: null, name: null, orderable: false, searchable: false},
             {data: 'created_at', name: 'created_at'},
-            {data: 'updated_at', name: 'updated_at'},
-            {data: null, name: null, orderable: false, searchable: false}
+            {data: 'updated_at', name: 'updated_at'}
         ],
         fnRowCallback: function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
             var index = iDisplayIndexFull +1;
             $('td:eq(0)',nRow).html(index);
             $('td:eq(1)', nRow).html('<img style="width: 70px; height: 80px;" src="' + '{{asset("/storage") }}/' + aData.img_path  + '">');
             $('td:eq(3)', nRow).html(`<ul style="padding-left: 5px !important;">
-                <li>Bề mặt hoàn thiện: </li>
                 <li>Độ bao phủ: ${aData.coverage} m2/L</li>
                 <li>Thời gian khô: ${aData.drying_time}</li>
                 <li>Số lớp: ${aData.num_layer}</li>
             </ul>
             `);
-            $('td:eq(6)', nRow)
-                .html('<a href="' + '{{ url("admin/products") }}/' + aData.id + '/edit"  class="btn btn-warning btn-sm"><i class="fas fa-pencil-alt"></i> Edit</a>');
             return nRow;
         }
     })
