@@ -113,7 +113,7 @@
                       <div id="popular-colors-list">
                         <div class="solr-pure-color-list">
                           <div class="solr-pure-color-name">
-                            <h2 class="color-type">{{$selectedClrGrp->name}}</h2>
+                            <h2 class="color-type">@isset($selectedClrGrp){{$selectedClrGrp->name}}@endisset</h2>
                           </div>
                           @isset($colors)
                           @foreach($colors as $color)
@@ -193,7 +193,7 @@ var projectTypes = @isset($projectTypes) {!! json_encode($projectTypes, JSON_HEX
 var colorGroups = @isset($colorGroups) {!! json_encode($colorGroups, JSON_HEX_TAG) !!}  @else [] @endisset;
 var finishSurfaces = @isset($finishSurfaces) {!! json_encode($finishSurfaces, JSON_HEX_TAG) !!} @else [] @endisset;
 var csrftoken = $('meta[name="csrf-token"]').attr('content');
-var selectedColorGroupId = {{session('color_group_id', 0)}};
+var selectedColorGroupId = {{session('color_group_id', 1)}};
 var selectedProjectType = {{$projectTypeId}};
 var selectedFinish = {{session('color_finish_id', 0)}};
 var selectedSurfaces = [];
