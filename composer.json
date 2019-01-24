@@ -22,7 +22,8 @@
         "spatie/laravel-permission": "^2.5",
         "torann/geoip": "^1.0",
         "webpatser/laravel-uuid": "^3.0",
-        "yajra/laravel-datatables-oracle": "~8.0"
+        "yajra/laravel-datatables-oracle": "~8.0",
+        "sunra/php-simple-html-dom-parser": "1.5.2"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -45,7 +46,8 @@
             "App\\": "app/"
         },
         "files": [
-            "app/helpers.php"
+            "app/helpers.php",
+            "app/Libraries/simplehtmldom/simple_html_dom.php"
         ]
     },
     "autoload-dev": {
