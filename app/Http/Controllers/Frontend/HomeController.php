@@ -16,4 +16,8 @@ class HomeController extends Controller
     {
         return view('frontend.trangchu');
     }
+    public function show($id)
+    {
+        return view('frontend.post.detail');
+    }
 }

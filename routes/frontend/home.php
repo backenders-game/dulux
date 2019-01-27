@@ -23,6 +23,8 @@ Route::get('contact', [ContactController::class, 'index'])->name('contact');
 Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('post/{id}', [HomeController::class, 'show'])->name('show');
+
 Route::get('/mau-sac-bang-mau', [FindColorController::class, 'index'])->name('mau_sac_bang_mau');
 Route::post('/find-color', [FindColorController::class, 'findColor'])->name('find_color');
 Route::get('/y-tuong', [IdeaController::class, 'index'])->name('y_tuong');
