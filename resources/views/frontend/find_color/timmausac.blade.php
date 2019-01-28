@@ -185,8 +185,8 @@
 </div>
 @endsection
 @section('jsPage')
-<script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/bootstrap3.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/js/jquery.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/js/bootstrap3.js')}}"></script>
 <script type="text/javascript">
 var surfaces = @isset($surfaces) {!! json_encode($surfaces, JSON_HEX_TAG) !!} @else [] @endisset;
 var projectTypes = @isset($projectTypes) {!! json_encode($projectTypes, JSON_HEX_TAG) !!} @else [] @endisset;
@@ -606,7 +606,7 @@ function displayAllColorList (colors, numAllColors) {
         if (color.is_popular == 1) {
             numPopular++;
         }
-        if (color.is_deep_color) {
+        if (color.is_deep_color == '1') {
             deepColors.push(color);
         } else {
             normalColors.push(color);
@@ -615,14 +615,14 @@ function displayAllColorList (colors, numAllColors) {
 
     let normalColorHtml = renderColorBoxChild(normalColors);
     let deepColorHtml = renderColorBoxChild(deepColors);
+    $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
+        $(box).remove();
+    });
+    $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
+        $(box).remove();
+    });
     if (colorGrp) {
         $('.filter-labels').removeClass('visible');
-        $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
-            $(box).remove();
-        });
-        $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
-            $(box).remove();
-        });
         // Hiển thị title màu thường.
         $('.solr-pure-color-name .color-type').html(colorGrp.name);
         // Hiển thị title màu trầm.
@@ -651,9 +651,8 @@ function displayPopularColorList (colors, numAllColors) {
     $('.rowInfo').remove();
     let normalColors = [];
     let deepColors = [];
-
     colors.forEach(function (color) {
-        if (color.is_deep_color) {
+        if (color.is_deep_color == '1') {
             deepColors.push(color);
         } else {
             normalColors.push(color);
@@ -662,16 +661,15 @@ function displayPopularColorList (colors, numAllColors) {
 
     let normalColorHtml = renderColorBoxChild(normalColors);
     let deepColorHtml = renderColorBoxChild(deepColors);
-
+    $('.solr-pure-color-list').find('.rowBox').each(function (idx, box) {
+        $(box).remove();
+    });
+    $('.solr-muted-color-list').find('.rowBox').each(function (idx, box) {
+        $(box).remove();
+    });
     if (colorGrp) {
         let filterLabelHtml = renderFilterElem();
         $('.filter-labels').html(filterLabelHtml);
-        $('#popular-colors-list .solr-pure-color-list').find('.rowBox').each(function (idx, box) {
-            $(box).remove();
-        });
-        $('#popular-colors-list .solr-muted-color-list').find('.rowBox').each(function (idx, box) {
-            $(box).remove();
-        });
         // Hiển thị title màu thường.
         $('.solr-pure-color-name .color-type').html(colorGrp.name);
         // Hiển thị title màu trầm.
@@ -689,9 +687,10 @@ function displayPopularColorList (colors, numAllColors) {
         // Hiển thị số lượng màu phổ biến
         $('.main-color-tab').html('Màu sắc phổ biến ' + '(' + colors.length + ')');
         // Màu thường.
-        $('#popular-colors-list .solr-pure-color-list').append(normalColorHtml);
+        // #popular-colors-list
+        $('.solr-pure-color-list').append(normalColorHtml);
         // Maù trầm
-        $('#popular-colors-list .solr-muted-color-list').append(deepColorHtml);
+        $('.solr-muted-color-list').append(deepColorHtml);
 
         setClickEventColorBoxChild();
 
