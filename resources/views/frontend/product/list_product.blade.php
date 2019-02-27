@@ -4,7 +4,12 @@
 @section('cssPage')
 <!-- @include('frontend.includes.css.listProductCss') -->
 @include('frontend.includes.css.listProductCss')
-
+<style type="text/css">
+    .main-container {
+        padding-left: 1.08em !important;
+        padding-right: 1.08em !important;
+    }
+</style>
 @endsection
 @section('content')
 <div id="zone-content" class="zone-content focus-outline">
@@ -23,7 +28,7 @@
                   <button style="display:none" id="edit-room-type-filters-reset-link" name="room_type_filters_reset_link" value="Reset Room Type Filters" type="button" class="btn btn-default form-submit ajax-processed" tabindex="26">Reset Room Type Filters</button>
                   <button style="display:none" id="edit-surface-usage-filters-reset-link" name="surface_usage_filters_reset_link" value="Reset Surface Usage Filters" type="button" class="btn btn-default form-submit ajax-processed" tabindex="27">Reset Surface Usage Filters</button>
                   <button style="display:none" id="edit-finish-filters-reset-link" name="finish_filters_reset_link" value="Reset Finish Filters" type="button" class="btn btn-default form-submit ajax-processed" tabindex="28">Reset Finish Filters</button>
-                  <div id="product-listing-filters-wrapper" class="focus-outline">
+                  <div id="product-listing-filters-wrapper" class="focus-outline" >
                     <div class="row plp-color-bar-show">
                       <div class="col-sm-12">
                         <div class="clearfix">
@@ -46,8 +51,8 @@
                     </div>
                     <div class="product-listing-filters fl-equi-height-container vr-margin-top-7 focus-outline">
                       <div class="row focus-outline">
-                        <div class="col-md-3">
-                          <div id="filter-wrapper-plp" class="filter-wrapper filter-wrapper-plp">
+                        <div class="row col-md-3">
+                          <div id="filter-wrapper-plp" class="filter-wrapper filter-wrapper-plp" style="z-index: 10;">
                             <div class="title-section hidden-sm-up">
                               <h2 class="text-center">Bộ lọc</h2>
                               <svg class="icon icon-close right">
@@ -182,8 +187,8 @@
                             <button id="filter_results_btn" class="bttn primary bttn-auto-width pull-right" tabindex="54">  <span>11</span> Kết quả</button>
                           </div>
                         </div>
-                        <div class="product-listing-markup-wrapper col-md-9 view-content focus-outline">
-                          <div class="col-sm-12 focus-outline">
+                        <div class="product-listing-markup-wrapper col-lg-9 col-md-9 view-content focus-outline">
+                          <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12 focus-outline">
                             <h1 class="h2 vr-margin-bottom-0">Tìm sản phẩm cho dự án của bạn</h1>
                             <div class="product-listing-information focus-outline">
                               <div class="product-amount vr-padding-vertical-4 focus-outline">Đã tìm thấy
@@ -212,7 +217,7 @@
                             </div>
                             <div class="onedomain-component">
                               <div class="row">
-                                <div class="view view-product-listing-solr view-id-product_listing_solr view-display-id-page_6 view-product-Listing view-dom-id-e4171de6da4a3743e0859efe66332447">
+                                <div class="col-xs-12 view view-product-listing-solr view-id-product_listing_solr view-display-id-page_6 view-product-Listing view-dom-id-111">
                                   <div class="view-header">
                                     <!-- <p class="h1 fl-prod-page-header">11 Products found</p> -->
                                   </div>
@@ -220,8 +225,8 @@
                                   <div class="row vr-margin-top-7">
                                    @isset($products)
                                    @foreach($products as $product)
-                                   <div class="col col-lg-4 col-md-4 col-xs-12 focus-outline">
-                                     <div class="product-card-container">
+                                   <div class="col-md-4 col-xs-12 focus-outline">
+                                     <div class="product-card-container" style="width: 100% !important; min-width: 100% !important;">
                                        <section class="product-card js-product-card">
                                          <div class="product-card__underlay"></div>
                                          <span id="{{$product->id}}" class=" scrap-book-add-product focus-outline product-card__button js-notify icon-heart js-toggle-class" data-type="product" data-categorytype="Primer" data-globalid="9ca1c08e-b004-4ef7-9726-a2d001199474" data-colorid="" data-colorcollection="" data-colorname="" data-tc-class="active">
@@ -232,7 +237,7 @@
                                              <p class="product-card__title js-product-card-title" style="height: 48px;">{{$product->name}}</p>
                                              <div class="product-card__image-wrapper">
                                                <div class="product-card__image">
-                                                 <img src="{{asset('/storage/'. $product->img_path)}}">
+                                                 <img src="{{asset('public/storage/'. $product->img_path)}}">
                                                </div>
                                              </div>
                                              <ul class="icon-list product-card__features">

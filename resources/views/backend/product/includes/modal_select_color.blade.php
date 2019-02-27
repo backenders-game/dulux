@@ -39,6 +39,18 @@
                     <div class="col-md-12 row">
                         @foreach($colors as $color)
                         @if ($color->color_group_id == $colorGroup->id && !$color->is_deep_color)
+                            @isset($productColors)
+                            <div style="border: 1px solid #fff !important; height: 4rem !important; background: {{$color->color}};"
+                                data-id="{{$color->name}}"
+                                class="col-md-3 col-xs-6 color-box-item">
+                                <label class="form-control-label" for="color_item_{{$color->id}}">
+                                    <input class="color-item" id="color_item_{{$color->id}}"
+                                        type="checkbox" @if(in_array($color->id, $productColors)) checked="true" @endif
+                                        value="{{$color->id}}" />
+                                    {{$color->name}}
+                                </label>
+                            </div>
+                            @else
                             <div style="border: 1px solid #fff !important; height: 4rem !important; background: {{$color->color}};"
                                 data-id="{{$color->name}}"
                                 class="col-md-3 col-xs-6 color-box-item">
@@ -48,6 +60,7 @@
                                     {{$color->name}}
                                 </label>
                             </div>
+                            @endisset
                         @endif
                         @endforeach
                     </div>
@@ -57,6 +70,18 @@
                     <div class="col-md-12 row">
                         @foreach($colors as $color)
                         @if ($color->color_group_id == $colorGroup->id && $color->is_deep_color)
+                            @isset($productColors)
+                            <div style="border: 1px solid #fff !important; height: 4rem !important; background: {{$color->color}};"
+                                data-id="{{$color->name}}"
+                                class="col-md-3 col-xs-6 color-box-item" >
+                                <label class="form-control-label" for="color_item_{{$color->id}}">
+                                    <input id="color_item_{{$color->id}}" type="checkbox"
+                                    @if(in_array($color->id, $productColors)) checked="true" @endif
+                                        class="color-item" value="{{$color->id}}" />
+                                    {{$color->name}}
+                                </label>
+                            </div>
+                            @else
                             <div style="border: 1px solid #fff !important; height: 4rem !important; background: {{$color->color}};"
                                 data-id="{{$color->name}}"
                                 class="col-md-3 col-xs-6 color-box-item" >
@@ -66,6 +91,7 @@
                                     {{$color->name}}
                                 </label>
                             </div>
+                            @endisset
                         @endif
                         @endforeach
                     </div>

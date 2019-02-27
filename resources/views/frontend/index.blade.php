@@ -66,7 +66,7 @@
                                   <div class="entry-point">
                                     <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/key-entry.jpg')"></div>
                                     <div class="entry-content fl-equi-height">
-                                      Màu Dulux của Năm 2019
+                                      Màu Nanocar của Năm 2019
                                       <button class="bttn squared right">
                                         <svg class="icon icon-arrow-right right">
                                           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
@@ -135,7 +135,7 @@
                                           <div class="group-left-code  image-left col-md-7 col-sm-8 col-xs-12">
                                             <div class="media media-element-container media-default">
                                               <div id="file-4341" class="file file-image file-image-jpeg">
-                                                <h2 class="element-invisible"><a href="/files/promoblock-image-no1jpg">Dulux-Mau-tuong-lai-Mau-chu-dao-nam-2019-Mot-khong-gian-khoi-goi-tri-tuong-tuong-Phong-khach-Cam-hung-Viet-nam-01.jpg</a></h2>
+                                                <h2 class="element-invisible"><a href="/files/promoblock-image-no1jpg">Nanocar-Mau-tuong-lai-Mau-chu-dao-nam-2019-Mot-khong-gian-khoi-goi-tri-tuong-tuong-Phong-khach-Cam-hung-Viet-nam-01.jpg</a></h2>
                                                 <div class="content">
                                                   <img alt="Dulux-Mau-tuong-lai-Mau-chu-dao-nam-2019-Mot-khong-gian-khoi-goi-tri-tuong-tuong-Phong-khach-Cam-hung-Viet-nam-01.jpg" title="Dulux-Mau-tuong-lai-Mau-chu-dao-nam-2019-Mot-khong-gian-khoi-goi-tri-tuong-tuong-Phong-khach-Cam-hung-Viet-nam-01.jpg" height="390" width="695" class="media-element file-default" typeof="foaf:Image" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/wysiwyg/promoblock-image-no_1.jpg" />
                                                 </div>
@@ -143,9 +143,9 @@
                                             </div>
                                           </div>
                                           <div class="group-right-code  content-right col-md-5 col-sm-4 col-xs-12">
-                                            <h2 class="fl-block-title focus-outline" style="font-family: colour-sans, open_sans_regular, Helvetica, Arial, sans-serif; line-height: 36px; color: rgb(51, 51, 51); margin: 0px; font-size: 28px; padding: 0px;  outline: none !important;">Màu Dulux năm 2019 - Màu Nâu Mật Nồng</h2>
+                                            <h2 class="fl-block-title focus-outline" style="font-family: colour-sans, open_sans_regular, Helvetica, Arial, sans-serif; line-height: 36px; color: rgb(51, 51, 51); margin: 0px; font-size: 28px; padding: 0px;  outline: none !important;">Màu Nanocar năm 2019 - Màu Nâu Mật Nồng</h2>
                                             <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102); font-size: 1.6rem; line-height: 2.4rem;"> </p>
-                                            <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102); font-size: 1.6rem; line-height: 2.4rem; ">Hàng năm, các chuyên gia về màu sắc của Dulux sẽ đón đầu các xu hướng sắp tới để định hình nên Màu sắc chủ đạo mới của năm. Nâu mật nồng là tông màu hổ phách lấy cảm hứng từ tinh thần lạc quan mà chúng tôi muốn truyền tải. Hãy khám phá xem sắc thái màu linh hoạt này cùng bốn bảng màu pa-lét bổ sung có thể giúp bạn biến đổi không gian nhà mình như thế nào.</p>
+                                            <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102); font-size: 1.6rem; line-height: 2.4rem; ">Hàng năm, các chuyên gia về màu sắc của Nanocar sẽ đón đầu các xu hướng sắp tới để định hình nên Màu sắc chủ đạo mới của năm. Nâu mật nồng là tông màu hổ phách lấy cảm hứng từ tinh thần lạc quan mà chúng tôi muốn truyền tải. Hãy khám phá xem sắc thái màu linh hoạt này cùng bốn bảng màu pa-lét bổ sung có thể giúp bạn biến đổi không gian nhà mình như thế nào.</p>
                                             <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102); font-size: 1.6rem; line-height: 2.4rem; "> </p>
                                             <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102); font-size: 1.6rem; line-height: 2.4rem; "><span style="font-family: Helvetica, sans-serif; font-size: 15.5pt;"><a href="https://www.dulux.vn/vi/mau-sac-chu-dao-cua-nam-2019" style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102); text-decoration-line: underline; font-size: 14px; padding: 8px 24px; outline: 0px; cursor: pointer; border-radius: 0px 10px; border: 2px solid rgb(47, 196, 141); font-weight: bold; float: left;" tabindex="281">Tìm hiểu thêm</a></span></p>
                                           </div>

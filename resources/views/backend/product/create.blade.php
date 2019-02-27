@@ -8,7 +8,8 @@
 
 @section('content')
     {{ html()->form('POST', route('admin.products.store')
-        )->class('form form-horizontal')->attribute('enctype', 'multipart/form-data')->open() }}
+        )->class('form form-horizontal')->attribute('enctype', 'multipart/form-data')
+        ->attribute('accept-charset', 'utf-8')->open() }}
         <div class="card">
             <div class="card-body">
                 <div class="row">
@@ -214,7 +215,7 @@
             <div class="card-footer clearfix">
                 <div class="row">
                     <div class="col">
-                        {{ form_cancel(route('admin.auth.user.index'), __('buttons.general.cancel')) }}
+                        {{ form_cancel(route('admin.products.index'), __('buttons.general.cancel')) }}
                     </div><!--col-->
 
                     <div class="col text-right">

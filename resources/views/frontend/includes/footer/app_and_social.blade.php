@@ -6,7 +6,7 @@
       <!--    visualizer section start     -->
       <div class="col-xs-12 col-md-6 v2-footer-menu__column v2-footer-menu__column--visualizer">
         <div class="v2-footer__heading">
-          <span class="v2-footer__header">Khám phá Dulux Visualizer</span>
+          <span class="v2-footer__header">Khám phá Nanocar Visualizer</span>
         </div>
         <div class="app-buttons">
         <a href="https://play.google.com/store/apps/details?id=com.akzonobel.cooper.vn.dulux" title="Get it on Google Play">
@@ -14,14 +14,14 @@
         </a>
         <a href="https://itunes.apple.com/vn/app/dulux-visualizer-vn/id862447000?mt=8">
             <img src="{{asset('img/frontend/icons/logo_google.png')}}" alt="" height="44" width="154">
-        </a> 
+        </a>
         </div>
       </div>
       <!--    visualizer section end     -->
       <!--    social section start     -->
       <div class="col-xs-12 col-md-6 v2-footer-menu__column v2-footer-menu__column--social">
         <div class="v2-footer__heading">
-          <span class="v2-footer__header">Theo dõi Dulux</span>
+          <span class="v2-footer__header">Theo dõi Nanocar</span>
         </div>
         <div class="accordion__content">
           <ul class="v2-footer-menu__list v2-footer-menu__list--social">

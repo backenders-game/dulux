@@ -24,5 +24,18 @@ Breadcrumbs::for('admin.products.update', function ($trail, $id) {
     $trail->push(__('strings.backend.products.update'), route('admin.products.update', $id));
 });
 
+Breadcrumbs::for('admin.posts.index', function ($trail) {
+    $trail->push(__('strings.backend.posts.index'), route('admin.posts.index'));
+});
+Breadcrumbs::for('admin.posts.create', function ($trail) {
+    $trail->push(__('strings.backend.posts.create'), route('admin.posts.create'));
+});
+Breadcrumbs::for('admin.posts.edit', function ($trail, $id) {
+    $trail->push(__('strings.backend.posts.edit'), route('admin.posts.edit', $id));
+});
+Breadcrumbs::for('admin.posts.update', function ($trail, $id) {
+    $trail->push(__('strings.backend.posts.update'), route('admin.posts.update', $id));
+});
+
 require __DIR__.'/auth.php';
 require __DIR__.'/log-viewer.php';

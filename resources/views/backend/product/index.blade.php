@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-sm-5">
                 <h4 class="card-title mb-0">
-                    {{ __('labels.backend.products.management') }} <small class="text-muted">{{ __('labels.backend.access.users.active') }}</small>
+                    {{ __('labels.backend.products.management') }} <small class="text-muted">{{ __('labels.backend.products.index') }}</small>
                 </h4>
             </div><!--col-->
 
@@ -27,15 +27,15 @@
             <div class="col">
                 <div class="table-responsive">
                     <table class="table table-striped table-bordered dt-responsive nowrap"
-                        id="backend_colorgroup_table" style="width: 100%;">
+                        id="backend_products_table" style="width: 100%;">
                         <thead>
                         <tr>
                             <th>@lang('labels.backend.products.table.no')</th>
                             <th>@lang('labels.backend.products.table.image')</th>
                             <th>@lang('labels.backend.products.table.name')</th>
                             <th>@lang('labels.backend.products.table.basic_info')</th>
-                            <th>@lang('labels.backend.products.table.created_at')</th>
                             <th>@lang('labels.backend.products.table.updated_at')</th>
+                            <th>@lang('labels.general.actions')</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -53,7 +53,7 @@
 $(document).ready(function() {
     let url = "{{ route('admin.products.datatables') }}";
     let csrftoken = $('meta[name="csrf-token"]').attr('content');
-    $('#backend_colorgroup_table').DataTable({
+    $('#backend_products_table').DataTable({
         serverSide: true,
         processing: true,
         fixedHeader: {
@@ -81,8 +81,8 @@ $(document).ready(function() {
             {data: 'img_path', name: 'img_path', orderable: false, searchable: false},
             {data: 'name', name: 'name'},
             {data: null, name: null, orderable: false, searchable: false},
-            {data: 'created_at', name: 'created_at'},
-            {data: 'updated_at', name: 'updated_at'}
+            {data: 'updated_at', name: 'updated_at'},
+            {data: null, name: null, orderable: false, searchable: false}
         ],
         fnRowCallback: function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
             var index = iDisplayIndexFull +1;
@@ -94,6 +94,8 @@ $(document).ready(function() {
                 <li>Số lớp: ${aData.num_layer}</li>
             </ul>
             `);
+            $('td:eq(5)', nRow).html('<a type="button" class="btn btn-warning btn-sm"'
+                +' href="{{route('admin.products.index')}}' + '/' + aData.id + '/edit"> Sửa</a>');
             return nRow;
         }
     })

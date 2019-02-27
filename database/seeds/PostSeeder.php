@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Models\Post;
 use Carbon\Carbon;
+use App\Models\Category;
 class PostSeeder extends Seeder
 {
     /**
@@ -29,6 +30,8 @@ class PostSeeder extends Seeder
     }
     public function run()
     {
+        $category = Category::where('name', 'Bài viết trang chủ')
+            ->where('type', 1)->first();
         //php artisan db:seed --class=PostSeeder
         $linkAlls = [
             'https://www.dulux.vn/vi/meo-va-loi-khuyen-trang-tri-nha',
@@ -44,7 +47,7 @@ class PostSeeder extends Seeder
         foreach($linkAlls as $link){
             $html = file_get_html($link);
             foreach($html->find('h2.s-hdlne') as $key =>$element) {
-                $contentLinks    = $element->find('a',0);            
+                $contentLinks    = $element->find('a',0);
                 $title = $contentLinks->innertext;
                 $href = 'https://www.dulux.vn'.''.$contentLinks->href ;
                 $image_small = $element->prev_sibling()->find('img',0)->src;
@@ -52,28 +55,29 @@ class PostSeeder extends Seeder
                 $image_big = $article->find('.article-banner .field-hero-image img',0)->src;
                 $description = $article->find('.field-article-body_inner .field-teaser .field-item',0)->plaintext;
                 $content = $article->find('.field-article-body_inner .field.field-name-body',0)->innertext;
-                
+
                 // Lấy ra tên của image
                 $name_image_small = $this->getNameImage($image_small,'small');
                 $name_image_big = $this->getNameImage($image_big,'big');
                 // Thực hiện lưu image
-                $path_image_small = 'public/img/frontend/posts/'.$name_image_small;
-                $path_image_big = 'public/img/frontend/posts/'.$name_image_big;
+                $path_image_small = public_path('/img/frontend/posts/' . $name_image_small);
+                $path_image_big = public_path('/img/frontend/posts/'.$name_image_big);
                 $save_image_small = $this->saveImages($image_small,$path_image_small);
                 $save_image_big = $this->saveImages($image_big,$path_image_big);
-                
+
                 $arr = [];
                 $arr['title'] = $title;
                 $arr['image_small'] = $name_image_small;
                 $arr['image_big'] = $name_image_big;
                 $arr['description'] = $description;
+                $arr['category_id'] = $category->id;
                 $arr['content'] = $content;
                 array_push($arraySave,$arr);
             }
-        }        
+        }
         foreach($arraySave as $item){
             Post::create($item);
         }
-        dd('luu thanh cong');
+
     }
 }

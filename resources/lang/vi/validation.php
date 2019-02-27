@@ -201,6 +201,14 @@ return [
                 'colors' => 'Màu sơn',
                 'image' => 'Ảnh sản phẩm',
             ],
+            'posts' => [
+                'title' => 'Tiêu đề',
+                'description' => 'Mô tả ngắn',
+                'img_title' => 'Ảnh tiêu đề',
+                'content' => 'Nội dung',
+                'category_id' => 'Phân loại',
+                'category' => "Phân loại"
+            ],
             'properties' => [
                 'name' => 'Tên đặc tính'
             ],

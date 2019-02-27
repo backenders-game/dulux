@@ -34,7 +34,7 @@
             </div>
             <div class="brand-logo">
               <a class="brand-logo__link" href="{{route('frontend.index')}}" title="Trở về trang chủ" tabindex="2">
-              <img class="brand-logo__img focus-outline" src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/logos/avndlx/logo_2x.png" alt="">
+              <img style="max-width: 120%; height: 130%; margin-left: 3em !important;" class="brand-logo__img focus-outline" src="{{asset('public/img/frontend/icons/logo_2x.png')}}" alt="">
               </a>
             </div>
             <nav class="main-nav">

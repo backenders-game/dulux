@@ -46,6 +46,11 @@
                         <i class="nav-icon fas fa-paint-roller"></i>@lang('labels.backend.products.management')
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ active_class(Active::checkUriPattern('admin/posts/*')) }}" href="{{ route('admin.posts.index') }}">
+                        <i class="nav-icon fas fa-clipboard"></i>@lang('labels.backend.posts.management')
+                    </a>
+                </li>
             @endif
 
             <li class="divider"></li>

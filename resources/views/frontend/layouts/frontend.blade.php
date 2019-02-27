@@ -23,20 +23,20 @@
     <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=com.akzonobel.cooper.vn.dulux" />
     <meta name="smartbanner:icon-apple" content="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/duluxvalentine-visualizer.jpg" />
     <link rel="shortcut icon" href="https://www.dulux.vn/sites/www.dulux.vn/files/logo_0.png" type="image/png" />
-    <meta name="smartbanner:title" content="Dulux Visualizer" />
+    <meta name="smartbanner:title" content="Nanocar Visualizer" />
     <script type="text/javascript">dataLayer = [{"pageInstanceID":"live","siteCode":"avndlx","trafficClassificationID":"127.0.0.1","page":{"pageInfo":{"pageID":"2","pageName":"Homepage","destinationURL":"https:\/\/www.dulux.vn\/vi","language":"vi-VN","geoRegion":"VN"},"category":{"pageType":"Homepage","primaryCategory":"Home"},"attributes":{"functionalityVersion":"1"}}}];</script>
     <meta name="smartbanner:icon-google" content="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/duluxvalentine-visualizer.jpg" />
     <meta name="smartbanner:button" content="Tải Về" />
     <meta name="smartbanner:custom-design-modifier" content="ios" />
-    <link rel="alternate" href="https://www.dulux.vn/vi" hreflang="vi-VN" />
+    <link rel="alternate" href="http://www.nanocar.vn/" hreflang="vi-VN" />
     <link rel="shortcut icon" href="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/logos/avndlx/favicon.ico" type="image/png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/logos/avndlx/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="http://www.nanocar.vn/profiles/flourish/themes/custom/flourish_rem/images/logos/avndlx/favicon.ico" />
     <meta name="smartbanner:enabled-platforms" content="android,ios" />
     <meta name="smartbanner:hide-ttl" content="2000" />
     <link name="msapplication-TileImage" content="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/logos/avndlx/favicon.ico" />
     <meta name="smartbanner:author" content="Chọn màu sắc ưa thích và mô phỏng trên tường nhà bạn ngay!" />
-    <meta name="keywords" content="dulux paint, home painting solution, dulux paint colour, painting solution, decorating painting ideas, wall painting, wood &amp; metal painting" />
-    <link rel="canonical" href="www.dulux.vn/vi" />
+    <meta name="keywords" content="Nanocar paint, home painting solution, Nanocar paint colour, painting solution, decorating painting ideas, wall painting, wood &amp; metal painting" />
+    <link rel="canonical" href="www.nanocar.vn/" />
     <meta http-equiv="content-language" content="vi" />
     <meta property="og:title" content="Homepage" />
     <meta property="og:updated_time" content="2019-01-08T02:52:13+00:00" />
@@ -45,7 +45,7 @@
     <meta property="article:modified_time" content="2019-01-08T02:52:13+00:00" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta itemprop="name" content="Homepage" />
-    <title>Homepage | Dulux</title>
+    <title>Homepage | Nanocar</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     @yield('cssPage')
   </head>

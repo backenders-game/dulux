@@ -142,6 +142,7 @@ return [
         ],
         'products' => [
             'management' => 'QL Sản phẩm',
+            'index' => 'Danh sách sản phẩm',
             'create' => 'Thêm Sản phẩm mới',
             'edit' => 'Chỉnh sửa T.tin sản phẩm',
             'table' => [
@@ -151,6 +152,21 @@ return [
                 'properties' => 'Đặc tính',
                 'category' => 'Phân loại',
                 'basic_info' => 'Thông tin chung',
+                'created_at' => 'Ngày tạo',
+                'updated_at' => 'Ngày cập nhật'
+            ]
+        ],
+        'posts' => [
+            'management' => 'QL Bài viết',
+            'index' => 'Danh sách bài viết',
+            'create' => 'Thêm bài viết mới',
+            'edit' => 'Chỉnh sửa T.tin bài viết',
+            'table' => [
+                'no' => 'STT',
+                'image' => 'Ảnh tiêu đề',
+                'name' => 'Tiêu đề',
+                'description' => 'Mô tả ngắn',
+                'category' => 'Phân loại',
                 'created_at' => 'Ngày tạo',
                 'updated_at' => 'Ngày cập nhật'
             ]
