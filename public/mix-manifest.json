@@ -1,10 +1,10 @@
 {
-    "js/vendor.js": "js/vendor.js?id=3877185c767511c1c015",
-    "js/frontend.js": "js/frontend.js?id=ac7024ec402cfce624b9",
-    "css/frontend.css": "css/frontend.css?id=69bb486e1a8b4ce8dd60",
-    "css/backend.css": "css/backend.css?id=0259845ee619f0da0327",
-    "js/backend.js": "js/backend.js?id=031fc38da932f087e4e9",
-    "js/manifest.js": "js/manifest.js?id=7c0a19fb1a3afbe0a6cb",
-    "js/datatable.js": "js/datatable.js?id=7fbbfc62a84f692546d2",
-    "css/datatable.css": "css/datatable.css?id=850e11fb41114e2474e3"
+    "/js/vendor.js": "/js/vendor.js?id=3877185c767511c1c015",
+    "/js/frontend.js": "/js/frontend.js?id=ac7024ec402cfce624b9",
+    "/css/frontend.css": "/css/frontend.css?id=69bb486e1a8b4ce8dd60",
+    "/css/backend.css": "/css/backend.css?id=0259845ee619f0da0327",
+    "/js/backend.js": "/js/backend.js?id=031fc38da932f087e4e9",
+    "/js/manifest.js": "/js/manifest.js?id=7c0a19fb1a3afbe0a6cb",
+    "/js/datatable.js": "/js/datatable.js?id=7fbbfc62a84f692546d2",
+    "/css/datatable.css": "/css/datatable.css?id=850e11fb41114e2474e3"
 }

@@ -58,6 +58,11 @@ return [
             'main' => 'Q.Lý sản phẩm',
             'all' => 'Danh sách sản phẩm',
             'create' => 'Thêm sản phẩm mới'
+        ],
+        'posts' => [
+            'main' => 'Q.Lý bài viết',
+            'all' => 'Danh sách bài viết',
+            'create' => 'Thêm bài viết mới'
         ]
     ],
 

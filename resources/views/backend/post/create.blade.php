@@ -1,6 +1,6 @@
 @extends('backend.layouts.app')
 
-@section('title', __('labels.backend.products.management') . ' | ' . __('labels.backend.products.create'))
+@section('title', __('labels.backend.posts.management') . ' | ' . __('labels.backend.posts.create'))
 
 @section('breadcrumb-links')
     @include('backend.product.includes.breadcrumb-links')

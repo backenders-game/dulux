@@ -2,10 +2,10 @@
 @push('after-styles')
 {{ style(mix('css/datatable.css')) }}
 @endpush
-@section('title', app_name() . ' | ' . __('labels.backend.products.management'))
+@section('title', app_name() . ' | ' . __('labels.backend.posts.management'))
 
 @section('breadcrumb-links')
-    @include('backend.product.includes.breadcrumb-links')
+    @include('backend.post.includes.breadcrumb-links')
 @endsection
 
 @section('content')
