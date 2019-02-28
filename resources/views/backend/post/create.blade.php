@@ -27,9 +27,9 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' .__('validation.attributes.backend.posts.title') . '</strong>')
-                                ->class('col-md-3 form-control-label')->for('title') }}
+                                ->class('col-md-12 form-control-label')->for('title') }}
 
-                            <div class="col-md-9">
+                            <div class="col-md-12">
                                 {{ html()->text('title')
                                     ->class('form-control')
                                     ->placeholder(__('validation.attributes.backend.posts.title'))
@@ -41,9 +41,9 @@
 
                         <div class="form-group row">
                             {{ html()->label('<strong>' .__('validation.attributes.backend.posts.category') . '</strong>')
-                                ->class('col-md-3 form-control-label')->for('category_id') }}
+                                ->class('col-md-12 form-control-label')->for('category_id') }}
 
-                            <div class="col-md-9">
+                            <div class="col-md-12">
                                 <select class="form-control" name="category_id" value="">
                                     @foreach($categories as $category)
                                         <option value="{{ $category->id }}">{{ $category->name }}</option>
@@ -67,24 +67,30 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' .__('validation.attributes.backend.posts.img_title') . '</strong>')
-                            ->class('col-md-3 form-control-label')
+                            ->class('col-md-12 form-control-label')
                             ->for('img_title') }}
 
                             <div class="col-md-9">
-                                {{ html()->file('img_title')
-                                    ->id('img_title_inp')
+                                {{ html()->text('img_title')
+                                    ->id('img_title')
                                     ->class('form-control') }}
                             </div><!--col-->
+                            <div class="col-md-3">
+                                <button id="btnSelectImg" class="btn btn-default">Chọn Ảnh</button>
+                            </div>
+                            <div class="col-md-12" style="max-height: 150px;">
+                                <img id="previewImg" src="" alt="">
+                            </div>
                         </div><!--form-group-->
                     </div>
                     <div class="col-md-12 col-sm-12">
                         <div class="form-group row">
                             {{ html()->label('<strong>' . __('validation.attributes.backend.products.user_manual') . '</strong>')
                                 ->class('col-md-12 form-control-label')
-                                ->for('user_manual') }}
+                                ->for('content') }}
 
                             <div class="col-md-12">
-                                {{ html()->textarea('user_manual')
+                                {{ html()->textarea('content')
                                     ->class('form-control')
                                     ->placeholder(__('validation.attributes.backend.products.user_manual'))
                                     ->attribute('maxlength', 2000)
@@ -99,7 +105,7 @@
             <div class="card-footer clearfix">
                 <div class="row">
                     <div class="col">
-                        {{ form_cancel(route('admin.products.index'), __('buttons.general.cancel')) }}
+                        {{ form_cancel(route('admin.posts.index'), __('buttons.general.cancel')) }}
                     </div><!--col-->
 
                     <div class="col text-right">
@@ -111,6 +117,7 @@
     {{ html()->form()->close() }}
 @endsection
 @push('after-scripts')
+@include('ckfinder::setup')
 {{ script(asset('js/ckeditor/ckeditor.js')) }}
 <script type="text/javascript">
     function readLocalImgURL(input, imgId) {
@@ -125,12 +132,42 @@
         }
     }
     $(document).ready(function () {
-        CKEDITOR.replace( 'user_manual' );
+        var editor = CKEDITOR.replace( 'content' );
+        CKFinder.setupCKEditor(editor);
         let csrftoken = $('meta[name="csrf-token"]').attr('content');
         // =================== Display preview Image =======================================
         $('#img_title_inp').on('change', function (e) {
             readLocalImgURL(this, 'admin_img_post_preview');
         });
+        $('#btnSelectImg').on('click', function (e) {
+            e.preventDefault();
+            selectFileWithCKFinder( 'img_title', 'previewImg' );
+
+        })
+        function selectFileWithCKFinder( elementId, previewId ) {
+            CKFinder.popup( {
+                chooseFiles: true,
+                width: 800,
+                height: 600,
+                onInit: function( finder ) {
+                    finder.on( 'files:choose', function( evt ) {
+                        var file = evt.data.files.first();
+                        var output = document.getElementById( elementId );
+                        var previewer =  document.getElementById( previewId );
+                        output.value = file.getUrl();
+                        previewer.src = output.value;
+
+                    } );
+
+                    finder.on( 'file:choose:resizedImage', function( evt ) {
+                        var output = document.getElementById( elementId );
+                        var previewer =  document.getElementById( previewId );
+                        output.value = evt.data.resizedUrl;
+                        previewer.src = output.value;
+                    } );
+                }
+            } );
+        }
 
     });
 </script>

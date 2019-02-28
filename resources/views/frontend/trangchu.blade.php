@@ -51,7 +51,7 @@
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/key-entry.jpg')"></div>
                                   <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
-                                    Màu Dulux của Năm 2019                    
+                                    Màu Dulux của Năm 2019
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
@@ -64,7 +64,7 @@
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/image-entrypoint-xl2x_1.png')"></div>
                                   <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
-                                    Trợ giúp về mẹo &amp; bí quyết                    
+                                    Trợ giúp về mẹo &amp; bí quyết
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
@@ -77,7 +77,7 @@
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/entrypoint_img_products2x.png')"></div>
                                   <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
-                                    Chọn sản phẩm phù hợp để sơn                    
+                                    Chọn sản phẩm phù hợp để sơn
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
@@ -90,7 +90,7 @@
                                 <div class="entry-point">
                                   <div class="entry-image" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc_hero/image-entrypoint-xl2x.png')"></div>
                                   <div class="post_hot entry-content fl-equi-height" style="height: 82px;">
-                                    Tìm điểm bán gần bạn                    
+                                    Tìm điểm bán gần bạn
                                     <button class="home_list_item bttn squared right" tabindex="30">
                                       <i class='fas fa-arrow-right' style='font-size:15px;'></i>
                                     </button>
@@ -101,7 +101,8 @@
                           </div>
                         </div>
                         <div class="panel-separator"></div>
-                        <div class="panel-pane pane-block pane-bean-cf19-promoblock pane-bean">
+                        @for ($i = 0; $i < count($posts); $i++)
+                        <div class="panel-pane pane-block pane-bean">
                           <div class="pane-content">
                             <div class="entity entity-bean bean-bean-block clearfix" about="/block/cf19-promoblock" typeof="">
                               <div class="content">
@@ -143,7 +144,7 @@
                         <div class="panel-separator"></div>
                         <div class="panel-pane pane-node">
                           <h2 class="pane-title">
-                            Thấm Tường – Chủ Quan Lúc Đầu - Hệ Lụy Dài Lâu    
+                            Thấm Tường – Chủ Quan Lúc Đầu - Hệ Lụy Dài Lâu
                           </h2>
                           <div class="pane-content">
                             <div about="/vi/y-tuong/th%E1%BA%A5m-t%C6%B0%E1%BB%9Dng-%E2%80%93-ch%E1%BB%A7-quan-l%C3%BAc-%C4%91%E1%BA%A7u-h%E1%BB%87-l%E1%BB%A5y-d%C3%A0i-l%C3%A2u" typeof="sioc:Item foaf:Document" class="article_left_image image-flip-lyout ds-2col node node-article view-mode-article_left_image clearfix">
@@ -177,189 +178,8 @@
                           </div>
                         </div>
                         <div class="panel-separator"></div>
-                        <div class="panel-pane pane-block pane-bean-shop-block pane-bean">
-                          <div class="pane-content">
-                            <div class="entity entity-bean bean-bean-block clearfix" about="/block/shop-block" typeof="">
-                              <div class="content">
-                                <div class="field field-name-field-bean-body-text field-type-text-with-summary field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">
-                                      <div class="col-md-12 img-right-block">
-                                        <div class="group-right-code  image-right col-sm-8 col-xs-12 col-sm-push-4 col-md-7 col-md-push-5">
-                                          <div class="media media-element-container media-default">
-                                            <div id="file-3634" class="file file-image file-image-jpeg">
-                                              <h2 class="element-invisible"><a href="/files/duluxtuongbiettacjpg" tabindex="40">dulux_tuong_biet_tac.jpg</a></h2>
-                                              <div class="content">
-                                                <img alt="Dulux_tuong_biet_tac" title="Dulux_tuong_biet_tac" height="436" width="652" class="media-element file-default" typeof="foaf:Image" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/wysiwyg/dulux_tuong_biet_tac.jpg">
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <h2 class="group-left-code  content-left col-sm-4 col-xs-12 col-sm-pull-8 col-md-5 col-md-pull-7" style="line-height: 20px;"><br>Tường biệt tác với Dulux<br><br><span style="color: rgb(102, 102, 102); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 16px;">Liệu bức tường đơn điệu của ngôi nhà bạn đang chờ một sự phá cách?<br>Hãy cùng Dulux xem qua những bí quyết để biến hóa ngôi nhà bạn thành một không gian sống tuyệt vời, với sự sáng tạo từ nghệ thuật "Tường biệt tác".</span><br><br><a class="btn-grn-br-crvd" href="/vi/y-tuong/tường-biệt-tác-với-dulux-3-cách-thức-mới-lạ-để-trang-trí-tường-nội-thất" style="background-color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 16px;" tabindex="41">Khám phá ngay</a><br>&nbsp;</h2>
-                                        <p>&nbsp;</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-title-field field-type-text field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="panel-separator"></div>
-                        <div class="panel-pane pane-node">
-                          <h2 class="pane-title">
-                            Dulux Ambiance - Sáng tạo không gian sống đậm phong cách riêng    
-                          </h2>
-                          <div class="pane-content">
-                            <div about="/vi/y-tuong/ambiance" typeof="sioc:Item foaf:Document" class="article_right_image image-flip-lyout ds-2col node node-article view-mode-article_right_image clearfix">
-                              <div class="group-left-code  content-left col-xs-12 col-md-5">
-                                <div class="field field-name-title-field field-type-text field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">
-                                      <h2 class="fl-block-title">Dulux Ambiance - Sáng tạo không gian sống đậm phong cách riêng</h2>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-field-teaser field-type-text-long field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">Hãy sáng tạo không gian sống của bạn với sự kết hợp độc đáo, vô tận từ những gam màu sắc nét và các hiệu ứng đặc biệt từ Dulux Ambiance</div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-node-link field-type-ds field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"><a href="/vi/y-tuong/ambiance" class="" tabindex="42">Hãy cho tôi biết thêm về các bản tin</a></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="group-right-code  image-right col-xs-12 col-md-7">
-                                <div class="field field-name-field-hero-image field-type-image field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"><img typeof="foaf:Image" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/styles/homepage_article_blocks/rcf/article/fullframe_ambiance_hieuung_04012019-01.png?itok=2xMquyFq" width="695" height="391" alt="Dulux ambiance hiệu ứng t1"></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="panel-separator"></div>
-                        <div class="panel-pane pane-block pane-bean-dulux-easyclean-lau-chui-vuot-1 pane-bean">
-                          <div class="pane-content">
-                            <div class="entity entity-bean bean-bean-block clearfix" about="/block/dulux-easyclean-lau-chui-vuot--1" typeof="">
-                              <div class="content">
-                                <div class="field field-name-field-bean-body-text field-type-text-with-summary field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">
-                                      <div class="col-md-12 img-left-block" style="width: 1267px;">
-                                        <div class="group-left-code  image-left col-md-7 col-sm-8 col-xs-12" style="width: 720.406px;">
-                                          <div class="media media-element-container media-default">
-                                            <div id="file-4278" class="file file-image file-image-jpeg">
-                                              <h2 class="element-invisible"><a href="/files/duluxeasycleanjpg" tabindex="43">dulux_easyclean.jpg</a></h2>
-                                              <div class="content">
-                                                <img alt="Dulux EasyClean lau chùi vượt trội" title="Dulux EasyClean lau chùi vượt trội" height="539" width="1030" class="media-element file-default" typeof="foaf:Image" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/wysiwyg/dulux_easyclean.jpg">
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="group-right-code  content-right col-md-5 col-sm-4 col-xs-12" style="width: 514.578px;">
-                                          <h2 class="focus-outline" style="font-family: open_sans_regular, arial, sans-serif; color: rgb(51, 51, 51); margin: 0px; padding: 0px; outline: none !important;">Bé vui chơi thỏa thích, vết bẩn để mẹ lo</h2>
-                                          <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102);">&nbsp;</p>
-                                          <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102);">Nói không với vết bẩn&nbsp;và vi khuẩn, cả nhà đều vui cùng Dulux EasyClean!</p>
-                                          <p style="font-family: open_sans_regular, arial, sans-serif; color: rgb(102, 102, 102);">&nbsp;</p>
-                                          <br style="font-family: open_sans_regular, arial, sans-serif;"><span style="font-family: open_sans_regular, arial, sans-serif; font-size: 26px;"><span style="color: rgb(0, 0, 0);">&nbsp;<a href="http://dulux.com.vn/son-noi-that/son-lau-chui-Dulux-EasyClean.htm" style="color: rgb(102, 102, 102); text-decoration-line: underline; outline: 0px; font-size: 16px; padding: 8px 24px; border-radius: 0px 10px; border: 2px solid rgb(47, 196, 141); font-weight: bold; float: left;" tabindex="44"><font style="vertical-align: inherit;">Xem thêm&nbsp;&nbsp;</font></a></span></span>
-                                          <div>&nbsp;</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-title-field field-type-text field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="panel-separator"></div>
-                        <div class="panel-pane pane-node">
-                          <h2 class="pane-title">
-                            Dịch vụ Phối màu nhà online    
-                          </h2>
-                          <div class="pane-content">
-                            <div about="/vi/y-tuong/dich-vu-phoi-mau" typeof="sioc:Item foaf:Document" class="article_right_image image-flip-lyout ds-2col node node-article view-mode-article_right_image clearfix">
-                              <div class="group-left-code  content-left col-xs-12 col-md-5">
-                                <div class="field field-name-title-field field-type-text field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">
-                                      <h2 class="fl-block-title">Dịch vụ Phối màu nhà online</h2>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-field-teaser field-type-text-long field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">Bạn chưa biết sơn màu gì dành cho nhà mình? Bạn muốn thử những cách phối màu khác nhau cho ngôi nhà của mình? </div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-node-link field-type-ds field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"><a href="/vi/y-tuong/dich-vu-phoi-mau" class="" tabindex="45">Hãy cho tôi biết thêm về các bản tin</a></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="group-right-code  image-right col-xs-12 col-md-7">
-                                <div class="field field-name-field-hero-image field-type-image field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"><img typeof="foaf:Image" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/styles/homepage_article_blocks/rcf/article/2016/Augdich-vu-phoi-mau-nha.jpg?itok=KlgAwiMO" width="695" height="391" alt="Dich vu Phoi mau nha " title="Dich vu Phoi mau nha "></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="panel-separator"></div>
-                        <div class="panel-pane pane-node">
-                          <h2 class="pane-title">
-                            Bạn muốn trở thành Nhà Thầu Chuyên Nghiệp Dulux?    
-                          </h2>
-                          <div class="pane-content">
-                            <div about="/vi/y-tuong/bn-ang-mun-tr-thanh-nha-thu-chuyen-nghip-dulux" typeof="sioc:Item foaf:Document" class="article_left_image image-flip-lyout ds-2col node node-article view-mode-article_left_image clearfix">
-                              <div class="group-left-code  image-left col-xs-12 col-md-7">
-                                <div class="field field-name-field-hero-image field-type-image field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"><img typeof="foaf:Image" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/styles/homepage_article_blocks/rcf/article/2016/Augntcn.jpg?itok=Th-BRtc1" width="695" height="391" alt="NTCN" title="NTCN"></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="group-right-code  content-right col-xs-12 col-md-5">
-                                <div class="field field-name-title-field field-type-text field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">
-                                      <h2 class="fl-block-title">Bạn muốn trở thành Nhà Thầu Chuyên Nghiệp Dulux?</h2>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-field-teaser field-type-text-long field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even">Hãy gia nhập hội Nhà thầu chuyên nghiệp để nhận được các ưu đãi đặc quyền từ Dulux.</div>
-                                  </div>
-                                </div>
-                                <div class="field field-name-node-link field-type-ds field-label-hidden">
-                                  <div class="field-items">
-                                    <div class="field-item even"><a href="/vi/y-tuong/bn-ang-mun-tr-thanh-nha-thu-chuyen-nghip-dulux" class="" tabindex="46">Hãy cho tôi biết thêm về các bản tin</a></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="panel-separator"></div>
-                        <div class="panel-pane pane-block pane-bean-picture-it-block-cf2019 pane-bean">
+                        @endfor
+                        <!-- <div class="panel-pane pane-block pane-bean-picture-it-block-cf2019 pane-bean">
                           <div class="pane-content">
                             <div class="entity entity-bean bean-bean-block clearfix" about="/block/picture-it-block-cf2019" typeof="">
                               <div class="content">
@@ -369,15 +189,15 @@
                                       <div style="width: 853.328px;">
                                         <span class="store-links" style="text-align: left;">
                                           <a href="https://itunes.apple.com/vn/app/dulux-visualizer-vn/id862447000?mt=8">
-                                          <img alt="download from apple app store" 
-                                                src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/app-store-btn.jpg" 
-                                                style="width: 100px;position: absolute;margin-top: 230px;margin-left: 175px;" title="Download from Apple App Store" /></a> 
+                                          <img alt="download from apple app store"
+                                                src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/app-store-btn.jpg"
+                                                style="width: 100px;position: absolute;margin-top: 230px;margin-left: 175px;" title="Download from Apple App Store" /></a>
                                           <a href="https://play.google.com/store/apps/details?id=com.akzonobel.cooper.vn.dulux" title="Get it on Google Play">
-                                          <img alt="Get it on Google Play" 
-                                                src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/google-store-btn.jpg" 
+                                          <img alt="Get it on Google Play"
+                                                src="https://www.dulux.vn/profiles/flourish/themes/custom/flourish_rem/images/google-store-btn.jpg"
                                                 style="width: 100px;position: absolute;margin-top: 230px;margin-left: 20px;" />
-                                          </a> 
-                                        </span> 
+                                          </a>
+                                        </span>
                                         <center>
                                           <img alt="Hình ảnh căn nhà tương lai trong tầm tay với ứng dụng Visualizer 3.0" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/visualizer-promo-block-crf19_2.jpg" style="">
                                           <center>&nbsp;</center>
@@ -394,18 +214,18 @@
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="panel-separator"></div>
-                        <div class="panel-pane pane-node">
+                        <!-- </div> -->
+                        <!-- <div class="panel-separator"></div> -->
+                        <!-- <div class="panel-pane pane-node">
                           <h2 class="pane-title">
-                            Let’s Colour Promoblock    
+                            Let’s Colour Promoblock
                           </h2>
                           <div class="pane-content">
                             <div class="flex-campaign">
                               <div class="row">
                                 <div class="col-sm-12 margin-top-40">
                                   <!-- Promo block -->
-                                  <div class="promo-block" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc-generic/brand-lets-colour-full-story-video-market-302.jpg')">
+                                  <!-- <div class="promo-block" style="background-image: url('https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc-generic/brand-lets-colour-full-story-video-market-302.jpg')">
                                     <div class="aspect-ratio">
                                       <img class="hidden-sm hidden-md hidden-lg full-width sixteen-nine" alt="" src="https://383195fa362279d182f5-837f1281aae466a1e3ac27b4004c7f6b.ssl.cf3.rackcdn.com/fc-generic/brand-lets-colour-full-story-video-market-302.jpg">
                                       <div class="promo-content promo-pos-bottom promo-pos-left txt-light" style="background-color: #0D2B60;">
@@ -415,13 +235,13 @@
                                         <a href="https://www.dulux.vn/vn/lets-colour" class="btn btn-primary " target="" title="Cách làm &amp; cảm hứng" tabindex="49">Cách làm &amp; cảm hứng</a>
                                       </div>
                                     </div>
-                                  </div>
+                                  </div> -->
                                   <!-- //Promo block -->
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>

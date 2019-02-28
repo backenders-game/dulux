@@ -10,6 +10,7 @@
         "arcanedev/log-viewer": "^4.5",
         "arcanedev/no-captcha": "^5.0",
         "beyondcode/laravel-self-diagnosis": "^1.0",
+        "ckfinder/ckfinder-laravel-package": "^3.4",
         "creativeorange/gravatar": "~1.0",
         "davejamesmiller/laravel-breadcrumbs": "^5.0",
         "divineomega/laravel-password-exposed-validation-rule": "^1.2",
@@ -20,10 +21,10 @@
         "laravel/tinker": "^1.0",
         "spatie/laravel-html": "^2.4",
         "spatie/laravel-permission": "^2.5",
+        "sunra/php-simple-html-dom-parser": "1.5.2",
         "torann/geoip": "^1.0",
         "webpatser/laravel-uuid": "^3.0",
-        "yajra/laravel-datatables-oracle": "~8.0",
-        "sunra/php-simple-html-dom-parser": "1.5.2"
+        "yajra/laravel-datatables-oracle": "~8.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

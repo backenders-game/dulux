@@ -44,7 +44,26 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $inputs = $request->all();
+        try {
+            DB::beginTransaction();
+            $postData = [
+                'title' => $inputs['title'],
+                'image_small' => $inputs['img_title'],
+                'image_big' => $inputs['img_title'],
+                'category_id' => $inputs['category_id'],
+                'description' => $inputs['description'],
+                'content' => $inputs['content']
+            ];
+            $post = Post::create($postData);
+
+            DB::commit();
+
+            return redirect()->route('admin.posts.index');
+        } catch (\Exception $e) {
+            DB::rollBack();
+            abort(500);
+        }
     }
 
     /**
@@ -55,7 +74,12 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::where('id', $id)->first();
+        if (!$post) {
+            abort(404);
+        }
+        $categories = Categories::get();
+        return view('backend.post.edit', ['categories' => $categories, 'post' => $post]);
     }
 
     /**
@@ -66,7 +90,18 @@ class PostController extends Controller
      */
     public function edit($id)
     {
-        //
+        try {
+            $post = Post::where('id', $id)->first();
+            if (!$post) {
+                abort(404);
+            }
+            // Phan loai bai viet
+            $categories = Category::where('type', 1)->get();
+            return view('backend.post.edit', ['categories' => $categories, 'post' => $post]);
+        } catch (\Exception $e) {
+            dump($e);
+            abort(500);
+        }
     }
 
     /**
