@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Frontend;
 use App\Models\Post;
+use App\Models\Category;
 use App\Http\Controllers\Controller;
 
 /**
@@ -15,7 +16,7 @@ class HomeController extends Controller
     public function index()
     {
         $category = Category::where('name', 'Bài viết trang chủ')->first();
-        $posts = Post::where('category_id', $category->id)->limit(6)->get();
+        $posts = Post::where('category_id', $category->id)->limit(6)->offset(0)->get();
         return view('frontend.trangchu', ['posts' => $posts]);
     }
     public function show($id)
